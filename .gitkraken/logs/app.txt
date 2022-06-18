@@ -1,0 +1,45 @@
+[2022-06-17T15:20:43.687Z] Detecting Git and Git LFS: started
+[2022-06-17T15:20:44.097Z] Detected Git: git version 2.36.1.2.36.1
+[2022-06-17T15:20:44.100Z] Did not detect Git LFS
+[2022-06-17T15:20:44.138Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: started.
+[2022-06-17T15:20:44.143Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: finished. gk-log://duration?t=5
+[2022-06-17T15:20:50.100Z] Cancel request OAuth token from GitHub: started.
+[2022-06-17T15:20:50.106Z] Cancel request OAuth token from GitHub: finished. gk-log://duration?t=6
+[2022-06-17T15:21:47.132Z] Add user profile: started.
+[2022-06-17T15:21:47.221Z] Set profile setting ["gpg","commitGpgSign"] to false: started.
+[2022-06-17T15:21:47.223Z] Set profile setting ["gpg","commitGpgSign"] to false: finished. gk-log://duration?t=2
+[2022-06-17T15:21:47.224Z] Set profile setting ["gpg","tagForceSignAnnotated"] to false: started.
+[2022-06-17T15:21:47.225Z] Set profile setting ["gpg","tagForceSignAnnotated"] to false: finished. gk-log://duration?t=1
+[2022-06-17T15:21:47.227Z] Add user profile: finished. gk-log://duration?t=95
+[2022-06-17T15:22:01.369Z] Set profile setting ["editor","fontFamily"] to "": started.
+[2022-06-17T15:22:01.372Z] Set profile setting ["editor","fontFamily"] to "": finished. gk-log://duration?t=3
+[2022-06-17T15:22:01.373Z] Set profile setting ["cli","fontFamily"] to "": started.
+[2022-06-17T15:22:01.374Z] Set profile setting ["cli","fontFamily"] to "": finished. gk-log://duration?t=1
+[2022-06-17T15:22:05.721Z] Open repository /opt/gitkraken/gitkraken/: started.
+[2022-06-17T15:22:05.787Z] Open repository /opt/gitkraken/gitkraken/: could not find repository from '/opt/gitkraken/gitkraken'
+[2022-06-17T15:22:05.788Z] Open repository /opt/gitkraken/gitkraken/: finished with errors. gk-log://duration?t=67
+[2022-06-17T15:22:05.844Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: started.
+[2022-06-17T15:22:05.847Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: finished. gk-log://duration?t=3
+[2022-06-17T15:22:11.327Z] Set profile setting ["organizationId"] to null: started.
+[2022-06-17T15:22:11.338Z] Set profile setting ["organizationId"] to null: finished. gk-log://duration?t=11
+[2022-06-17T15:22:50.690Z] Clone repository https://github.com/hamburgerghini1/kde_macos-monterey into /home/tommi/Documents/gitkraken/kde_macos-monterey: started.
+[2022-06-17T15:22:50.694Z] Set profile setting ["repoInit","lastRepoInitPath"] to "/home/tommi/Documents/gitkraken": started.
+[2022-06-17T15:22:50.696Z] Set profile setting ["repoInit","lastRepoInitPath"] to "/home/tommi/Documents/gitkraken": finished. gk-log://duration?t=2
+[2022-06-17T15:22:50.703Z] Set profile setting ["projectGroupsFrecencyMetadata","/home/tommi/Documents/gitkraken"] to {"id":"project-group-/home/tommi/Documents/gitkraken","timestamps":[1655479370702],"total":1}: started.
+[2022-06-17T15:22:50.707Z] Set profile setting ["projectGroupsFrecencyMetadata","/home/tommi/Documents/gitkraken"] to {"id":"project-group-/home/tommi/Documents/gitkraken","timestamps":[1655479370702],"total":1}: finished. gk-log://duration?t=4
+[2022-06-17T15:22:50.731Z] Set profile setting ["hostingServiceFrecencyMetadata","github"] to {"id":"github","timestamps":[1655479370731],"total":1}: started.
+[2022-06-17T15:22:50.735Z] Set profile setting ["hostingServiceFrecencyMetadata","github"] to {"id":"github","timestamps":[1655479370731],"total":1}: finished. gk-log://duration?t=4
+[2022-06-17T15:22:51.064Z] Clone repository https://github.com/hamburgerghini1/kde_macos-monterey into /home/tommi/Documents/gitkraken/kde_macos-monterey: finished. gk-log://duration?t=374
+[2022-06-17T15:22:53.077Z] Open repository /home/tommi/Documents/gitkraken/kde_macos-monterey/: started.
+[2022-06-17T15:22:53.117Z] Open repository /home/tommi/Documents/gitkraken/kde_macos-monterey/: Repo is empty
+[2022-06-17T15:22:53.118Z] Open repository /home/tommi/Documents/gitkraken/kde_macos-monterey/: finished with errors. gk-log://duration?t=41
+[2022-06-17T15:22:53.133Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: started.
+[2022-06-17T15:22:53.136Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: finished. gk-log://duration?t=3
+[2022-06-17T15:22:53.170Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: started.
+[2022-06-17T15:22:53.172Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"NEW"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: finished. gk-log://duration?t=2
+[2022-06-17T15:22:55.609Z] Initialize repository at /home/tommi/Documents/gitkraken/kde_macos-monterey/: started
+[2022-06-17T15:22:55.646Z] Open repository /home/tommi/Documents/gitkraken/kde_macos-monterey/: started.
+[2022-06-17T15:22:55.928Z] Open repository /home/tommi/Documents/gitkraken/kde_macos-monterey/: finished. gk-log://duration?t=282
+[2022-06-17T15:22:55.938Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"REPO","repoName":"kde_macos-monterey","repoPath":"/home/tommi/Documents/gitkraken/kde_macos-monterey/"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: started.
+[2022-06-17T15:22:55.940Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"PROJECTS":{"selectedProject":null,"closed":false}},"selectedTabId":"9974f240-66d2-4433-a1ae-ac733f4644d3","tabs":[{"id":"9974f240-66d2-4433-a1ae-ac733f4644d3","type":"REPO","repoName":"kde_macos-monterey","repoPath":"/home/tommi/Documents/gitkraken/kde_macos-monterey/"},{"id":"393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6","type":"RELEASE_NOTES"}]}: finished. gk-log://duration?t=2
+[2022-06-17T15:22:56.054Z] Initialize repository at /home/tommi/Documents/gitkraken/kde_macos-monterey/: finished.

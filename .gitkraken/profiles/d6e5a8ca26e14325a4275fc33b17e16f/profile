@@ -1,0 +1,59 @@
+{
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null,
+        "closed": false
+      }
+    },
+    "selectedTabId": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "REPO",
+        "repoName": "kde_macos-monterey",
+        "repoPath": "/home/tommi/Documents/gitkraken/kde_macos-monterey/"
+      },
+      {
+        "id": "393f5d3b-1d74-4f3d-9849-4c04cf6cdbf6",
+        "type": "RELEASE_NOTES"
+      }
+    ]
+  },
+  "profileIcon": "gravatar",
+  "profileName": "Default Profile",
+  "userEmail": "tommipontinen76@gmail.com",
+  "userName": "Hamburgerghini",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "editor": {
+    "fontFamily": ""
+  },
+  "cli": {
+    "fontFamily": ""
+  },
+  "organizationId": null,
+  "repoInit": {
+    "lastRepoInitPath": "/home/tommi/Documents/gitkraken"
+  },
+  "projectGroupsFrecencyMetadata": {
+    "/home/tommi/Documents/gitkraken": {
+      "id": "project-group-/home/tommi/Documents/gitkraken",
+      "timestamps": [
+        1655479370702
+      ],
+      "total": 1
+    }
+  },
+  "hostingServiceFrecencyMetadata": {
+    "github": {
+      "id": "github",
+      "timestamps": [
+        1655479370731
+      ],
+      "total": 1
+    }
+  }
+}

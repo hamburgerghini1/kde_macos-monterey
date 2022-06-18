@@ -1,0 +1,96 @@
+{
+  "lastUpgradeScriptRun": "v8.6.0",
+  "appId": "2df2c27be788945464ef9b44f0b57b27b7b9d884",
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "8.6.0",
+  "windowSettings": {
+    "x": 960,
+    "y": 57,
+    "width": 960,
+    "height": 1023,
+    "fullScreen": false,
+    "maximized": false
+  },
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "registration": {
+    "email": "tommipontinen76@gmail.com",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2022-06-17T15:21:19.687Z",
+    "EULA": {
+      "version": "8.3.1",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "fa5681a4-aa85-4b4c-98c4-73a0c18851c7",
+  "licensedFeatures": [
+    "pro",
+    "timelines:pro",
+    "suite:pro",
+    "boards:pro",
+    "trial",
+    "timelines:trial",
+    "suite:trial",
+    "boards:trial"
+  ],
+  "userFeatures": [
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "glo"
+    },
+    {
+      "name": "timelines"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "gitBash"
+    }
+  ],
+  "hasSeenNewUserOnboarding": true,
+  "hasSeenTrialStartedModal": true,
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/home/tommi/Documents/gitkraken/kde_macos-monterey/": {
+          "id": "openRepo-/home/tommi/Documents/gitkraken/kde_macos-monterey/",
+          "timestamps": [
+            1655479373045,
+            1655479375624
+          ],
+          "total": 2
+        }
+      }
+    }
+  },
+  "repoDeepLinkMap": {
+    "1e7e01088c251fc86d10bc081522927ca3997246": {
+      "paths": [
+        "/home/tommi/Documents/gitkraken/kde_macos-monterey/"
+      ],
+      "pullUrls": {
+        "https://github.com/hamburgerghini1/kde_macos-monterey": {
+          "paths": [
+            "/home/tommi/Documents/gitkraken/kde_macos-monterey/"
+          ],
+          "name": "kde_macos-monterey",
+          "hostName": "github.com",
+          "owner": "hamburgerghini1",
+          "hostingServiceType": "github"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "remoteParents": {},
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {}
+  },
+  "expandedSections": [],
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1655479503274
+      ],
+      "total": 1
+    }
+  }
+}
