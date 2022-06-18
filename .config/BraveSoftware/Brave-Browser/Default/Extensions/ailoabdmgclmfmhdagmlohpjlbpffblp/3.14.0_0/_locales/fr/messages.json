@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Protégez vos activités en ligne et vos informations personnelles. Vous pouvez profiter librement d'Internet sans vous soucier de la confidentialité."
+   },
+   "appDescEdge": {
+      "message": "Un service VPN illimité qui protège vos activités en ligne. Débloque les sites Web et masque votre adresse IP."
+   },
+   "appName": {
+      "message": "Extension Surfshark VPN"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "Contourner le site actuel"
+   },
+   "connected": {
+      "message": "Extension Surfshark VPN. Connecté à"
+   },
+   "disconnected": {
+      "message": "Extension Surfshark VPN. Non connecté"
+   }
+}

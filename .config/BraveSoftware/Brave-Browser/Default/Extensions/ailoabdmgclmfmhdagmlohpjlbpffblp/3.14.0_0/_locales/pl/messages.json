@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Zapewnij sobie bezpieczeństwo w sieci i chroń swoje dane osobowe. Nie stresuj się utratą prywatności i surfuj po Internecie bez żadnych ograniczeń."
+   },
+   "appDescEdge": {
+      "message": "Nieograniczona usługa VPN, która chroni Twoją aktywność w sieci. Odblokuj strony internetowe i ukryj swój adres IP."
+   },
+   "appName": {
+      "message": "Rozszerzenie Surfshark VPN"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "Pomiń bieżącą stronę"
+   },
+   "connected": {
+      "message": "Rozszerzenie Surfshark VPN. Podłączono do"
+   },
+   "disconnected": {
+      "message": "Rozszerzenie Surfshark VPN. Nie podłączono"
+   }
+}

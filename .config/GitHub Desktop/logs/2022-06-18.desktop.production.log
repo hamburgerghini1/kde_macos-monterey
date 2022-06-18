@@ -1,0 +1,20 @@
+2022-06-18T08:48:11.804Z - info: [ui] [AppStore] loading 1 repositories from store
+2022-06-18T08:48:11.806Z - info: [ui] [AppStore] found account: hamburgerghini1 (hamburgerghini1)
+2022-06-18T08:48:11.832Z - info: [ui] [BranchPruner] Last prune took place 16 hours ago - skipping
+2022-06-18T08:48:11.928Z - info: [ui] launching: 3.0.1-linux1 (Linux 5.18.5-zen1-1-zen)
+2022-06-18T08:48:11.928Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-06-18T08:48:12.208Z - info: [ui] Subscribed 'hamburgerghini1' to Alive channel
+2022-06-18T08:48:12.737Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/tommi/Documents/GitHub/kde_macos-monterey/dotfiles/'
+2022-06-18T08:48:33.767Z - error: [ui] Branch fast-forwarding failed
+Error: Unable to find path to repository on disk.
+    at /home/tommi/webpack:/[name]/app/node_modules/dugite/build/lib/git-process.js:119:39
+    at exithandler (node:child_process:413:5)
+    at ChildProcess.errorhandler (node:child_process:425:5)
+    at ChildProcess.emit (node:events:390:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:288:12)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2022-06-18T08:49:37.534Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/hamburgerghini1/kde_macos-monterey.git - hamburgerghini1 (has token)
+2022-06-18T08:49:38.009Z - info: [ui] [AppStore] adding repository at /home/tommi/Documents/GitHub/kde_macos-monterey to store
+2022-06-18T08:49:38.292Z - info: [ui] [BranchPruner] Last prune took place 18 hours ago - skipping

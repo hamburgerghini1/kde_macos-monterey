@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "حافظ على أمان نشاطك على الإنترنت وبياناتك الشخصية. أرح عقلك الواعي المهتم بالحقاظ على الخصوصية، واستمتع بالإنترنت غير المقيد."
+   },
+   "appDescEdge": {
+      "message": "خدمة VPN غير محدودة لحماية نشاطك عبر الإنترنت. قم بإلغاء حظر مواقع الويب وإخفاء IP الخاص بك."
+   },
+   "appName": {
+      "message": "امتداد VPN الخاص بـ Surfshark"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "تجاوز موقع الويب الحالي"
+   },
+   "connected": {
+      "message": "امتداد VPN لـ Surfshark. متصل بـ"
+   },
+   "disconnected": {
+      "message": "امتداد VPN لـ Surfshark. غير متصل"
+   }
+}

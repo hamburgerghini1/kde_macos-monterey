@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Keep your online activity and personal information secure. Put your privacy-conscious mind at rest and enjoy unrestricted internet."
+   },
+   "appDescEdge": {
+      "message": "Unlimited VPN service to protect your online activity. Unblock websites & hide your IP."
+   },
+   "appName": {
+      "message": "Surfshark VPN Extension"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "Bypass current website"
+   },
+   "connected": {
+      "message": "Surfshark VPN Extension. Connected to"
+   },
+   "disconnected": {
+      "message": "Surfshark VPN Extension. Not connected"
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Çevrimiçi etkinliğinizi ve kişisel bilgilerinizi güvende tutun. Gizlilik bilincine sahip zihninizi rahatlatın ve kısıtlanmamış internetin keyfini çıkarın."
+   },
+   "appDescEdge": {
+      "message": "Çevrim içi etkinliğinizi korumak için sınırsız VPN hizmeti. İnternet sitelerinin engelini kaldırın ve IP adresinizi gizleyin."
+   },
+   "appName": {
+      "message": "Surfshark VPN Uzantısı"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "Mevcut web sitesini es geçin"
+   },
+   "connected": {
+      "message": "Surfshark VPN Eklentisi. Şuna bağlanıldı:"
+   },
+   "disconnected": {
+      "message": "Surfshark VPN Eklentisi. Bağlı değil"
+   }
+}

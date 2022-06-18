@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Sorge jederzeit für die Sicherheit deiner Online-Aktivitäten und personenbezogenen Daten. Mach dir nie wieder Sorgen um deine Privatsphäre und genieße das Internet ohne Einschränkungen."
+   },
+   "appDescEdge": {
+      "message": "Unbegrenzter VPN-Dienst zum Schutz deiner Online-Aktivität. Entsperre Websites und verbirg deine IP-Adresse."
+   },
+   "appName": {
+      "message": "Surfshark VPN-Erweiterung"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "Aktuelle Website umgehen"
+   },
+   "connected": {
+      "message": "Surfshark VPN-Erweiterung. Verbunden mit:"
+   },
+   "disconnected": {
+      "message": "Surfshark VPN-Erweiterung. Nicht verbunden"
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Suojaa verkkotoimintasi ja henkilötietosi. Varmista tietosuojasi ja nauti rajattomasta internet-sisällöstä."
+   },
+   "appDescEdge": {
+      "message": "Rajaton VPN-palvelu verkkotoimintasi suojaamiseksi. Avaa estetyt verkkosivustot ja piilota IP-osoitteesi."
+   },
+   "appName": {
+      "message": "Surfshark VPN -laajennus"
+   },
+   "appNameEdge": {
+      "message": "Surfshark VPN"
+   },
+   "bypass_website": {
+      "message": "Ohita nykyinen sivusto"
+   },
+   "connected": {
+      "message": "Surfshark VPN -laajennus. Yhdistetty"
+   },
+   "disconnected": {
+      "message": "Surfshark VPN -laajennus. Ei yhdistetty"
+   }
+}

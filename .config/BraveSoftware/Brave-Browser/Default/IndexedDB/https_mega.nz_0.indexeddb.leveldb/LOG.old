@@ -1,0 +1,235 @@
+2022/06/18-11:32:16.617 9dcd Reusing MANIFEST /home/tommi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/18-11:32:16.617 9dcd Recovering log #36
+2022/06/18-11:32:16.654 9dcd Reusing old log /home/tommi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/000036.log 
+2022/06/18-11:32:19.624 9dcd Level-0 table #44: started
+2022/06/18-11:32:19.637 9dcd Level-0 table #44: 1341839 bytes OK
+2022/06/18-11:32:19.639 9dcd Delete type=0 #36
+2022/06/18-11:32:19.640 9dcd Compacting 1@0 + 4@1 files
+2022/06/18-11:32:19.707 9dcd Generated table #45@0: 169236 keys, 2336488 bytes
+2022/06/18-11:32:19.726 9dcd Generated table #46@0: 34239 keys, 2170919 bytes
+2022/06/18-11:32:19.750 9dcd Generated table #47@0: 45788 keys, 2185576 bytes
+2022/06/18-11:32:19.756 9dcd Generated table #48@0: 14080 keys, 679708 bytes
+2022/06/18-11:32:19.756 9dcd Compacted 1@0 + 4@1 files => 7372691 bytes
+2022/06/18-11:32:19.758 9dcd compacted to: files[ 0 4 1 0 0 0 0 ]
+2022/06/18-11:32:19.844 9dcd Level-0 table #50: started
+2022/06/18-11:32:19.858 9dcd Level-0 table #50: 1801629 bytes OK
+2022/06/18-11:32:19.859 9dcd Delete type=2 #38
+2022/06/18-11:32:19.859 9dcd Delete type=2 #39
+2022/06/18-11:32:19.859 9dcd Delete type=2 #40
+2022/06/18-11:32:19.859 9dcd Delete type=2 #41
+2022/06/18-11:32:19.859 9dcd Delete type=0 #43
+2022/06/18-11:32:19.859 9dcd Delete type=2 #44
+2022/06/18-11:32:19.861 9dcd Compacting 1@0 + 4@1 files
+2022/06/18-11:32:19.926 9dcd Generated table #51@0: 185251 keys, 2356281 bytes
+2022/06/18-11:32:19.940 9dcd Generated table #52@0: 14917 keys, 2146821 bytes
+2022/06/18-11:32:19.973 9dcd Generated table #53@0: 61894 keys, 2206945 bytes
+2022/06/18-11:32:19.989 9dcd Generated table #54@0: 26539 keys, 1755191 bytes
+2022/06/18-11:32:19.989 9dcd Compacted 1@0 + 4@1 files => 8465238 bytes
+2022/06/18-11:32:19.990 9dcd compacted to: files[ 0 4 1 0 0 0 0 ]
+2022/06/18-11:32:20.065 9dcd Level-0 table #56: started
+2022/06/18-11:32:20.079 9dcd Level-0 table #56: 1791931 bytes OK
+2022/06/18-11:32:20.080 9dcd Delete type=2 #45
+2022/06/18-11:32:20.080 9dcd Delete type=2 #46
+2022/06/18-11:32:20.080 9dcd Delete type=2 #47
+2022/06/18-11:32:20.080 9dcd Delete type=2 #48
+2022/06/18-11:32:20.080 9dcd Delete type=0 #49
+2022/06/18-11:32:20.080 9dcd Delete type=2 #50
+2022/06/18-11:32:20.082 9dcd Compacting 1@0 + 4@1 files
+2022/06/18-11:32:20.128 9dcd Generated table #57@0: 117797 keys, 2270519 bytes
+2022/06/18-11:32:20.166 9dcd Generated table #58@0: 94774 keys, 2244606 bytes
+2022/06/18-11:32:20.189 9dcd Generated table #59@0: 44211 keys, 2183275 bytes
+2022/06/18-11:32:20.212 9dcd Generated table #60@0: 42100 keys, 2178820 bytes
+2022/06/18-11:32:20.219 9dcd Generated table #61@0: 14714 keys, 661046 bytes
+2022/06/18-11:32:20.219 9dcd Compacted 1@0 + 4@1 files => 9538266 bytes
+2022/06/18-11:32:20.220 9dcd compacted to: files[ 0 5 1 0 0 0 0 ]
+2022/06/18-11:32:20.220 9dcd Delete type=2 #51
+2022/06/18-11:32:20.220 9dcd Delete type=2 #52
+2022/06/18-11:32:20.220 9dcd Delete type=2 #53
+2022/06/18-11:32:20.220 9dcd Delete type=2 #54
+2022/06/18-11:32:20.220 9dcd Delete type=2 #56
+2022/06/18-11:32:20.298 9dcd Level-0 table #63: started
+2022/06/18-11:32:20.312 9dcd Level-0 table #63: 1814752 bytes OK
+2022/06/18-11:32:20.313 9dcd Delete type=0 #55
+2022/06/18-11:32:20.315 9dcd Compacting 1@0 + 5@1 files
+2022/06/18-11:32:20.351 9dcd Generated table #64@0: 88929 keys, 2234568 bytes
+2022/06/18-11:32:20.401 9dcd Generated table #65@0: 139747 keys, 2298184 bytes
+2022/06/18-11:32:20.417 9dcd Generated table #66@0: 25140 keys, 2158494 bytes
+2022/06/18-11:32:20.447 9dcd Generated table #67@0: 60392 keys, 2205952 bytes
+2022/06/18-11:32:20.462 9dcd Generated table #68@0: 24999 keys, 1752180 bytes
+2022/06/18-11:32:20.462 9dcd Compacted 1@0 + 5@1 files => 10649378 bytes
+2022/06/18-11:32:20.463 9dcd compacted to: files[ 0 5 1 0 0 0 0 ]
+2022/06/18-11:32:20.463 9dcd Expanding@1 1+1 (2234568+7979 bytes) to 2+1 (4532752+7979 bytes)
+2022/06/18-11:32:20.463 9dcd Compacting 2@1 + 1@2 files
+2022/06/18-11:32:20.493 9dcd Generated table #69@1: 57216 keys, 2194041 bytes
+2022/06/18-11:32:20.514 9dcd Generated table #70@1: 11297 keys, 1043121 bytes
+2022/06/18-11:32:20.514 9dcd Compacted 2@1 + 1@2 files => 3237162 bytes
+2022/06/18-11:32:20.515 9dcd compacted to: files[ 0 3 2 0 0 0 0 ]
+2022/06/18-11:32:20.515 9dcd Delete type=2 #5
+2022/06/18-11:32:20.515 9dcd Delete type=2 #57
+2022/06/18-11:32:20.515 9dcd Delete type=2 #58
+2022/06/18-11:32:20.515 9dcd Delete type=2 #59
+2022/06/18-11:32:20.515 9dcd Delete type=2 #60
+2022/06/18-11:32:20.515 9dcd Delete type=2 #61
+2022/06/18-11:32:20.515 9dcd Delete type=2 #63
+2022/06/18-11:32:20.515 9dcd Delete type=2 #64
+2022/06/18-11:32:20.515 9dcd Delete type=2 #65
+2022/06/18-11:32:20.529 9dcd Level-0 table #72: started
+2022/06/18-11:32:20.543 9dcd Level-0 table #72: 1784274 bytes OK
+2022/06/18-11:32:20.545 9dcd Delete type=0 #62
+2022/06/18-11:32:20.547 9dcd Compacting 1@0 + 3@1 files
+2022/06/18-11:32:20.566 9dcd Generated table #73@0: 27443 keys, 2159407 bytes
+2022/06/18-11:32:20.591 9dcd Generated table #74@0: 51791 keys, 2192805 bytes
+2022/06/18-11:32:20.614 9dcd Generated table #75@0: 40694 keys, 2177068 bytes
+2022/06/18-11:32:20.622 9dcd Generated table #76@0: 16330 keys, 754276 bytes
+2022/06/18-11:32:20.622 9dcd Compacted 1@0 + 3@1 files => 7283556 bytes
+2022/06/18-11:32:20.623 9dcd compacted to: files[ 0 4 2 0 0 0 0 ]
+2022/06/18-11:32:20.623 9dcd Delete type=2 #66
+2022/06/18-11:32:20.623 9dcd Delete type=2 #67
+2022/06/18-11:32:20.623 9dcd Delete type=2 #68
+2022/06/18-11:32:20.623 9dcd Delete type=2 #72
+2022/06/18-11:32:20.701 9dcc Level-0 table #78: started
+2022/06/18-11:32:20.715 9dcc Level-0 table #78: 1218721 bytes OK
+2022/06/18-11:32:20.717 9dcc Delete type=0 #71
+2022/06/18-11:32:31.665 9dcc Compacting 1@0 + 4@1 files
+2022/06/18-11:32:31.708 9dcc Generated table #79@0: 64580 keys, 2206797 bytes
+2022/06/18-11:32:31.746 9dcc Generated table #80@0: 59189 keys, 2203614 bytes
+2022/06/18-11:32:31.774 9dcc Generated table #81@0: 35000 keys, 2169870 bytes
+2022/06/18-11:32:31.781 9dcc Generated table #82@0: 14920 keys, 553838 bytes
+2022/06/18-11:32:31.781 9dcc Compacted 1@0 + 4@1 files => 7134119 bytes
+2022/06/18-11:32:31.782 9dcc compacted to: files[ 0 4 2 0 0 0 0 ]
+2022/06/18-11:32:32.110 9dcc Compacting 1@1 + 2@2 files
+2022/06/18-11:32:32.140 9dcc Generated table #83@1: 41537 keys, 2175174 bytes
+2022/06/18-11:32:32.150 9dcc Generated table #84@1: 9052 keys, 1694789 bytes
+2022/06/18-11:32:32.150 9dcc Compacted 1@1 + 2@2 files => 3869963 bytes
+2022/06/18-11:32:32.151 9dcc compacted to: files[ 0 3 2 0 0 0 0 ]
+2022/06/18-11:32:32.151 9dcc Delete type=2 #69
+2022/06/18-11:32:32.151 9dcc Delete type=2 #70
+2022/06/18-11:32:32.151 9dcc Delete type=2 #73
+2022/06/18-11:32:32.151 9dcc Delete type=2 #74
+2022/06/18-11:32:32.151 9dcc Delete type=2 #75
+2022/06/18-11:32:32.151 9dcc Delete type=2 #76
+2022/06/18-11:32:32.151 9dcc Delete type=2 #78
+2022/06/18-11:32:32.151 9dcc Delete type=2 #79
+2022/06/18-11:32:32.566 9dcd Level-0 table #86: started
+2022/06/18-11:32:32.580 9dcd Level-0 table #86: 1267104 bytes OK
+2022/06/18-11:32:32.581 9dcd Delete type=0 #77
+2022/06/18-11:32:32.583 9dcd Compacting 1@0 + 3@1 files
+2022/06/18-11:32:32.616 9dcd Generated table #87@0: 82911 keys, 2231428 bytes
+2022/06/18-11:32:32.646 9dcd Generated table #88@0: 54406 keys, 2195150 bytes
+2022/06/18-11:32:32.659 9dcd Generated table #89@0: 23744 keys, 1525309 bytes
+2022/06/18-11:32:32.659 9dcd Compacted 1@0 + 3@1 files => 5951887 bytes
+2022/06/18-11:32:32.660 9dcd compacted to: files[ 0 3 2 0 0 0 0 ]
+2022/06/18-11:32:32.660 9dcd Delete type=2 #80
+2022/06/18-11:32:32.660 9dcd Delete type=2 #81
+2022/06/18-11:32:32.660 9dcd Delete type=2 #82
+2022/06/18-11:32:32.660 9dcd Delete type=2 #86
+2022/06/18-11:32:32.672 9dcd Compacting 1@1 + 2@2 files
+2022/06/18-11:32:32.697 9dcd Generated table #90@1: 20399 keys, 2151901 bytes
+2022/06/18-11:32:32.717 9dcd Generated table #91@1: 37607 keys, 2077234 bytes
+2022/06/18-11:32:32.717 9dcd Compacted 1@1 + 2@2 files => 4229135 bytes
+2022/06/18-11:32:32.718 9dcd compacted to: files[ 0 2 2 0 0 0 0 ]
+2022/06/18-11:32:32.718 9dcd Delete type=2 #83
+2022/06/18-11:32:32.718 9dcd Delete type=2 #84
+2022/06/18-11:32:32.718 9dcd Delete type=2 #87
+2022/06/18-11:32:32.810 9dcd Level-0 table #93: started
+2022/06/18-11:32:32.824 9dcd Level-0 table #93: 1792853 bytes OK
+2022/06/18-11:32:32.825 9dcd Delete type=0 #85
+2022/06/18-11:32:32.827 9dcd Compacting 1@0 + 2@1 files
+2022/06/18-11:32:32.854 9dcd Generated table #94@0: 52219 keys, 2190279 bytes
+2022/06/18-11:32:32.876 9dcd Generated table #95@0: 37756 keys, 2173966 bytes
+2022/06/18-11:32:32.884 9dcd Generated table #96@0: 17579 keys, 791925 bytes
+2022/06/18-11:32:32.884 9dcd Compacted 1@0 + 2@1 files => 5156170 bytes
+2022/06/18-11:32:32.886 9dcd compacted to: files[ 0 3 2 0 0 0 0 ]
+2022/06/18-11:32:32.886 9dcd Delete type=2 #88
+2022/06/18-11:32:32.886 9dcd Delete type=2 #89
+2022/06/18-11:32:32.886 9dcd Delete type=2 #93
+2022/06/18-11:32:32.890 9dcd Compacting 1@1 + 2@2 files
+2022/06/18-11:32:32.910 9dcd Generated table #97@1: 36317 keys, 2169504 bytes
+2022/06/18-11:32:32.926 9dcd Generated table #98@1: 23736 keys, 2154283 bytes
+2022/06/18-11:32:32.947 9dcd Generated table #99@1: 45917 keys, 1739958 bytes
+2022/06/18-11:32:32.947 9dcd Compacted 1@1 + 2@2 files => 6063745 bytes
+2022/06/18-11:32:32.948 9dcd compacted to: files[ 0 2 3 0 0 0 0 ]
+2022/06/18-11:32:32.948 9dcd Delete type=2 #90
+2022/06/18-11:32:32.948 9dcd Delete type=2 #91
+2022/06/18-11:32:32.948 9dcd Delete type=2 #94
+2022/06/18-11:32:33.038 9dcd Level-0 table #101: started
+2022/06/18-11:32:33.053 9dcd Level-0 table #101: 1821401 bytes OK
+2022/06/18-11:32:33.055 9dcd Delete type=0 #92
+2022/06/18-11:32:33.056 9dcd Compacting 1@0 + 2@1 files
+2022/06/18-11:32:33.083 9dcd Generated table #102@0: 52926 keys, 2194071 bytes
+2022/06/18-11:32:33.101 9dcd Generated table #103@0: 30338 keys, 2161681 bytes
+2022/06/18-11:32:33.103 9dcd Generated table #104@0: 2638 keys, 80221 bytes
+2022/06/18-11:32:33.103 9dcd Compacted 1@0 + 2@1 files => 4435973 bytes
+2022/06/18-11:32:33.104 9dcd compacted to: files[ 0 3 3 0 0 0 0 ]
+2022/06/18-11:32:33.104 9dcd Delete type=2 #95
+2022/06/18-11:32:33.104 9dcd Delete type=2 #96
+2022/06/18-11:32:33.104 9dcd Delete type=2 #101
+2022/06/18-11:32:33.106 9dcd Compacting 1@1 + 3@2 files
+2022/06/18-11:32:33.133 9dcd Generated table #105@1: 52212 keys, 2188062 bytes
+2022/06/18-11:32:33.147 9dcd Generated table #106@1: 11452 keys, 2140964 bytes
+2022/06/18-11:32:33.172 9dcd Generated table #107@1: 50607 keys, 2190916 bytes
+2022/06/18-11:32:33.189 9dcd Generated table #108@1: 38943 keys, 1350228 bytes
+2022/06/18-11:32:33.189 9dcd Compacted 1@1 + 3@2 files => 7870170 bytes
+2022/06/18-11:32:33.190 9dcd compacted to: files[ 0 2 4 0 0 0 0 ]
+2022/06/18-11:32:33.250 9dcd Level-0 table #110: started
+2022/06/18-11:32:33.264 9dcd Level-0 table #110: 1788449 bytes OK
+2022/06/18-11:32:33.266 9dcd Delete type=2 #97
+2022/06/18-11:32:33.266 9dcd Delete type=2 #98
+2022/06/18-11:32:33.266 9dcd Delete type=2 #99
+2022/06/18-11:32:33.266 9dcd Delete type=0 #100
+2022/06/18-11:32:33.266 9dcd Delete type=2 #102
+2022/06/18-11:32:33.268 9dcd Compacting 1@0 + 2@1 files
+2022/06/18-11:32:33.293 9dcd Generated table #111@0: 41512 keys, 2177676 bytes
+2022/06/18-11:32:33.308 9dcd Generated table #112@0: 26560 keys, 1704628 bytes
+2022/06/18-11:32:33.308 9dcd Compacted 1@0 + 2@1 files => 3882304 bytes
+2022/06/18-11:32:33.310 9dcd compacted to: files[ 0 2 4 0 0 0 0 ]
+2022/06/18-11:32:33.310 9dcd Delete type=2 #103
+2022/06/18-11:32:33.310 9dcd Delete type=2 #104
+2022/06/18-11:32:33.310 9dcd Delete type=2 #110
+2022/06/18-11:32:33.314 9dcd Compacting 1@1 + 4@2 files
+2022/06/18-11:32:33.341 9dcd Generated table #113@1: 57578 keys, 2195162 bytes
+2022/06/18-11:32:33.357 9dcd Generated table #114@1: 22191 keys, 2153320 bytes
+2022/06/18-11:32:33.375 9dcd Generated table #115@1: 31288 keys, 2166100 bytes
+2022/06/18-11:32:33.408 9dcd Generated table #116@1: 62011 keys, 2207179 bytes
+2022/06/18-11:32:33.420 9dcd Generated table #117@1: 12236 keys, 766381 bytes
+2022/06/18-11:32:33.420 9dcd Compacted 1@1 + 4@2 files => 9488142 bytes
+2022/06/18-11:32:33.421 9dcd compacted to: files[ 0 1 5 0 0 0 0 ]
+2022/06/18-11:32:33.421 9dcd Delete type=2 #105
+2022/06/18-11:32:33.421 9dcd Delete type=2 #106
+2022/06/18-11:32:33.421 9dcd Delete type=2 #107
+2022/06/18-11:32:33.421 9dcd Delete type=2 #108
+2022/06/18-11:32:33.421 9dcd Delete type=2 #111
+2022/06/18-11:32:33.479 9dcd Level-0 table #119: started
+2022/06/18-11:32:33.494 9dcd Level-0 table #119: 1822656 bytes OK
+2022/06/18-11:32:33.495 9dcd Delete type=0 #109
+2022/06/18-11:32:33.497 9dcd Compacting 1@0 + 1@1 files
+2022/06/18-11:32:33.519 9dcd Generated table #120@0: 38201 keys, 2172807 bytes
+2022/06/18-11:32:33.532 9dcd Generated table #121@0: 22056 keys, 1140994 bytes
+2022/06/18-11:32:33.532 9dcd Compacted 1@0 + 1@1 files => 3313801 bytes
+2022/06/18-11:32:33.533 9dcd compacted to: files[ 0 2 5 0 0 0 0 ]
+2022/06/18-11:32:33.533 9dcd Delete type=2 #112
+2022/06/18-11:32:33.533 9dcd Delete type=2 #119
+2022/06/18-11:32:33.551 9dcd Compacting 1@1 + 5@2 files
+2022/06/18-11:32:33.577 9dcd Generated table #122@1: 56977 keys, 2194068 bytes
+2022/06/18-11:32:33.597 9dcd Generated table #123@1: 38882 keys, 2173665 bytes
+2022/06/18-11:32:33.610 9dcd Generated table #124@1: 11663 keys, 2139572 bytes
+2022/06/18-11:32:33.633 9dcd Level-0 table #127: started
+2022/06/18-11:32:33.647 9dcd Level-0 table #127: 1115477 bytes OK
+2022/06/18-11:32:33.649 9dcd Delete type=0 #118
+2022/06/18-11:32:33.654 9dcd Generated table #125@1: 60612 keys, 2205220 bytes
+2022/06/18-11:32:33.677 9dcd Generated table #128@1: 44821 keys, 2182511 bytes
+2022/06/18-11:32:33.679 9dcd Generated table #129@1: 2245 keys, 251384 bytes
+2022/06/18-11:32:33.679 9dcd Compacted 1@1 + 5@2 files => 11146420 bytes
+2022/06/18-11:32:33.680 9dcd compacted to: files[ 1 1 6 0 0 0 0 ]
+2022/06/18-11:32:33.680 9dcd Delete type=2 #113
+2022/06/18-11:32:33.680 9dcd Delete type=2 #114
+2022/06/18-11:32:33.680 9dcd Delete type=2 #115
+2022/06/18-11:32:33.680 9dcd Delete type=2 #116
+2022/06/18-11:32:33.680 9dcd Delete type=2 #117
+2022/06/18-11:32:33.680 9dcd Delete type=2 #120
+2022/06/18-11:32:35.049 9dcd Compacting 1@0 + 1@1 files
+2022/06/18-11:32:35.082 9dcd Generated table #130@0: 83860 keys, 1965325 bytes
+2022/06/18-11:32:35.082 9dcd Compacted 1@0 + 1@1 files => 1965325 bytes
+2022/06/18-11:32:35.083 9dcd compacted to: files[ 0 1 6 0 0 0 0 ]
+2022/06/18-11:32:35.083 9dcd Delete type=2 #121
+2022/06/18-11:32:35.083 9dcd Delete type=2 #127

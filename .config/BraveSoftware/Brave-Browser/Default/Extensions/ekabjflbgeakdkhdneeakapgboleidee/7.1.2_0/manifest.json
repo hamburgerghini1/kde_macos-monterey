@@ -1,0 +1,23 @@
+{
+   "action": {
+      "default_popup": "popup/index.html",
+      "default_title": "A popup will come"
+   },
+   "background": {
+      "service_worker": "service.js"
+   },
+   "description": "Resurrect the dislike count, enhance your experience with 'Youtube Dislikes Viewer' or more commonly known as 'Yt Dislikes Viewer'.",
+   "host_permissions": [ "*://*.youtube.com/watch?*" ],
+   "icons": {
+      "128": "/icons/get_started128.png",
+      "16": "/icons/get_started16.png",
+      "32": "/icons/get_started32.png",
+      "48": "/icons/get_started48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1eDr/4q6EUohlG2qhl8pPEl6q8pSEItw7L34FTkmF45SbVtzCvCkJg6ZC5w/7WEumrCEVDlmFAbPSzmRTEyg4bWWZdKcfc3YNal+U/I85ILTxzTgcG56GG8rskirA9+eAN4P7ZACYYTbf7vJ9Taq/A+f3Anh4AUXze4jDsEDBt+Vj2+5lmRbiSc49ZqRws+GZSR3bfLS4GI5iSWpsok72see6jtQD51m/zn3J6drBHj5LqDgFXlN7YL4JqO0PB3Q7SMUHi90KNrZIckO7X/LkpXNnTSYwW5i6vZhvogHtmeLU/tKq6UETx6CZYX8ZKUZNAf1CJETtlZaF7ZfgCOphwIDAQAB",
+   "manifest_version": 3,
+   "name": "Youtube Dislike Viewer",
+   "permissions": [ "scripting", "webNavigation", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.1.2"
+}

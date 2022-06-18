@@ -1,0 +1,25 @@
+MenuBar=Disabled
+
+[General]
+Version=201
+ViewPropsTimestamp=2022,6,17,16,24,7.588
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+HDMI-A-0 Height 1920x1080=568
+HDMI-A-0 Width 1920x1080=449
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly

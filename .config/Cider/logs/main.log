@@ -1,0 +1,593 @@
+[2022-06-18 10:05:33.530] [info]  [AppEvents] App started
+[2022-06-18 10:05:35.030] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2022-06-18 10:05:35.166] [info]  [AppEvents] App ready
+[2022-06-18 10:05:35.167] [info]  [Cider] Application is Ready. Creating Window.
+[2022-06-18 10:05:35.352] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:05:35.353] [error] SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:05:35.353] [error] (node:18668) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+(Use `cider --trace-warnings ...` to show where the warning was created)
+[2022-06-18 10:05:35.353] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2022-06-18 10:05:35.373] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:05:35.373] [error] SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:05:35.373] [error] (node:18668) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:05:35.373] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[2022-06-18 10:05:36.023] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2022-06-18 10:05:36.043] [info]  WebSocketServer started on port: 26369
+[2022-06-18 10:05:36.048] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'updated',
+    version: '4.10.2391.0'
+  }
+}
+[2022-06-18 10:05:36.104] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    softwareRendering: false,
+    subpixelFontRendering: true,
+    videoDecodeAcceleratorFlags: 0,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 29663,
+      vendorId: 4098
+    }
+  ]
+}
+[2022-06-18 10:05:36.104] [info]  From here can you check for real changes, the initial scan has been completed.
+[2022-06-18 10:05:36.104] [info]  Cider client port: 9000
+[2022-06-18 10:05:36.106] [info]  Cider remote port: 6942
+[2022-06-18 10:05:36.107] [info]  remote broadcasted
+[2022-06-18 10:07:48.417] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:48.421] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:48.430] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:48.430] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:48.430] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:48.431] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:48.431] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:48.431] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+[2022-06-18 10:07:48.431] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:48.432] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+[2022-06-18 10:07:49.943] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:49.945] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:49.948] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:49.948] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:49.949] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:49.949] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:49.949] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:49.949] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+[2022-06-18 10:07:49.949] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:49.950] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+[2022-06-18 10:07:50.138] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:50.140] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:50.144] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:50.145] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.147] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:50.148] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.149] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.149] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+[2022-06-18 10:07:50.150] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.151] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
+[2022-06-18 10:07:50.327] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:50.328] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:50.332] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:50.333] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.336] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:50.336] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.337] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.338] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 20)
+[2022-06-18 10:07:50.338] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.339] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 21)
+[2022-06-18 10:07:50.494] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:50.494] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:07:50.496] [error] (node:18668) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [IPCTransport]. Use emitter.setMaxListeners() to increase limit
+[2022-06-18 10:07:50.496] [error] (node:18668) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 connected listeners added to [AutoClient]. Use emitter.setMaxListeners() to increase limit
+[2022-06-18 10:07:50.498] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:50.498] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.499] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:07:50.500] [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.500] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.501] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 24)
+[2022-06-18 10:07:50.501] [error] (node:18668) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:161:12
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/transports/ipc.js:159:12)
+    at AutoClient.destroy (/opt/cider/resources/app.asar/node_modules/discord-rpc/src/client.js:675:26)
+    at IpcMainImpl.<anonymous> (/opt/cider/resources/app.asar/src/main/plugins/discordrpc.ts:75:26)
+    at IpcMainImpl.emit (node:events:402:35)
+    at IpcMainImpl.emit (node:domain:475:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:10780)
+    at EventEmitter.emit (node:events:390:28)
+[2022-06-18 10:07:50.501] [error] (node:18668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 25)
+[2022-06-18 10:21:01.171] [info]  Example plugin stopped
+[2022-06-18 10:21:01.172] [warn]  Cider exited.
+[2022-06-18 10:46:18.661] [info]  [AppEvents] App started
+[2022-06-18 10:46:20.496] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2022-06-18 10:46:20.570] [info]  [AppEvents] App ready
+[2022-06-18 10:46:20.571] [info]  [Cider] Application is Ready. Creating Window.
+[2022-06-18 10:46:20.581] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2022-06-18 10:46:20.602] [info]  WebSocketServer started on port: 26369
+[2022-06-18 10:46:20.608] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2449.0'
+  }
+}
+[2022-06-18 10:46:20.654] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    softwareRendering: false,
+    subpixelFontRendering: true,
+    videoDecodeAcceleratorFlags: 0,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 29663,
+      vendorId: 4098
+    }
+  ]
+}
+[2022-06-18 10:46:20.655] [info]  From here can you check for real changes, the initial scan has been completed.
+[2022-06-18 10:46:20.655] [info]  Cider client port: 9000
+[2022-06-18 10:46:20.656] [info]  Cider remote port: 6942
+[2022-06-18 10:46:20.658] [info]  remote broadcasted
+[2022-06-18 10:46:20.871] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:46:20.871] [error] SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:46:20.872] [error] (node:26591) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+(Use `cider --trace-warnings ...` to show where the warning was created)
+[2022-06-18 10:46:20.872] [error] (node:26591) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2022-06-18 10:46:20.873] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:46:20.873] [error] SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:46:20.873] [error] (node:26591) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:46:20.873] [error] (node:26591) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[2022-06-18 10:46:22.344] [info]  [DiscordRPC][connect] Successfully Connected to Discord. Authed for user: 875014785119445053.
+[2022-06-18 10:48:00.995] [info]  [DiscordRPC][reload] Reloading DiscordRPC.
+[2022-06-18 10:48:01.181] [info]  [DiscordRPC][reload] Restoring activity cache.
+[2022-06-18 10:48:17.804] [info]  [AppEvents] App started
+[2022-06-18 10:48:19.591] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2022-06-18 10:48:19.666] [info]  [AppEvents] App ready
+[2022-06-18 10:48:19.666] [info]  [Cider] Application is Ready. Creating Window.
+[2022-06-18 10:48:19.679] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=43395
+[2022-06-18 10:48:19.699] [info]  WebSocketServer started on port: 26369
+[2022-06-18 10:48:19.707] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2449.0'
+  }
+}
+[2022-06-18 10:48:19.708] [info]  [LastFMPlugin ok]
+[2022-06-18 10:48:19.709] [info]  VMWI7ZXuO3FqLBTkt-uDoQISQpv6nHsI
+[2022-06-18 10:48:19.719] [info]  [InstanceHandler] (second-instance) Instance started with /usr/bin/cider,--enable-crashpad,--allow-file-access-from-files,--secure-schemes,--bypasscsp-schemes=sentry-ipc,--cors-schemes=sentry-ipc,--fetch-schemes=sentry-ipc,--service-worker-schemes,--standard-schemes,--streaming-schemes,--js-flags=--max-old-space-size=350,--js-flags=--expose_gc,--enable-accelerated-mjpeg-decode,--enable-accelerated-video,--disable-gpu-driver-bug-workarounds,--ignore-gpu-blacklist,--enable-native-gpu-memory-buffers,--enable-accelerated-video-decode,--enable-gpu-rasterization,--enable-native-gpu-memory-buffers,--enable-oop-rasterization,--disable-features=MediaSessionService,cider://auth/lastfm?token=VMWI7ZXuO3FqLBTkt-uDoQISQpv6nHsI
+[2022-06-18 10:48:19.719] [info]  /usr/bin/cider
+[2022-06-18 10:48:19.729] [info]  --enable-crashpad
+[2022-06-18 10:48:19.738] [info]  --allow-file-access-from-files
+[2022-06-18 10:48:19.748] [info]  --secure-schemes
+[2022-06-18 10:48:19.757] [info]  --bypasscsp-schemes=sentry-ipc
+[2022-06-18 10:48:19.766] [info]  --cors-schemes=sentry-ipc
+[2022-06-18 10:48:19.775] [info]  --fetch-schemes=sentry-ipc
+[2022-06-18 10:48:19.785] [info]  --service-worker-schemes
+[2022-06-18 10:48:19.794] [info]  --standard-schemes
+[2022-06-18 10:48:19.804] [info]  --streaming-schemes
+[2022-06-18 10:48:19.816] [info]  --js-flags=--max-old-space-size=350
+[2022-06-18 10:48:19.825] [info]  --js-flags=--expose_gc
+[2022-06-18 10:48:19.834] [info]  --enable-accelerated-mjpeg-decode
+[2022-06-18 10:48:19.843] [info]  --enable-accelerated-video
+[2022-06-18 10:48:19.852] [info]  --disable-gpu-driver-bug-workarounds
+[2022-06-18 10:48:19.861] [info]  --ignore-gpu-blacklist
+[2022-06-18 10:48:19.874] [info]  --enable-native-gpu-memory-buffers
+[2022-06-18 10:48:19.885] [info]  --enable-accelerated-video-decode
+[2022-06-18 10:48:19.894] [info]  --enable-gpu-rasterization
+[2022-06-18 10:48:19.903] [info]  --enable-native-gpu-memory-buffers
+[2022-06-18 10:48:19.911] [info]  --enable-oop-rasterization
+[2022-06-18 10:48:19.920] [info]  --disable-features=MediaSessionService
+[2022-06-18 10:48:19.929] [info]  cider://auth/lastfm?token=VMWI7ZXuO3FqLBTkt-uDoQISQpv6nHsI
+[2022-06-18 10:48:19.950] [info]  [Cider] Another instance has been found, quitting.
+[2022-06-18 10:48:19.950] [info]  Example plugin stopped
+[2022-06-18 10:48:19.951] [warn]  Cider exited.
+[2022-06-18 10:48:19.963] [error] [LastFM][Session] Session file couldn't be opened or doesn't exist, Error: ENOENT: no such file or directory, stat '/home/tommi/.config/Cider/session.json'
+[2022-06-18 10:48:19.964] [info]  [LastFM][Auth] Beginning authentication from configuration
+[2022-06-18 10:48:19.964] [info]  [LastFM][tk] VMWI7ZXuO3FqLBTkt-uDoQISQpv6nHsI
+[2022-06-18 10:48:19.983] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    softwareRendering: false,
+    subpixelFontRendering: true,
+    videoDecodeAcceleratorFlags: 0,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 29663,
+      vendorId: 4098
+    }
+  ]
+}
+[2022-06-18 10:48:19.984] [info]  From here can you check for real changes, the initial scan has been completed.
+[2022-06-18 10:48:19.984] [info]  Cider client port: 43395
+[2022-06-18 10:48:19.999] [info]  Cider remote port: 44057
+[2022-06-18 10:48:20.000] [info]  remote broadcasted
+[2022-06-18 10:48:20.008] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:48:20.008] [error] TypeError: Cannot read properties of undefined (reading 'on')
+    at AppEvents.InitTray (/opt/cider/resources/app.asar/src/main/base/app.ts:279:26)
+    at AppEvents.bwCreated (/opt/cider/resources/app.asar/src/main/base/app.ts:148:18)
+    at /opt/cider/resources/app.asar/src/main/index.ts:53:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/opt/cider/resources/app.asar/build/index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:48:20.009] [error] (node:27776) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of undefined (reading 'on')
+    at AppEvents.InitTray (/opt/cider/resources/app.asar/src/main/base/app.ts:279:26)
+    at AppEvents.bwCreated (/opt/cider/resources/app.asar/src/main/base/app.ts:148:18)
+    at /opt/cider/resources/app.asar/src/main/index.ts:53:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/opt/cider/resources/app.asar/build/index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+(Use `cider --trace-warnings ...` to show where the warning was created)
+[2022-06-18 10:48:20.009] [error] (node:27776) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2022-06-18 10:48:20.044] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:48:20.045] [error] SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:48:20.045] [error] (node:27776) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:48:20.045] [error] (node:27776) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[2022-06-18 10:48:20.050] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2022-06-18 10:48:20.050] [error] SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:48:20.050] [error] (node:27776) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token : in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at /opt/cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:297:55
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-18 10:48:20.050] [error] (node:27776) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+[2022-06-18 10:48:20.140] [info]  [LastFM] Successfully obtained LastFM session info, { username: 'Hmbrgr666', key: 'bEtO8KFZ1L7S9zHy9rOsCJLYHNF8cbax' }
+[2022-06-18 10:48:20.140] [info]  [LastFM] Saving session info to disk.
+[2022-06-18 10:48:20.141] [info]  [LastFM][fs] File was written successfully.
+[2022-06-18 10:48:20.142] [info]  [LastFM][authenticateFromFile] Logging in with Session Info.
+[2022-06-18 10:48:20.142] [info]  [LastFM][authenticateFromFile] Logged in. Hmbrgr666 bEtO8KFZ1L7S9zHy9rOsCJLYHNF8cbax
+[2022-06-18 10:48:29.858] [info]  [LastFM] Successfully scrobbled:  {
+  scrobble: {
+    artist: { corrected: '0', '#text': 'Rabbit Junk' },
+    album: {
+      corrected: '0',
+      '#text': 'Rabbit Junk Will Die: Meditations on Mortality'
+    },
+    track: { corrected: '0', '#text': 'Hunting' },
+    ignoredMessage: { code: '0', '#text': '' },
+    albumArtist: { corrected: '0', '#text': 'Rabbit Junk' },
+    timestamp: '1655538509.7'
+  },
+  '@attr': { ignored: 0, accepted: 1 }
+}
+[2022-06-18 10:51:30.699] [info]  [LastFM] Successfully updated nowPlayingSong {
+  artist: { corrected: '0', '#text': 'Rabbit Junk' },
+  track: { corrected: '0', '#text': 'Xenon' },
+  ignoredMessage: { code: '0', '#text': '' },
+  albumArtist: { corrected: '0', '#text': 'Rabbit Junk' },
+  album: {
+    corrected: '0',
+    '#text': 'Rabbit Junk Will Die: Meditations on Mortality'
+  }
+}
+[2022-06-18 10:52:39.459] [info]  [LastFM] Successfully scrobbled:  {
+  scrobble: {
+    artist: { corrected: '0', '#text': 'Rabbit Junk' },
+    album: {
+      corrected: '0',
+      '#text': 'Rabbit Junk Will Die: Meditations on Mortality'
+    },
+    track: { corrected: '0', '#text': 'Xenon' },
+    ignoredMessage: { code: '0', '#text': '' },
+    albumArtist: { corrected: '0', '#text': 'Rabbit Junk' },
+    timestamp: '1655538759.302'
+  },
+  '@attr': { ignored: 0, accepted: 1 }
+}
+[2022-06-18 10:55:22.495] [info]  [LastFM] Successfully updated nowPlayingSong {
+  artist: { corrected: '0', '#text': 'Rabbit Junk' },
+  track: { corrected: '0', '#text': 'Become Hell' },
+  ignoredMessage: { code: '0', '#text': '' },
+  albumArtist: { corrected: '0', '#text': 'Rabbit Junk' },
+  album: {
+    corrected: '0',
+    '#text': 'Rabbit Junk Will Die: Meditations on Mortality'
+  }
+}
+[2022-06-18 10:56:41.861] [info]  [LastFM] Successfully scrobbled:  {
+  scrobble: {
+    artist: { corrected: '0', '#text': 'Rabbit Junk' },
+    album: {
+      corrected: '0',
+      '#text': 'Rabbit Junk Will Die: Meditations on Mortality'
+    },
+    track: { corrected: '0', '#text': 'Become Hell' },
+    ignoredMessage: { code: '0', '#text': '' },
+    albumArtist: { corrected: '0', '#text': 'Rabbit Junk' },
+    timestamp: '1655539001.697'
+  },
+  '@attr': { ignored: 0, accepted: 1 }
+}
+[2022-06-18 11:00:27.280] [info]  Example plugin stopped
+[2022-06-18 11:00:27.282] [warn]  Cider exited.
