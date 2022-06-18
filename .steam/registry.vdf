@@ -1,0 +1,199 @@
+"Registry"
+{
+	"HKLM"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"SteamPID"		"0"
+					"TempAppCmdLine"		""
+					"ReLaunchCmdLine"		""
+					"ClientLauncherType"		"0"
+				}
+			}
+		}
+	}
+	"HKCU"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"RunningAppID"		"0"
+					"steamglobal"
+					{
+						"language"		"english"
+					}
+					"language"		"english"
+					"SourceModInstallPath"		"/home/tommi/.local/share/Steam/steamapps\\sourcemods"
+					"Rate"		"30000"
+					"AlreadyRetriedOfflineMode"		"0"
+					"AutoLoginUser"		"pussydestroyer66629"
+					"apps"
+					{
+						"1016120"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+							"name"		"PGA TOUR 2K21"
+						}
+						"1070560"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1091500"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1172470"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1245040"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1284410"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1391110"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1493710"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1551360"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1580130"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1625450"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1826330"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"1887720"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"2000330"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"268050"
+						{
+							"Installed"		"0"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"271590"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"287290"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"403640"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"442120"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"55230"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"730"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"760160"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"887800"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"228980"
+						{
+							"Updating"		"0"
+							"Installed"		"1"
+							"Running"		"0"
+						}
+						"241100"
+						{
+							"Updating"		"0"
+						}
+						"1222670"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+						}
+					}
+					"StartupMode"		"0"
+				}
+			}
+		}
+	}
+}
