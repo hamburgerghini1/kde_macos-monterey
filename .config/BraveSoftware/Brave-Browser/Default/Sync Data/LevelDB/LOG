@@ -1,9 +1,3 @@
-2022/06/18-11:38:35.664 50c Reusing MANIFEST /home/tommi/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/06/18-11:38:35.666 50c Recovering log #44
-2022/06/18-11:38:35.668 50c Reusing old log /home/tommi/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000044.log 
-2022/06/18-11:40:09.113 55d Level-0 table #48: started
-2022/06/18-11:40:09.123 55d Level-0 table #48: 81397 bytes OK
-2022/06/18-11:40:09.126 55d Delete type=0 #44
-2022/06/18-11:42:43.694 50c Level-0 table #50: started
-2022/06/18-11:42:43.697 50c Level-0 table #50: 158555 bytes OK
-2022/06/18-11:42:43.699 50c Delete type=0 #47
+2022/07/23-11:21:02.165 917 Reusing MANIFEST /home/tommi/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/07/23-11:21:02.166 917 Recovering log #56
+2022/07/23-11:21:02.167 917 Reusing old log /home/tommi/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000056.log 

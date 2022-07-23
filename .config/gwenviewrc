@@ -1,2 +1,27 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+
+[MainWindow]
+HDMI-A-0 Height 1920x1080=551
+HDMI-A-0 Width 1920x1080=640
+HDMI-A-0 XPosition 1920x1080=640
+HDMI-A-0 YPosition 1920x1080=292
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAH/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Screenshot_20220722_090529.png
+Name1[$e]=Screenshot_20220722_090529.png
+
+[SideBar]
+IsVisible ViewMode=true
+SideBarSplitterSizes=209,424

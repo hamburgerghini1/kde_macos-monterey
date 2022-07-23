@@ -1,5 +1,9 @@
 MenuBar=Disabled
 
+[ExtractDialog]
+HDMI-A-0 Height 1920x1080=534
+HDMI-A-0 Width 1920x1080=1260
+
 [General]
 Version=201
 ViewPropsTimestamp=2022,6,17,16,24,7.588
@@ -9,8 +13,8 @@ Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [KPropertiesDialog]
-HDMI-A-0 Height 1920x1080=568
-HDMI-A-0 Width 1920x1080=449
+HDMI-A-0 Height 1920x1080=483
+HDMI-A-0 Width 1920x1080=611
 
 [MainWindow]
 MenuBar=Disabled

@@ -3,6 +3,6 @@ HDMI-A-0 Height 1920x1080=600
 HDMI-A-0 Width 1920x1080=980
 
 [KFileDialog Settings]
-Recent Files[$e]=fonts.conf,file:$HOME/Documents/tiliotteet/tiliote202205.pdf,file:$HOME/Documents/tiliotteet/tiliote202204.pdf,file:$HOME/Documents/tiliotteet/tiliote202203.pdf,file:$HOME/Documents/tiliotteet/tiliote202111.pdf,file:$HOME/Documents/tiliotteet/tiliote202110.pdf,file:$HOME/Documents/tiliotteet/tiliote202109.pdf,file:$HOME/Documents/tiliotteet/tiliote202108.pdf,file:$HOME/Documents/tiliotteet/tiliote202107.pdf,file:$HOME/Documents/tiliotteet/tiliote202106.pdf,file:$HOME/Documents/tiliotteet/tiliote202105.pdf,file:$HOME/Documents/tiliotteet/tiliote202104.pdf,file:$HOME/Documents/tiliotteet/tiliote202103.pdf,file:$HOME/Documents/tiliotteet/tiliote202102.pdf,file:$HOME/Documents/tiliotteet/tiliote202101.pdf
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/,file:$HOME/.config/fontconfig/,file:$HOME/Documents/tiliotteet/
+Recent Files[$e]=fonts.conf,file:$HOME/Screenshot_20220722_090529.png,file:$HOME/Downloads/March 2022 Sales.xlsx
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/,file:$HOME/.config/fontconfig/,file:$HOME/Music/
 detailViewIconSize=16

@@ -1,0 +1,8 @@
+game:
+  exe: /home/tommi/Documents/Stray/Stray/Stray.exe
+system:
+  mangohud: true
+wine:
+  battleye: false
+  eac: false
+  version: lutris-GE-Proton7-21-x86_64

@@ -1,0 +1,20 @@
+Error while parsing hooks JSON. Error: "ENOENT: no such file or directory, open '/home/tommi/.config/Microsoft/Microsoft Teams/hooks.json'"
+(node:23022) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:23022) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 ecsSettingsUpdated listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:23022) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 appInitialized listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[23767:23767:0718/104007.871959:ERROR:object_proxy.cc(623)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.NoReply: Remote peer disconnected
+[23767:23767:0718/104007.871984:ERROR:kwallet_dbus.cc(100)] Error contacting kwalletd5 (isEnabled)
+[23767:23767:0718/104007.872069:ERROR:object_proxy.cc(623)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[23767:23767:0718/104007.872076:ERROR:kwallet_dbus.cc(72)] Error contacting klauncher to start kwalletd5
+[23767:23767:0718/104007.958594:ERROR:object_proxy.cc(623)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.NoReply: Remote peer disconnected
+[23767:23767:0718/104007.958608:ERROR:kwallet_dbus.cc(418)] Error contacting kwalletd5 (close)
+[23767:23767:0718/104007.978200:ERROR:brave_sync_prefs.cc(123)] Decrypt sync seed failure
+[23767:23767:0718/104008.231717:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 2.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104051.846231:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 28.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104051.848525:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 28.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104053.790113:ERROR:CONSOLE(1)] "browserAction.setBadgeText failed: No tab with id: 28.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104054.593231:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 30.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104054.593400:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 30.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104054.593607:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 30.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104110.772510:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 32.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[23767:23767:0718/104110.772606:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data for tabId: 32.  Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)

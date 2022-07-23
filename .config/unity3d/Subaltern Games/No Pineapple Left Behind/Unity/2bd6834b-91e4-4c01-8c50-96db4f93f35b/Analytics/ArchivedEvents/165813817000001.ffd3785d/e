@@ -1,0 +1,11 @@
+(2){"type":"deviceInfo","ts":1658138170188,"make":"LinuxPlayer","model":"PC","processor_type":"Intel(R) Core(TM) i5-10600K CPU @ 4.10GHz","system_memory_size":"31887","engine_ver":"5.3.2f1","app_name":"com.Company.ProductName","debug_build":false,"license_type":"personal","os_ver":"Linux 5.18 unknown 64bit","deviceid":"2d4716e4d4dc40cb81b071cdf3d9742e","app_ver":"1.0","changed":["app_ver","os_ver","sdk_ver"]}
+{"type":"custom","ts":1658138170201,"name":"unity.sceneLoad","custom_params":{"level_num":0,"total_levels":13,"level_name":"slash"}}
+{"type":"custom","ts":1658138170203,"name":"unity.sceneLoad","custom_params":{"level_num":0,"total_levels":13,"level_name":"slash"}}
+{"type":"appRunning","ts":1658138321904,"duration":151}
+{"type":"custom","ts":1658138321904,"name":"unity.sceneLoad","custom_params":{"level_num":1,"total_levels":13,"level_name":"New Bellona"}}
+{"type":"appRunning","ts":1658138335699,"duration":164}
+{"type":"custom","ts":1658138335699,"name":"unity.sceneLoad","custom_params":{"level_num":2,"total_levels":13,"level_name":"Loading"}}
+{"type":"appRunning","ts":1658138337639,"duration":165}
+{"type":"custom","ts":1658138337639,"name":"unity.sceneLoad","custom_params":{"level_num":9,"total_levels":13,"level_name":"Midvale"}}
+{"type":"custom","ts":1658138337721,"name":"scenario_start","custom_params":{"startTime":"18/58/2022, 12:58:57","tutorial_enabled":true,"load_type":"newGame","sandbox":false,"1M":false,"scenario":0,"version":"v1.1.0 Obstinate Orange"}}
+{"type":"appRunning","ts":1658138384119,"duration":211}
