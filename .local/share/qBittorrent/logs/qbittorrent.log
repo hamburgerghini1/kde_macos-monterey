@@ -1,0 +1,36 @@
+(N) 2022-07-20T09:12:25 - qBittorrent v4.4.3.1 started
+(N) 2022-07-20T09:12:25 - Using config directory: /home/tommi/.config/qBittorrent
+(I) 2022-07-20T09:12:26 - Trying to listen on: 0.0.0.0:41690,[::]:41690
+(N) 2022-07-20T09:12:26 - Peer ID: -qB4431-
+(N) 2022-07-20T09:12:26 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-20T09:12:26 - DHT support [ON]
+(I) 2022-07-20T09:12:26 - Local Peer Discovery support [ON]
+(I) 2022-07-20T09:12:26 - PeX support [ON]
+(I) 2022-07-20T09:12:26 - Anonymous mode [OFF]
+(I) 2022-07-20T09:12:26 - Encryption support [ON]
+(I) 2022-07-20T09:12:26 - UPnP / NAT-PMP support [ON]
+(W) 2022-07-20T09:12:26 - Couldn't load IP geolocation database. Reason: No such file or directory
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: 127.0.0.1, port: TCP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: 127.0.0.1, port: UTP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: 192.168.1.86, port: TCP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: 192.168.1.86, port: UTP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: ::1, port: TCP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: ::1, port: UTP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: fe80::31b7:524b:578c:1692%enp6s0, port: TCP/41690
+(I) 2022-07-20T09:12:26 - Successfully listening on IP: fe80::31b7:524b:578c:1692%enp6s0, port: UTP/41690
+(I) 2022-07-20T09:12:26 - UPnP/NAT-PMP: Port mapping successful, message: successfully mapped port using NAT-PMP. local: 192.168.1.86 external port: TCP/41690
+(I) 2022-07-20T09:12:26 - UPnP/NAT-PMP: Port mapping successful, message: successfully mapped port using NAT-PMP. local: 192.168.1.86 external port: UDP/41690
+(I) 2022-07-20T09:12:26 - UPnP/NAT-PMP: Port mapping successful, message: successfully mapped port using UPnP. local: 192.168.1.86 external port: TCP/41690
+(I) 2022-07-20T09:12:26 - UPnP/NAT-PMP: Port mapping successful, message: successfully mapped port using UPnP. local: 192.168.1.86 external port: UDP/41690
+(I) 2022-07-20T09:12:37 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 03:23:19 2022.
+(I) 2022-07-20T09:12:37 - Successfully updated IP geolocation database.
+(I) 2022-07-20T09:14:08 - Successfully listening on IP: fe80::2e64:6ec4:397:f72e%tun0, port: TCP/41690
+(I) 2022-07-20T09:14:08 - Successfully listening on IP: fe80::2e64:6ec4:397:f72e%tun0, port: UTP/41690
+(I) 2022-07-20T09:14:08 - Successfully listening on IP: 10.7.7.8, port: TCP/41690
+(I) 2022-07-20T09:14:08 - Successfully listening on IP: 10.7.7.8, port: UTP/41690
+(I) 2022-07-20T09:14:38 - Detected external IP: 185.174.159.60
+(N) 2022-07-20T09:14:40 - 'Stray.zip' added to download list.
+(C) 2022-07-20T09:16:44 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.7.7.8]: no router found
+(C) 2022-07-20T09:16:44 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.7.7.8]: no router found
+(N) 2022-07-20T09:28:26 - 'Stray.zip' was removed from the transfer list.
+(I) 2022-07-20T09:28:31 - UPnP / NAT-PMP support [OFF]

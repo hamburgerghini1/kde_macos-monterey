@@ -1,0 +1,19 @@
+{
+    "id": "29ac9cd7aeb920c8c4b9d2f17cfcaf59",
+    "metadata": {
+        "fullname": "xrandr-Vestel Elektronik Sanayi ve Ticaret A. S.-32W_LCD_TV",
+        "name": "HDMI-A-0"
+    },
+    "mode": {
+        "refresh": 50,
+        "size": {
+            "height": 1080,
+            "width": 1920
+        }
+    },
+    "overscan": 0,
+    "rgbrange": 0,
+    "rotation": 1,
+    "scale": 1,
+    "vrrpolicy": 2
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Grand Theft Auto V
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/271590
+Icon=steam_icon_271590
+Terminal=false
+Type=Application
+Categories=Game;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Another Lost Phone: Laura's Story
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/689910
+Icon=steam_icon_689910
+Terminal=false
+Type=Application
+Categories=Game;

@@ -1,0 +1,2 @@
+[default-nodes]
+default.configured.audio.sink=alsa_output.usb-ASUS_TUF_H3_Wireless-00.analog-stereo

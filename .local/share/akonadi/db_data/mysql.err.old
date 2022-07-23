@@ -1,0 +1,424 @@
+2022-07-17 13:50:35 0 [Note] InnoDB: Uses event mutexes
+2022-07-17 13:50:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-17 13:50:35 0 [Note] InnoDB: Number of pools: 1
+2022-07-17 13:50:35 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-17 13:50:35 0 [Note] InnoDB: Using Linux native AIO
+2022-07-17 13:50:35 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-17 13:50:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-17 13:50:35 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 67108864 bytes
+2022-07-17 13:50:35 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2022-07-17 13:50:35 0 [Note] InnoDB: New log file created, LSN=45106
+2022-07-17 13:50:35 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-17 13:50:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-17 13:50:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-17 13:50:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-17 13:50:35 0 [Note] InnoDB: 10.5.16 started; log sequence number 0; transaction id 20
+2022-07-17 13:50:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-17 13:50:35 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-17 13:50:35 0 [Note] InnoDB: Buffer pool(s) load completed at 220717 13:50:35
+2022-07-17 13:50:35 0 [Note] Reading of all Master_info entries succeeded
+2022-07-17 13:50:35 0 [Note] Added new Master_info '' to hash table
+2022-07-17 13:50:35 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-17 13:51:10 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-17 13:51:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-17 13:51:10 0 [Note] InnoDB: Starting shutdown...
+2022-07-17 13:51:10 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-17 13:51:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 220717 13:51:10
+2022-07-17 13:51:10 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-17 13:51:10 0 [Note] InnoDB: Shutdown completed; log sequence number 347048; transaction id 689
+2022-07-17 13:51:10 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-17 13:51:48 0 [Note] InnoDB: Uses event mutexes
+2022-07-17 13:51:48 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-17 13:51:48 0 [Note] InnoDB: Number of pools: 1
+2022-07-17 13:51:48 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-17 13:51:48 0 [Note] InnoDB: Using Linux native AIO
+2022-07-17 13:51:48 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-17 13:51:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-17 13:51:48 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-17 13:51:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-17 13:51:48 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-17 13:51:48 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-17 13:51:48 0 [Note] InnoDB: 10.5.16 started; log sequence number 347048; transaction id 690
+2022-07-17 13:51:48 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-17 13:51:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-17 13:51:48 0 [Note] Reading of all Master_info entries succeeded
+2022-07-17 13:51:48 0 [Note] Added new Master_info '' to hash table
+2022-07-17 13:51:48 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-17 13:51:48 0 [Note] InnoDB: Buffer pool(s) load completed at 220717 13:51:48
+2022-07-17 14:29:21 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-17 14:29:21 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-17 14:29:21 0 [Note] InnoDB: Starting shutdown...
+2022-07-17 14:29:21 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-17 14:29:21 0 [Note] InnoDB: Buffer pool(s) dump completed at 220717 14:29:21
+2022-07-17 14:29:22 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-17 14:29:22 0 [Note] InnoDB: Shutdown completed; log sequence number 347414; transaction id 711
+2022-07-17 14:29:22 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-17 14:29:55 0 [Note] InnoDB: Uses event mutexes
+2022-07-17 14:29:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-17 14:29:55 0 [Note] InnoDB: Number of pools: 1
+2022-07-17 14:29:55 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-17 14:29:55 0 [Note] InnoDB: Using Linux native AIO
+2022-07-17 14:29:55 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-17 14:29:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-17 14:29:55 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-17 14:29:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-17 14:29:55 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-17 14:29:55 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-17 14:29:55 0 [Note] InnoDB: 10.5.16 started; log sequence number 347414; transaction id 690
+2022-07-17 14:29:55 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-17 14:29:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-17 14:29:55 0 [Note] Reading of all Master_info entries succeeded
+2022-07-17 14:29:55 0 [Note] Added new Master_info '' to hash table
+2022-07-17 14:29:55 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-17 14:29:55 0 [Note] InnoDB: Buffer pool(s) load completed at 220717 14:29:55
+2022-07-18  7:58:07 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-18  7:58:08 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-18  7:58:08 0 [Note] InnoDB: Starting shutdown...
+2022-07-18  7:58:08 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18  7:58:08 0 [Note] InnoDB: Buffer pool(s) dump completed at 220718  7:58:08
+2022-07-18  7:58:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-18  7:58:08 0 [Note] InnoDB: Shutdown completed; log sequence number 347426; transaction id 711
+2022-07-18  7:58:08 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-18  7:59:26 0 [Note] InnoDB: Uses event mutexes
+2022-07-18  7:59:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-18  7:59:26 0 [Note] InnoDB: Number of pools: 1
+2022-07-18  7:59:26 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-18  7:59:26 0 [Note] InnoDB: Using Linux native AIO
+2022-07-18  7:59:26 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-18  7:59:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-18  7:59:26 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-18  7:59:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-18  7:59:26 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-18  7:59:26 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-18  7:59:26 0 [Note] InnoDB: 10.5.16 started; log sequence number 347426; transaction id 690
+2022-07-18  7:59:26 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18  7:59:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-18  7:59:26 0 [Note] Reading of all Master_info entries succeeded
+2022-07-18  7:59:26 0 [Note] Added new Master_info '' to hash table
+2022-07-18  7:59:26 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-18  7:59:26 0 [Note] InnoDB: Buffer pool(s) load completed at 220718  7:59:26
+2022-07-18  8:02:01 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-18  8:02:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-18  8:02:01 0 [Note] InnoDB: Starting shutdown...
+2022-07-18  8:02:01 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18  8:02:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 220718  8:02:01
+2022-07-18  8:02:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-18  8:02:01 0 [Note] InnoDB: Shutdown completed; log sequence number 347438; transaction id 711
+2022-07-18  8:02:01 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-18  8:04:09 0 [Note] InnoDB: Uses event mutexes
+2022-07-18  8:04:09 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-18  8:04:09 0 [Note] InnoDB: Number of pools: 1
+2022-07-18  8:04:09 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-18  8:04:09 0 [Note] InnoDB: Using Linux native AIO
+2022-07-18  8:04:09 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-18  8:04:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-18  8:04:09 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-18  8:04:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-18  8:04:09 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-18  8:04:09 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-18  8:04:09 0 [Note] InnoDB: 10.5.16 started; log sequence number 347438; transaction id 690
+2022-07-18  8:04:09 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18  8:04:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-18  8:04:09 0 [Note] Reading of all Master_info entries succeeded
+2022-07-18  8:04:09 0 [Note] Added new Master_info '' to hash table
+2022-07-18  8:04:09 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-18  8:04:09 0 [Note] InnoDB: Buffer pool(s) load completed at 220718  8:04:09
+2022-07-18  8:07:20 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-18  8:07:20 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-18  8:07:20 0 [Note] InnoDB: Starting shutdown...
+2022-07-18  8:07:20 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18  8:07:20 0 [Note] InnoDB: Buffer pool(s) dump completed at 220718  8:07:20
+2022-07-18  8:07:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-18  8:07:21 0 [Note] InnoDB: Shutdown completed; log sequence number 347450; transaction id 711
+2022-07-18  8:07:21 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-18  8:08:02 0 [Note] InnoDB: Uses event mutexes
+2022-07-18  8:08:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-18  8:08:02 0 [Note] InnoDB: Number of pools: 1
+2022-07-18  8:08:02 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-18  8:08:02 0 [Note] InnoDB: Using Linux native AIO
+2022-07-18  8:08:02 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-18  8:08:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-18  8:08:02 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-18  8:08:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-18  8:08:02 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-18  8:08:02 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-18  8:08:02 0 [Note] InnoDB: 10.5.16 started; log sequence number 347450; transaction id 690
+2022-07-18  8:08:02 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18  8:08:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-18  8:08:02 0 [Note] Reading of all Master_info entries succeeded
+2022-07-18  8:08:02 0 [Note] Added new Master_info '' to hash table
+2022-07-18  8:08:02 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-18  8:08:02 0 [Note] InnoDB: Buffer pool(s) load completed at 220718  8:08:02
+2022-07-18 10:02:32 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-18 10:02:32 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-18 10:02:32 0 [Note] InnoDB: Starting shutdown...
+2022-07-18 10:02:32 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18 10:02:32 0 [Note] InnoDB: Buffer pool(s) dump completed at 220718 10:02:32
+2022-07-18 10:02:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-18 10:02:32 0 [Note] InnoDB: Shutdown completed; log sequence number 347462; transaction id 711
+2022-07-18 10:02:32 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-18 10:03:13 0 [Note] InnoDB: Uses event mutexes
+2022-07-18 10:03:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-18 10:03:13 0 [Note] InnoDB: Number of pools: 1
+2022-07-18 10:03:13 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-18 10:03:13 0 [Note] InnoDB: Using Linux native AIO
+2022-07-18 10:03:13 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-18 10:03:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-18 10:03:13 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-18 10:03:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-18 10:03:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-18 10:03:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-18 10:03:13 0 [Note] InnoDB: 10.5.16 started; log sequence number 347462; transaction id 690
+2022-07-18 10:03:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-18 10:03:13 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-18 10:03:13 0 [Note] Reading of all Master_info entries succeeded
+2022-07-18 10:03:13 0 [Note] Added new Master_info '' to hash table
+2022-07-18 10:03:13 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-18 10:03:13 0 [Note] InnoDB: Buffer pool(s) load completed at 220718 10:03:13
+2022-07-19  8:13:26 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-19  8:13:26 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-19  8:13:26 0 [Note] InnoDB: Starting shutdown...
+2022-07-19  8:13:26 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-19  8:13:26 0 [Note] InnoDB: Buffer pool(s) dump completed at 220719  8:13:26
+2022-07-19  8:13:26 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-19  8:13:26 0 [Note] InnoDB: Shutdown completed; log sequence number 347474; transaction id 711
+2022-07-19  8:13:26 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-19  8:15:29 0 [Note] InnoDB: Uses event mutexes
+2022-07-19  8:15:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-19  8:15:29 0 [Note] InnoDB: Number of pools: 1
+2022-07-19  8:15:29 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-19  8:15:29 0 [Note] InnoDB: Using Linux native AIO
+2022-07-19  8:15:29 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-19  8:15:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-19  8:15:29 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-19  8:15:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-19  8:15:29 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-19  8:15:29 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-19  8:15:29 0 [Note] InnoDB: 10.5.16 started; log sequence number 347474; transaction id 690
+2022-07-19  8:15:29 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-19  8:15:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-19  8:15:29 0 [Note] Reading of all Master_info entries succeeded
+2022-07-19  8:15:29 0 [Note] Added new Master_info '' to hash table
+2022-07-19  8:15:29 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-19  8:15:29 0 [Note] InnoDB: Buffer pool(s) load completed at 220719  8:15:29
+2022-07-19 11:44:50 7 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tommi' host: '' (Got an error reading communication packets)
+2022-07-19 11:44:50 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-19 11:44:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-19 11:44:50 0 [Note] InnoDB: Starting shutdown...
+2022-07-19 11:44:50 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-19 11:44:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 220719 11:44:50
+2022-07-19 11:44:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-19 11:44:50 0 [Note] InnoDB: Shutdown completed; log sequence number 347486; transaction id 711
+2022-07-19 11:44:50 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-19 11:45:34 0 [Note] InnoDB: Uses event mutexes
+2022-07-19 11:45:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-19 11:45:34 0 [Note] InnoDB: Number of pools: 1
+2022-07-19 11:45:34 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-19 11:45:34 0 [Note] InnoDB: Using Linux native AIO
+2022-07-19 11:45:34 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-19 11:45:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-19 11:45:34 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-19 11:45:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-19 11:45:34 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-19 11:45:34 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-19 11:45:34 0 [Note] InnoDB: 10.5.16 started; log sequence number 347486; transaction id 690
+2022-07-19 11:45:34 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-19 11:45:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-19 11:45:34 0 [Note] Reading of all Master_info entries succeeded
+2022-07-19 11:45:34 0 [Note] Added new Master_info '' to hash table
+2022-07-19 11:45:34 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-19 11:45:34 0 [Note] InnoDB: Buffer pool(s) load completed at 220719 11:45:34
+2022-07-20  8:39:08 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-20  8:39:08 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-20  8:39:08 0 [Note] InnoDB: Starting shutdown...
+2022-07-20  8:39:08 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-20  8:39:08 0 [Note] InnoDB: Buffer pool(s) dump completed at 220720  8:39:08
+2022-07-20  8:39:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-20  8:39:08 0 [Note] InnoDB: Shutdown completed; log sequence number 347498; transaction id 711
+2022-07-20  8:39:08 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-20  8:40:18 0 [Note] InnoDB: Uses event mutexes
+2022-07-20  8:40:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-20  8:40:18 0 [Note] InnoDB: Number of pools: 1
+2022-07-20  8:40:18 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-20  8:40:18 0 [Note] InnoDB: Using Linux native AIO
+2022-07-20  8:40:18 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-20  8:40:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-20  8:40:18 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-20  8:40:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-20  8:40:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-20  8:40:18 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-20  8:40:18 0 [Note] InnoDB: 10.5.16 started; log sequence number 347498; transaction id 690
+2022-07-20  8:40:18 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-20  8:40:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-20  8:40:18 0 [Note] Reading of all Master_info entries succeeded
+2022-07-20  8:40:18 0 [Note] Added new Master_info '' to hash table
+2022-07-20  8:40:18 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-20  8:40:18 0 [Note] InnoDB: Buffer pool(s) load completed at 220720  8:40:18
+2022-07-20 15:23:20 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-20 15:23:20 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-20 15:23:20 0 [Note] InnoDB: Starting shutdown...
+2022-07-20 15:23:20 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-20 15:23:20 0 [Note] InnoDB: Buffer pool(s) dump completed at 220720 15:23:20
+2022-07-20 15:23:20 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-20 15:23:20 0 [Note] InnoDB: Shutdown completed; log sequence number 347510; transaction id 711
+2022-07-20 15:23:20 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-20 15:24:10 0 [Note] InnoDB: Uses event mutexes
+2022-07-20 15:24:10 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-20 15:24:10 0 [Note] InnoDB: Number of pools: 1
+2022-07-20 15:24:10 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-20 15:24:10 0 [Note] InnoDB: Using Linux native AIO
+2022-07-20 15:24:10 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-20 15:24:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-20 15:24:10 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-20 15:24:10 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-20 15:24:10 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-20 15:24:10 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-20 15:24:10 0 [Note] InnoDB: 10.5.16 started; log sequence number 347510; transaction id 690
+2022-07-20 15:24:10 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-20 15:24:10 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-20 15:24:10 0 [Note] Reading of all Master_info entries succeeded
+2022-07-20 15:24:10 0 [Note] Added new Master_info '' to hash table
+2022-07-20 15:24:10 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-20 15:24:10 0 [Note] InnoDB: Buffer pool(s) load completed at 220720 15:24:10
+2022-07-21 11:30:04 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-21 11:30:04 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-21 11:30:04 0 [Note] InnoDB: Starting shutdown...
+2022-07-21 11:30:04 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-21 11:30:04 0 [Note] InnoDB: Buffer pool(s) dump completed at 220721 11:30:04
+2022-07-21 11:30:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-21 11:30:04 0 [Note] InnoDB: Shutdown completed; log sequence number 347522; transaction id 711
+2022-07-21 11:30:04 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-21 11:31:23 0 [Note] InnoDB: Uses event mutexes
+2022-07-21 11:31:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-21 11:31:23 0 [Note] InnoDB: Number of pools: 1
+2022-07-21 11:31:23 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-21 11:31:23 0 [Note] InnoDB: Using Linux native AIO
+2022-07-21 11:31:23 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-21 11:31:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-21 11:31:23 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-21 11:31:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-21 11:31:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-21 11:31:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-21 11:31:23 0 [Note] InnoDB: 10.5.16 started; log sequence number 347522; transaction id 690
+2022-07-21 11:31:23 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-21 11:31:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-21 11:31:23 0 [Note] Reading of all Master_info entries succeeded
+2022-07-21 11:31:23 0 [Note] Added new Master_info '' to hash table
+2022-07-21 11:31:23 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-21 11:31:23 0 [Note] InnoDB: Buffer pool(s) load completed at 220721 11:31:23
+2022-07-21 14:38:48 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-21 14:38:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-21 14:38:48 0 [Note] InnoDB: Starting shutdown...
+2022-07-21 14:38:48 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-21 14:38:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 220721 14:38:48
+2022-07-21 14:38:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-21 14:38:48 0 [Note] InnoDB: Shutdown completed; log sequence number 386194; transaction id 757
+2022-07-21 14:38:48 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-21 14:39:32 0 [Note] InnoDB: Uses event mutexes
+2022-07-21 14:39:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-21 14:39:32 0 [Note] InnoDB: Number of pools: 1
+2022-07-21 14:39:32 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-21 14:39:32 0 [Note] InnoDB: Using Linux native AIO
+2022-07-21 14:39:32 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-21 14:39:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-21 14:39:32 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-21 14:39:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-21 14:39:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-21 14:39:32 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-21 14:39:32 0 [Note] InnoDB: 10.5.16 started; log sequence number 386194; transaction id 758
+2022-07-21 14:39:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-21 14:39:32 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-21 14:39:32 0 [Note] Reading of all Master_info entries succeeded
+2022-07-21 14:39:32 0 [Note] Added new Master_info '' to hash table
+2022-07-21 14:39:32 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-21 14:39:32 0 [Note] InnoDB: Buffer pool(s) load completed at 220721 14:39:32
+2022-07-22 10:41:36 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-22 10:41:36 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-22 10:41:36 0 [Note] InnoDB: Starting shutdown...
+2022-07-22 10:41:36 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-22 10:41:36 0 [Note] InnoDB: Buffer pool(s) dump completed at 220722 10:41:36
+2022-07-22 10:41:37 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-22 10:41:37 0 [Note] InnoDB: Shutdown completed; log sequence number 386414; transaction id 779
+2022-07-22 10:41:37 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-22 10:43:00 0 [Note] InnoDB: Uses event mutexes
+2022-07-22 10:43:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-22 10:43:00 0 [Note] InnoDB: Number of pools: 1
+2022-07-22 10:43:00 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-22 10:43:00 0 [Note] InnoDB: Using Linux native AIO
+2022-07-22 10:43:00 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-22 10:43:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-22 10:43:00 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-22 10:43:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-22 10:43:00 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-22 10:43:00 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-22 10:43:00 0 [Note] InnoDB: 10.5.16 started; log sequence number 386414; transaction id 758
+2022-07-22 10:43:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-22 10:43:00 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-22 10:43:00 0 [Note] Reading of all Master_info entries succeeded
+2022-07-22 10:43:00 0 [Note] Added new Master_info '' to hash table
+2022-07-22 10:43:00 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-22 10:43:00 0 [Note] InnoDB: Buffer pool(s) load completed at 220722 10:43:00
+2022-07-23 11:11:38 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-23 11:11:38 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-23 11:11:38 0 [Note] InnoDB: Starting shutdown...
+2022-07-23 11:11:38 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-23 11:11:38 0 [Note] InnoDB: Buffer pool(s) dump completed at 220723 11:11:38
+2022-07-23 11:11:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-23 11:11:38 0 [Note] InnoDB: Shutdown completed; log sequence number 386426; transaction id 779
+2022-07-23 11:11:38 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-07-23 11:12:56 0 [Note] InnoDB: Uses event mutexes
+2022-07-23 11:12:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-23 11:12:56 0 [Note] InnoDB: Number of pools: 1
+2022-07-23 11:12:56 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-23 11:12:56 0 [Note] InnoDB: Using Linux native AIO
+2022-07-23 11:12:56 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-07-23 11:12:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-23 11:12:56 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-23 11:12:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-07-23 11:12:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-07-23 11:12:56 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-07-23 11:12:56 0 [Note] InnoDB: 10.5.16 started; log sequence number 386426; transaction id 758
+2022-07-23 11:12:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-23 11:12:56 0 [Note] InnoDB: Loading buffer pool(s) from /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-23 11:12:56 0 [Note] Reading of all Master_info entries succeeded
+2022-07-23 11:12:56 0 [Note] Added new Master_info '' to hash table
+2022-07-23 11:12:56 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.5.16-MariaDB'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  MariaDB Server
+2022-07-23 11:12:56 0 [Note] InnoDB: Buffer pool(s) load completed at 220723 11:12:56
+2022-07-23 11:19:00 0 [Note] /usr/sbin/mysqld (initiated by: unknown): Normal shutdown
+2022-07-23 11:19:00 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-07-23 11:19:00 0 [Note] InnoDB: Starting shutdown...
+2022-07-23 11:19:00 0 [Note] InnoDB: Dumping buffer pool(s) to /home/tommi/.local/share/akonadi/db_data/ib_buffer_pool
+2022-07-23 11:19:00 0 [Note] InnoDB: Buffer pool(s) dump completed at 220723 11:19:00
+2022-07-23 11:19:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-07-23 11:19:01 0 [Note] InnoDB: Shutdown completed; log sequence number 386438; transaction id 779
+2022-07-23 11:19:01 0 [Note] /usr/sbin/mysqld: Shutdown complete
+

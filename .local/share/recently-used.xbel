@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+  <bookmark href="file:///home/tommi/Screenshot_20220721_112020.png" added="2022-07-21T08:20:41.142939Z" modified="2022-07-21T08:20:41.142943Z" visited="2022-07-21T08:20:41.142940Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="discord-bin" exec="'discord-bin %u'" modified="2022-07-21T08:20:41.142941Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/.local/share/Steam/steamapps/common/Cyberpunk%202077" added="2022-07-21T10:33:44.563000Z" modified="2022-07-21T10:33:52.843000Z" visited="2022-07-21T10:33:52.843000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.dolphin" exec="dolphin %u %u" modified="2022-07-21T10:33:52.843000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/FidelityFx%20Super%20Resolution%202.0-3001-0-6-1657301324.rar" added="2022-07-21T10:35:42.342000Z" modified="2022-07-21T10:35:42.342000Z" visited="2022-07-21T10:35:42.342000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.rar"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:35:42.342000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Panam%20Enhanced%20Body%20V1.02-4843-1-02-1657907929.zip" added="2022-07-21T10:36:07.654000Z" modified="2022-07-21T10:36:07.654000Z" visited="2022-07-21T10:36:07.654000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:36:07.654000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/ifp-1.2.1-2675-1-2-1-1645302659.zip" added="2022-07-21T10:36:19.210000Z" modified="2022-07-21T10:36:19.210000Z" visited="2022-07-21T10:36:19.210000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:36:19.210000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/GTA%20Travel%201.8-2006-1-8-1648321340.zip" added="2022-07-21T10:37:02.111000Z" modified="2022-07-21T10:37:02.111000Z" visited="2022-07-21T10:37:02.111000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:37:02.111000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Game%20version%201.52.1-107-1-19-5-1649161923.zip" added="2022-07-21T10:37:07.827000Z" modified="2022-07-21T10:37:07.827000Z" visited="2022-07-21T10:37:07.827000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:37:07.827000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Enhanced%20Police-1672-4-0-0Beta-1645283532.zip" added="2022-07-21T10:37:16.521000Z" modified="2022-07-21T10:37:16.521000Z" visited="2022-07-21T10:37:16.521000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:37:16.521000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/redscript-1511-0-5-5-1656794708.zip" added="2022-07-21T10:37:22.281000Z" modified="2022-07-21T10:37:22.281000Z" visited="2022-07-21T10:37:22.281000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:37:22.281000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Metro%20System%201.3-3560-1-3-1647471369.zip" added="2022-07-21T10:37:28.738000Z" modified="2022-07-21T10:37:28.738000Z" visited="2022-07-21T10:37:28.738000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:37:28.738000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/God%20Mode-751-1-10-0-1613093519.7z" added="2022-07-21T10:37:45.492000Z" modified="2022-07-21T10:37:45.492000Z" visited="2022-07-21T10:37:45.492000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-7z-compressed"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:37:45.492000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Zoomable%20Scopes%201.2-3543-1-2-1643634132.zip" added="2022-07-21T10:38:32.298000Z" modified="2022-07-21T10:38:32.298000Z" visited="2022-07-21T10:38:32.298000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:38:32.298000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Weather%20Randomisation-4388-1-0-1650565646.zip" added="2022-07-21T10:38:44.684000Z" modified="2022-07-21T10:38:44.684000Z" visited="2022-07-21T10:38:44.684000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:38:44.684000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Triple%20Jump-2474-1-1-1629675408.zip" added="2022-07-21T10:38:52.416000Z" modified="2022-07-21T10:38:52.416000Z" visited="2022-07-21T10:38:52.416000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:38:52.416000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/CP77%20Discord%20RPC-986-3-0h2-1646083337.zip" added="2022-07-21T10:39:09.125000Z" modified="2022-07-21T10:39:09.125000Z" visited="2022-07-21T10:39:09.125000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:39:09.125000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Playable%20Arcade%20Machines%201.0-4213-1-0-1648370593.zip" added="2022-07-21T10:39:29.117000Z" modified="2022-07-21T10:39:29.117000Z" visited="2022-07-21T10:39:29.117000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:39:29.117000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Appearance%20Menu%20Mod-790-1-14-3-1655602372.zip" added="2022-07-21T10:39:36.978000Z" modified="2022-07-21T10:39:36.978000Z" visited="2022-07-21T10:39:36.978000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:39:36.978000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Perfectly%20Thicc%20V%20-%20TPP%20Support-4143-3-0-1647777290.rar" added="2022-07-21T10:39:51.079000Z" modified="2022-07-21T10:39:51.079000Z" visited="2022-07-21T10:39:51.079000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.rar"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:39:51.079000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Stone%20Manor%20Full%20Install-%20Includes%20Hotfix%201.1-4371-1-1-1650316837.zip" added="2022-07-21T10:40:21.994000Z" modified="2022-07-21T10:40:21.994000Z" visited="2022-07-21T10:40:21.994000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:40:21.994000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Ultimate%20Damage%20Control-4468-1-0-1651793715.zip" added="2022-07-21T10:40:55.959000Z" modified="2022-07-21T10:40:55.959000Z" visited="2022-07-21T10:40:55.959000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:40:55.959000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Car%20Modification%20Shop-4034-1-0-3-1-1646778382.zip" added="2022-07-21T10:41:03.174000Z" modified="2022-07-21T10:41:03.174000Z" visited="2022-07-21T10:41:03.174000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:41:03.174000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/FreeFly%201.9-780-1-9-1637412753.zip" added="2022-07-21T10:41:47.080000Z" modified="2022-07-21T10:41:47.080000Z" visited="2022-07-21T10:41:47.080000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:41:47.080000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Simple%20XP%20Multiplier-3136-2-2-1645050676.zip" added="2022-07-21T10:42:21.902000Z" modified="2022-07-21T10:42:21.902000Z" visited="2022-07-21T10:42:21.902000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:42:21.902000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/Native%20Settings%20UI%201.7-3518-1-7-1656797887.zip" added="2022-07-21T10:42:27.603000Z" modified="2022-07-21T10:42:27.603000Z" visited="2022-07-21T10:42:27.603000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T10:42:27.603000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/.local/share/Steam/steamapps/common/Cyberpunk%202077/DisableSignatureOverride.reg" added="2022-07-21T10:45:31.355000Z" modified="2022-07-21T10:45:39.307000Z" visited="2022-07-21T10:45:39.307000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-ms-regedit"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kwrite" exec="kwrite %U %u" modified="2022-07-21T10:45:39.307000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Downloads/March%202022%20Sales.xlsx" added="2022-07-21T11:03:54.047000Z" modified="2022-07-21T11:03:55.276000Z" visited="2022-07-21T11:03:55.276000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-21T11:03:54.047000Z" count="1"/>
+          <bookmark:application name="libreoffice-calc" exec="libreoffice --calc %U %u" modified="2022-07-21T11:03:55.276000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://pawsa.fedorapeople.org/balsa/" added="2022-07-21T11:28:37.754000Z" modified="2022-07-21T11:28:37.754000Z" visited="2022-07-21T11:28:37.754000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="brave-browser" exec="/usr/bin/brave-browser-stable %U %u" modified="2022-07-21T11:28:37.754000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://framagit.org/razer/bubblemail/tree/devel" added="2022-07-21T11:29:13.768000Z" modified="2022-07-21T11:29:13.768000Z" visited="2022-07-21T11:29:13.768000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="brave-browser" exec="/usr/bin/brave-browser-stable %U %u" modified="2022-07-21T11:29:13.768000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tommi/Screenshot_20220722_090529.png" added="2022-07-22T06:05:34.888000Z" modified="2022-07-22T06:12:19.161000Z" visited="2022-07-22T06:12:19.161000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.spectacle" exec="/usr/bin/spectacle %u" modified="2022-07-22T06:05:34.949000Z" count="2"/>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %U %u" modified="2022-07-22T06:05:37Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="'gimp-2.10 %u'" modified="2022-07-22T06:09:01.886263Z" count="4"/>
+        <bookmark:application name="org.freedesktop.impl.portal.desktop.kde" exec="/usr/libexec/xdg-desktop-portal-kde %u" modified="2022-07-22T06:12:19.161000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://github.com/hydrogen-music/hydrogen/issues" added="2022-07-22T09:11:10.285000Z" modified="2022-07-22T09:11:10.285000Z" visited="2022-07-22T09:11:10.285000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="brave-browser" exec="/usr/bin/brave-browser-stable %U %u" modified="2022-07-22T09:11:10.285000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

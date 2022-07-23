@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Vampire: The Masquerade - Bloodhunt
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/760160
+Icon=steam_icon_760160
+Terminal=false
+Type=Application
+Categories=Game;

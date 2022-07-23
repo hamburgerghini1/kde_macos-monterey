@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=METAL GEAR SOLID V: GROUND ZEROES
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/311340
+Icon=steam_icon_311340
+Terminal=false
+Type=Application
+Categories=Game;

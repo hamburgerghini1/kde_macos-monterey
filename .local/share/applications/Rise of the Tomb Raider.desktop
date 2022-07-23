@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Rise of the Tomb Raider
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/391220
+Icon=steam_icon_391220
+Terminal=false
+Type=Application
+Categories=Game;

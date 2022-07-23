@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Name=March 2022 Sales.xlsx
+Type=Link
+URL[$e]=file:$HOME/Downloads/March 2022 Sales.xlsx
+X-KDE-LastOpenedWith=libreoffice-calc

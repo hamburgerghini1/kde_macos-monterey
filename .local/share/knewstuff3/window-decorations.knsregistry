@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="114">
+  <name>Monterey aurorae theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1567564</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>43441</downloads>
+  <installedfile>/home/tommi/.local/share/aurorae/themes/Monterey-dark/*</installedfile>
+  <installedfile>/home/tommi/.local/share/aurorae/themes/Monterey/*</installedfile>
+  <id>1567564</id>
+  <releasedate>2021-08-02</releasedate>
+  <summary>Monterey theme for KDE Plasma</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1567564/ad2aae0df61ba06b53fb73d40cccff2d1b30e3d293a5956c8b31c73721ad4023b880.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1567564/ad2aae0df61ba06b53fb73d40cccff2d1b30e3d293a5956c8b31c73721ad4023b880.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Mjc4ODc5MjYiLCJvIjoiMSIsInMiOiJlN2ZmMjE2MWY2NDI5MTY2ZmJjNGYxYjYwY2ZhYzFhNjUzNzEyYzJjODNiMWM3ZDM0NTZlOWIzODEyMzExODMxZjhjMDU4Zjg0M2VjODFlZWE3MzczYmIxYzI1ZTUzZDM5M2MwNWFhNjViMjRhMjFkMTMxOTgzZGU5NmRmMjJiNCIsInQiOjE2NTgwNTkwMzYsInN0ZnAiOm51bGwsInN0aXAiOiI4NC4yNDkuMTkuMTA1In0.7zLF86_w_SxNrwMKYqPQf2tfXhKkep_8q-TsHOzGdsg/themes.tar.gz</payload>
+  <tags>unix,plasma,original-product,theme,linux,gplv3,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

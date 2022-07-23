@@ -1,0 +1,28 @@
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Starting up the Akonadi Server...
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserv2022-07-23T11:20:12 [WARN ] org.kde.pim.akonadicontrol: Reference to unknown agent type "akonadi_archivemail_agent" in agentsrc, creating a fake entry.
+2022-07-23T11:20:12 [WARN ] org.kde.pim.akonadicontrol: Reference to unknown agent type "a2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f10600050c0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f10600050c0) identified as "ETMCalendarMonitor - 94441086624976"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f106002f5c0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060030ca0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060030280) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f10600164b0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f106004fea0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f10600592e0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060062aa0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060063e50) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060077270) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060078680) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f106002f5c0) identified as "AgentBaseChangeRecorder - 94221719856016"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060030ca0) identified as "AgentBaseChangeRecorder - 94351697734336"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060093120) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: New notification connection (registered as Akonadi::Server::NotificationSubscriber(0x7f1060088fe0) )
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060030280) identified as "AgentBaseChangeRecorder - 94539170474864"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060078680) identified as "akonadi_birthdays_resource - 94539170528592"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f10600164b0) identified as "AgentBaseChangeRecorder - 94776368506144"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f106004fea0) identified as "AgentBaseChangeRecorder - 93929580028368"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060062aa0) identified as "AgentBaseChangeRecorder - 94542226702800"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060063e50) identified as "AgentBaseChangeRecorder - 94665694843584"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f10600592e0) identified as "AgentBaseChangeRecorder - 94080737922208"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060093120) identified as "akonadi_maildispatcher_agent - 94080737970832"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060088fe0) identified as "SpecialCollectionsMonitor - 94080737899984"
+2022-07-23T11:20:12 [INFO ] org.kde.pim.akonadiserver: Subscriber Akonadi::Server::NotificationSubscriber(0x7f1060077270) identified as "AgentBaseChangeRecorder - 94492042330400"

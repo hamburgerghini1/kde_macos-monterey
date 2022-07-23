@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=The Witcher Enhanced Edition Director's Cut [Safe Mode]
+Exec=env WINEPREFIX="/home/tommi/Games/gog/the-witcher-enhanced-edition" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\The\\ Witcher\\ Enhanced\\ Edition\\ [GOG.com]\\\\The\\ Witcher\\ Enhanced\\ Edition\\ Director\\'s\\ Cut\\ [Safe\\ Mode].lnk
+Type=Application
+StartupNotify=true
+Path=/home/tommi/Games/gog/the-witcher-enhanced-edition/dosdevices/c:/GOG Games/The Witcher Enhanced Edition/System
+Icon=34EC_goggame-1207658924.0
+StartupWMClass=witcher.exe

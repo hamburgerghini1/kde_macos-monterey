@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gparted.desktop" score="4" last-seen="1657996099"/>
+    <application id="ca.desrt.dconf-editor.desktop" score="0" last-seen="1658042518"/>
+    <application id="org.gnome.FileRoller.desktop" score="0" last-seen="1658041575"/>
+    <application id="brave-browser.desktop" score="604" last-seen="1658054913"/>
+    <application id="org.gnome.Software.desktop" score="39" last-seen="1658054299"/>
+    <application id="com.heroicgameslauncher.hgl.desktop" score="53" last-seen="1658049425"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="13" last-seen="1658042184"/>
+    <application id="virt-manager.desktop" score="218" last-seen="1658053513"/>
+    <application id="steam.desktop" score="6206" last-seen="1658054615"/>
+    <application id="discord.desktop" score="75" last-seen="1658054914"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="0" last-seen="1658042159"/>
+    <application id="org.gnome.Nautilus.desktop" score="20" last-seen="1658054998"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="2" last-seen="1658045735"/>
+    <application id="microsoft-edge.desktop" score="29" last-seen="1658050827"/>
+    <application id="org.gnome.tweaks.desktop" score="5" last-seen="1658054293"/>
+    <application id="org.gnome.TextEditor.desktop" score="7" last-seen="1658041048"/>
+    <application id="org.gnome.Terminal.desktop" score="310" last-seen="1658054912"/>
+    <application id="firefox.desktop" score="55" last-seen="1658040522"/>
+    <application id="org.gnome.DiskUtility.desktop" score="28" last-seen="1657995827"/>
+    <application id="ulauncher.desktop" score="3" last-seen="1658054191"/>
+    <application id="net.lutris.Lutris.desktop" score="18" last-seen="1658051285"/>
+    <application id="com.spotify.Client.desktop" score="33" last-seen="1658054372"/>
+    <application id="org.gnome.Settings.desktop" score="25" last-seen="1658053902"/>
+  </context>
+</application-state>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="104">
+  <name>Monterey plasma dark theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1567587</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>68</rating>
+  <downloads>1170</downloads>
+  <installedfile>/home/tommi/.local/share/plasma/desktoptheme/Monterey-dark</installedfile>
+  <id>1567587</id>
+  <releasedate>2022-07-09</releasedate>
+  <summary>Monterey theme for KDE Plasma&lt;br />
+-----------&lt;br />
+Montery kvantum theme: &lt;a href="https://www.pling.com/p/1567581/" target="_blank" rel="nofollow">https://www.pling.com/p/1567581/&lt;/a>&lt;br />
+-----------&lt;br />
+Icon theme: &lt;a href="https://www.gnome-look.org/p/1405756/" target="_blank" rel="nofollow">https://www.gnome-look.org/p/1405756/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1567587/bf3dbb7b05cdcf1f46d94ff13104cc22609b97a60363d466f27dfb4ed52ba85881a3.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1567587/bf3dbb7b05cdcf1f46d94ff13104cc22609b97a60363d466f27dfb4ed52ba85881a3.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTczNzkxNTUiLCJvIjoiMSIsInMiOiI1NzVkMDgxZWUyYzI4MjM4ODllYmVkN2NjZDUzZTU1MjdjYjM3MGYxNmY5NTMzMGFjZDkwZGI1NjY3MzY5NWEwMmQzNjA1NDU5NzY3NWFhZDZhNWJjMWQxODBhZGUzMzY0NTYyNTBkMDY0OGZmMTBiZWQ2MmU1MDFhM2IyODY0YiIsInQiOjE2NTgwNTkwMzQsInN0ZnAiOm51bGwsInN0aXAiOiI4NC4yNDkuMTkuMTA1In0.0mCOBOy6MrGIq4S_bEURzF9CbgkE3aJG6Vrv4Wbi3z8/Monterey-dark.tar.gz</payload>
+  <tags>linux,kde,gplv3,unix,theme,original-product,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="104">
+  <name>Monterey plasma theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1567562</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>60</rating>
+  <downloads>831</downloads>
+  <installedfile>/home/tommi/.local/share/plasma/desktoptheme/Monterey</installedfile>
+  <id>1567562</id>
+  <releasedate>2022-07-09</releasedate>
+  <summary>Monterey theme for KDE Plasma&lt;br />
+-----------&lt;br />
+Montery kvantum theme: &lt;a href="https://www.pling.com/p/1567581/" target="_blank" rel="nofollow">https://www.pling.com/p/1567581/&lt;/a>&lt;br />
+-----------&lt;br />
+Icon theme: &lt;a href="https://www.gnome-look.org/p/1405756/" target="_blank" rel="nofollow">https://www.gnome-look.org/p/1405756/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1567562/5bb9caad8809a8a76afb1c01baae22929e64b9da24791c56550627518e6617397193.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1567562/5bb9caad8809a8a76afb1c01baae22929e64b9da24791c56550627518e6617397193.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTczNzg2ODMiLCJvIjoiMSIsInMiOiI4YzIxYTAyMzhjNDY2ZDAwZmRhYWRhODk4ZjFlZjc4M2UzNjRiMjlkOWFiM2UxNWE1NDUyMWE5Mzc0MjlkYjZlYTE4MTNkMjI5MjQ5YWE1MTEzMGY4MjBjY2M4MmI2NTdiYWY4YTAwNjAwOTA5NWFlMzJkMWQ2MmY5NWRmMzczNyIsInQiOjE2NTgwNjA3OTQsInN0ZnAiOm51bGwsInN0aXAiOiI4NC4yNDkuMTkuMTA1In0.eQQPDyWmgx-oSJlnz1tegcjerFjhHVGAXATprSX-mC4/Monterey.tar.gz</payload>
+  <tags>gplv3,kde,linux,original-product,theme,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

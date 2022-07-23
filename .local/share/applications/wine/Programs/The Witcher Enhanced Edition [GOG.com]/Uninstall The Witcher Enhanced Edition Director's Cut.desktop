@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall The Witcher Enhanced Edition Director's Cut
+Exec=env WINEPREFIX="/home/tommi/Games/gog/the-witcher-enhanced-edition" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\The\\ Witcher\\ Enhanced\\ Edition\\ [GOG.com]\\\\Uninstall\\ The\\ Witcher\\ Enhanced\\ Edition\\ Director\\'s\\ Cut.lnk
+Type=Application
+StartupNotify=true
+Path=/home/tommi/Games/gog/the-witcher-enhanced-edition/dosdevices/c:/GOG Games/The Witcher Enhanced Edition
+Icon=04BA_unins000.0
+StartupWMClass=unins000.exe

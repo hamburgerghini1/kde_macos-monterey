@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Readme
+Exec=env WINEPREFIX="/home/tommi/Games/gog/the-witcher-enhanced-edition" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\The\\ Witcher\\ Enhanced\\ Edition\\ [GOG.com]\\\\Readme.lnk
+Type=Application
+StartupNotify=true
+Path=/home/tommi/Games/gog/the-witcher-enhanced-edition/dosdevices/c:/GOG Games/The Witcher Enhanced Edition
+Icon=DE3F_Readme.0
+StartupWMClass=readme.rtf

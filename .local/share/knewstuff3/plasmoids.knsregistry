@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="105">
+  <name>Shutdown or Switch</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>davide-sd</author>
+  <homepage>https://store.kde.org/p/1288430</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>63</rating>
+  <downloads>42699</downloads>
+  <installedfile>/home/tommi/.local/share/plasma/plasmoids/org.kde.shutdownOrSwitch</installedfile>
+  <id>1288430</id>
+  <releasedate>2021-06-09</releasedate>
+  <summary>Plasma 5 widget for quick accessing the leave options (shutdown, reboot, suspend, logout) or to quickly switch between different users. This is a customized version of the widget User Switcher created by Kai Uwe Broulik. It provides a lot more configuration options. &lt;br />
+&lt;br />
+The default version only shows a shutdown icon on the widget: when clicked it launch the "Leave Dialog" where you can decide what to do. This is a quicker way to access these options than using the Application launcher. You can also configure it to work as the original User Switcher and you can hide certain menu options, change icon sizes and more.&lt;br />
+&lt;br />
+Please note that this version has been only tested in the horizontal panel. Next updates will focus on adjusting the same functionality also on the vertical panels.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/52/56/44/1288430/d9291f8621d2120114f35a1ad379c14a1ea0.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/52/56/44/1288430/d9291f8621d2120114f35a1ad379c14a1ea0.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MjMyNjA4OTIiLCJvIjoiMSIsInMiOiIzYzBkY2RiMjA4MzBkNGQzMjEwNWFlOWFkNmNkMWM0ZThmNjVmMmE5YTAwYTI1NmJjNDUzODI5MWVlMDczYzYwZGYyM2QyYjM0MGViMTllNjY4NTRhM2FlYTZiZDYzYzhiODc5NmRmYjIwNmE3YzE3OWU1M2M3MDgzMGQ3NzVlYyIsInQiOjE2NTgxMjM3NzQsInN0ZnAiOm51bGwsInN0aXAiOiI4NC4yNDkuMTkuMTA1In0.G_RW6Gw0grrsyrRQe4w9IuVDthcvYl1DhICS-PjFfHk/shutdownOrSwitch-20210609174709.plasmoid</payload>
+  <tags>reboot,plasma,plasma##majorversion=5,shutdown,switcher,linux,leave,gplv2-later,kde,extension,unix,user,widget</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="105">
+  <name>Currently Playing</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>junongx</author>
+  <homepage>https://store.kde.org/p/1821551</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>687</downloads>
+  <installedfile>/home/tommi/.local/share/plasma/plasmoids/com.junongx.kde.currentlyplaying</installedfile>
+  <id>1821551</id>
+  <releasedate>2022-06-08</releasedate>
+  <summary>A minimal media info widget for KDE Plasma, displaying the title and artist of the item currently playing.&lt;br />
+&lt;br />
+Features&lt;br />
+ - Display of current media using the data engine `mpris2`&lt;br />
+ - Switch sequence of track title and artist&lt;br />
+ - Customizable separator string between...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/44/36/1821551/screenshot-20220609-000705.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/44/36/1821551/screenshot-20220609-000705.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTQ3MDUyMTAiLCJvIjoiMSIsInMiOiJmYWY2ZDAwODM4YmIwMmMwNDdkZTE1OWU2NTMyNDQ4YjFkMzE2MzEwMzBlZjQ4ZWU4YzQwNDkxZjkwMGIyN2VjYWExMGJmNWU1ZDNkZWQ2MjAyYmM4NzYyNTI0OWI5ZmViODY0MDNhMWY2ODA1MTAxNzM3NTFjMDYzNDQwNDJmYyIsInQiOjE2NTgxMjQzOTcsInN0ZnAiOm51bGwsInN0aXAiOiI4NC4yNDkuMTkuMTA1In0.qGyooCtgFPRMdSrDANA9DAL5RMKErDySnp6hMCQL6tk/currentlyplaying-v1.0.plasmoid</payload>
+  <tags>extension,plasma,plasma##majorversion=5,plasma5,original-product,widget,unix,kde,kde5,media,linux,mit-license</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

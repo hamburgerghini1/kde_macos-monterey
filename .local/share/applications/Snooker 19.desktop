@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Snooker 19
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/887800
+Icon=steam_icon_887800
+Terminal=false
+Type=Application
+Categories=Game;
