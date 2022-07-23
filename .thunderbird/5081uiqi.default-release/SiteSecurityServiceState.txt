@@ -1,2 +1,0 @@
-location.services.mozilla.com:HSTS	0	19194	1689939705704,1,1,2
-autoconfig.thunderbird.net:HSTS	0	19194	1689939705646,1,0,2
