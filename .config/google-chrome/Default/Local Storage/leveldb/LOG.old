@@ -1,0 +1,12 @@
+2022/07/19-08:02:25.139 3 Reusing MANIFEST /home/tommi/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/07/19-08:02:25.139 3 Recovering log #6
+2022/07/19-08:02:25.146 3 Level-0 table #9: started
+2022/07/19-08:02:25.158 3 Level-0 table #9: 770966 bytes OK
+2022/07/19-08:02:25.159 3 Recovering log #8
+2022/07/19-08:02:25.165 3 Level-0 table #10: started
+2022/07/19-08:02:25.172 3 Level-0 table #10: 662307 bytes OK
+2022/07/19-08:02:25.174 3 Delete type=0 #6
+2022/07/19-08:02:25.174 3 Delete type=0 #8
+2022/07/19-08:06:13.781 3 Level-0 table #13: started
+2022/07/19-08:06:13.784 3 Level-0 table #13: 153025 bytes OK
+2022/07/19-08:06:13.785 3 Delete type=0 #11

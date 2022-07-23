@@ -1,0 +1,40 @@
+{
+   "checksum": "8e27a8dc2113d05f1ae4232ce4a4f200",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13302680867942060",
+            "guid": "c54dd346-9fca-4958-aca8-4b929849c077",
+            "id": "5",
+            "name": "Join conversation",
+            "type": "url",
+            "url": "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NDI4ZDBkOWQtYzdhYy00M2VjLTk4YTAtOTY4MThhNDI5NGMz%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522c31c694d-6170-412a-ba37-0dd03df4040d%2522%252c%2522Oid%2522%253a%252205f260ce-7bb2-4ca8-8782-83c7357ba12b%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=9c0c0a65-be6b-4f82-b60b-0fde826fc61c&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
+         } ],
+         "date_added": "13302680545135840",
+         "date_modified": "13302680867942060",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13302680545135841",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13302680545135842",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

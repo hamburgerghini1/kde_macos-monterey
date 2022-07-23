@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------------
+[17 Jul 2022, 9:31:46.8 am:ERROR:refill_unblinded_tokens.cc(200)] Failed to get signed tokens
+--------------------------------------------------------------------------------
+[17 Jul 2022, 9:45:16.1 am:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 9:50:15.7 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 9:59:02.3 am:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 9:59:02.3 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 10:15:26.6 am:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 10:15:26.6 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 10:23:30.5 am:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 10:23:30.5 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 11:10:34.4 am:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 11:10:34.4 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 11:20:52.6 am:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 11:28:49.3 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 12:57:43.4 pm:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 12:57:43.4 pm:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Jul 2022, 1:45:14.1 pm:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 1:45:14.1 pm:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 1:45:15.2 pm:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 1:45:28.6 pm:ERROR:publisher.cc(774)] Publisher info not found
+[17 Jul 2022, 1:45:28.6 pm:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[22 Jul 2022, 9:45:12.9 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+--------------------------------------------------------------------------------
+[22 Jul 2022, 10:44:03.5 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+--------------------------------------------------------------------------------
+[22 Jul 2022, 10:45:35.1 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+[22 Jul 2022, 10:45:47.6 am:ERROR:publisher.cc(774)] Publisher info not found
+[22 Jul 2022, 10:45:47.6 am:ERROR:publisher.cc(774)] Publisher info not found
+[22 Jul 2022, 10:46:11.9 am:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[22 Jul 2022, 11:03:57.9 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+--------------------------------------------------------------------------------
+[22 Jul 2022, 11:46:28.9 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+[22 Jul 2022, 12:11:12.3 pm:ERROR:publisher.cc(845)] Failed to retrieve publisher info while updating media duration
+[22 Jul 2022, 12:11:12.8 pm:ERROR:publisher.cc(774)] Publisher info not found
+[22 Jul 2022, 12:11:12.8 pm:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[22 Jul 2022, 12:13:27.9 pm:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+[22 Jul 2022, 12:29:58.9 pm:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[22 Jul 2022, 9:11:51.6 pm:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+--------------------------------------------------------------------------------
+[23 Jul 2022, 11:18:20.5 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+--------------------------------------------------------------------------------
+[23 Jul 2022, 11:21:04.3 am:ERROR:legacy_rewards_migration.cc(25)] Failed to migrate rewards state
+[23 Jul 2022, 11:21:31.9 am:ERROR:publisher.cc(774)] Publisher info not found
+[23 Jul 2022, 11:22:43.9 am:ERROR:publisher.cc(774)] Publisher info not found
+[23 Jul 2022, 11:26:33.3 am:ERROR:publisher.cc(774)] Publisher info not found
+[23 Jul 2022, 11:26:33.3 am:ERROR:publisher.cc(774)] Publisher info not found

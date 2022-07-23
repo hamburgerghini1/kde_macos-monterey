@@ -1,0 +1,55 @@
+{
+   "checksum": "e83bee810b3a9c68e69d22b05f5da37f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13302524260909366",
+            "guid": "2fefe085-52d0-4f40-b386-8d738415e9f6",
+            "id": "7",
+            "name": "Xbox Cloud Gaming (Beta) on Xbox.com",
+            "show_icon": false,
+            "source": "user_add",
+            "type": "url",
+            "url": "https://www.xbox.com/en-US/play"
+         } ],
+         "date_added": "13302524216017108",
+         "date_modified": "13302524260909366",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favourites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13302524216017110",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favourites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13259835267597440",
+            "guid": "f0b62a5a-b45c-4a11-859e-f2475f65e328",
+            "id": "6",
+            "name": "ETampuuri",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://identity.etampuuri.fi/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dumbraco-toas%26redirect_uri%3Dhttps%253A%252F%252Fomatoas.toas.fi%252Fsignin-oidc%26response_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520eTampuuri.Mikropalvelu.Demo.Api%2520offline_access%26state%3DOpenIdConnect.AuthenticationProperties%253Dl5Tj89BZ8VNHGtL8QGJ899_wJMvX2kuL4q9JtV2fS4fVpIYLckVsgaF6dLa9C-ao910zkfpnRgxUcLet5bFjjucM6eys_XDf5BVN7nNC8O82Pb2SxETrZCgGzO2e5E-QQDWtXTcBZAHP_5O2c1CXW590LcjuoRbCq5VjEXwH6APvq0mNzh97RzGIj6kaqZ73CZmlDulC1q7FK_zP6d8C_r5B_MykhAzCPXBR9Qi7kJe4PH25u0MHhA8cRBcqj_TT%26nonce%3D637509584502505631.ZDNmYTI5N2YtMmYwMi00NDBmLWJmMjYtMGI3M2M1M2ExMTU4YmQ5MzY1ZDUtZjA4NC00MzAxLTliOTItZGUyNDlmZjFmYWU5"
+         } ],
+         "date_added": "13302524216017113",
+         "date_modified": "13259835267597440",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favourites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Ci4KDgiIgQISCNcahguCAQAAEgAgASoYemJlYlhtUklzZ09OZ3FmbWRxNkNpdz09EqcBCAcSogEKHDJORm8vb0d2SmVIT3JqVitReHVqRFF4cWVxMD0SJDJmZWZlMDg1LTUyZDAtNGY0MC1iMzg2LThkNzM4NDE1ZTlmNhgAIAIoAjDvvZjcoDA407WY3KAwQNW1mNygMEocQU5ZY254aTdHeGtob2YzdlQyQWFSZ0swSXgwPVoeIhwrMEMxMEdLem5Rb0N4dHU4N1F5S1U1cGhaajA9ZYZfdaoSiQEIARKEAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkOWIwY2QyYzQtOWY0Zi01YTk4LWE3NmMtMThhYjE4NTFiMjUwGAAgACgAMNjFl+2rLjisxJftqy5ArMSX7asuShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKnAQgGEqIBChxvSVlqTmNvRmdWZ1RBQ0lvMnF2bWdNVG9Bc1E9EiRmMGI2MmE1YS1iNDVjLTRhMTEtODU5ZS1mMjQ3NWY2NWUzMjgYACAAKAAwyv2U8IUvOP/zlPCFL0D/85TwhS9KHGNEc3RCK2dWOUpic3FHL1hqVjhHNjV3TUdiRT1aHiIcVSsrU3F3czJieXl1N2RxbHk5bm54aFN5dnZ3PWW1hKPfEokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGJiMGE3NDQ1LTViZDctNWVkYi1hZmNmLTYyZGVlNzdkNDAxMhgAIAAoADDZxZftqy44rMSX7asuQKzEl+2rLkocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASiQEIAxKEAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkMzI2OTllZDgtZDk1Mi01MzgxLWE2ODEtYWJlNzg4ZGQ1YzUwGAAgACgAMN3Fl+2rLjisxJftqy5ArMSX7asuShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAADAAOAA=",
+   "version": 1
+}

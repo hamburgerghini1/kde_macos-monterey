@@ -2,13 +2,13 @@
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
 [GuiConfig]
-window-position=50,28
+window-position=38,28
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Pictures/Screenshot_20220617_173524.png,file:$HOME/Documents/tiliotteet/Screenshot_20220618_114315.png
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Documents/tiliotteet/
+Recent Files[$e]=file:$HOME/Screenshot_20220721_112020.png,file:$HOME/Screenshot_20220722_090529.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/
 detailViewIconSize=16
 
 [Save]
-lastSaveAsLocation=file:///home/tommi/Documents/tiliotteet/Screenshot_20220618_114315.png
-lastSaveLocation=file:///home/tommi/Documents/tiliotteet/Screenshot_20220618_114315.png
+lastSaveAsLocation=file:///home/tommi/Screenshot_20220722_090529.png
+lastSaveLocation=file:///home/tommi/Screenshot_20220722_090529.png

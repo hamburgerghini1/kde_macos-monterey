@@ -1,0 +1,14 @@
+game:
+  exe: drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe
+  prefix: /home/tommi/Games/ea-desktop
+system:
+  env:
+    LC_ALL: en_US.utf-8
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/tommi/Games/ea-desktop
+  mangohud: true
+  resolution: 'off'
+wine:
+  battleye: false
+  eac: false
+  version: lutris-GE-Proton7-21-x86_64

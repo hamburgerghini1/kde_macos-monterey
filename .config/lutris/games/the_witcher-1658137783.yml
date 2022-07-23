@@ -1,0 +1,22 @@
+game:
+  exe: /home/tommi/Games/gog/the-witcher-enhanced-edition/drive_c/GOG Games/The Witcher
+    Enhanced Edition/launcher.exe
+  launch_configs:
+  - exe: System\witcher.exe
+    name: The Witcher Enhanced Edition Director's Cut
+    working_dir: System
+  - exe: /home/tommi/Games/gog/the-witcher-enhanced-edition/drive_c/GOG Games/The
+      Witcher Enhanced Edition/manual.pdf
+    name: Manual
+  - exe: /home/tommi/Games/gog/the-witcher-enhanced-edition/drive_c/GOG Games/The
+      Witcher Enhanced Edition/readme.rtf
+    name: Readme
+  - args: -dontForceMinReqs
+    exe: /home/tommi/Games/gog/the-witcher-enhanced-edition/drive_c/GOG Games/The
+      Witcher Enhanced Edition/System//witcher.exe
+    name: The Witcher Enhanced Edition Director's Cut [Safe Mode]
+    working_dir: System
+  name: The Witcher Enhanced Edition Director's Cut
+system: {}
+wine:
+  version: lutris-7.2-2-x86_64

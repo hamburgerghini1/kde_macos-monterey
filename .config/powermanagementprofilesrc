@@ -1,17 +1,11 @@
 [AC]
 icon=battery-charging
 
-[AC][DPMSControl]
-idleTime=600
-lockBeforeTurnOff=0
-
 [AC][DimDisplay]
 idleTime=300000
 
-[AC][HandleButtonEvents]
-lidAction=1
-powerButtonAction=16
-powerDownAction=16
+[Activities][1b0d06ba-6e23-44ef-905f-c2551858a12a]
+mode=None
 
 [Battery]
 icon=battery-060
@@ -30,6 +24,7 @@ powerDownAction=16
 
 [Battery][SuspendSession]
 idleTime=600000
+suspendThenHibernate=false
 suspendType=1
 
 [LowBattery]
@@ -52,4 +47,5 @@ powerDownAction=16
 
 [LowBattery][SuspendSession]
 idleTime=300000
+suspendThenHibernate=false
 suspendType=1

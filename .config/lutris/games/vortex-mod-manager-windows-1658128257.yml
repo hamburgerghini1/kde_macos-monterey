@@ -1,0 +1,12 @@
+game:
+  arch: win64
+  exe: drive_c/Program Files/Black Tree Gaming Ltd/Vortex/Vortex.exe
+  prefix: /home/tommi/Games/vortex-mod-manager
+system: {}
+wine:
+  battleye: false
+  dxvk: true
+  eac: false
+  esync: false
+  fsync: false
+  version: system

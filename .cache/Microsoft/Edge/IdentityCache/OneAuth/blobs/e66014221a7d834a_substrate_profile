@@ -1,0 +1,73 @@
+{
+  "@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile","@odata.etag":"\"NAA=\"","profileId":"defaultItem","activities":[
+    
+  ],"accounts@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/accounts","accounts":[
+    {
+      "@odata.etag":"\"NAA=\"","accountLabel":null,"cid":-1846453710516026550,"puid":985154394454878,"passportMemberName":"hamburgerghini@outlook.com","userPrincipalName":"hamburgerghini@outlook.com","guid":null,"accountTenantId":null,"location":"FI","gender":null,"timeZone":null,"birthDay":17,"birthMonth":6,"birthYear":2003,"lcid":1035,"ageGroup":3,"id":"3338de42-8594-4e20-a25c-199a8970daa8"
+    }
+  ],"addresses@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/addresses","addresses":[
+    
+  ],"cloudServiceUsers@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/cloudServiceUsers","cloudServiceUsers":[
+    
+  ],"customAttributes@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/customAttributes","customAttributes":[
+    
+  ],"educations@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/educations","educations":[
+    
+  ],"emails@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/emails","emails":[
+    {
+      "@odata.etag":"\"NAA=\"","emailAddressLabel":null,"emailAddressName":null,"emailAddress":"hamburgerghini@outlook.com","isVerified":null,"isAlias":true,"isPrimary":true,"notificationPartners":null,"usedBy":"Msa","id":"44e7fcb0-e0dc-461c-a70e-7029b336ffa8"
+    }
+  ],"interests@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/interests","interests":[
+    
+  ],"languages@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/languages","languages":[
+    {
+      "@odata.etag":"\"NAA=\"","languageCultureCode":"FI","languageName":null,"languageUrl":null,"languageProficiency":null,"isInference":null,"isPreferredLanguage":null,"id":"c157946f-1e7b-46a5-a3de-81a348995db8"
+    }
+  ],"names@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/names","names":[
+    {
+      "@odata.etag":"\"NAA=\"","displayName":"Tommi P\u00f6ntinen","displayNameDefault":"Tommi P\u00f6ntinen","displayNameAlternate":"P\u00f6ntinen, Tommi","lastName":"P\u00f6ntinen","surname":null,"givenName":"Tommi","initials":null,"middleName":null,"maidenName":null,"title":null,"nickname":null,"suffix":null,"yomiGivenName":null,"yomiLastName":null,"yomiDisplayName":"","yomiDisplayNameAlternate":"","isPreferredName":null,"id":"4ccea333-fedc-4544-99c7-b2bf77eb0e48"
+    }
+  ],"phones@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/phones","phones":[
+    {
+      "@odata.etag":"\"NAA=\"","phoneNumberLabel":null,"phoneNumberName":null,"phoneNumber":"358409131890","isVerified":null,"isPrimary":false,"notificationPartners":null,"usedBy":"Msa","isAlias":true,"id":"1dce02f1-618e-4f07-bda2-c6bffc081668"
+    }
+  ],"positions@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/positions","positions":[
+    
+  ],"preferences@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/preferences","preferences":[
+    
+  ],"projects@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/projects","projects":[
+    
+  ],"skills@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/skills","skills":[
+    
+  ],"socialNetworkUsers@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/socialNetworkUsers","socialNetworkUsers":[
+    
+  ],"websites@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/websites","websites":[
+    
+  ],"anniversaries@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/anniversaries","anniversaries":[
+    
+  ],"directoryExtensionAttributes@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/directoryExtensionAttributes","directoryExtensionAttributes":[
+    
+  ],"educationalActivities@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/educationalActivities","educationalActivities":[
+    
+  ],"notes@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/notes","notes":[
+    
+  ],"responsibilities@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/responsibilities","responsibilities":[
+    
+  ],"topics@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/topics","topics":[
+    
+  ],"webAccounts@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/webAccounts","webAccounts":[
+    
+  ],"extensions@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/extensions","extensions":[
+    
+  ],"awards@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/awards","awards":[
+    
+  ],"publications@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/publications","publications":[
+    
+  ],"patents@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/patents","patents":[
+    
+  ],"certifications@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/certifications","certifications":[
+    
+  ],"pronouns@odata.context":"https://substrate.office.com/Profile/V1.0/me/$metadata#profile/pronouns","pronouns":[
+    
+  ]
+}

@@ -1,5 +1,25 @@
 [Applications][cider]
 Seen=true
 
+[Applications][com.heroicgameslauncher.hgl]
+Seen=true
+
+[Applications][com.spotify.Client]
+ShowBadges=false
+ShowInHistory=false
+ShowPopups=false
+
+[Applications][firefox]
+Seen=true
+
+[Applications][org.gnome.Software]
+Seen=true
+
+[Applications][org.mozilla.Thunderbird]
+Seen=true
+
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true
+
 [Notifications]
 PopupPosition=BottomRight

@@ -1,0 +1,12 @@
+[General]
+Default Identity=955944175
+
+[Identity #0]
+Default Domain=Fedora
+Disable Fcc=false
+Identity=Tommi
+Image Location=
+Inline Signature=
+Name=Tommi
+Signature Enabled=false
+uoid=955944175

@@ -1,6 +1,6 @@
-2022/06/17-20:09:50.235 706 Reusing MANIFEST /home/tommi/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/06/17-20:09:50.236 706 Recovering log #7
-2022/06/17-20:09:50.236 706 Reusing old log /home/tommi/.config/discord/Local Storage/leveldb/000007.log 
-2022/06/17-20:12:13.968 f82 Level-0 table #11: started
-2022/06/17-20:12:13.970 f82 Level-0 table #11: 14793 bytes OK
-2022/06/17-20:12:13.971 f82 Delete type=0 #7
+2022/07/23-11:15:18.363 934 Reusing MANIFEST /home/tommi/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/07/23-11:15:18.363 934 Recovering log #111
+2022/07/23-11:15:18.363 934 Reusing old log /home/tommi/.config/discord/Local Storage/leveldb/000111.log 
+2022/07/23-11:16:18.915 935 Level-0 table #115: started
+2022/07/23-11:16:18.916 935 Level-0 table #115: 15165 bytes OK
+2022/07/23-11:16:18.917 935 Delete type=0 #111

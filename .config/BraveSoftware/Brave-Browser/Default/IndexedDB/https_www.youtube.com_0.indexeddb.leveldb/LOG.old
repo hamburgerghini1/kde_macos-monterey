@@ -1,12 +1,12 @@
-2022/06/18-09:43:24.710 50d3 Reusing MANIFEST /home/tommi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/18-09:43:24.711 50d3 Recovering log #35
-2022/06/18-09:43:24.716 50d3 Reusing old log /home/tommi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000035.log 
-2022/06/18-09:43:43.978 39de Level-0 table #40: started
-2022/06/18-09:43:43.985 39de Level-0 table #40: 1086261 bytes OK
-2022/06/18-09:43:43.988 39de Delete type=0 #35
-2022/06/18-09:45:32.566 39de Compacting 1@1 + 1@2 files
-2022/06/18-09:45:32.573 39de Generated table #41@1: 352 keys, 37726 bytes
-2022/06/18-09:45:32.573 39de Compacted 1@1 + 1@2 files => 37726 bytes
-2022/06/18-09:45:32.575 39de compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/06/18-09:45:32.575 39de Delete type=2 #37
-2022/06/18-09:45:32.575 39de Delete type=2 #40
+2022/07/22-21:11:50.703 1474e Reusing MANIFEST /home/tommi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/22-21:11:50.704 1474e Recovering log #102
+2022/07/22-21:11:50.715 1474e Reusing old log /home/tommi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000102.log 
+2022/07/22-21:12:14.081 14712 Level-0 table #107: started
+2022/07/22-21:12:14.090 14712 Level-0 table #107: 1159752 bytes OK
+2022/07/22-21:12:14.092 14712 Delete type=0 #102
+2022/07/22-21:14:21.529 14712 Compacting 1@1 + 1@2 files
+2022/07/22-21:14:21.532 14712 Generated table #108@1: 391 keys, 38679 bytes
+2022/07/22-21:14:21.532 14712 Compacted 1@1 + 1@2 files => 38679 bytes
+2022/07/22-21:14:21.534 14712 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/22-21:14:21.534 14712 Delete type=2 #104
+2022/07/22-21:14:21.534 14712 Delete type=2 #107

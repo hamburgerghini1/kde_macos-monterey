@@ -1,0 +1,23 @@
+{
+  "account_hints": "[\"hamburgerghini@outlook.com\"]",
+  "account_type": "MSA",
+  "additional_properties": "{\n  \"ageGroup\": \"3\",\n  \"aio\": \"DceR4xuBVAjkm6twrIqCgh47Uw1z6oOjJDwNkCXPr2onPRrWHUCjNB8ImgmXfgMDoXHyhE1UD2nE2HfyPIxmoKhWur4u46yKJfXkVEGfbvpX2jTnEfaEiJU1OMFrfRQsYtrRe1G8q!3!ISxN9Ku7ZYs$\",\n  \"aud\": \"6f053d1c-73ab-4c66-8de3-22754364e533\",\n  \"exp\": \"1658137109\",\n  \"iat\": \"1658050409\",\n  \"iss\": \"https://login.microsoftonline.com/9188040d-6c67-4c5b-b112-36a304b66dad/v2.0\",\n  \"nbf\": \"1658050409\",\n  \"nonce\": \"nUHtNvIrWr1mAzqeDSw7RpQ1J89BVrFvO0xox2_nIew\",\n  \"oid\": \"00000000-0000-0000-e660-14221a7d834a\",\n  \"preferred_username\": \"hamburgerghini@outlook.com\",\n  \"puid\": \"00037FFE21BAFB5E\",\n  \"sid\": \"M.3485302081691797090\",\n  \"sovereignty2\": \"Global\",\n  \"sub\": \"AAAAAAAAAAAAAAAAAAAAALDpGcuCsmetQur70XAVqpk\",\n  \"tid\": \"9188040d-6c67-4c5b-b112-36a304b66dad\",\n  \"ver\": \"2.0\",\n  \"xms_pl\": \"FI-FI\"\n}",
+  "age_group": "adult",
+  "association_status": "{\"com.microsoft.Edge\":\"associated\"}",
+  "authority": "https://login.microsoftonline.com/consumers",
+  "birthday": "2003-6-17",
+  "display_name": "Tommi Pöntinen",
+  "email": "hamburgerghini@outlook.com",
+  "first_name": "Tommi",
+  "home_account_id": "00000000-0000-0000-e660-14221a7d834a.9188040d-6c67-4c5b-b112-36a304b66dad",
+  "id": "e66014221a7d834a",
+  "last_name": "Pöntinen",
+  "location": "FI",
+  "login_name": "hamburgerghini@outlook.com",
+  "phone_number": "358409131890",
+  "provider_id": "e66014221a7d834a",
+  "realm": "9188040d-6c67-4c5b-b112-36a304b66dad",
+  "realm_name": "Personal",
+  "sovereignty": "Global",
+  "sovereignty2": "Global"
+}

@@ -1,13 +1,14 @@
 [ActionPlugins][0]
+MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=Applet-24:672,288,624,304,0;
-ItemGeometriesHorizontal=Applet-24:672,288,624,304,0;
+[Containments][25]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=1b0d06ba-6e23-44ef-905f-c2551858a12a
 formfactor=0
 immutability=1
@@ -16,27 +17,22 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][1][Applets][24]
-immutability=1
-plugin=org.kde.plasma.clearclock
+[Containments][25][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
-[Containments][1][Applets][24][Configuration]
-PreloadWeight=34
+[Containments][25][Configuration]
+PreloadWeight=0
 
-[Containments][1][ConfigDialog]
-DialogHeight=1007
-DialogWidth=960
+[Containments][25][General]
+ToolBoxButtonState=bottom
+ToolBoxButtonX=739
+ToolBoxButtonY=978
+positions={"1920x1080":[]}
+sortMode=-1
 
-[Containments][1][Configuration]
-PreloadWeight=26
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
-ToolBoxButtonY=28
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/tommi/.local/share/wallpapers/VdPsmr-wallpapers/Monterey/contents/images/1920x1080.png
+[Containments][25][Wallpaper][org.kde.image][General]
+Image=file:///home/tommi/.local/share/wallpapers/aqevSi-wallpapers/Monterey/contents/images/1920x1080.png
 SlidePaths=/home/tommi/.local/share/wallpapers,/usr/share/wallpapers
 
 [ScreenMapping]

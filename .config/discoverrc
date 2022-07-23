@@ -1,5 +1,8 @@
 [FlatpakSources]
-Sources=flathub
+Sources=fedora-testing,fedora,flathub
+
+[ResourcesModel]
+currentApplicationBackend=packagekit-backend
 
 [Window]
 geometry=0,28,1920,1052
