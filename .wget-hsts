@@ -1,4 +1,9 @@
 # HSTS 1.0 Known Hosts database for GNU Wget.
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
-ftp5.gwdg.de	0	1	1655535034	63072000
+api.github.com	0	1	1658331300	31536000
+raw.githubusercontent.com	0	0	1658489633	31536000
+aka.ms	0	1	1658298721	31536000
+github.com	0	1	1658331332	31536000
+files.holarse-linuxgaming.de	0	1	1658296275	31536000
+ipinfo.io	0	1	1658331332	2592000
