@@ -1,0 +1,96 @@
+0525a421-465c-4a77-ba8a-fd24858a0efd:
+  message: No nvapi found.
+  severity: warning
+  timestamp: '2022-07-22 10:56:18'
+159f9f9d-bd20-48ce-a8af-2f7b3021db49:
+  message: 'Component installed: runner wine-ge-7-21'
+  severity: info
+  timestamp: '2022-07-22 10:57:47'
+179f967e-b602-424d-afca-abbae1c30bff:
+  message: No WineBridge found.
+  severity: warning
+  timestamp: '2022-07-22 10:56:21'
+33abcc8c-89e4-4db5-bc73-06c256dee622:
+  message: Library file not found, creating new one
+  severity: warning
+  timestamp: '2022-07-22 10:56:11'
+46ea93a2-37ce-4900-9a8a-346010db2cfc:
+  message: Data file not found. Creating new one.
+  severity: error
+  timestamp: '2022-07-22 10:56:08'
+47e72639-275d-4192-9c62-95793ffd9301:
+  message: No dxvk found.
+  severity: warning
+  timestamp: '2022-07-22 10:56:14'
+51d85c9f-cc2e-4ab6-b4e0-8faef89fce66:
+  message: File [dxvk-nvapi-v0.5.4.tar.gz] already exists in temp, skipping.
+  severity: warning
+  timestamp: '2022-07-22 10:57:42'
+52ed883d-f115-4516-b41b-509642c62905:
+  message: 'Component installed: runner soda-7.0-2'
+  severity: info
+  timestamp: '2022-07-22 10:56:38'
+62cf4009-cab5-4546-bb96-76a49bf2bd72:
+  message: 'Component installed: vkd3d vkd3d-proton-2.6-1-5b73139'
+  severity: info
+  timestamp: '2022-07-22 10:56:18'
+72ffb67c-1b60-4b74-a94d-ddc6adc6590a:
+  message: 'Component installed: latencyflex latencyflex-v0.1.0'
+  severity: info
+  timestamp: '2022-07-22 10:56:21'
+8e3561cf-61af-4e45-8361-08ab54cf0f01:
+  message: No latencyflex found.
+  severity: warning
+  timestamp: '2022-07-22 10:56:19'
+8fded3ae-7afc-4a89-baac-31ae83a7658d:
+  message: No runners found.
+  severity: warning
+  timestamp: '2022-07-22 10:56:22'
+9911c27d-1504-47f1-9ee2-dc2208a1f67d:
+  message: 'Component installed: vkd3d vkd3d-proton-2.6-1-5b73139'
+  severity: info
+  timestamp: '2022-07-22 10:57:40'
+9c61b428-9eea-4f2f-aff4-829b917cec42:
+  message: File [soda-7.0-2-x86_64.tar.xz] already exists in temp, skipping.
+  severity: warning
+  timestamp: '2022-07-22 10:57:05'
+9c634da8-f036-4d5b-b1eb-740c1532319a:
+  message: 'Component installed: winebridge winebridge-1.1.0'
+  severity: info
+  timestamp: '2022-07-22 10:56:22'
+9e5486e6-39c9-4e71-a743-c7503795ee74:
+  message: File [vkd3d-proton-2.6-1-5b73139.tar.gz] already exists in temp, skipping.
+  severity: warning
+  timestamp: '2022-07-22 10:57:40'
+a50141d1-f8f0-4e14-acfd-774d88ca2456:
+  message: 'Component installed: nvapi dxvk-nvapi-v0.5.4'
+  severity: info
+  timestamp: '2022-07-22 10:56:19'
+b952257a-8231-4b08-9a2f-84466d80566d:
+  message: 'Component installed: nvapi dxvk-nvapi-v0.5.4'
+  severity: info
+  timestamp: '2022-07-22 10:57:42'
+c36ff95b-39d9-4ece-9ea5-72b84e1e8930:
+  message: File [dxvk-1.10.2.tar.gz] already exists in temp, skipping.
+  severity: warning
+  timestamp: '2022-07-22 10:57:36'
+c40c57b8-f817-4d95-b72d-49bd1a27902e:
+  message: No vkd3d found.
+  severity: warning
+  timestamp: '2022-07-22 10:56:16'
+da671f07-04ad-49f8-b6e0-ac8fc30312fa:
+  message: 'Component installed: dxvk dxvk-1.10.2'
+  severity: info
+  timestamp: '2022-07-22 10:57:36'
+e0efb61e-2234-4353-bc57-77660096e093:
+  message: 'Component installed: runner caffe-7.10'
+  severity: info
+  timestamp: '2022-07-22 10:57:32'
+e7b719be-715a-4da1-b476-1d4ebcd378a2:
+  message: 'Component installed: dxvk dxvk-1.10.2'
+  severity: info
+  timestamp: '2022-07-22 10:56:15'
+f564cf51-797e-4b7c-87c8-fec31837cda7:
+  message: 'Component installed: runner soda-7.0-2'
+  severity: info
+  timestamp: '2022-07-22 10:57:16'

@@ -1,0 +1,67 @@
+(11:06:01) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(11:06:01) INFO:    [Legendary]:       Legendary location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(11:06:01) INFO:    [Gog]:             GOGDL location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(11:06:01) INFO:    [Backend]:         
+
+Heroic Version: 2.3.9 Brook
+Legendary Version:  0.20.26 Dark Energy
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: powersave
+RAM: Total: 31.14 GiB Available: 24.77 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: wayland
+
+(11:06:02) INFO:    [Backend]:         User Not Found, removing it from Store
+(11:06:02) WARNING: [Backend]:         Failed to register protocol with OS.
+(11:06:04) INFO:    [Backend]:         Downloaded Winetricks
+(11:06:04) INFO:    [DXVKInstaller]:   Updating vkd3d to: vkd3d-proton-2.6
+(11:06:04) INFO:    [DXVKInstaller]:   Updating dxvk to: dxvk-1.10.2
+(11:06:05) INFO:    [DXVKInstaller]:   downloaded vkd3d
+(11:06:05) INFO:    [DXVKInstaller]:   extracting vkd3d
+(11:06:05) INFO:    [DXVKInstaller]:   extracting vkd3d updated!
+(11:06:06) INFO:    [DXVKInstaller]:   downloaded dxvk
+(11:06:06) INFO:    [DXVKInstaller]:   extracting dxvk
+(11:06:06) INFO:    [DXVKInstaller]:   extracting dxvk updated!
+(11:07:11) INFO:    [Legendary]:       Logging in with Legendary: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:11) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:11) INFO:    [Legendary]:       Logging in with Legendary: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:11) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:12) INFO:    [Legendary]:       Logging in with Legendary: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:12) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:12) INFO:    [Legendary]:       Logging in with Legendary: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:12) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:12) INFO:    [Legendary]:       Logging in with Legendary: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:12) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --sid <redacted>
+(11:07:13) INFO:    [Frontend]:        Refreshing Library
+(11:07:13) INFO:    [Legendary]:       Refreshing library...
+(11:07:13) INFO:    [Legendary]:       Refreshing Epic Games...
+(11:07:14) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(11:07:15) INFO:    [Legendary]:       Updating game list
+(11:07:15) INFO:    [Legendary]:       Game List Updated
+(11:07:15) INFO:    [Frontend]:        No cache found, getting data from legendary...
+(11:07:15) INFO:    [Legendary]:       Refreshing library...
+(11:07:15) INFO:    [Legendary]:       Updating game list
+(11:07:15) INFO:    [Legendary]:       Game List Updated
+(11:07:15) INFO:    [Frontend]:        Force Update
+(11:07:55) INFO:    [Legendary]:       Getting more details with 'legendary info'
+(11:07:55) INFO:    [Legendary]:       Getting more details with 'legendary info'
+(11:07:55) WARNING: [Backend]:         default is not writable
+(11:07:55) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --pretty-json info Finch --platform Windows --json
+(11:07:55) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --pretty-json info Finch --platform Windows --json
+(11:08:01) ERROR:   [Legendary]:       Error Getting Info from Epic API
+(11:08:01) ERROR:   [Legendary]:       Error Getting Info from Epic API
+(11:08:36) WARNING: [Backend]:         /run/user/1000/doc/e7aad228/Heroic is not writable
+(11:09:50) DEBUG:   [Legendary]:       Using cached install info
+(11:09:50) DEBUG:   [Legendary]:       Using cached install info
+(11:09:50) WARNING: [Backend]:         default is not writable
+(11:09:58) WARNING: [Backend]:         /run/user/1000/doc/e7aad228/Heroic is not writable
+(11:10:05) DEBUG:   [Legendary]:       Using cached install info
+(11:10:05) INFO:    [Legendary]:       Installing Finch with: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary install Finch --platform Windows --base-path /run/user/1000/doc/e7aad228/Heroic --skip-dlcs --skip-sdl -y
+(11:10:05) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary install Finch --platform Windows --base-path /run/user/1000/doc/e7aad228/Heroic --skip-dlcs --skip-sdl -y
+(11:10:05) DEBUG:   [Legendary]:       Logging to file "/home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/Finch.log"
+(11:10:08) INFO:    [Backend]:         finished installing
+(11:10:08) INFO:    [Backend]:         operation interrupted
+(11:10:08) INFO:    [Frontend]:        Refreshing Library
+(11:10:08) INFO:    [Legendary]:       Refreshing library...
+(11:10:08) INFO:    [Legendary]:       Updating game list
+(11:10:08) INFO:    [Legendary]:       Game List Updated

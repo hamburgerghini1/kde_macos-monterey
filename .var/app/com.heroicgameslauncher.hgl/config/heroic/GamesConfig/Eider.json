@@ -1,0 +1,23 @@
+{
+  "Eider": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "maxSharpness": 2,
+    "nvidiaPrime": false,
+    "otherOptions": "",
+    "savesPath": "/home/tommi/Games/Heroic/Prefixes/HITMAN3/drive_c/users/tommi/Application Data/IO Interactive/Epic/26b935ae1f1d48cf8b5223cd84585a96/HITMAN3/",
+    "showFps": false,
+    "showMangohud": true,
+    "targetExe": "",
+    "useGameMode": true,
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/tommi/Games/Heroic/Prefixes/HITMAN3",
+    "wineVersion": {
+      "bin": "/home/tommi/.local/share/Steam/steamapps/common/Proton - Experimental/proton",
+      "name": "Proton - Proton - Experimental",
+      "type": "proton"
+    }
+  },
+  "version": "v0",
+  "explicit": true
+}

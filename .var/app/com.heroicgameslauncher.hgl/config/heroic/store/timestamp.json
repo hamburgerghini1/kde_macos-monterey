@@ -1,0 +1,22 @@
+{
+	"Pigeon": {
+		"firstPlayed": "2022-07-19T08:31:37.638Z",
+		"lastPlayed": "2022-07-19T08:32:52.789Z",
+		"totalPlayed": 0
+	},
+	"Sugar": {
+		"firstPlayed": "2022-07-19T08:33:46.281Z",
+		"lastPlayed": "2022-07-19T08:48:12.382Z",
+		"totalPlayed": 9
+	},
+	"Finch": {
+		"firstPlayed": "2022-07-19T09:37:12.382Z",
+		"lastPlayed": "2022-07-19T09:41:20.394Z",
+		"totalPlayed": 3
+	},
+	"Eider": {
+		"firstPlayed": "2022-07-20T05:41:30.075Z",
+		"lastPlayed": "2022-07-20T05:43:25.009Z",
+		"totalPlayed": 0
+	}
+}

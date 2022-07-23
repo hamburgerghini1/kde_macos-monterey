@@ -1,0 +1,56 @@
+{
+  "Eider": {
+    "app_name": "Eider",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://download2.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://download3.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://download4.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default"
+    ],
+    "can_run_offline": false,
+    "egl_guid": "",
+    "executable": "Launcher.exe",
+    "install_path": "/home/tommi/Games/HITMAN3/HITMAN3",
+    "install_size": 69108951759,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": "",
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": "/home/tommi/Documents/hitman 3 saves/",
+    "title": "HITMAN 3",
+    "version": "5915918"
+  },
+  "a94eddb97c72495f95350ce8840642b9": {
+    "app_name": "a94eddb97c72495f95350ce8840642b9",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://download2.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://download3.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://download4.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-ank8fbh38u9uzqbag2a5yt5xexb4yr/ea809c29128841688fb20f6bf85f9c11/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "",
+    "install_path": "/home/tommi/Games/HITMAN3/HITMAN3",
+    "install_size": 1,
+    "install_tags": [],
+    "is_dlc": true,
+    "launch_parameters": "",
+    "manifest_path": "",
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Berlin",
+    "version": "7"
+  }
+}

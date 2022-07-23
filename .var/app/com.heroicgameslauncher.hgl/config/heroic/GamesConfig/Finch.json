@@ -1,0 +1,23 @@
+{
+  "Finch": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "maxSharpness": 2,
+    "nvidiaPrime": true,
+    "otherOptions": "",
+    "savesPath": "/home/tommi/Games/Heroic/Prefixes/KillingFloor2/drive_c/users/tommi/Application Data/KF2/26b935ae1f1d48cf8b5223cd84585a96/",
+    "showFps": false,
+    "showMangohud": true,
+    "targetExe": "",
+    "useGameMode": true,
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/tommi/Games/Heroic/Prefixes/KillingFloor2",
+    "wineVersion": {
+      "bin": "/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton",
+      "name": "Proton - GE-Proton7-24",
+      "type": "proton"
+    }
+  },
+  "version": "v0",
+  "explicit": true
+}

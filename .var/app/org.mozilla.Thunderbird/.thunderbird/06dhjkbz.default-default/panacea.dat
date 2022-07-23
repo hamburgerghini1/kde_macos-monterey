@@ -1,0 +1,165 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (8A=boxFlags)(8B=hierDelim)(8C=onlineName)(8D=aclFlags)(8E=serverTotal)
+  (8F=serverUnseen)(90=serverRecent)(91=indexingPriority)(92=folderName)
+  (93=applyIncomingFilters.empty)(94=applyIncomingFilters)(95=nextUID)
+  (96=MRUTime)(97=dobayes.mailnews@mozilla.org#junk.empty)
+  (98=dobayes.mailnews@mozilla.org#junk)(99=lastSyncTimeInSec)
+  (80=ns:msg:db:row:scope:folders:all)(81=ns:msg:db:table:kind:folders)
+  (82=key)(83=flags)(84=totalMsgs)(85=totalUnreadMsgs)
+  (86=pendingUnreadMsgs)(87=pendingMsgs)(88=expungedBytes)(89=folderSize)>
+
+<(80
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/INBOX.msf)(C0=8083014)(C4=422)(810=3a9)(81=0)(902=5d0a5df)(C1=204040)
+  (9E=2f)(84=INBOX)(C5=2eca)(CE=1658404030)(86
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/Mail/Local Folders/Tras\
+h.msf)(87=104)(82=ffffffffffffffff)(8C=Deleted)(89
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/Mail/Local Folders/Unse\
+nt Messages.msf)(8A=804)(8D=Outbox)(8E
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/Mail/Local Folders)
+  (8F=1c)(90=ffffffff)(91=Local Folders)(92
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/Drafts.msf)(83=5e)(93=Drafts)(94
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/Templates.msf)(95=Templates)(96
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/Sent.msf)(97=Sent)(98
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/Archives.msf)(99=Archives)(9A
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/Mailspring.msf)(9C=8082014)(9D=40040)(9B=Mailspring)(9F
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/Mailspring.sbd/Snoozed.msf)(A1=240040)(A0=Mailspring/Snoozed)(A2
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].msf)(A4=9082014)(A5=60048)(A3=[Gmail])(A6
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/Kaikki viestit.msf)(A8=8086014)(A9=248040)(A7
+    =[Gmail]/Kaikki viestit)(AA
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/Luonnokset.msf)(AC=8082414)(AD=240840)(AB=[Gmail]/Luonnokset)
+  (AE
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/L$C3$A4hetetyt viestit.msf)(B1=8082214)(B2=242040)(AF
+    =[Gmail]/L$C3$A4hetetyt viestit)(B0=60)(B3
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/Roskakori.msf)(B6=82114)(B7=250040)(B4=[Gmail]/Roskakori)
+  (B5=-1)(B8
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/Roskaposti.msf)(BA=40082014)(BB=241040)(B9=[Gmail]/Roskaposti)
+  (BC
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/T$C3$A4hdell$C3$A4 merkityt.msf)(BD
+    =[Gmail]/T$C3$A4hdell$C3$A4 merkityt)(BE
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com\
+/[Gmail].sbd/T$C3$A4rke$C3$A4$C3$A4.msf)(BF=[Gmail]/T$C3$A4rke$C3$A4$C3$A4)
+  (903
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/INBOX.msf)(5AA=276)(570=259)(B8C=21b8bd6)(915=1658404100)(917=2f4c)
+  (904
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Drafts.msf)(905
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Templates.msf)(906
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Sent.msf)(907
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Mailspring.msf)(908
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Mailspring.sbd/Snoozed.msf)(909
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Notes.msf)(90A=Notes)(90B
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].msf)(90C
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/Kaikki viestit.msf)(90D
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/Luonnokset.msf)(90E
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/L$C3$A4hetetyt viestit.msf)(90F
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/Roskakori.msf)(910
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/Roskaposti.msf)(911
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/T$C3$A4hdell$C3$A4 merkityt.msf)(912
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/[Gmail].sbd/T$C3$A4rke$C3$A4$C3$A4.msf)(914
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om/Archives.msf)(B8D
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail.com)
+  (B8E=)(B8F
+    =/home/tommi/.thunderbird/06dhjkbz.default-default/ImapMail/imap.gmail-1.c\
+om)>
+{1:^80 {(k^81:c)(s=9)} 
+  [1(^82^80)(^83^C0)(^84^C4)(^85=3a9)(^86=0)(^87=0)(^88=0)(^89^902)
+    (^8A^C1)(^8B=2f)(^8C^84)(^8D=0)(^8E^C4)(^8F=0)(^90=0)(^95^C5)(^96^CE)
+    (^99=0)]
+  [2(^82^86)(^83^87)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^92^8C)]
+  [3(^82^89)(^83^8A)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^92^8D)]
+  [4(^82^8E)(^83=1c)(^84^90)(^85^90)(^86=0)(^87=0)(^88=0)(^89^82)(^92^91)]
+  [5(^82^92)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^93)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [6(^82^94)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^95)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [7(^82^96)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^97)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [8(^82^98)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^99)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [9(^82^9A)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^9D)
+    (^8B=2f)(^8C^9B)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [A(^82^9F)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^A0)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [B(^82^A2)(^83^A4)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A5)
+    (^8B=2f)(^8C^A3)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [C(^82^A6)(^83^A8)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A9)
+    (^8B=2f)(^8C^A7)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [D(^82^AA)(^83^AC)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^AD)
+    (^8B=2f)(^8C^AB)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [E(^82^AE)(^83^B1)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^B2)
+    (^8B=2f)(^8C^AF)(^8D=0)(^8E=0)(^8F=0)(^90=0)(^91=60)]
+  [F(^82^B3)(^83^B6)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^B7)
+    (^8B=2f)(^8C^B4)(^8D=0)(^8E=0)(^8F=0)(^90=0)(^91=-1)]
+  [10(^82^B8)(^83^BA)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^BB)
+    (^8B=2f)(^8C^B9)(^8D=0)(^8E=0)(^8F=0)(^90=0)(^91=-1)]
+  [11(^82^BC)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^BD)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [12(^82^BE)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^BF)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [13(^82^903)(^83^C0)(^84=276)(^85=259)(^86=0)(^87=0)(^88=0)(^89^B8C)
+    (^8A^C1)(^8B=2f)(^8C^84)(^8D=0)(^8E=276)(^8F=0)(^90=0)(^96^915)
+    (^95^917)(^99=0)]
+  [14(^82^904)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^93)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [15(^82^905)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^95)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [16(^82^906)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^97)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [17(^82^907)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^9D)
+    (^8B=2f)(^8C^9B)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [18(^82^908)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^A0)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [19(^82^909)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^90A)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [1A(^82^90B)(^83^A4)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A5)
+    (^8B=2f)(^8C^A3)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [1B(^82^90C)(^83^A8)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A9)
+    (^8B=2f)(^8C^A7)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [1C(^82^90D)(^83^AC)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^AD)
+    (^8B=2f)(^8C^AB)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [1D(^82^90E)(^83^B1)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^B2)
+    (^8B=2f)(^8C^AF)(^8D=0)(^8E=0)(^8F=0)(^90=0)(^91=60)]
+  [1E(^82^90F)(^83^B6)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^B7)
+    (^8B=2f)(^8C^B4)(^8D=0)(^8E=0)(^8F=0)(^90=0)(^91=-1)]
+  [1F(^82^910)(^83^BA)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^BB)
+    (^8B=2f)(^8C^B9)(^8D=0)(^8E=0)(^8F=0)(^90=0)(^91=-1)]
+  [20(^82^911)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^BD)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [21(^82^912)(^83^9C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^A1)
+    (^8B=2f)(^8C^BF)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [22(^82^914)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C^99)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [23(^82^B8D)(^83=0)(^84^90)(^85^90)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C=)(^8D=0)(^8E=0)(^8F=0)(^90=0)]
+  [24(^82^B8F)(^83=0)(^84^90)(^85^90)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=0)
+    (^8B=5e)(^8C=)(^8D=0)(^8E=0)(^8F=0)(^90=0)]}

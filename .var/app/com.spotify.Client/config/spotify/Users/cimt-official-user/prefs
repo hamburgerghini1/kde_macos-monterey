@@ -1,0 +1,5 @@
+audio.play_bitrate_non_metered_migrated=true
+audio.crossfade_v2=true
+ui.hide_hpto=true
+audio.crossfade.time_v2=12000
+app.player.autoplay=false

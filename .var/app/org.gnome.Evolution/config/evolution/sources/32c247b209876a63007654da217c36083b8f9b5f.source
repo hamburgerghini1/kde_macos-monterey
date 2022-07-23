@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=tommipontinen76@gmail.com
+Enabled=true
+Parent=082b4f31aa05d3d403972f885854457c6bc6e544
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=e776103023401423464eaf3648a2786706adfa15
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=tommipontinen76@gmail.com
+Aliases=
+Name=Tommi Pöntinen
+Organization=
+ReplyTo=
+SignatureUid=none

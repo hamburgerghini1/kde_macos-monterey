@@ -1,0 +1,95 @@
+{
+	"affc33b82405457595a032f00284abd2": {
+		"about": {},
+		"reqs": []
+	},
+	"turtle": {
+		"about": {},
+		"reqs": []
+	},
+	"9773aa1aa54f4f7b80e44bef04986cea": {
+		"about": {},
+		"reqs": []
+	},
+	"b04882669b2e495e9f747c8560488c93": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/trackmania-royal-keyart-1200x1600-1200x1600-d623bb2598ee.png",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Ubisoft Nadeo",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Ubisoft",
+			"description": "# STARTER ACCESS\nEnjoy a fun racing experience for free with regularly updated content and collectable rewards.\n\n# NO AI, REAL PLAYERS' GHOSTS\nEven solo, race against other players’ ghosts that are close to your level to help you improve progressively, at your own pace.\n\n# REGULARLY UPDATED CONTENT\n25 official tracks, updated every 3 months and playable solo, online and locally to practice your racing skills.\n\n# PROGRESSION\nYou can either play by yourself and enjoy the drive, or collect medals and assess your skills with regional and international rankings.",
+			"shortDescription": "Trackmania, the racing franchise from Ubisoft Nadeo, is back with the most compelling remake of Trackmania Nations.",
+			"title": "Trackmania",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 7/8.1/10 (64 bit only)",
+				"recommended": "Windows 10 (64 bit only)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "CPU",
+				"minimum": "Intel Core i5-2500k, AMD FX-6100",
+				"recommended": "Intel Core i5-4690K, AMD Ryzen5 1500X"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "GPU",
+				"minimum": "NVIDIA GeForce GTX 660 or AMD Radeon R9 270X",
+				"recommended": "NVIDIA GeForce GTX 970 or AMD Radeon RX 480"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Video memory",
+				"minimum": "2GB",
+				"recommended": "4GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "RAM",
+				"minimum": "8GB",
+				"recommended": "8GB (Dual-channel setup)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "2GB available hard drive space",
+				"recommended": "2GB available hard drive space"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DirectX"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Sound",
+				"minimum": "DirectX 9.0c compatible sound card with latest drivers",
+				"recommended": "DirectX 9.0c compatible sound card with latest drivers"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Peripherals",
+				"minimum": "Windows-compatible keyboard and mouse required, XInput based controller (Xbox 360 / Xbox One / PS4)",
+				"recommended": "Windows-compatible keyboard and mouse required, XInput based controller (Xbox 360 / Xbox One / PS4)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Supported GPU Drivers at release",
+				"minimum": "451.48 Nvidia | 20.5.1 AMD",
+				"recommended": "451.48 Nvidia | 20.5.1 AMD"
+			}
+		]
+	},
+	"ed55aa5edc5941de92fd7f64de415793": {
+		"about": {},
+		"reqs": []
+	}
+}

@@ -1,0 +1,479 @@
+Launch Command: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/rocketleague /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Sugar --wine /home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/rocketleague
+
+System Info:
+Heroic Version: 2.3.10 Brook
+Legendary Version:  0.20.27 Dark Energy (hotfix)
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: performance
+RAM: Total: 31.14 GiB Available: 26.12 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: x11
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": true,
+	"maxSharpness": 2,
+	"nvidiaPrime": false,
+	"otherOptions": "",
+	"savesPath": "",
+	"showFps": false,
+	"showMangohud": true,
+	"targetExe": "",
+	"useGameMode": true,
+	"wineCrossoverBottle": "Heroic",
+	"winePrefix": "/home/tommi/Games/Heroic/Prefixes/rocketleague",
+	"wineVersion": {
+		"bin": "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine",
+		"name": "Wine - lutris-GE-Proton7-21-x86_64",
+		"type": "wine",
+		"wineserver": "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wineserver",
+		"wineboot": "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wineboot"
+	}
+}
+
+Error Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Sugar...
+gamemodeauto:
+wineserver: using server-side synchronization.
+wine: RLIMIT_NICE is <= 20, unable to use setpriority safely
+002c:fixme:winediag:LdrInitializeThunk wine-staging 7.0 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please mention your exact version when filing bug reports on winehq.org.
+002c:err:wineboot:process_run_key Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (126).
+00c4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001E7FF80
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+00c0:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+00c0:err:wldap32:DllMain No libldap support, expect problems
+00c0:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+00c0:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+info:  Game: RocketLeague.exe
+info:  DXVK: v1.10.2
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+warn:  Skipping CPU adapter: llvmpipe (LLVM 12.0.1, 256 bits)
+info:  AMD RADV NAVY_FLOUNDER:
+info:    Driver: 21.3.8
+info:    Vulkan: 1.2.195
+info:    Memory Heap[0]:
+info:      Size: 12272 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:      Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0xc1
+info:      Memory Type[6]: Property Flags = 0xc7
+
+info:  D3D11CoreCreateDevice: Probing D3D_FEATURE_LEVEL_11_0
+info:  D3D11CoreCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Device properties:
+info:    Device name:     : AMD RADV NAVY_FLOUNDER
+info:    Driver version   : 21.3.8
+info:  Enabled device extensions:
+info:    VK_AMD_memory_overallocation_behavior
+info:    VK_AMD_shader_fragment_mask
+info:    VK_EXT_4444_formats
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_extended_dynamic_state
+info:    VK_EXT_host_query_reset
+info:    VK_EXT_memory_priority
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_demote_to_helper_invocation
+info:    VK_EXT_shader_stencil_export
+info:    VK_EXT_shader_viewport_index_layer
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_create_renderpass2
+info:    VK_KHR_depth_stencil_resolve
+info:    VK_KHR_draw_indirect_count
+info:    VK_KHR_driver_properties
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_image_format_list
+info:    VK_KHR_sampler_mirror_clamp_to_edge
+info:    VK_KHR_shader_float_controls
+info:    VK_KHR_swapchain
+info:  Device features:
+info:    robustBufferAccess                     : 1
+info:    fullDrawIndexUint32                    : 1
+info:    imageCubeArray                         : 1
+info:    independentBlend                       : 1
+info:    geometryShader                         : 1
+info:    tessellationShader                     : 1
+info:    sampleRateShading                      : 1
+info:    dualSrcBlend                           : 1
+info:    logicOp                                : 1
+info:    multiDrawIndirect                      : 1
+info:    drawIndirectFirstInstance              : 1
+info:    depthClamp                             : 1
+info:    depthBiasClamp                         : 1
+info:    fillModeNonSolid                       : 1
+info:    depthBounds                            : 1
+info:    multiViewport                          : 1
+info:    samplerAnisotropy                      : 1
+info:    textureCompressionBC                   : 1
+info:    occlusionQueryPrecise                  : 1
+info:    pipelineStatisticsQuery                : 1
+info:    vertexPipelineStoresAndAtomics         : 0
+info:    fragmentStoresAndAtomics               : 1
+info:    shaderImageGatherExtended              : 1
+info:    shaderStorageImageExtendedFormats      : 0
+info:    shaderStorageImageReadWithoutFormat    : 1
+info:    shaderStorageImageWriteWithoutFormat   : 1
+info:    shaderClipDistance                     : 1
+info:    shaderCullDistance                     : 1
+info:    shaderFloat64                          : 1
+info:    shaderInt64                            : 1
+info:    variableMultisampleRate                : 1
+info:  VK_EXT_4444_formats
+info:    formatA4R4G4B4                         : 1
+info:    formatA4B4G4R4                         : 1
+info:  VK_EXT_custom_border_color
+info:    customBorderColors                     : 1
+info:    customBorderColorWithoutFormat         : 1
+info:  VK_EXT_depth_clip_enable
+info:    depthClipEnable                        : 1
+info:
+VK_EXT_extended_dynamic_state
+info:    extendedDynamicState                   : 1
+info:  VK_EXT_host_query_reset
+info:    hostQueryReset                         : 1
+info:  VK_EXT_memory_priority
+info:    memoryPriority                         : 1
+info:  VK_EXT_non_seamless_cube_map
+info:    nonSeamlessCubeMap                     : 0
+info:  VK_EXT_robustness2
+info:    robustBufferAccess2                    : 1
+info:    robustImageAccess2                     : 1
+info:    nullDescriptor                         : 1
+info:  VK_EXT_shader_demote_to_helper_invocation
+info:    shaderDemoteToHelperInvocation         : 1
+info:  VK_EXT_transform_feedback
+info:    transformFeedback                      : 1
+info:    geometryStreams                        : 1
+info:  VK_EXT_vertex_attribute_divisor
+info:    vertexAttributeInstanceRateDivisor     : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_buffer_device_address
+info:    bufferDeviceAddress                    : 0
+info:  Queue families:
+info:    Graphics : 0
+info:    Transfer : 1
+info:  DXVK: Read 1547 valid state cache entries
+info:  DXGI: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  Game: RocketLeague.exe
+info:  DXVK: v1.10.2
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:
+OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+warn:  Skipping CPU adapter: llvmpipe (LLVM 12.0.1, 256 bits)
+info:  AMD RADV NAVY_FLOUNDER:
+info:    Driver: 21.3.8
+info:    Vulkan: 1.2.195
+info:    Memory Heap[0]:
+info:      Size: 12272 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:      Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0xc1
+info:      Memory Type[6]: Property Flags = 0xc7
+00c0:fixme:nvapi:unimplemented_stub function 0xbe7692ec is unimplemented!
+00c0:fixme:nvapi:unimplemented_stub function 0x6c2d048c is unimplemented!
+0138:fixme:imm:ImeSetActiveContext (0x4803d0, 0): stub
+0138:fixme:imm:ImmReleaseContext (0000000000010020, 00000000004803D0): stub
+00c0:fixme:imm:ImeSetActiveContext (0x153a0ad0, 1): stub
+00c0:fixme:imm:ImmReleaseContext (000000000001005C, 00000000153A0AD0): stub
+01a8:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+01a8:fixme:wbemprox:client_security_SetBlanket 00000002419C3DA0, 000000001B5A02D0, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
+01a8:fixme:wbemprox:client_security_Release 00000002419C3DA0
+00c0:fixme:system:NtUserSystemParametersInfo Unimplemented action: 59 (SPI_SETSTICKYKEYS)
+00c0:fixme:system:NtUserSystemParametersInfo Unimplemented action: 53 (SPI_SETTOGGLEKEYS)
+00c0:fixme:system:NtUserSystemParametersInfo Unimplemented action: 51 (SPI_SETFILTERKEYS)
+info:  D3D11CoreCreateDevice: Probing D3D_FEATURE_LEVEL_11_0
+info:  D3D11CoreCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Device properties:
+info:    Device name:     : AMD RADV NAVY_FLOUNDER
+info:    Driver version   : 21.3.8
+info:  Enabled device extensions:
+info:    VK_AMD_memory_overallocation_behavior
+info:    VK_AMD_shader_fragment_mask
+info:    VK_EXT_4444_formats
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_extended_dynamic_state
+info:    VK_EXT_host_query_reset
+info:    VK_EXT_memory_priority
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_demote_to_helper_invocation
+info:    VK_EXT_shader_stencil_export
+info:    VK_EXT_shader_viewport_index_layer
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_create_renderpass2
+info:    VK_KHR_depth_stencil_resolve
+info:    VK_KHR_draw_indirect_count
+info:    VK_KHR_driver_properties
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_image_format_list
+info:    VK_KHR_sampler_mirror_clamp_to_edge
+info:    VK_KHR_shader_float_controls
+info:    VK_KHR_swapchain
+info:  Device features:
+info:    robustBufferAccess                     : 1
+info:    fullDrawIndexUint32                    : 1
+info:    imageCubeArray                         : 1
+info:    independentBlend                       : 1
+info:    geometryShader                         : 1
+info:    tessellationShader                     : 1
+info:    sampleRateShading                      : 1
+info:    dualSrcBlend                           : 1
+info:    logicOp                                : 1
+info:    multiDrawIndirect                      : 1
+info:    drawIndirectFirstInstance              : 1
+info:    depthClamp                             : 1
+info:    depthBiasClamp                         : 1
+info:    fillModeNonSolid                       : 1
+info:    depthBounds                            : 1
+info:    multiViewport                          : 1
+info:    samplerAnisotropy                      : 1
+info:    textureCompressionBC                   : 1
+info:    occlusionQueryPrecise                  : 1
+info:    pipelineStatisticsQuery                : 1
+info:    vertexPipelineStoresAndAtomics         : 0
+info:    fragmentStoresAndAtomics               : 1
+info:    shaderImageGatherExtended              : 1
+info:    shaderStorageImageExtendedFormats      : 0
+info:    shaderStorageImageReadWithoutFormat    : 1
+info:    shaderStorageImageWriteWithoutFormat   : 1
+info:    shaderClipDistance                     : 1
+info:    shaderCullDistance                     : 1
+info:    shaderFloat64                          : 1
+info:    shaderInt64                            : 1
+info:    variableMultisampleRate                : 1
+info:  VK_EXT_4444_formats
+info:    formatA4R4G4B4                         : 1
+info:    formatA4B4G4R4                         : 1
+info:  VK_EXT_custom_border_color
+info:    customBorderColors                     : 1
+info:
+customBorderColorWithoutFormat         : 1
+info:  VK_EXT_depth_clip_enable
+info:    depthClipEnable                        : 1
+info:  VK_EXT_extended_dynamic_state
+info:    extendedDynamicState                   : 1
+info:  VK_EXT_host_query_reset
+info:    hostQueryReset                         : 1
+info:  VK_EXT_memory_priority
+info:    memoryPriority                         : 1
+info:  VK_EXT_non_seamless_cube_map
+info:    nonSeamlessCubeMap                     : 0
+info:  VK_EXT_robustness2
+info:    robustBufferAccess2                    : 1
+info:    robustImageAccess2                     : 1
+info:    nullDescriptor                         : 1
+info:  VK_EXT_shader_demote_to_helper_invocation
+info:    shaderDemoteToHelperInvocation         : 1
+info:  VK_EXT_transform_feedback
+info:    transformFeedback                      : 1
+info:    geometryStreams                        : 1
+info:  VK_EXT_vertex_attribute_divisor
+info:    vertexAttributeInstanceRateDivisor     : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_buffer_device_address
+info:    bufferDeviceAddress                    : 0
+info:  Queue families:
+info:    Graphics : 0
+info:    Transfer : 1
+info:  DXVK: Read 1547 valid state cache entries
+info:  DXGI: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  Game: RocketLeague.exe
+info:  DXVK: v1.10.2
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+warn:  Skipping CPU adapter: llvmpipe (LLVM 12.0.1, 256 bits)
+info:  AMD RADV NAVY_FLOUNDER:
+info:    Driver: 21.3.8
+info:    Vulkan: 1.2.195
+info:    Memory Heap[0]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:      Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0xc1
+info:      Memory Type[6]: Property Flags = 0xc7
+0058:fixme:mountmgr:harddisk_ioctl The DISK_PARTITION_INFO and DISK_DETECTION_INFO structures will not be filled
+0058:fixme:mountmgr:harddisk_ioctl The DISK_PARTITION_INFO and DISK_DETECTION_INFO structures will not be filled
+info:  Game: RocketLeague.exe
+info:  DXVK: v1.10.2
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+warn:  Skipping CPU adapter: llvmpipe (LLVM 12.0.1, 256 bits)
+info:  AMD RADV NAVY_FLOUNDER:
+info:    Driver: 21.3.8
+info:    Vulkan: 1.2.195
+info:    Memory Heap[0]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:
+Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0xc1
+info:      Memory Type[6]: Property Flags = 0xc7
+info:  DXVK: Using 7 compiler threads
+info:  Presenter: Actual swap chain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
+info:    Buffer size:  1920x1080
+info:    Image count:  3
+info:    Exclusive FS: 1
+info:  Setting display mode: 1920x1080@50
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+info:  Game: RocketLeague.exe
+info:  DXVK: v1.10.2
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+warn:  Skipping CPU adapter: llvmpipe (LLVM 12.0.1, 256 bits)
+info:  AMD RADV NAVY_FLOUNDER:
+info:    Driver: 21.3.8
+info:    Vulkan: 1.2.195
+info:    Memory Heap[0]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:      Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 12272 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0xc1
+info:      Memory Type[6]: Property Flags = 0xc7
+info:  Presenter: Actual swap chain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
+info:    Buffer size:  1920x1080
+info:    Image count:  3
+info:    Exclusive FS: 1
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00c0:fixme:secur32:get_cipher_algid unknown algorithm 23
+00c0:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0124:fixme:wbemprox:client_security_SetBlanket 00000002419C3DA0, 000000000FEF0450, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
+0124:fixme:wbemprox:client_security_Release 00000002419C3DA0
+0124:fixme:wbemprox:enum_class_object_Next timeout not supported
+info:  Restoring display mode: 1920x1080@50
+info:  Setting display mode: 1920x1080@50
+00c0:err:ole:CoUninitialize Mismatched CoUninitialize
+00c0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 00000000004EFEF8
+gamemodeauto:
+
+Game Log:
+Detected 1 GPUs for rendering
+*** WARNING - PATHS MAY NOT BE VALID ***

@@ -1,0 +1,62 @@
+(11:45:55) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(11:45:56) INFO:    [Legendary]:       Legendary location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(11:45:56) INFO:    [Gog]:             GOGDL location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(11:45:56) INFO:    [Backend]:         
+
+Heroic Version: 2.3.10 Brook
+Legendary Version:  0.20.27 Dark Energy (hotfix)
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: powersave
+RAM: Total: 31.14 GiB Available: 26.6 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: x11
+
+(11:45:56) WARNING: [Backend]:         Failed to register protocol with OS.
+(11:45:57) INFO:    [Frontend]:        Refreshing Library
+(11:45:57) INFO:    [Legendary]:       Refreshing library...
+(11:45:57) INFO:    [Legendary]:       Refreshing Epic Games...
+(11:45:57) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(11:45:58) INFO:    [Legendary]:       Updating game list
+(11:45:58) INFO:    [Legendary]:       Game List Updated
+(11:45:58) INFO:    [Legendary]:       Checking for game updates: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(11:45:58) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(11:45:59) INFO:    [Backend]:         Downloaded Winetricks
+(11:45:59) INFO:    [Legendary]:       Found 0 game(s) to update
+(11:45:59) INFO:    [Gog]:             Found 0 game(s) to update
+(11:47:33) INFO:    [Backend]:         Launching Rocket League® (Sugar)
+(11:47:33) ERROR:   [Backend]:         Error: Command failed: which mangohud
+which: no mangohud in (/app/bin:/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/app/bin/heroic/resources/app.asar.unpacked/build/bin/linux)
+
+(11:47:33) WARNING: [Backend]:         MangoHud enabled but not installed
+(11:47:33) DEBUG:   [Legendary]:       Running Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine" wineboot --init
+(11:47:37) DEBUG:   [Legendary]:       Ran Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine" wineboot --init
+(11:47:37) INFO:    [Backend]:         Created/Updated Wineprefix at /home/tommi/Games/Heroic/Prefixes/rocketleague
+(11:47:37) INFO:    [Legendary]:       Launching Rocket League®: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/rocketleague /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Sugar --wine /home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/rocketleague
+(11:47:37) DEBUG:   [Legendary]:       Running Legendary command: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/rocketleague /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Sugar --wine /home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/rocketleague
+(11:48:12) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(11:48:12) INFO:    [Backend]:         Log was written to /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/Sugar-lastPlay.log
+(11:48:12) INFO:    [Frontend]:        Refreshing Library
+(11:48:12) INFO:    [Legendary]:       Refreshing library...
+(11:48:12) INFO:    [Legendary]:       Updating game list
+(11:48:12) INFO:    [Legendary]:       Game List Updated
+(11:48:17) INFO:    [Legendary]:       Uninstalling Sugar: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary uninstall Sugar -y
+(11:48:17) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary uninstall Sugar -y
+(11:48:17) INFO:    [Legendary]:       Installed game list updated
+(11:48:17) INFO:    [Legendary]:       Installed game list updated
+(11:48:17) INFO:    Removing prefix /home/tommi/Games/Heroic/Prefixes/rocketleague
+(11:48:18) INFO:    [Backend]:         finished uninstalling
+(11:48:18) INFO:    [Backend]:         Desktop shortcut removed
+(11:48:18) INFO:    [Backend]:         Applications shortcut removed
+(11:48:18) INFO:    [Frontend]:        Refreshing Library
+(11:48:18) INFO:    [Legendary]:       Refreshing library...
+(11:48:18) INFO:    [Legendary]:       Updating game list
+(11:48:18) INFO:    [Legendary]:       Game List Updated
+(11:48:40) INFO:    [Legendary]:       Uninstalling Sugar: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary uninstall Sugar -y
+(11:48:40) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary uninstall Sugar -y
+(11:48:40) INFO:    [Backend]:         finished uninstalling
+(11:48:40) INFO:    [Backend]:         Desktop shortcut removed
+(11:48:40) INFO:    [Backend]:         Applications shortcut removed
+(11:48:40) INFO:    [Frontend]:        Refreshing Library
+(11:48:40) INFO:    [Legendary]:       Refreshing library...
+(11:48:40) INFO:    [Legendary]:       Updating game list
+(11:48:40) INFO:    [Legendary]:       Game List Updated

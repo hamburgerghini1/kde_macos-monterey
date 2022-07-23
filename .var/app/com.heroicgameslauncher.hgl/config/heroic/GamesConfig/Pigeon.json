@@ -1,0 +1,25 @@
+{
+  "Pigeon": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "maxSharpness": 2,
+    "nvidiaPrime": true,
+    "otherOptions": "",
+    "savesPath": "",
+    "showFps": true,
+    "showMangohud": true,
+    "targetExe": "",
+    "useGameMode": true,
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/tommi/Games/Heroic/Prefixes/TrackmaniaNext",
+    "wineVersion": {
+      "bin": "/home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wine",
+      "name": "Wine - lutris-6.14-4-x86_64",
+      "type": "wine",
+      "wineserver": "/home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wineserver",
+      "wineboot": "/home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wineboot"
+    }
+  },
+  "version": "v0",
+  "explicit": true
+}

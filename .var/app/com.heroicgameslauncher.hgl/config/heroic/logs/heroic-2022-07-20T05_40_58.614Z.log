@@ -1,0 +1,118 @@
+(08:40:58) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(08:40:59) INFO:    [Legendary]:       Legendary location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(08:40:59) INFO:    [Gog]:             GOGDL location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(08:40:59) INFO:    [Backend]:         
+
+Heroic Version: 2.3.10 Brook
+Legendary Version:  0.20.27 Dark Energy (hotfix)
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: powersave
+RAM: Total: 31.14 GiB Available: 26.59 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: x11
+
+(08:40:59) WARNING: [Backend]:         Failed to register protocol with OS.
+(08:40:59) INFO:    [Frontend]:        Refreshing Library
+(08:40:59) INFO:    [Legendary]:       Refreshing library...
+(08:40:59) INFO:    [Legendary]:       Refreshing Epic Games...
+(08:41:00) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(08:41:01) INFO:    [Legendary]:       Updating game list
+(08:41:01) INFO:    [Legendary]:       Game List Updated
+(08:41:01) INFO:    [Backend]:         Downloaded Winetricks
+(08:41:01) INFO:    [Legendary]:       Checking for game updates: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(08:41:01) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(08:41:02) INFO:    [Legendary]:       Found 0 game(s) to update
+(08:41:02) INFO:    [Gog]:             Found 0 game(s) to update
+(08:41:09) WARNING: [Backend]:         Unable to wait on Wine command, no Wineserver!
+(08:41:09) DEBUG:   [Legendary]:       Running Wine command: "" wineboot --init
+(08:41:09) ERROR:   [Backend]:         Error running Wine command: Error: Command failed: "" wineboot --init
+/bin/sh: line 1: : command not found
+
+(08:41:09) INFO:    [Backend]:         trying to run WINEPREFIX='/home/tommi/Games/Heroic/Prefixes/HITMAN3' PATH='.':$PATH /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/winetricks -q
+(08:41:09) ERROR:   [Backend]:         Something went wrong! Check if WineTricks is available and  exists Error: Command failed: WINEPREFIX='/home/tommi/Games/Heroic/Prefixes/HITMAN3' PATH='.':$PATH /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/winetricks -q
+
+(08:41:30) INFO:    [Backend]:         Launching HITMAN 3 (Eider)
+(08:41:30) ERROR:   [Backend]:         Error: Command failed: which mangohud
+which: no mangohud in (/app/bin:/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/app/bin/heroic/resources/app.asar.unpacked/build/bin/linux)
+
+(08:41:30) WARNING: [Backend]:         MangoHud enabled but not installed
+(08:41:30) DEBUG:   [Legendary]:       Running Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine" wineboot --init && "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wineserver" --wait
+(08:41:38) DEBUG:   [Legendary]:       Ran Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine" wineboot --init && "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wineserver" --wait
+(08:41:38) INFO:    [Backend]:         Created/Updated Wineprefix at /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:41:38) INFO:    [Legendary]:       Launching HITMAN 3: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/HITMAN3 /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --wine /home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:41:38) DEBUG:   [Legendary]:       Running Legendary command: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/HITMAN3 /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --wine /home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:41:39) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(08:41:39) INFO:    [Backend]:         Log was written to /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/Eider-lastPlay.log
+(08:41:39) INFO:    [Frontend]:        Refreshing Library
+(08:41:39) INFO:    [Legendary]:       Refreshing library...
+(08:41:39) INFO:    [Legendary]:       Updating game list
+(08:41:39) INFO:    [Legendary]:       Game List Updated
+(08:41:51) INFO:    [Backend]:         Launching HITMAN 3 (Eider)
+(08:41:52) ERROR:   [Backend]:         Error: Command failed: which mangohud
+which: no mangohud in (/app/bin:/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/app/bin/heroic/resources/app.asar.unpacked/build/bin/linux)
+
+(08:41:52) WARNING: [Backend]:         MangoHud enabled but not installed
+(08:41:52) DEBUG:   [Legendary]:       Running Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" wineboot --init
+(08:42:00) DEBUG:   [Legendary]:       Ran Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" wineboot --init
+(08:42:00) INFO:    [Backend]:         Created/Updated Wineprefix at /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:00) INFO:    [Legendary]:       Launching HITMAN 3: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/HITMAN3 /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --wine /home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:00) DEBUG:   [Legendary]:       Running Legendary command: WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/HITMAN3 /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --wine /home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:05) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(08:42:05) INFO:    [Backend]:         Log was written to /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/Eider-lastPlay.log
+(08:42:05) INFO:    [Frontend]:        Refreshing Library
+(08:42:05) INFO:    [Legendary]:       Refreshing library...
+(08:42:05) INFO:    [Legendary]:       Updating game list
+(08:42:05) INFO:    [Legendary]:       Game List Updated
+(08:42:11) DEBUG:   [Legendary]:       Running Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" wineboot --init
+(08:42:15) DEBUG:   [Legendary]:       Ran Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" wineboot --init
+(08:42:15) DEBUG:   [Legendary]:       Running Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" winecfg
+(08:42:34) INFO:    [DXVKInstaller]:   installing dxvk on... /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:35) INFO:    [DXVKInstaller]:   installing vkd3d on... /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:39) INFO:    [DXVKInstaller]:   vkd3d installed on /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:40) INFO:    [DXVKInstaller]:   dxvk installed on /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:44) DEBUG:   [Legendary]:       Ran Wine command: "/home/tommi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" winecfg
+(08:42:49) INFO:    [Backend]:         Launching HITMAN 3 (Eider)
+(08:42:49) ERROR:   [Backend]:         Error: Command failed: which mangohud
+which: no mangohud in (/app/bin:/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/app/bin/heroic/resources/app.asar.unpacked/build/bin/linux)
+
+(08:42:49) WARNING: [Backend]:         MangoHud enabled but not installed
+(08:42:49) WARNING: [Backend]:         You are using Proton, this can lead to some bugs. Please do not open issues with bugs related to games
+(08:42:49) DEBUG:   [Legendary]:       Running Wine command: "/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton" run wineboot --init
+(08:42:50) DEBUG:   [Legendary]:       Ran Wine command: "/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton" run wineboot --init
+(08:42:50) INFO:    [Backend]:         Created/Updated Wineprefix at /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:42:50) WARNING: [Legendary]:       No Steam runtime found
+(08:42:50) INFO:    [Legendary]:       Launching HITMAN 3: STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/tommi/.var/app/com.heroicgameslauncher.hgl/.steam/steam STEAM_COMPAT_DATA_PATH=/home/tommi/Games/Heroic/Prefixes/HITMAN3 STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-HITMAN3 PROTON_LOG_DIR=/home/tommi/.var/app/com.heroicgameslauncher.hgl /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --no-wine --wrapper "'/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton' run"
+(08:42:50) DEBUG:   [Legendary]:       Running Legendary command: STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/tommi/.var/app/com.heroicgameslauncher.hgl/.steam/steam STEAM_COMPAT_DATA_PATH=/home/tommi/Games/Heroic/Prefixes/HITMAN3 STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-HITMAN3 PROTON_LOG_DIR=/home/tommi/.var/app/com.heroicgameslauncher.hgl /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --no-wine --wrapper "'/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton' run"
+(08:43:01) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(08:43:02) INFO:    [Backend]:         Log was written to /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/Eider-lastPlay.log
+(08:43:02) INFO:    [Frontend]:        Refreshing Library
+(08:43:02) INFO:    [Legendary]:       Refreshing library...
+(08:43:02) INFO:    [Legendary]:       Updating game list
+(08:43:02) INFO:    [Legendary]:       Game List Updated
+(08:43:12) INFO:    [Backend]:         Launching HITMAN 3 (Eider)
+(08:43:12) ERROR:   [Backend]:         Error: Command failed: which mangohud
+which: no mangohud in (/app/bin:/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/app/bin/heroic/resources/app.asar.unpacked/build/bin/linux)
+
+(08:43:12) WARNING: [Backend]:         MangoHud enabled but not installed
+(08:43:12) WARNING: [Backend]:         You are using Proton, this can lead to some bugs. Please do not open issues with bugs related to games
+(08:43:12) WARNING: [Legendary]:       No Steam runtime found
+(08:43:12) INFO:    [Legendary]:       Launching HITMAN 3: STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/tommi/.var/app/com.heroicgameslauncher.hgl/.steam/steam STEAM_COMPAT_DATA_PATH=/home/tommi/Games/Heroic/Prefixes/HITMAN3 STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-HITMAN3 PROTON_LOG_DIR=/home/tommi/.var/app/com.heroicgameslauncher.hgl /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --no-wine --wrapper "'/home/tommi/.local/share/Steam/steamapps/common/Proton - Experimental/proton' run"
+(08:43:12) DEBUG:   [Legendary]:       Running Legendary command: STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/tommi/.var/app/com.heroicgameslauncher.hgl/.steam/steam STEAM_COMPAT_DATA_PATH=/home/tommi/Games/Heroic/Prefixes/HITMAN3 STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-HITMAN3 PROTON_LOG_DIR=/home/tommi/.var/app/com.heroicgameslauncher.hgl /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Eider --no-wine --wrapper "'/home/tommi/.local/share/Steam/steamapps/common/Proton - Experimental/proton' run"
+(08:43:24) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(08:43:25) INFO:    [Backend]:         Log was written to /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/Eider-lastPlay.log
+(08:43:25) INFO:    [Frontend]:        Refreshing Library
+(08:43:25) INFO:    [Legendary]:       Refreshing library...
+(08:43:25) INFO:    [Legendary]:       Updating game list
+(08:43:25) INFO:    [Legendary]:       Game List Updated
+(08:44:37) INFO:    [Legendary]:       Uninstalling Eider: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary uninstall Eider -y
+(08:44:37) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary uninstall Eider -y
+(08:44:37) INFO:    [Legendary]:       Installed game list updated
+(08:44:37) INFO:    [Legendary]:       Installed game list updated
+(08:44:37) INFO:    Removing prefix /home/tommi/Games/Heroic/Prefixes/HITMAN3
+(08:44:38) INFO:    [Backend]:         finished uninstalling
+(08:44:38) INFO:    [Backend]:         Desktop shortcut removed
+(08:44:38) INFO:    [Backend]:         Applications shortcut removed
+(08:44:38) INFO:    [Frontend]:        Refreshing Library
+(08:44:38) INFO:    [Legendary]:       Refreshing library...
+(08:44:38) INFO:    [Legendary]:       Updating game list
+(08:44:38) INFO:    [Legendary]:       Game List Updated

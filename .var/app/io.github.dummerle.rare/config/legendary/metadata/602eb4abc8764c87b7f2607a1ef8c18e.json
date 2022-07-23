@@ -1,0 +1,119 @@
+{
+  "app_name": "602eb4abc8764c87b7f2607a1ef8c18e",
+  "app_title": "VALORANT",
+  "asset_infos": {
+    "Win32": {
+      "app_name": "602eb4abc8764c87b7f2607a1ef8c18e",
+      "asset_id": "602eb4abc8764c87b7f2607a1ef8c18e",
+      "build_version": "4352238-29145",
+      "catalog_item_id": "d1aec7fb384d4f98beb902d813bbae3c",
+      "label_name": "Live-Win32",
+      "metadata": {},
+      "namespace": "cbd5b3d310a54b12bf3fe8c41994174f"
+    },
+    "Windows": {
+      "app_name": "602eb4abc8764c87b7f2607a1ef8c18e",
+      "asset_id": "602eb4abc8764c87b7f2607a1ef8c18e",
+      "build_version": "4352238-29145",
+      "catalog_item_id": "d1aec7fb384d4f98beb902d813bbae3c",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "cbd5b3d310a54b12bf3fe8c41994174f"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2021-05-05T02:11:40.470Z",
+    "customAttributes": {
+      "BackgroundProcessNames": {
+        "type": "STRING",
+        "value": "RiotClientUx.exe,RiotClientUxRender.exe,RiotClientServices.exe"
+      },
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "VALORANT"
+      },
+      "MainWindowProcessName": {
+        "type": "STRING",
+        "value": "VALORANT-Win64-Shipping.exe"
+      },
+      "ProcessNames": {
+        "type": "STRING",
+        "value": "VALORANT-Win64-Shipping.exe"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "VALORANT",
+    "developer": "Riot Games, Inc.",
+    "developerId": "o-f78uswldmqghexmu23y5qj6a5xnqrg",
+    "endOfSupport": false,
+    "entitlementName": "d1aec7fb384d4f98beb902d813bbae3c",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "d1aec7fb384d4f98beb902d813bbae3c",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "12a1d9b80efd050055faa72feee71f8e",
+        "size": 854810,
+        "type": "DieselGameBox",
+        "uploadedDate": "2022-06-07T20:46:11.382Z",
+        "url": "https://cdn1.epicgames.com/item/cbd5b3d310a54b12bf3fe8c41994174f/5a52c72d-80fc-4c3f-bc24-52b09ab9896a_2560x1440-12a1d9b80efd050055faa72feee71f8e",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "300398d5e534f9ead4057c73bf6bad37",
+        "size": 551457,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2022-06-07T20:46:14.679Z",
+        "url": "https://cdn1.epicgames.com/item/cbd5b3d310a54b12bf3fe8c41994174f/4492483e-5d15-4d19-8c2e-262e6545307f_1200x1600-300398d5e534f9ead4057c73bf6bad37",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2022-06-22T13:00:10.279Z",
+    "namespace": "cbd5b3d310a54b12bf3fe8c41994174f",
+    "releaseInfo": [
+      {
+        "appId": "602eb4abc8764c87b7f2607a1ef8c18e",
+        "id": "70d5139910ab4d76b2c192c0b08e43da",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "VALORANT",
+    "unsearchable": true
+  }
+}

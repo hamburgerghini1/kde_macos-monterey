@@ -1,0 +1,55 @@
+Launch Command: DRI_PRIME=1 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/tommi/.var/app/com.heroicgameslauncher.hgl/.steam/steam STEAM_COMPAT_DATA_PATH=/home/tommi/Games/Heroic/Prefixes/KillingFloor2 STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-KillingFloor2 PROTON_LOG_DIR=/home/tommi/.var/app/com.heroicgameslauncher.hgl /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Finch --no-wine --wrapper "'/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton' run"
+
+System Info:
+Heroic Version: 2.3.10 Brook
+Legendary Version:  0.20.27 Dark Energy (hotfix)
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: performance
+RAM: Total: 31.14 GiB Available: 23.99 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: x11
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": true,
+	"maxSharpness": 2,
+	"nvidiaPrime": true,
+	"otherOptions": "",
+	"savesPath": "/home/tommi/Games/Heroic/Prefixes/KillingFloor2/drive_c/users/tommi/Application Data/KF2/26b935ae1f1d48cf8b5223cd84585a96/",
+	"showFps": false,
+	"showMangohud": true,
+	"targetExe": "",
+	"useGameMode": true,
+	"wineCrossoverBottle": "Heroic",
+	"winePrefix": "/home/tommi/Games/Heroic/Prefixes/KillingFloor2",
+	"wineVersion": {
+		"bin": "/home/tommi/.local/share/Steam/compatibilitytools.d/GE-Proton7-24/proton",
+		"name": "Proton - GE-Proton7-24",
+		"type": "proton"
+	}
+}
+
+Error Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Finch...
+gamemodeauto:
+gamemodeauto:
+fsync: up and running.
+wine: RLIMIT_NICE is <= 20, unable to use setpriority safely
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+wine: configuration in L"/home/tommi/Games/Heroic/Prefixes/KillingFloor2/pfx" has been updated.
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
+[S_API FAIL] SteamAPI_Init() failed
+wine: Call from 000000007B0124DE to unimplemented function uxtheme.dll.OpenThemeData, aborting
+wine: Call from 000000007B0124DE to unimplemented function uxtheme.dll.OpenThemeData, aborting
+wine: Unimplemented function uxtheme.dll.OpenThemeData called at address 000000007B0124DE (thread 019c), starting debugger...
+wineserver: could not save registry branch to system.reg : No such file or directory
+wineserver: could not save registry branch to user.reg : No such file or directory
+gamemodeauto:
+
+Game Log:
+Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed

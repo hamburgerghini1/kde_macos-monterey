@@ -1,0 +1,71 @@
+{
+  "app_name": "UE_5.0",
+  "app_title": "Unreal Engine 5.0",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "UE_5.0",
+      "asset_id": "UE",
+      "build_version": "5.0.3-20979098+++UE5+Release-5.0-Windows",
+      "catalog_item_id": "d33c86e1279b45fc9a889f5e64ed6705",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "engines/ue5"
+      },
+      {
+        "path": "engines"
+      }
+    ],
+    "creationDate": "2021-04-01T14:38:31.196Z",
+    "customAttributes": {
+      "AllowMultipleInstances": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "UE_5.0:RequirementsJson": {
+        "type": "STRING",
+        "value": "{\"Requirements\": {\"Windows\": { \"MinMajorVersion\": 6, \"MinMinorVersion\": 1, \"MinServicePackVersion\": 1 },\"MacOS\": { \"MinMajorVersion\": 10, \"MinMinorVersion\": 15, \"MinRevision\": 7 }}}"
+      }
+    },
+    "description": "Unreal Engine",
+    "developer": "Epic Games",
+    "developerId": "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+    "endOfSupport": false,
+    "entitlementName": "UE5_Release-5.0",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "unreal_engine"
+    ],
+    "id": "d33c86e1279b45fc9a889f5e64ed6705",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [],
+    "lastModifiedDate": "2022-04-05T16:34:41.180Z",
+    "longDescription": "",
+    "namespace": "ue",
+    "releaseInfo": [
+      {
+        "appId": "UE_5.0",
+        "compatibleApps": [],
+        "dateAdded": "2022-04-04T14:17:01.612Z",
+        "id": "50d7500452f2413780e5d264f147ac42",
+        "platform": [
+          "Windows",
+          "Mac"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Unreal Engine",
+    "unsearchable": false
+  }
+}

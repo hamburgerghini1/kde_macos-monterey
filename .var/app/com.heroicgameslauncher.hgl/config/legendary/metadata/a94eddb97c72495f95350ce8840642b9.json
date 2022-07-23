@@ -1,0 +1,201 @@
+{
+  "app_name": "a94eddb97c72495f95350ce8840642b9",
+  "app_title": "Berlin",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "a94eddb97c72495f95350ce8840642b9",
+      "asset_id": "a94eddb97c72495f95350ce8840642b9",
+      "build_version": "7",
+      "catalog_item_id": "b2a50bfc403848038d1282d97fbabd3d",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "1053b22ee1b74477bdf1ea3ad0e4bde0"
+      },
+      "namespace": "ed55aa5edc5941de92fd7f64de415793"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "categories": [
+      {
+        "path": "addons"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-06-30T18:57:18.281Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "Berlin"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "false"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "ed55aa5edc5941de92fd7f64de415793"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Berlin",
+    "developer": "IO Interactive",
+    "developerId": "o-ank8fbh38u9uzqbag2a5yt5xexb4yr",
+    "endOfSupport": false,
+    "entitlementName": "b2a50bfc403848038d1282d97fbabd3d",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "b2a50bfc403848038d1282d97fbabd3d",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "36cf54d4e5c35db562dedfa77d3ef976",
+        "size": 1102672,
+        "type": "DieselGameBox",
+        "uploadedDate": "2021-01-05T23:05:37.733Z",
+        "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-36cf54d4e5c35db562dedfa77d3ef976.jpg",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "8386d87ceb2eb722f3d4051fa66a2354",
+        "size": 495568,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2021-01-05T23:05:47.517Z",
+        "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-8386d87ceb2eb722f3d4051fa66a2354.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2022-01-20T17:58:39.663Z",
+    "mainGameItem": {
+      "ageGatings": {},
+      "applicationId": "fghi4567xQOCheZIin0pazB47qGUvZw4",
+      "categories": [
+        {
+          "path": "public"
+        },
+        {
+          "path": "games"
+        },
+        {
+          "path": "applications"
+        }
+      ],
+      "creationDate": "2019-09-10T19:03:58.970Z",
+      "customAttributes": {
+        "CanRunOffline": {
+          "type": "STRING",
+          "value": "false"
+        },
+        "CanSkipKoreanIdVerification": {
+          "type": "STRING",
+          "value": "true"
+        },
+        "CloudSaveFolder": {
+          "type": "STRING",
+          "value": "{AppData}/../Roaming/IO Interactive/Epic/{EpicId}/HITMAN3/"
+        },
+        "FolderName": {
+          "type": "STRING",
+          "value": "HITMAN3"
+        },
+        "MaxSizeMB": {
+          "type": "STRING",
+          "value": "3000"
+        },
+        "RequirementsJson": {
+          "type": "STRING",
+          "value": "[]"
+        },
+        "UseAccessControl": {
+          "type": "STRING",
+          "value": "false"
+        }
+      },
+      "description": "HITMAN 3",
+      "developer": "IO Interactive",
+      "developerId": "o-ank8fbh38u9uzqbag2a5yt5xexb4yr",
+      "endOfSupport": false,
+      "entitlementName": "7d9ce7dd6f2e4ee98a55bd50a9bb78e0",
+      "entitlementType": "EXECUTABLE",
+      "eulaIds": [
+        "egstore"
+      ],
+      "id": "7d9ce7dd6f2e4ee98a55bd50a9bb78e0",
+      "installModes": [],
+      "itemType": "DURABLE",
+      "keyImages": [
+        {
+          "height": 1440,
+          "md5": "fe613ea24891cacef30e846e30a00982",
+          "size": 764441,
+          "type": "DieselGameBox",
+          "uploadedDate": "2020-12-09T17:17:57.239Z",
+          "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/HM3_wide-2560x1440-fe613ea24891cacef30e846e30a00982.jpg",
+          "width": 2560
+        },
+        {
+          "height": 1600,
+          "md5": "b285fb6eb586113c9479ff33ed646b69",
+          "size": 313042,
+          "type": "DieselGameBoxTall",
+          "uploadedDate": "2020-12-09T17:18:22.193Z",
+          "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/HM3_tall-1200x1600-b285fb6eb586113c9479ff33ed646b69.jpg",
+          "width": 1200
+        }
+      ],
+      "lastModifiedDate": "2022-01-20T17:58:39.663Z",
+      "longDescription": "HITMAN 3",
+      "namespace": "ed55aa5edc5941de92fd7f64de415793",
+      "releaseInfo": [
+        {
+          "appId": "Eider",
+          "dateAdded": "2019-09-10T00:00:00.000Z",
+          "id": "51204c3b58ea4e0aac3419d00bae49f1",
+          "platform": [
+            "Windows"
+          ]
+        }
+      ],
+      "status": "ACTIVE",
+      "title": "HITMAN 3",
+      "unsearchable": false
+    },
+    "namespace": "ed55aa5edc5941de92fd7f64de415793",
+    "releaseInfo": [
+      {
+        "appId": "a94eddb97c72495f95350ce8840642b9",
+        "dateAdded": "2020-06-30T00:00:00.000Z",
+        "id": "1f8b3fd0116044bcbdc294c9db10a586",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "technicalDetails": "Mission 3",
+    "title": "Berlin",
+    "unsearchable": true
+  }
+}

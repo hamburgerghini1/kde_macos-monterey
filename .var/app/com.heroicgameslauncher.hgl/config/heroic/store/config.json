@@ -1,0 +1,38 @@
+{
+	"general-logs": {
+		"currentLogFile": "/home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/logs/heroic-2022-07-20T05_40_58.614Z.log",
+		"lastLogFile": "/home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/logs/heroic-2022-07-19T09_00_07.016Z.log"
+	},
+	"userHome": "/home/tommi",
+	"window-props": {
+		"x": 0,
+		"y": 28,
+		"width": 1920,
+		"height": 1052
+	},
+	"userInfo": {
+		"account_id": "26b935ae1f1d48cf8b5223cd84585a96",
+		"displayName": "hamburgerghini2",
+		"user": "tommi"
+	},
+	"games": {
+		"recent": [
+			{
+				"appName": "Eider",
+				"title": "HITMAN 3"
+			},
+			{
+				"appName": "Finch",
+				"title": "Killing Floor 2"
+			},
+			{
+				"appName": "Sugar",
+				"title": "Rocket League®"
+			},
+			{
+				"appName": "Pigeon",
+				"title": "Trackmania"
+			}
+		]
+	}
+}

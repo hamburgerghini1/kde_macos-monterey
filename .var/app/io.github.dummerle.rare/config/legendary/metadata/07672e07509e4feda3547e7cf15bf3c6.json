@@ -1,0 +1,91 @@
+{
+  "app_name": "07672e07509e4feda3547e7cf15bf3c6",
+  "app_title": "Saints Row Boss Factory",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "07672e07509e4feda3547e7cf15bf3c6",
+      "asset_id": "07672e07509e4feda3547e7cf15bf3c6",
+      "build_version": "sr5-sr5_cust_demo-sr5_release_final-CL_4274920-220523_2249UTC",
+      "catalog_item_id": "1b1cd8ab7916443badc85bb2d4cc4f7a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "0d23bb77ee2f45b7a571bde68caddb09"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "fghi4567EfKBNWDUcsGDunacE3RkrunD",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2021-09-13T16:11:26.624Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "SaintsRowBossFactory"
+      }
+    },
+    "description": "Saints Row Boss Factory",
+    "developer": "Koch Media",
+    "developerId": "o-jskfz28ywm2l56px6h9rlxplaysrtl",
+    "endOfSupport": false,
+    "entitlementName": "1b1cd8ab7916443badc85bb2d4cc4f7a",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "1b1cd8ab7916443badc85bb2d4cc4f7a",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "3f058f9cb7827f5aba10b586d9087d7d",
+        "size": 1006559,
+        "type": "DieselGameBox",
+        "uploadedDate": "2022-05-26T10:55:06.023Z",
+        "url": "https://cdn1.epicgames.com/item/0d23bb77ee2f45b7a571bde68caddb09/EGS_SaintsRowBossFactory_DeepSilverVolition_Demo_S1_2560x1440-3f058f9cb7827f5aba10b586d9087d7d",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "e4956c1dfed90d41e2ac0490109a06c3",
+        "size": 955811,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2022-05-26T10:55:09.944Z",
+        "url": "https://cdn1.epicgames.com/item/0d23bb77ee2f45b7a571bde68caddb09/EGS_SaintsRowBossFactory_DeepSilverVolition_Demo_S2_1200x1600-e4956c1dfed90d41e2ac0490109a06c3",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2022-06-09T18:23:32.205Z",
+    "namespace": "0d23bb77ee2f45b7a571bde68caddb09",
+    "releaseInfo": [
+      {
+        "appId": "07672e07509e4feda3547e7cf15bf3c6",
+        "compatibleApps": [],
+        "dateAdded": "2019-08-20T00:00:00.000Z",
+        "id": "da341676ca7a43178d724698b57bd152",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Saints Row Boss Factory",
+    "unsearchable": true
+  }
+}

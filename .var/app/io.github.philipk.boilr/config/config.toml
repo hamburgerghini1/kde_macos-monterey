@@ -1,0 +1,53 @@
+debug = false
+config_version = 1
+blacklisted_games = []
+
+[epic_games]
+enabled = true
+safe_launch = []
+
+[legendary]
+enabled = true
+
+[itch]
+enabled = true
+create_symlinks = true
+
+[steamgrid_db]
+enabled = true
+prefer_animated = false
+banned_images = []
+only_download_boilr_images = false
+
+[steam]
+create_collections = false
+optimize_for_big_picture = false
+stop_steam = false
+start_steam = false
+
+[origin]
+enabled = true
+
+[gog]
+enabled = true
+create_symlinks = true
+
+[uplay]
+enabled = true
+
+[lutris]
+enabled = false
+executable = "lutris"
+flatpak = false
+flatpak_image = "net.lutris.Lutris//beta"
+
+[heroic]
+enabled = true
+launch_games_through_heroic = []
+default_launch_through_heroic = true
+
+[amazon]
+enabled = true
+
+[flatpak]
+enabled = true

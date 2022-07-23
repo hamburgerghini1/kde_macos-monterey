@@ -1,0 +1,69 @@
+[Core] INFO: Trying to re-use existing login session...
+[Login] INFO: You are logged in
+[Login] INFO: App starting
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[GamesTab] WARNING: No Unreal engine in library found
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Ubisoft] ERROR: HTTPSConnectionPool(host='store-launcher.epicgames.com', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc00008b1f0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Core] INFO: Parsing game manifest...
+[Core] INFO: "/home/tommi/legendary" does not exist, creating...
+[Core] INFO: Install path: /home/tommi/legendary/HITMAN3
+[Core] INFO: Selected CDN: download.epicgames.com (https)
+[Core] INFO: Parsing game manifest...
+[Core] INFO: "/media/pelissd/HITMAN3/" does not exist, creating...
+[Core] INFO: Install path: /media/pelissd/HITMAN3/HITMAN3
+[Core] INFO: Selected CDN: fastly-download.epicgames.com (https)
+[Core] INFO: Parsing game manifest...
+[Core] INFO: Install path: /home/tommi/Games/HITMAN3/HITMAN3
+[Core] INFO: Selected CDN: download.epicgames.com (https)
+[DLManager] INFO: Download Manager running with process-id: 31
+[DLManager] INFO: Starting download workers...
+[DLManager] INFO: Starting file writing worker...
+[DLManager] INFO: Waiting for installation to finish...
+[DLManager] INFO: All done! Download manager quitting...
+[DownloadThread] INFO: Download finished in 5386.499551534653s
+[DownloadThread] INFO: This game supports cloud saves, syncing is handled by the "sync-saves" command.
+[DownloadThread] INFO: To download saves for this game run "legendary sync-saves Eider"
+[Download] INFO: Download finished: HITMAN 3
+[Cloud Saves] INFO: Set save path of HITMAN 3 to /home/tommi/.wine/drive_c/users/tommi/AppData/Roaming/HITMAN3
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Core] INFO: Install candidate is DLC
+[Core] INFO: Parsing game manifest...
+[Core] INFO: Install path: /home/tommi/Games/HITMAN3/HITMAN3
+[Core] INFO: Selected CDN: download.epicgames.com (https)
+[Legendary Utils] INFO: Loading installed manifest for "HITMAN 3"
+[Legendary Utils] INFO: Verifying "HITMAN 3" version "5915918"
+[Legendary Utils] INFO: Verification finished successfully.
+[GameUtils] INFO: Launching HITMAN 3
+[Core] INFO: Getting authentication token...
+[RPC] ERROR: Could not find Discord installed and running on this machine.
+[GameUtils] INFO: HITMAN 3 launched
+[GameUtils] INFO: Game exited with exit code: 0
+[RPC] ERROR: Could not find Discord installed and running on this machine.
+[GameUtils] INFO: Launching HITMAN 3
+[Core] INFO: Getting authentication token...
+[RPC] ERROR: Could not find Discord installed and running on this machine.
+[GameUtils] INFO: HITMAN 3 launched
+[GameUtils] INFO: Game exited with exit code: 0
+[RPC] ERROR: Could not find Discord installed and running on this machine.
+[Rare] CRITICAL: Traceback (most recent call last):
+  File "/app/lib/python3.9/site-packages/rare/components/tabs/games/game_widgets/installed_icon_widget.py", line 108, in mousePressEvent
+    self.launch()
+  File "/app/lib/python3.9/site-packages/rare/components/tabs/games/game_widgets/base_installed_widget.py", line 180, in launch
+    self.game_utils.prepare_launch(
+  File "/app/lib/python3.9/site-packages/rare/components/tabs/games/game_utils.py", line 95, in prepare_launch
+    sync = self.cloud_save_utils.sync_before_launch_game(app_name)
+  File "/app/lib/python3.9/site-packages/rare/components/tabs/games/cloud_save_utils.py", line 197, in sync_before_launch_game
+    res, (dt_local, dt_remote) = self.core.check_savegame_state(
+  File "/app/lib/python3.9/site-packages/rare/legendary/legendary/core.py", line 782, in check_savegame_state
+    s = os.stat(os.path.join(_dir, _file))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tommi/Games/HITMAN3/drive_c/users/tommi/Documents/GitHub/kde_macos-monterey/.steampath'
+

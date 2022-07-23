@@ -1,0 +1,25 @@
+{
+  "Sugar": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "maxSharpness": 2,
+    "nvidiaPrime": false,
+    "otherOptions": "",
+    "savesPath": "",
+    "showFps": false,
+    "showMangohud": true,
+    "targetExe": "",
+    "useGameMode": true,
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/tommi/Games/Heroic/Prefixes/rocketleague",
+    "wineVersion": {
+      "bin": "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wine",
+      "name": "Wine - lutris-GE-Proton7-21-x86_64",
+      "type": "wine",
+      "wineserver": "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wineserver",
+      "wineboot": "/home/tommi/.local/share/lutris/runners/wine/lutris-GE-Proton7-21-x86_64/bin/wineboot"
+    }
+  },
+  "version": "v0",
+  "explicit": true
+}

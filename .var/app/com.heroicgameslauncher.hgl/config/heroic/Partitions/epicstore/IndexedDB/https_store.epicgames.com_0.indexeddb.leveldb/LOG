@@ -1,0 +1,2 @@
+2022/07/17-11:07:39.750 16 Creating DB /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/Partitions/epicstore/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb since it was missing.
+2022/07/17-11:07:39.753 16 Reusing MANIFEST /home/tommi/.var/app/com.heroicgameslauncher.hgl/config/heroic/Partitions/epicstore/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001

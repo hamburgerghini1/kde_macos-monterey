@@ -1,0 +1,456 @@
+{
+	"Finch": {
+		"game": {
+			"app_name": "Finch",
+			"cloud_save_folder": "{appdata}/../Roaming/KF2/{EpicID}/",
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": true,
+			"external_activation": null,
+			"is_dlc": false,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "455378-2022_07_06_12h29m25s"
+			},
+			"title": "Killing Floor 2",
+			"version": "455378-2022_07_06_12h29m25s"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "FinchStaging",
+			"build_id": "DNo8Sehbo47xrzwGE2xVpJ_S6pw",
+			"build_version": "455378-2022_07_06_12h29m25s",
+			"disk_size": 88384617086,
+			"download_size": 44801223698,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "",
+			"launch_exe": "Binaries/Win64/KFGame.exe",
+			"num_chunks": 83964,
+			"num_files": 91762,
+			"prerequisites": null,
+			"size": 8553458,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	},
+	"Turtle": {
+		"game": {
+			"app_name": "Turtle",
+			"cloud_save_folder": "{AppData}/Maneater/Saved/SaveGames/",
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": true,
+			"external_activation": null,
+			"is_dlc": false,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "43151315"
+			},
+			"title": "Maneater",
+			"version": "43151315"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "TurtleCert",
+			"build_id": "9idMDt7cRoCjqFrFuHG1Si3KB_A",
+			"build_version": "43151315",
+			"disk_size": 26880060143,
+			"download_size": 18164350563,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "",
+			"launch_exe": "Maneater.exe",
+			"num_chunks": 25448,
+			"num_files": 84,
+			"prerequisites": null,
+			"size": 1703418,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	},
+	"Sugar": {
+		"game": {
+			"app_name": "Sugar",
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": false,
+			"external_activation": null,
+			"is_dlc": false,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "BC2_Update38.1+387280"
+			},
+			"title": "Rocket League®",
+			"version": "BC2_Update38.1+387280"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "SugarStaging",
+			"build_id": "UJTeGpCSHKd_bAxYtwTDJhTx-RA",
+			"build_version": "BC2_Update38.1+387280",
+			"disk_size": 24488088269,
+			"download_size": 20809144366,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "",
+			"launch_exe": "Binaries/Win64/RocketLeague.exe",
+			"num_chunks": 20254,
+			"num_files": 10962,
+			"prerequisites": null,
+			"size": 1766632,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	},
+	"Pigeon": {
+		"game": {
+			"app_name": "Pigeon",
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": false,
+			"external_activation": "ubisoft",
+			"is_dlc": false,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "1.1"
+			},
+			"title": "Trackmania",
+			"version": "1.1"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "PigeonStaging",
+			"build_id": "VAdN-PNLi2qTVB2IzZ0o2OfMywk",
+			"build_version": "1.1",
+			"disk_size": 1750676247,
+			"download_size": 1605157752,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "-UplayId=5595 ",
+			"launch_exe": "UplayLaunch.exe",
+			"num_chunks": 1670,
+			"num_files": 29,
+			"prerequisites": {
+				"args": "/S",
+				"ids": [
+					"uplay"
+				],
+				"name": "Uplay",
+				"path": "Uplay/UplayInstaller.exe"
+			},
+			"size": 111316,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	},
+	"addd421d0f1d4573914f915a697054de": {
+		"game": {
+			"app_name": "addd421d0f1d4573914f915a697054de",
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": false,
+			"external_activation": null,
+			"is_dlc": true,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "7"
+			},
+			"title": "HITMAN 1 GOTY Upgrade",
+			"version": "7"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "2673164871254a1ea6aeca3f01c9a983",
+			"build_id": "idDusb2kVBzjihhoYgBkgwRwAVk",
+			"build_version": "7",
+			"disk_size": 2,
+			"download_size": 2212,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "",
+			"launch_exe": "",
+			"num_chunks": 2,
+			"num_files": 1,
+			"prerequisites": null,
+			"size": 295,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	},
+	"4145c668a0c94f1db16de2cbfbc60309": {
+		"game": {
+			"app_name": "4145c668a0c94f1db16de2cbfbc60309",
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": false,
+			"external_activation": null,
+			"is_dlc": true,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "7"
+			},
+			"title": "HITMAN 1 Complete First Season",
+			"version": "7"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "7172b238fca74e35b65c3e8e20d963ae",
+			"build_id": "n0j8GOQSbgro6lEu6HgYDnZPhfA",
+			"build_version": "7",
+			"disk_size": 2,
+			"download_size": 2212,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "",
+			"launch_exe": "",
+			"num_chunks": 2,
+			"num_files": 1,
+			"prerequisites": null,
+			"size": 297,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	},
+	"Eider": {
+		"game": {
+			"app_name": "Eider",
+			"cloud_save_folder": "{AppData}/../Roaming/IO Interactive/Epic/{EpicId}/HITMAN3/",
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": true,
+			"external_activation": null,
+			"is_dlc": false,
+			"launch_options": [],
+			"owned_dlc": [
+				{
+					"app_name": "445902ab2a7841a1a2ec9d536dc4d297",
+					"id": "275ba6d62ad84639aaa79f8f7a010482",
+					"installable": [
+						{
+							"appId": "445902ab2a7841a1a2ec9d536dc4d297",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "Chongquing"
+				},
+				{
+					"app_name": "f73a0557f7fc4ca08e3cb2c0e5dfb22b",
+					"id": "36c3ce49d17f4a5b9ae9ab4bbdcd49d8",
+					"installable": [
+						{
+							"appId": "f73a0557f7fc4ca08e3cb2c0e5dfb22b",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "Dubai"
+				},
+				{
+					"app_name": "a94eddb97c72495f95350ce8840642b9",
+					"id": "b2a50bfc403848038d1282d97fbabd3d",
+					"installable": [
+						{
+							"appId": "a94eddb97c72495f95350ce8840642b9",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "Berlin"
+				},
+				{
+					"app_name": "fc97ef705954490ab4bf3d6773bce766",
+					"id": "8b0bec59a06d491c8023729d72e492db",
+					"installable": [
+						{
+							"appId": "fc97ef705954490ab4bf3d6773bce766",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "Dartmoor"
+				},
+				{
+					"app_name": "1ed82fbb0d7f42db93646185e267677f",
+					"id": "d229bf9d6cb1445cb4128594e31893c8",
+					"installable": [
+						{
+							"appId": "1ed82fbb0d7f42db93646185e267677f",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "Mendoza"
+				},
+				{
+					"app_name": "62af9e3ead7a49d59f12ae6196af8117",
+					"id": "cd7cf37e82c44fb489d799b16cbb5ee4",
+					"installable": [
+						{
+							"appId": "62af9e3ead7a49d59f12ae6196af8117",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "Carpathian Mountains"
+				},
+				{
+					"app_name": "4145c668a0c94f1db16de2cbfbc60309",
+					"id": "20fc193bb7524a67b6c7712facac50e6",
+					"installable": [
+						{
+							"appId": "4145c668a0c94f1db16de2cbfbc60309",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "HITMAN 1 Complete First Season"
+				},
+				{
+					"app_name": "94bb539b7f6648189f38bb3de9937e6c",
+					"id": "8b2c0293d4dd4589a632e095e151437b",
+					"installable": [
+						{
+							"appId": "94bb539b7f6648189f38bb3de9937e6c",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "HITMAN 2 Standard"
+				},
+				{
+					"app_name": "addd421d0f1d4573914f915a697054de",
+					"id": "931c36e78d0848e59bafb10e2f693213",
+					"installable": [
+						{
+							"appId": "addd421d0f1d4573914f915a697054de",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "HITMAN 1 GOTY Upgrade"
+				},
+				{
+					"app_name": "cfcad5e03dd543da9922c6a6751710f5",
+					"id": "abe98f70607642e0a586c6ae55012afe",
+					"installable": [
+						{
+							"appId": "cfcad5e03dd543da9922c6a6751710f5",
+							"dateAdded": "2020-06-30T00:00:00.000Z",
+							"id": "1f8b3fd0116044bcbdc294c9db10a586",
+							"platform": [
+								"Windows"
+							]
+						}
+					],
+					"title": "HITMAN 2 Expansion"
+				}
+			],
+			"platform_versions": {
+				"Windows": "5915918"
+			},
+			"title": "HITMAN 3",
+			"version": "5915918"
+		},
+		"install": null,
+		"manifest": {
+			"app_name": "EiderStaging",
+			"build_id": "arzNdC8e1TBondHMgouCJHElN_8",
+			"build_version": "5915918",
+			"disk_size": 69108951759,
+			"download_size": 62293171138,
+			"feature_level": 17,
+			"install_tags": [
+				"",
+				"Retail"
+			],
+			"launch_command": "",
+			"launch_exe": "Launcher.exe",
+			"num_chunks": 63396,
+			"num_files": 157,
+			"prerequisites": null,
+			"size": 4239469,
+			"tag_disk_size": [
+				{
+					"count": 155,
+					"size": 69066324703,
+					"tag": ""
+				},
+				{
+					"count": 2,
+					"size": 42627056,
+					"tag": "Retail"
+				}
+			],
+			"tag_download_size": [
+				{
+					"count": 63356,
+					"size": 62275834437,
+					"tag": ""
+				},
+				{
+					"count": 44,
+					"size": 20169924,
+					"tag": "Retail"
+				}
+			],
+			"type": "binary",
+			"version": 17
+		}
+	}
+}

@@ -1,0 +1,1631 @@
+{
+	"library": [
+		{
+			"app_name": "06621054d7d24f44bf13e3c31c9ec05d",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_JustDieAlready_DoubleMoose_S5_1920x1080-ab0a72182a2dbbead850ff3ab81a4f73",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_JustDieAlready_DoubleMoose_S6_1200x1600-577891f9b98a2f9fb55adcaae4ed5ebe",
+			"cloud_save_enabled": false,
+			"developer": "Curve Digital",
+			"extra": {
+				"about": {
+					"description": "Just Die Already",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "JustDieAlready",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "8c7ed85dae4341d385919ee4d832eb1a",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Just Die Already",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/just-die-already"
+		},
+		{
+			"app_name": "07672e07509e4feda3547e7cf15bf3c6",
+			"art_cover": "https://cdn1.epicgames.com/item/0d23bb77ee2f45b7a571bde68caddb09/EGS_SaintsRowBossFactory_DeepSilverVolition_Demo_S1_2560x1440-3f058f9cb7827f5aba10b586d9087d7d",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/0d23bb77ee2f45b7a571bde68caddb09/EGS_SaintsRowBossFactory_DeepSilverVolition_Demo_S2_1200x1600-e4956c1dfed90d41e2ac0490109a06c3",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "Koch Media",
+			"extra": {
+				"about": {
+					"description": "Saints Row Boss Factory",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "SaintsRowBossFactory",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "0d23bb77ee2f45b7a571bde68caddb09",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Saints Row Boss Factory",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/saints-row-boss-factory"
+		},
+		{
+			"app_name": "1be5efb848844b1dabf9d67f8017a7ae",
+			"art_cover": "https://cdn1.epicgames.com/item/93ea0d593cb04e62afb0741bbf894173/EGS_RedoutEnhancedEdition_34BigThingssrl_S1_2560x1440-23ab955c6537efdd53e1f407609f9036",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/93ea0d593cb04e62afb0741bbf894173/EGS_RedoutEnhancedEdition_34BigThingssrl_S2_1200x1600-c728e59dd15c5e474376f8d3998105d3",
+			"cloud_save_enabled": false,
+			"developer": "34BigThings SRL",
+			"extra": {
+				"about": {
+					"description": "Redout: Enhanced Edition",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "RedoutEnhancedEdition",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "93ea0d593cb04e62afb0741bbf894173",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Redout: Enhanced Edition",
+			"canRunOffline": false,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/redout-enhanced-edition"
+		},
+		{
+			"app_name": "1ed82fbb0d7f42db93646185e267677f",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-24e5473fa531d1d35be29c96b69c2e60.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-b3a011b4495a287f14b8913c82ce7fab.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "Mendoza",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Mendoza",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Mendoza",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/mendoza"
+		},
+		{
+			"app_name": "3223ccf6ac9b4189bd4e144c047d33fb",
+			"art_cover": "https://cdn1.epicgames.com/affc33b82405457595a032f00284abd2/item/KF2_EGS_BETA_2560x1440-2560x1440-bb6e0327b726b1dcb1cbaae44cde9ddd.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/affc33b82405457595a032f00284abd2/item/KF2_EGS_BETA_860x1148-860x1148-748b4d090c25c8a0010c99a4702728f1.jpg",
+			"cloud_save_enabled": false,
+			"developer": "Tripwire Interactive",
+			"extra": {
+				"about": {
+					"description": "KillingFloor2Beta",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "KillingFloor2Beta",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "affc33b82405457595a032f00284abd2",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "KillingFloor2Beta",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/killingfloor2beta"
+		},
+		{
+			"app_name": "4145c668a0c94f1db16de2cbfbc60309",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-c87d5b823cfed03aea63b3a8416567a9.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-f5ba53854eda79db23584f58dc14c855.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "HITMAN 1 Complete First Season",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "HITMAN1CFS",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "HITMAN 1 Complete First Season",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/hitman-1-complete-first-season"
+		},
+		{
+			"app_name": "41869934302e4b8cafac2d3c0e7c293d",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/Landscape Product image-EN_2560x1440-91c6cd7312cc2647c3ebccca10f30399",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/Portrait Product Image-en_1200x1600-c12cdcc2cac330df2185aa58c508e820",
+			"cloud_save_enabled": false,
+			"developer": "Cognosphere",
+			"extra": {
+				"about": {
+					"description": "Genshin Impact",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "GenshinImpact",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "879b0d8776ab46a59a129983ba78f0ce",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Genshin Impact",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/genshin-impact"
+		},
+		{
+			"app_name": "445902ab2a7841a1a2ec9d536dc4d297",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-bb3135c70adfb8bf627b47095c852cc6.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-99a3f712017e75757518d4ea748a5928.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "Chongquing",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Chongquing",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Chongquing",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/chongquing"
+		},
+		{
+			"app_name": "52d88e9a6df248da913c8e99f1e4c526",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Prey_ArkaneStudios_S3_2560x1440-66103490180b56a8a132ae2487e18f2f_2560x1440-66103490180b56a8a132ae2487e18f2f",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Prey_ArkaneStudios_S2_1200x1600-98e869dbf74a7db4857c4242c044272d_1200x1600-98e869dbf74a7db4857c4242c044272d",
+			"cloud_save_enabled": true,
+			"developer": "Bethesda Softworks LLC",
+			"extra": {
+				"about": {
+					"description": "PREY",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "PREY",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "6ea398b9c2244250a9177c0b8a69b5cd",
+			"is_mac_native": false,
+			"save_folder": "{UserSavedGames}/Arkane Studios/Prey_Epic/{EpicID}/",
+			"title": "PREY",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/prey"
+		},
+		{
+			"app_name": "58a6b5e81c644fba8bab2e05137429d9",
+			"art_cover": "https://cdn1.epicgames.com/item/f401d7e187e349138380d22e991b29ca/EGS_TheVanishingofEthanCarter_TheAstronauts_S1_2560x1440-c0166f0ef48b7f939393e5cedc973ac2_2560x1440-c0166f0ef48b7f939393e5cedc973ac2",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/f401d7e187e349138380d22e991b29ca/EGS_TheVanishingofEthanCarter_TheAstronauts_S2_1200x1600-7c91a065dc24801d711197ce8ecb7194_1200x1600-7c91a065dc24801d711197ce8ecb7194",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "The Astronauts",
+			"extra": {
+				"about": {
+					"description": "The Vanishing of Ethan Carter Redux",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "VanishingEthanCarterRedux",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "f401d7e187e349138380d22e991b29ca",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "The Vanishing of Ethan Carter Redux",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/the-vanishing-of-ethan-carter-redux"
+		},
+		{
+			"app_name": "602eb4abc8764c87b7f2607a1ef8c18e",
+			"art_cover": "https://cdn1.epicgames.com/item/cbd5b3d310a54b12bf3fe8c41994174f/5a52c72d-80fc-4c3f-bc24-52b09ab9896a_2560x1440-12a1d9b80efd050055faa72feee71f8e",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/cbd5b3d310a54b12bf3fe8c41994174f/4492483e-5d15-4d19-8c2e-262e6545307f_1200x1600-300398d5e534f9ead4057c73bf6bad37",
+			"cloud_save_enabled": false,
+			"developer": "Riot Games, Inc.",
+			"extra": {
+				"about": {
+					"description": "VALORANT",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "VALORANT",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "cbd5b3d310a54b12bf3fe8c41994174f",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "VALORANT",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/valorant"
+		},
+		{
+			"app_name": "62af9e3ead7a49d59f12ae6196af8117",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-15b5f538b4ecfbc972903279faeff882.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-95bd6f90bf261163d402bd73b3f192d3.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "Carpathian Mountains",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "CarpathianMountains",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Carpathian Mountains",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/carpathian-mountains"
+		},
+		{
+			"app_name": "6fbbc765b38c4f2ea3d9a9caa620bae7",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s1-2560x1440-834f227d1383_2560x1440-53f5d8dfeecbcb54b5ef5cc2acd8f21f",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/egs-discord-discord-s2-1200x1600-b72c609ef567_1200x1600-7e960066e153510e27bdded06d99ff5e",
+			"cloud_save_enabled": false,
+			"developer": "Discord Inc",
+			"extra": {
+				"about": {
+					"description": "Discord",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Discord",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "5f3c898b2a3244af99e9900e015717f8",
+			"is_mac_native": true,
+			"save_folder": "",
+			"title": "Discord",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/discord"
+		},
+		{
+			"app_name": "8b556e7471ac46eda46445d93fa2e73f",
+			"art_cover": "https://cdn1.epicgames.com/spt-assets/dbc7343b22614dab86a493df7ba9803d/insurmountable-offer-xlz0l.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/spt-assets/dbc7343b22614dab86a493df7ba9803d/download-insurmountable-offer-16ppn.jpg",
+			"cloud_save_enabled": true,
+			"developer": "Daedalic Entertainment",
+			"extra": {
+				"about": {
+					"description": "Insurmountable",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Insurmountable",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "e25eba2210804006a61763a4108322de",
+			"is_mac_native": false,
+			"save_folder": "{AppData}/../LocalLow/Daedalic Entertainment GmbH/Insurmountable/",
+			"title": "Insurmountable",
+			"canRunOffline": false,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/insurmountable"
+		},
+		{
+			"app_name": "9447b19ffb6a47e1a654b75178779a28",
+			"art_cover": "https://cdn1.epicgames.com/item/f401d7e187e349138380d22e991b29ca/EGS_TheVanishingofEthanCarter_TheAstronauts_S1_2560x1440-c0166f0ef48b7f939393e5cedc973ac2_2560x1440-c0166f0ef48b7f939393e5cedc973ac2",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/f401d7e187e349138380d22e991b29ca/EGS_TheVanishingofEthanCarter_TheAstronauts_S2_1200x1600-7c91a065dc24801d711197ce8ecb7194_1200x1600-7c91a065dc24801d711197ce8ecb7194",
+			"cloud_save_enabled": false,
+			"developer": "The Astronauts",
+			"extra": {
+				"about": {
+					"description": "The Vanishing of Ethan Carter",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "TheVanishingofEthanCarter",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "f401d7e187e349138380d22e991b29ca",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "The Vanishing of Ethan Carter",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/the-vanishing-of-ethan-carter"
+		},
+		{
+			"app_name": "94bb539b7f6648189f38bb3de9937e6c",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-7f1593f74447f3bfc02fbe2ca468151a.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-9c6d2d89a5a9bac951c1f0e3f7392211.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "HITMAN 2 Standard",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "HITMAN2Standard",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "HITMAN 2 Standard",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/hitman-2-standard"
+		},
+		{
+			"app_name": "9d2d0eb64d5c44529cece33fe2a46482",
+			"art_cover": "https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/item/GTAV_EGS_Artwork_2560x1440_Landscaped Store-2560x1440-79155f950f32c9790073feaccae570fb.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/item/GTAV_EGS_Artwork_1200x1600_Portrait Store Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg",
+			"cloud_save_enabled": false,
+			"developer": "Rockstar Games",
+			"extra": {
+				"about": {
+					"description": "Grand Theft Auto V",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "GTAV",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "0584d2013f0149a791e7b9bad0eec102",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Grand Theft Auto V",
+			"canRunOffline": false,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/grand-theft-auto-v"
+		},
+		{
+			"app_name": "Eider",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/HM3_wide-2560x1440-fe613ea24891cacef30e846e30a00982.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/HM3_tall-1200x1600-b285fb6eb586113c9479ff33ed646b69.jpg",
+			"cloud_save_enabled": true,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "HITMAN 3",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "HITMAN3",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "{AppData}/../Roaming/IO Interactive/Epic/{EpicId}/HITMAN3/",
+			"title": "HITMAN 3",
+			"canRunOffline": false,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/hitman-3"
+		},
+		{
+			"app_name": "Finch",
+			"art_cover": "https://cdn1.epicgames.com/item/affc33b82405457595a032f00284abd2/7b71ad1e-a830-4834-ab00-5693f803656b_2560x1440-4995a845423263335d529fcae667e979",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/affc33b82405457595a032f00284abd2/3f92fc65-f337-49e9-b5f8-8225ab5dc38f_1200x1600-cc435d1b298b51615ca8dc916d391b68",
+			"cloud_save_enabled": true,
+			"developer": "Tripwire Interactive",
+			"extra": {
+				"about": {
+					"description": "Killing Floor 2",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "KillingFloor2",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "affc33b82405457595a032f00284abd2",
+			"is_mac_native": false,
+			"save_folder": "{appdata}/../Roaming/KF2/{EpicID}/",
+			"title": "Killing Floor 2",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/killing-floor-2"
+		},
+		{
+			"app_name": "Fortnite",
+			"art_cover": "https://cdn1.epicgames.com/item/fn/21BR_KeyArt_EGS_Launcher_Blade_2560x1440_2560x1440-5335449297e75a6cc7c72ad01609b8e1",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/fn/21BR_KeyArt_EGS_Launcher_Blade_1200x1600_1200x1600-fe71ad313dae7c7339dc4a28ed9687fa",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "Epic Games",
+			"extra": {
+				"about": {
+					"description": "Battle. Build. Create. Fortnite is the free, always evolving, multiplayer game where you and your friends battle to be the last one standing or collaborate to create your dream Fortnite world. Play both Battle Royale and Fortnite Creative for FREE.",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Fortnite",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "fn",
+			"is_mac_native": true,
+			"save_folder": "",
+			"title": "Fortnite",
+			"canRunOffline": false,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/fortnite"
+		},
+		{
+			"app_name": "Grouse",
+			"art_cover": "https://cdn1.epicgames.com/ba3149b6d7a7488ab5cc674154458757/item/EGS_ThunderLotus_JotunValhallaEdition_S1-2560x1440-3de6d0151b1c97a08a8579167814682c.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ba3149b6d7a7488ab5cc674154458757/item/EGS_ThunderLotus_JotunValhallaEdition_S2-1280x1440-eceef05b236cf920e419b4004d4993e7.jpg",
+			"cloud_save_enabled": false,
+			"developer": "Thunder Lotus Games",
+			"extra": {
+				"about": {
+					"description": "Jotun Valhalla Edition",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Jotun",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ba3149b6d7a7488ab5cc674154458757",
+			"is_mac_native": true,
+			"save_folder": "",
+			"title": "Jotun Valhalla Edition",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/jotun-valhalla-edition"
+		},
+		{
+			"app_name": "Pepper",
+			"art_cover": "https://cdn1.epicgames.com/5d582c08e31a43128a61093a2c3ff7f0/item/SIII_Store_Primary_Promo-2580x1450-013a64fa8981e712fab77bd6ebb7c17a.jpg",
+			"art_logo": "https://cdn1.epicgames.com/5d582c08e31a43128a61093a2c3ff7f0/item/Game-Logo_ShenmueIII-3168x692-ebf5c465607e0836a16f99c8f0c3fc8d.png",
+			"art_square": "https://cdn1.epicgames.com/5d582c08e31a43128a61093a2c3ff7f0/item/SIII_Store_Portrait_Promo-1280x1420-ecc18819dfe8a6bcec332a6ab787a9ba.jpg",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "Koch Media",
+			"extra": {
+				"about": {
+					"description": "Shenmue 3",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Shenmue3",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "5d582c08e31a43128a61093a2c3ff7f0",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Shenmue 3",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/shenmue-3"
+		},
+		{
+			"app_name": "Pigeon",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/TM_StarterEd_Store_Landscape_2560x1440_2560x1440-0208bfc8d824b707130420b61249d4f5",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/Trackmania_Royal_KeyArt_1200x1600_1200x1600-baf0e1c64be7ae2fefa18ba9e845f4c2",
+			"cloud_save_enabled": false,
+			"developer": "Epic Dev Test Account",
+			"extra": {
+				"about": {
+					"description": "Trackmania",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "TrackmaniaNext",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "b04882669b2e495e9f747c8560488c93",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Trackmania",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/trackmania"
+		},
+		{
+			"app_name": "Sugar",
+			"art_cover": "https://cdn1.epicgames.com/item/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S1_2560x1440-96ba21c538cda908e69be34b1e539c1a",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-f226d68abff3fb091ce1054a1d30fc23",
+			"cloud_save_enabled": false,
+			"developer": "Psyonix LLC",
+			"extra": {
+				"about": {
+					"description": "Rocket League®",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "rocketleague",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "9773aa1aa54f4f7b80e44bef04986cea",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Rocket League®",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/rocket-league"
+		},
+		{
+			"app_name": "Tamarind",
+			"art_cover": "https://cdn1.epicgames.com/item/615659ff36244d258ef6c6a827e32c5d/EGS_BrothersATaleofTwoSons_StarbreezeStudiosAB_S1_2560x1440-a1455bfc980acece23a9fc9824a94e17_2560x1440-a1455bfc980acece23a9fc9824a94e17",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/615659ff36244d258ef6c6a827e32c5d/EGS_BrothersATaleofTwoSons_StarbreezeStudiosAB_S2_1200x1600-7a17b42675bd9d44e6ddeccd7813c593_1200x1600-7a17b42675bd9d44e6ddeccd7813c593",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "505 Games",
+			"extra": {
+				"about": {
+					"description": "Brothers - A Tale of Two Sons",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "BrothersATOTS",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "615659ff36244d258ef6c6a827e32c5d",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Brothers - A Tale of Two Sons",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/brothers--a-tale-of-two-sons"
+		},
+		{
+			"app_name": "Turtle",
+			"art_cover": "https://cdn1.epicgames.com/turtle/item/Maneater_EGS_Landscape-2560x1440-cf27e86a8daeeb2915a49a8b4c954dbd.png",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/turtle/item/ManEater_860x1148V2 (2)-860x1148-48b03ebe57bf02e8d7c8f95e1407be5d.jpg",
+			"cloud_save_enabled": true,
+			"compatible_apps": [],
+			"developer": "Tripwire Interactive",
+			"extra": {
+				"about": {
+					"description": "Maneater",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Maneater",
+			"install": {
+				"executable": "Maneater.exe",
+				"install_path": "/home/tommi/Games/Heroic/Maneater",
+				"install_size": "25.03 GiB",
+				"is_dlc": false,
+				"version": "43151315",
+				"platform": "Windows"
+			},
+			"is_game": true,
+			"is_installed": true,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "turtle",
+			"is_mac_native": false,
+			"save_folder": "{AppData}/Maneater/Saved/SaveGames/",
+			"title": "Maneater",
+			"canRunOffline": false,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/maneater"
+		},
+		{
+			"app_name": "a64dcf9b711a4a60a3c0b6f052dfc7da",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_WolfensteinTheNewOrder_MachineGames_S1_2560x1440-3a75b2c45a2a12e882feb2e2ff180b0c",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_WolfensteinTheNewOrder_MachineGames_S2_1200x1600-0f70ad56e210812c26a9dde1a8143a58",
+			"cloud_save_enabled": true,
+			"developer": "Bethesda Softworks LLC",
+			"extra": {
+				"about": {
+					"description": "Wolfenstein: The New Order",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "WolfensteinTNO",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "0bd3e505924240adb702295fa08c1eff",
+			"is_mac_native": false,
+			"save_folder": "{UserSavedGames}/MachineGames/Wolfenstein The New Order/base/savegame/{EpicID}/",
+			"title": "Wolfenstein: The New Order",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/wolfenstein-the-new-order"
+		},
+		{
+			"app_name": "a94eddb97c72495f95350ce8840642b9",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-36cf54d4e5c35db562dedfa77d3ef976.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-8386d87ceb2eb722f3d4051fa66a2354.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "Berlin",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Berlin",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Berlin",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/berlin"
+		},
+		{
+			"app_name": "a95bf4df6627431ca5baff8173c59635",
+			"art_cover": "https://cdn1.epicgames.com/a47cb01bef994749ac731aa3366796e8/item/Wishlist_2560x1440-2560x1140-0942f3c760dc6c7862b938975f1c2c9e-2560x1140-0942f3c760dc6c7862b938975f1c2c9e.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/a47cb01bef994749ac731aa3366796e8/item/Wishlist_860x1148-860x1148-c3a63f1a4502fb9da688c6f91eb9a4d2-860x1148-c3a63f1a4502fb9da688c6f91eb9a4d2.jpg",
+			"cloud_save_enabled": true,
+			"developer": "Koch Media",
+			"extra": {
+				"about": {
+					"description": "Windbound",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Windbound",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "a47cb01bef994749ac731aa3366796e8",
+			"is_mac_native": false,
+			"save_folder": "{AppData}/../LocalLow/5 Lives Studios/Windbound/Saves/{EpicID}/",
+			"title": "Windbound",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/windbound"
+		},
+		{
+			"app_name": "a99769d95d8f400baad1f67ab5dfe508",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/portrait_2560x1440-dd304f1615669d23722f6de52b4c9100",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/landscape_1200x1600-f03a54780389cfea9ea8228f982d7c39",
+			"cloud_save_enabled": false,
+			"developer": "Manticore Games",
+			"extra": {
+				"about": {
+					"description": "Core",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Core",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "8ff186a4415d4ce6b5a287ccfd11cf04",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Core",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/core"
+		},
+		{
+			"app_name": "ad3d0f08dd0841d8a1ba77d94ded4773",
+			"art_cover": "https://cdn1.epicgames.com/2736ab9fec9c4a93a7a2872ed5154d4b/item/egs-rage2-idsoftware-s1-2560x1440-6c0e47266975-2560x1440-17dce1a4b7078e52a2d710deb8f23a63.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/2736ab9fec9c4a93a7a2872ed5154d4b/item/egs-rage2-idsoftware-s2-1200x1600-ee8fcbffe5b0-1200x1600-d692008156cef0c206454ef84c987499.jpg",
+			"cloud_save_enabled": true,
+			"developer": "Bethesda Softworks LLC",
+			"extra": {
+				"about": {
+					"description": "Rage 2",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Rage2",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "2736ab9fec9c4a93a7a2872ed5154d4b",
+			"is_mac_native": false,
+			"save_folder": "{UserSavedGames}/id Software/Rage 2/Saves/",
+			"title": "Rage 2",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/rage-2"
+		},
+		{
+			"app_name": "addd421d0f1d4573914f915a697054de",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-aa1dc43fc4474d676e61a02af0d97da2.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-a5a835bb91b300add70e5e4aa8a9c484.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "HITMAN 1 GOTY Upgrade",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "HITMAN1GOTYUpgrade",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "HITMAN 1 GOTY Upgrade",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/hitman-1-goty-upgrade"
+		},
+		{
+			"app_name": "b22ce34b4ce0408c97a888554447479b",
+			"art_cover": "https://cdn1.epicgames.com/item/304724b675974566b1d7e23af80a1f52/bioshock2-remastered-wide_2560x1440-ae26b684679e5daec480292eade90c5c",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/304724b675974566b1d7e23af80a1f52/bioshock2-remastered_1200x1600-9ce67143723d05cda671b3e966732fd7",
+			"cloud_save_enabled": false,
+			"developer": "2K Games, Inc.",
+			"extra": {
+				"about": {
+					"description": "BioShock 2 Remastered",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "BioShock2Remastered",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "304724b675974566b1d7e23af80a1f52",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "BioShock 2 Remastered",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/bioshock-2-remastered"
+		},
+		{
+			"app_name": "b4670484aae24db492f0b468a98fe361",
+			"art_cover": "https://cdn1.epicgames.com/d79920221de24b448e24516a7810804e/item/Blades_Mobile_horizontal-480x270-2f443f91cd89da427b8efd6a910fbe04.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/d79920221de24b448e24516a7810804e/item/Blades_Desktop_vertical-400x530-8af5bcc5cc9fb63883346c5bbc0a06ea.jpg",
+			"cloud_save_enabled": true,
+			"developer": "Koch Media",
+			"extra": {
+				"about": {
+					"description": "Relicta",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Relicta",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "d79920221de24b448e24516a7810804e",
+			"is_mac_native": false,
+			"save_folder": "{AppData}/PAway/Saved/Savegames/",
+			"title": "Relicta",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/relicta"
+		},
+		{
+			"app_name": "bc2c95c6ff564a16b26644f1d3ac3c55",
+			"art_cover": "https://cdn1.epicgames.com/item/e9e3ee13329f434f94105e6ec63435e0/EGS_BioShockRemastered_MassMediaGames_S1_2560x1440-cb7067c24252c5602497ab42fc488eed",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/e9e3ee13329f434f94105e6ec63435e0/EGS_BioShockRemastered_MassMediaGames_S2_1200x1600-1a3c51f042c7023b711f36ec866ea90b",
+			"cloud_save_enabled": false,
+			"developer": "2K Games, Inc.",
+			"extra": {
+				"about": {
+					"description": "BioShock Remastered",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "BioshockRemastered",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "e9e3ee13329f434f94105e6ec63435e0",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "BioShock Remastered",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/bioshock-remastered"
+		},
+		{
+			"app_name": "bcbc03d8812a44c18f41cf7d5f849265",
+			"art_cover": "https://cdn1.epicgames.com/6009be9994c2409099588cde6f3a5ed0/item/EGS_CitiesSkylines_ColossalOrder_S3-2560x1440-14df106873c918591e49bd9604841e83.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/6009be9994c2409099588cde6f3a5ed0/item/EGS_CitiesSkylines_ColossalOrder_S2-1200x1600-753257537706de74735d2bc3eb656b67.jpg",
+			"cloud_save_enabled": true,
+			"developer": "Paradox Interactive",
+			"extra": {
+				"about": {
+					"description": "Cities Skylines",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "CitiesSkylines",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "6009be9994c2409099588cde6f3a5ed0",
+			"is_mac_native": false,
+			"save_folder": "{AppData}/Colossal Order/Cities_Skylines/Saves/",
+			"title": "Cities Skylines",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/cities-skylines"
+		},
+		{
+			"app_name": "cfcad5e03dd543da9922c6a6751710f5",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-bd7696342eacc951048c0765a204f371.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-3fc0bd6600d6b73d5aef1754e68f2e9a.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "HITMAN 2 Expansion",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "HITMAN2Expansion",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "HITMAN 2 Expansion",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/hitman-2-expansion"
+		},
+		{
+			"app_name": "d6264d56f5ba434e91d4b0a0b056c83a",
+			"art_cover": "https://cdn1.epicgames.com/item/caca23a0954f4c1aba1fdd7e277b81e2/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S1_2560x1440-0c41fcc8db62992e8d098d304b2277f8_2560x1440-0c41fcc8db62992e8d098d304b2277f8",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/caca23a0954f4c1aba1fdd7e277b81e2/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S2_1200x1600-a700eac197c57b46cfc99a08b1d62589_1200x1600-a700eac197c57b46cfc99a08b1d62589",
+			"cloud_save_enabled": false,
+			"developer": "Square Enix",
+			"extra": {
+				"about": {
+					"description": "Tomb Raider GAME OF THE YEAR EDITION",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "TombRaiderGOTYE",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "caca23a0954f4c1aba1fdd7e277b81e2",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Tomb Raider GAME OF THE YEAR EDITION",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/tomb-raider-game-of-the-year-edition"
+		},
+		{
+			"app_name": "dc07b9ead8214591b8df6d2546d2a0e3",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_AvenColony_MothershipEntertainmentLLC_S3_2560x1440-3276f29fde89052103f0b650420d256b",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_AvenColony_MothershipEntertainmentLLC_S4_1200x1600-2e6d5f94d466bc936c0b0d3f2a56a90d",
+			"cloud_save_enabled": false,
+			"developer": "Team17 Digital Ltd",
+			"extra": {
+				"about": {
+					"description": "Aven Colony",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "AvenColony",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "31bd7140ab344cd59a770e14b2afbcea",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Aven Colony",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/aven-colony"
+		},
+		{
+			"app_name": "f38de9fa4c6d43eabac080942cb394a1",
+			"art_cover": "https://cdn1.epicgames.com/item/b13f6a1e5121469d8a825947b759339d/EGS_NeverAloneKisimaIngitchuna_UpperOneGamesELineMedia_S1_2560x1440-97a1d9c3e47e439ea05e900feaa4a892",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/b13f6a1e5121469d8a825947b759339d/EGS_NeverAloneKisimaIngitchuna_UpperOneGamesELineMedia_S2_1200x1600-f1c99ff9638dd36c65e87dedcbb564f1",
+			"cloud_save_enabled": false,
+			"developer": "E-Line Media",
+			"extra": {
+				"about": {
+					"description": "Never Alone (Kisima Ingitchuna)",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "NeverAlone",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "b13f6a1e5121469d8a825947b759339d",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Never Alone (Kisima Ingitchuna)",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/never-alone-(kisima-ingitchuna)"
+		},
+		{
+			"app_name": "f59de18db4dc445f88ffeff24d081234",
+			"art_cover": "https://cdn1.epicgames.com/b2df9b20c72446d690718965da41c7ad/item/EGS_AmnesiaRebirth_FrictionalGames_S1-2560x1440-7d6c96d8e0ab6bfd7347f6730a7260a1.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/b2df9b20c72446d690718965da41c7ad/item/EGS_AmnesiaRebirth_FrictionalGames_S2-1200x1600-06261861317a4d878f0391cbcf127a5a.jpg",
+			"cloud_save_enabled": false,
+			"developer": "Frictional Games",
+			"extra": {
+				"about": {
+					"description": "Amnesia: Rebirth",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "AmnesiaRebirth",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "b2df9b20c72446d690718965da41c7ad",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Amnesia: Rebirth",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/amnesia-rebirth"
+		},
+		{
+			"app_name": "f73a0557f7fc4ca08e3cb2c0e5dfb22b",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-2cf3ddcd8ae2daca5779afe56a3bfec4.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-7c9d047de036c0d1dd5d5bcb506178a3.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "Dubai",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Dubai",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Dubai",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/dubai"
+		},
+		{
+			"app_name": "f7cc1c999ac146f39b356f53e3489514",
+			"art_cover": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_RiseoftheTombRaider20YearCelebration_CrystalDynamics_S1_2560x1440-3bd5b3c4c11d46cc2dcb06bdf2f77627",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_RiseoftheTombRaider20YearCelebration_CrystalDynamics_S2_1200x1600-a73f93bb560142e08d56db4c2bfdb03c",
+			"cloud_save_enabled": true,
+			"developer": "Square Enix",
+			"extra": {
+				"about": {
+					"description": "Rise of the Tomb Raider: 20 Year Celebration",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "RiseoftheTombRaider",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "48ffecf4a89f4fd496817b0451384f39",
+			"is_mac_native": false,
+			"save_folder": "{UserDir}/Rise of the Tomb Raider/{EpicID}/",
+			"title": "Rise of the Tomb Raider: 20 Year Celebration",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/rise-of-the-tomb-raider-20-year-celebration"
+		},
+		{
+			"app_name": "f9d6f0530ea140909f8e8a997a7532d7",
+			"art_cover": "https://cdn1.epicgames.com/item/df2da503f2074f078f8090da3c27ec47/EGS_BioShockInfiniteCompleteEdition_MassMediaGames_S1_2560x1440-bf29199cfe7a76f62965f582571024f6_2560x1440-bf29199cfe7a76f62965f582571024f6",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/df2da503f2074f078f8090da3c27ec47/EGS_BioShockInfiniteCompleteEdition_MassMediaGames_S2_1200x1600-bcf5e88c8afb572ec00d3ed231ec26e5",
+			"cloud_save_enabled": false,
+			"developer": "2K Games, Inc.",
+			"extra": {
+				"about": {
+					"description": "BioShock Infinite: Complete Edition",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "BioshockInfiniteCompleteEdition",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "df2da503f2074f078f8090da3c27ec47",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "BioShock Infinite: Complete Edition",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/bioshock-infinite-complete-edition"
+		},
+		{
+			"app_name": "fc97ef705954490ab4bf3d6773bce766",
+			"art_cover": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-0268650549269011803de73320acfd5d.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-6f0bde84246bffd8d77be753db1cf401.jpg",
+			"cloud_save_enabled": false,
+			"developer": "IO Interactive",
+			"extra": {
+				"about": {
+					"description": "Dartmoor",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Dartmoor",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "ed55aa5edc5941de92fd7f64de415793",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Dartmoor",
+			"canRunOffline": true,
+			"is_linux_native": false,
+			"runner": "legendary",
+			"store_url": "https://www.epicgames.com/store/product/dartmoor"
+		}
+	]
+}

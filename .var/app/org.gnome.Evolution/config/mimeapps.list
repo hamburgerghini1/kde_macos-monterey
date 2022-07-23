@@ -1,0 +1,5 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Evolution-7O3SP1.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Evolution-7O3SP1.desktop;

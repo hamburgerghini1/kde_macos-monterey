@@ -1,0 +1,17 @@
+(11:05:40) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(11:05:40) INFO:    [Legendary]:       Legendary location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(11:05:40) INFO:    [Gog]:             GOGDL location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(11:05:40) INFO:    [Backend]:         
+
+Heroic Version: 2.3.9 Brook
+Legendary Version:  0.20.26 Dark Energy
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: powersave
+RAM: Total: 31.14 GiB Available: 24.59 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: wayland
+
+(11:05:40) INFO:    [Backend]:         User Not Found, removing it from Store
+(11:05:41) WARNING: [Backend]:         Failed to register protocol with OS.
+(11:05:43) INFO:    [DXVKInstaller]:   Updating vkd3d to: vkd3d-proton-2.6
+(11:05:43) INFO:    [DXVKInstaller]:   Updating dxvk to: dxvk-1.10.2

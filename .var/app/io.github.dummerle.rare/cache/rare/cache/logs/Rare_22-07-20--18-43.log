@@ -1,0 +1,40 @@
+[Core] INFO: Trying to re-use existing login session...
+[Login] INFO: You are logged in
+[Login] INFO: App starting
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[GamesTab] WARNING: No Unreal engine in library found
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Ubisoft] ERROR: HTTPSConnectionPool(host='store-launcher.epicgames.com', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd348099dc0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[Cloud Saves] INFO: Downloading saves for HITMAN 3
+[Core] INFO: Downloading "Eider/manifests/2022.06.07-12.25.39.manifest"...
+[Core] INFO: Successfully completed savegame download.
+[GameUtils] INFO: Launching HITMAN 3
+[Core] INFO: Getting authentication token...
+[RPC] ERROR: Could not find Discord installed and running on this machine.
+[GameUtils] INFO: HITMAN 3 launched
+[GameUtils] INFO: Game exited with exit code: 0
+[RPC] ERROR: Could not find Discord installed and running on this machine.
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Core] INFO: Install candidate is DLC
+[Core] INFO: Parsing game manifest...
+[Core] INFO: Install path: /home/tommi/Games/HITMAN3/HITMAN3
+[Core] INFO: Selected CDN: download.epicgames.com (https)
+[DLManager] INFO: Download Manager running with process-id: 34
+[DLManager] INFO: Starting download workers...
+[DLManager] INFO: Starting file writing worker...
+[DLManager] INFO: Waiting for installation to finish...
+[DLManager] INFO: All done! Download manager quitting...
+[DownloadThread] INFO: Download finished in 3.0627777576446533s
+[Download] INFO: Download finished: Berlin
+[Rare] CRITICAL: Traceback (most recent call last):
+  File "/app/lib/python3.9/site-packages/rare/components/tabs/games/game_info/game_dlc.py", line 133, in uninstall_dlc
+    self.uninstall.emit(self.dlc)
+TypeError: GameDlcWidget.uninstall[str].emit(): argument 1 has unexpected type 'Game'
+

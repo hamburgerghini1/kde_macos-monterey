@@ -1,0 +1,53 @@
+Launch Command: DRI_PRIME=1 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia WINEPREFIX=/home/tommi/Games/Heroic/Prefixes/TrackmaniaNext DXVK_HUD=fps /app/bin/gamemoderun /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Pigeon --wine /home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wine --wine-prefix /home/tommi/Games/Heroic/Prefixes/TrackmaniaNext
+
+System Info:
+Heroic Version: 2.3.10 Brook
+Legendary Version:  0.20.27 Dark Energy (hotfix)
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: performance
+RAM: Total: 31.14 GiB Available: 24.66 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: x11
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": true,
+	"maxSharpness": 2,
+	"nvidiaPrime": true,
+	"otherOptions": "",
+	"savesPath": "",
+	"showFps": true,
+	"showMangohud": true,
+	"targetExe": "",
+	"useGameMode": true,
+	"wineCrossoverBottle": "Heroic",
+	"winePrefix": "/home/tommi/Games/Heroic/Prefixes/TrackmaniaNext",
+	"wineVersion": {
+		"bin": "/home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wine",
+		"name": "Wine - lutris-6.14-4-x86_64",
+		"type": "wine",
+		"wineserver": "/home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wineserver",
+		"wineboot": "/home/tommi/.local/share/lutris/runners/wine/lutris-6.14-4-x86_64/bin/wineboot"
+	}
+}
+
+Error Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Pigeon...
+gamemodeauto:
+wineserver: using server-side synchronization.
+002c:fixme:winediag:LdrInitializeThunk Wine TkG (staging) 6.14 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please don't report bugs about it on winehq.org and use https://github.com/Frogging-Family/wine-tkg-git/issues instead.
+002c:err:wineboot:process_run_key Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (126).
+006c:fixme:font:get_name_record_codepage encoding 20 not handled, platform 1.
+0084:fixme:font:get_name_record_codepage encoding 20 not handled, platform 1.
+002c:fixme:font:get_name_record_codepage encoding 20 not handled, platform 1.
+00b0:fixme:font:get_name_record_codepage encoding 20 not handled, platform 1.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0024:fixme:font:get_name_record_codepage encoding 20 not handled, platform 1.
+00f0:fixme:font:get_name_record_codepage encoding 20 not handled, platform 1.
+00f0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 0071FEAC
+gamemodeauto:

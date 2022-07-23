@@ -1,0 +1,29 @@
+(11:15:13) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(11:15:14) INFO:    [Legendary]:       Legendary location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(11:15:14) INFO:    [Gog]:             GOGDL location: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(11:15:14) INFO:    [Backend]:         
+
+Heroic Version: 2.3.9 Brook
+Legendary Version:  0.20.26 Dark Energy
+OS: Freedesktop.org KERNEL: 5.18.11-201.fsync.fc36.x86_64 ARCH: x64
+CPU: Intel Core™ i5-10600K @4.1 GOVERNOR: powersave
+RAM: Total: 31.14 GiB Available: 27.16 GiB
+GRAPHICS: GPU0: Device 73df VRAM: 1MB DRIVER:  
+PROTOCOL: wayland
+
+(11:15:14) WARNING: [Backend]:         Failed to register protocol with OS.
+(11:15:14) INFO:    [Frontend]:        Refreshing Library
+(11:15:14) INFO:    [Legendary]:       Refreshing library...
+(11:15:14) INFO:    [Legendary]:       Refreshing Epic Games...
+(11:15:15) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(11:15:16) INFO:    [Legendary]:       Updating game list
+(11:15:16) INFO:    [Legendary]:       Game List Updated
+(11:15:16) INFO:    [Legendary]:       Checking for game updates: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(11:15:16) DEBUG:   [Legendary]:       Running Legendary command: /app/bin/heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(11:15:16) INFO:    [Backend]:         Downloaded Winetricks
+(11:15:17) INFO:    [Legendary]:       Found 0 game(s) to update
+(11:15:17) INFO:    [Gog]:             Found 0 game(s) to update
+(11:15:28) DEBUG:   [Legendary]:       Using cached install info
+(11:15:28) DEBUG:   [Legendary]:       Using cached install info
+(11:15:28) WARNING: [Backend]:         default is not writable
+(11:15:35) WARNING: [Backend]:         /run/user/1000/doc/e7aad228/Heroic is not writable

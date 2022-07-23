@@ -1,0 +1,14 @@
+[Core] INFO: Trying to re-use existing login session...
+[Login] INFO: You are logged in
+[Login] INFO: App starting
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[GamesTab] WARNING: No Unreal engine in library found
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Ubisoft] ERROR: HTTPSConnectionPool(host='store-launcher.epicgames.com', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa56c0cd160>: Failed to establish a new connection: [Errno -2] Name or service not known'))

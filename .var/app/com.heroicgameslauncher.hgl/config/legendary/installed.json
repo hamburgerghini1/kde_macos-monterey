@@ -1,0 +1,29 @@
+{
+  "Turtle": {
+    "app_name": "Turtle",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-2baznhy8tfh7fmyb55ul656v7ggt7r/Turtle/default",
+      "https://download2.epicgames.com/Builds/Org/o-2baznhy8tfh7fmyb55ul656v7ggt7r/Turtle/default",
+      "https://download3.epicgames.com/Builds/Org/o-2baznhy8tfh7fmyb55ul656v7ggt7r/Turtle/default",
+      "https://download4.epicgames.com/Builds/Org/o-2baznhy8tfh7fmyb55ul656v7ggt7r/Turtle/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-2baznhy8tfh7fmyb55ul656v7ggt7r/Turtle/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-2baznhy8tfh7fmyb55ul656v7ggt7r/Turtle/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Maneater.exe",
+    "install_path": "/home/tommi/Games/Heroic/Maneater",
+    "install_size": 26880060143,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": true,
+    "save_path": null,
+    "title": "Maneater",
+    "version": "43151315"
+  }
+}

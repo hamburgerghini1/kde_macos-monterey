@@ -1,0 +1,73 @@
+[Login] INFO: No saved credentials
+[BrowserLogin] INFO: Successfully logged in as hamburgerghini2
+[Core] INFO: Trying to re-use existing login session...
+[Core] INFO: Fetching metadata for 48 app(s).
+[Core] INFO: Fetching metadata for 45 app(s).
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[urllib3.connectionpool] WARNING: Connection pool is full, discarding connection: catalog-public-service-prod06.ol.epicgames.com
+[Utils] INFO: Download Image for Game: Just Die Already
+[Utils] INFO: Download Image for Game: Saints Row Boss Factory
+[Utils] INFO: Download Image for Game: Redout: Enhanced Edition
+[Utils] INFO: Download Image for Game: KillingFloor2Beta
+[Utils] INFO: Download Image for Game: Genshin Impact
+[Utils] INFO: Download Image for Game: PREY
+[Utils] INFO: Download Image for Game: The Vanishing of Ethan Carter Redux
+[Utils] INFO: Download Image for Game: VALORANT
+[Utils] INFO: Download Image for Game: Discord
+[Utils] INFO: Download Image for Game: Insurmountable
+[Utils] INFO: Download Image for Game: The Vanishing of Ethan Carter
+[Utils] INFO: Download Image for Game: Grand Theft Auto V
+[Utils] INFO: Download Image for Game: HITMAN 3
+[Utils] INFO: Download Image for Game: Killing Floor 2
+[Utils] INFO: Download Image for Game: Fortnite
+[Utils] INFO: Download Image for Game: Jotun Valhalla Edition
+[Utils] INFO: Download Image for Game: Shenmue 3
+[Utils] INFO: Download Image for Game: Shenmue 3
+[Utils] INFO: Download Image for Game: Trackmania
+[Utils] INFO: Download Image for Game: Quixel Bridge
+[Utils] INFO: Download Image for Game: Quixel Bridge
+[Utils] INFO: Download Image for Game: Rocket League®
+[Utils] INFO: Download Image for Game: Brothers - A Tale of Two Sons
+[Utils] INFO: Download Image for Game: Maneater
+[Utils] INFO: Download Image for Game: Wolfenstein: The New Order
+[Utils] INFO: Download Image for Game: Windbound
+[Utils] INFO: Download Image for Game: Core
+[Utils] INFO: Download Image for Game: Rage 2
+[Utils] INFO: Download Image for Game: BioShock 2 Remastered
+[Utils] INFO: Download Image for Game: Relicta
+[Utils] INFO: Download Image for Game: BioShock Remastered
+[Utils] INFO: Download Image for Game: Cities Skylines
+[Utils] INFO: Download Image for Game: Tomb Raider GAME OF THE YEAR EDITION
+[Utils] INFO: Download Image for Game: Aven Colony
+[Utils] INFO: Download Image for Game: Never Alone (Kisima Ingitchuna)
+[Utils] INFO: Download Image for Game: Amnesia: Rebirth
+[Utils] INFO: Download Image for Game: Rise of the Tomb Raider: 20 Year Celebration
+[Utils] INFO: Download Image for Game: BioShock Infinite: Complete Edition
+[Utils] INFO: Download Image for Game: Mendoza
+[Login] INFO: App starting
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[GamesTab] WARNING: No Unreal engine in library found
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[ExtraWidgets] WARNING: 'QFileSystemModel' object has no attribute 'setOptions'
+[Ubisoft] ERROR: HTTPSConnectionPool(host='store-launcher.epicgames.com', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efe81b00a30>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[ShopAPICore] ERROR: 'data'
