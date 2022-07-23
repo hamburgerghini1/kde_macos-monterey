@@ -1,0 +1,1857 @@
+"use strict";
+
+// variable for storing info about context
+// originally made to store info about CSS animation
+// support
+// on start we assume, that animations are not supported
+window.ENV = {
+    is_supporting: {
+        css_animation: false,
+        placeholder_attributes: true,
+        css_pseudo_animation: false
+    },
+
+    is_in_iframe: window.parent !== window,
+
+    classes: {
+        no_css_animations: "no-cssanimations",
+        no_css_pseudo_animations: "no-csspseudoanimations",
+        no_placeholders_support: "no-placeholders",
+        hidden_element: "is-hidden"
+    },
+
+    // underscore implementation of debounce
+    // with additional tweaks:
+    // * clear() method is needed because in context of
+    // validating inputs' values we need to have a way to prevent
+    // debounced function from execution
+    debounce: function() {
+        var timeout;
+        return {
+            clear: function() {
+                clearTimeout(timeout);
+            },
+
+            func: function(func, wait, immediate) {
+                return function() {
+                    var context = this;
+                    var args = arguments;
+
+                    var later = function() {
+                        timeout = null;
+                        if (!immediate) {
+                            func.apply(context, args);
+                        }
+                    };
+
+                    var callNow = immediate && !timeout;
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+
+                    if (callNow) {
+                        func.apply(context, args);
+                    }
+                };
+            }
+        };
+    },
+    /**
+     * Helper for adding a class to a element
+     *
+     * @param element {HTMLElement} element to whom we want to add a class
+     * @param new_class {String} class to add
+     */
+    addClass: function(element, new_class) {
+        if (element) {
+            var classes = element.className.split(" ");
+
+            for (var i = classes.length; i--;) {
+                // if class already exists, we don't add it
+                if (new_class === classes[i]) {
+                    return;
+                }
+            }
+
+            classes.push(new_class);
+            element.className = classes.join(" ");
+        } else {
+            console.warn('Trying to add class: "' + new_class + '" to a non-existing element: ' + element + '.');
+        }
+    },
+
+    hasClass: function(element, class_to_check) {
+        return element.className.indexOf(class_to_check) !== -1;
+    },
+
+    /**
+     * Helper for removing a class from an element
+     *
+     * @param {HTMLElement} element element from which we want to remove a class
+     * @param {String} class_to_remove class to remove
+     */
+    removeClass: function(element, class_to_remove) {
+        if (element) {
+            var classes = element.className.split(" ");
+
+            for (var i = classes.length; i--;) {
+                if (class_to_remove === classes[i]) {
+                    classes.splice(i, 1);
+                    break;
+                }
+            }
+
+            element.className = classes.join(" ");
+        } else {
+            console.warn('Trying to remove class: "' + new_class + '" from an non-existing element: ' + element + '.');
+        }
+    },
+
+    addCSS: function(element, cssObject) {
+        var current_css;
+        var css_rule;
+        current_css = element.getAttribute("style");
+
+        if (typeof current_css === "string") {
+            current_css = current_css.replace(/;\s+/g, ";");
+            current_css = current_css.replace(/:\s+/g, ":");
+            current_css = current_css.split(";");
+
+            for (var i = current_css.length; i--;) {
+                css_rule = current_css[i].split(":");
+
+                if (
+                    css_rule.length === 2
+                    && typeof cssObject[css_rule[0]] !== "undefined"
+                ) {
+                    current_css.splice(i, 1);
+                }
+            }
+        } else {
+            current_css = [];
+        }
+
+        for (var rule in cssObject) {
+            if (cssObject.hasOwnProperty(rule)) {
+                if (
+                    typeof cssObject[rule] === "number"
+                    && cssObject[rule] !== 0
+                ) {
+                    current_css.push(rule + ":" + cssObject[rule] + "px");
+                } else {
+                    current_css.push(rule + ":" + cssObject[rule]);
+                }
+            }
+        }
+
+        element.setAttribute("style", current_css.join(";"));
+    },
+
+    removeCSS: function(element, cssArray) {
+        var current_css;
+        var css_rule;
+        current_css = element.getAttribute("style");
+
+        if (typeof current_css !== "string" || current_css.length === 0) {
+            return;
+        }
+
+        current_css = current_css.replace(/;\s+/g, ";");
+        current_css = current_css.replace(/:\s+/g, ":");
+        current_css = current_css.split(";");
+
+        for (var i = current_css.length; i--;) {
+            css_rule = current_css[i].split(":");
+
+            if (css_rule.length === 2 && cssArray.indexOf(css_rule[0]) !== -1) {
+                current_css.splice(i, 1);
+            }
+        }
+
+        element.setAttribute("style", current_css.join(";"));
+    },
+
+    // Checks if value is null or undefined
+    isNil: function (value) {
+        return (typeof value === 'undefined' || value === null);
+    }
+};
+
+// Check placeholder support
+(function() {
+    var test = document.createElement("input");
+    window.ENV.is_supporting.placeholder_attributes = "placeholder" in test;
+
+    if (!window.ENV.is_supporting.placeholder_attributes) {
+        window.ENV.addClass(
+            document.body,
+            window.ENV.classes.no_placeholders_support
+        );
+    }
+})();
+
+// Basic polyfill for IE9 -- it's not going to
+// to do antyhing, because we use event invalid
+// -- not present in IE9 -- to react on validation
+// now we just prevent errors
+(function() {
+    if (!HTMLInputElement.prototype.checkValidity) {
+        HTMLInputElement.prototype.checkValidity = function() {
+            var is_required = this.hasAttribute("required");
+
+            if (is_required && this.value === "") {
+                return false;
+            }
+
+            return true;
+        };
+    }
+})();
+
+/* ------------------------------------------------------------------------- *\
+ $ ANIMATION SUPPORT
+ \* ------------------------------------------------------------------------- */
+
+(function() {
+    var el_test = document.createElement("div");
+    var stylesheet_for_testing = document.createElement("style");
+    var css_text = "#divForTest{-moz-animation:spin 0.5s linear;-webkit-animation:spin 0.5s linear;animation:spin 0.5s linear;position:absolute;}"
+        + "#divForTest:before{content:\"\";display:block;height:0;-o-transition:0s 100s;-moz-transition:0s 100s;-webkit-transition:0s 100s;transition:0s 100s;}"
+        + "#divForTest.test:before{height:10px}";
+    var domPrefixes = "Webkit Moz O".split(" ");
+    var testStyles;
+
+    testStyles = function() {
+        if (el_test.style.animationName !== undefined) {
+            window.ENV.is_supporting.css_animation = true;
+        }
+
+        if (window.ENV.is_supporting.css_animation === false) {
+            for (var i = domPrefixes.length; i--;) {
+                if (
+                    el_test.style[domPrefixes[i] + "AnimationName"] !== undefined
+                ) {
+                    window.ENV.is_supporting.css_animation = true;
+                    break;
+                }
+            }
+        }
+
+        window.ENV.addClass(el_test, "test");
+
+        if (el_test.offsetHeight === 0) {
+            window.ENV.is_supporting.css_pseudo_animation = true;
+        }
+
+        document.body.removeChild(el_test);
+        document.body.removeChild(stylesheet_for_testing);
+
+        if (!window.ENV.is_supporting.css_animation) {
+            window.ENV.addClass(
+                document.documentElement,
+                window.ENV.classes.no_css_animations
+            );
+        }
+
+        if (!window.ENV.is_supporting.css_pseudo_animation) {
+            window.ENV.addClass(
+                document.documentElement,
+                window.ENV.classes.no_css_pseudo_animations
+            );
+        }
+    };
+
+    stylesheet_for_testing.textContent = css_text;
+    document.body.appendChild(stylesheet_for_testing);
+
+    el_test.setAttribute("id", "divForTest");
+    document.body.appendChild(el_test);
+
+    setTimeout(testStyles, 25);
+})();
+
+/* ------------------------------------------------------------------------- *\
+$ Uploading avatar
+\* ------------------------------------------------------------------------- */
+(function($) {
+    var $initializer = $("#fileUploadInitializer");
+    var $fileInput = $("#avatarUpload");
+    var $errorMessageContainer = $("#avatar_upload_error");
+    var $loadingIndicator = $("#loadingIndicator");
+
+    var showWindowWithFiles = function() {
+        $fileInput.click();
+    };
+
+    var replaceCurrentAvatar = function(imageSrc) {
+        $initializer.attr("src", imageSrc);
+    };
+
+    var showLoadingIndicator = function() {
+        $loadingIndicator.removeClass(window.ENV.classes.hidden_element);
+    };
+
+    var hideLoadingIndicator = function() {
+        $loadingIndicator.addClass(window.ENV.classes.hidden_element);
+    };
+
+    var hideErrorMessageContainer = function() {
+        $errorMessageContainer.addClass(window.ENV.classes.hidden_element);
+    };
+
+    var showErrorMessageContainer = function(errorMessage) {
+        $errorMessageContainer.text(errorMessage);
+        $errorMessageContainer.removeClass(window.ENV.classes.hidden_element);
+    };
+
+    var onLoading = function() {
+        showLoadingIndicator();
+    };
+
+    var onFinish = function() {
+        hideLoadingIndicator();
+
+        /**
+         * Upload plugin requires to clone input element after every upload.
+         */
+        $fileInput = $fileInput.clone();
+        init();
+    };
+
+    var prepareUpload = function() {
+        $fileInput.fileupload({
+            type: "POST",
+            dataType: "json",
+            autoUpload: true,
+            singleFileUploads: false,
+            add: function(e, data) {
+                hideErrorMessageContainer();
+                if (data.files.length === 1) {
+                    data.submit();
+                } else {
+                    showErrorMessageContainer(
+                        "You can upload only one file at once."
+                    );
+                }
+            },
+            always: function() {
+                onFinish();
+            },
+            processfail: function() {
+                onFinish();
+            },
+            send: function() {
+                onLoading();
+            },
+            done: function(e, data) {
+                var avatars = data.result.avatars;
+                replaceCurrentAvatar(avatars.medium_2x);
+                window.gogMessageRouter.sendMessage({
+                    action: "accountChangeSuccess"
+                });
+            },
+            fail: function(e, data) {
+                var response;
+                if (data.jqXHR) {
+                    response = data.jqXHR.responseJSON;
+                    if (response.error_description) {
+                        showErrorMessageContainer(response.error_description);
+                    }
+                }
+            }
+        });
+    };
+
+    var init = function() {
+        prepareUpload($fileInput);
+    };
+
+    $initializer.on("click", function() {
+        showWindowWithFiles();
+    });
+
+    init();
+})(window.jQuery);
+
+/* ------------------------------------------------------------------------- *\
+$ LOGIN WITH FACEBOOK / APPLE
+\* ------------------------------------------------------------------------- */
+(function($) {
+    // POPUP LOGIN
+    var $fbPopupButton = $(".ext-acc-fb-popup-login");
+    var $fbRedirectingButton = $(".ext-acc-fb-redirecting-login");
+    var $applePopupButton = $(".ext-acc-apple-popup-login");
+    var $appleRedirectingButton = $(".ext-acc-apple-redirecting-login");
+
+    var INITIALLY_HIDING_CLASS = "is-hidden";
+
+    var redirectTimer = null;
+    var popupWindowTimer = null;
+    var redirectExecutionsCount = 0;
+    var redirectExecutionsLimit = 120; // 120 * 1 sec = 2 min
+    if ($("html.launcher").length > 0) {
+        redirectExecutionsLimit = 10;
+    }
+    var retryCount = redirectExecutionsCount;
+    var retryLimit = redirectExecutionsLimit;
+
+    var loginProcessCreationUrl;
+    var loginUrl;
+    var clickedFbBtnSlot;
+
+    var loginWindowReference = null;
+
+    var activateSpinnerClass = "btn-slot--inactive";
+    var elementDisabledClass = "disabled";
+
+    var inputs = document.querySelectorAll('input');
+    var footerLinks = document.querySelectorAll('.footer a');
+    var mainButtons = document.querySelectorAll(".btn--main");
+
+    var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+
+    var disableInputsAndButtons = function() {
+        for (var i = inputs.length; i--;) {
+            inputs[i].disabled = true;
+        }
+
+        for (var i = footerLinks.length; i--;) {
+            window.ENV.addClass(footerLinks[i], elementDisabledClass);
+        }
+
+        for (var i = mainButtons.length; i--;) {
+            window.ENV.addClass(mainButtons[i], elementDisabledClass);
+            mainButtons[i].disabled = true;
+        }
+    };
+
+    var enableInputsAndButtons = function() {
+        for (var i = inputs.length; i--;) {
+            inputs[i].disabled = false;
+        }
+
+        for (var i = footerLinks.length; i--;) {
+            window.ENV.removeClass(footerLinks[i], elementDisabledClass);
+        }
+
+        for (var i = mainButtons.length; i--;) {
+            window.ENV.removeClass(mainButtons[i], elementDisabledClass);
+            mainButtons[i].disabled = false;
+        }
+    };
+
+    var showSpinnerInLoginBtn = function(clickEvent) {
+        if (!window.ENV.isNil(clickEvent.target.parentNode)) {
+            clickedFbBtnSlot = clickEvent.target.parentNode;
+            window.ENV.addClass(clickedFbBtnSlot, activateSpinnerClass);
+            disableInputsAndButtons();
+        }
+    };
+
+    var hideSpinnerInLoginBtn = function() {
+        if(!window.ENV.isNil(clickedFbBtnSlot)) {
+            window.ENV.removeClass(clickedFbBtnSlot, activateSpinnerClass);
+            enableInputsAndButtons();
+            clickedFbBtnSlot = null;
+        }
+    };
+
+    var receiveMessageFromLoginWindow = function(e) {
+        if (loginUrl === undefined || loginUrl.indexOf(e.origin) !== 0) {
+            return;
+        }
+
+        window.location.replace(
+            "/on_login_success_external?login_token="
+                + encodeURIComponent(e.data)
+        );
+    };
+
+    var checkLoginProcessStatus = function(processId) {
+        $.get("/login_process/" + processId).done(function(data) {
+            if (data.status === "finished" && data.login_token !== undefined) {
+                window.location.replace(
+                    "/on_login_success_external?login_token="
+                        + encodeURIComponent(data.login_token)
+                );
+            }
+        });
+    };
+
+    var handlePopupLogin = function(e) {
+        e.preventDefault();
+        loginUrl = $(e.target).attr("data-url");
+
+        if (loginWindowReference === null || loginWindowReference.closed) {
+            showSpinnerInLoginBtn(e);
+            loginWindowReference = window.open(
+                loginUrl,
+                "Login",
+                "resizable=no,menubar=no,toolbar=no,location=no,personalbar=no,status=no,width=400,height=580,left=100,top=100"
+            );
+
+            if (popupWindowTimer !== null) {
+                clearInterval(popupWindowTimer);
+            }
+
+            // we reenable buttons and inputs after 2 minutes
+            // (for slow internet connection or if error occured)
+            popupWindowTimer = setInterval(function() {
+                if (retryCount > retryLimit || loginWindowReference.closed) {
+                    clearInterval(popupWindowTimer);
+                    hideSpinnerInLoginBtn();
+                    return;
+                }
+                retryCount++;
+            }, 1000);
+        } else {
+            loginWindowReference.focus();
+        }
+    };
+
+    var handleRedirectLogin = function(e) {
+        loginProcessCreationUrl = $(e.target).attr("data-url");
+        showSpinnerInLoginBtn(e);
+        // Doing window.open immediately on click event, so we're not
+        // blocked by IE11 in async POST done callback.
+        if (isIE11) {
+            loginWindowReference = window.open(
+                "about:blank",
+                "Login",
+                "resizable=no,menubar=no,toolbar=no,location=no,personalbar=no,status=no,width=400,height=580,left=100,top=100"
+            );
+        }
+        $.post(loginProcessCreationUrl).done(function(data) {
+            var processId = data.process_id;
+            if (loginWindowReference === null || loginWindowReference.closed) {
+                loginWindowReference = window.open(data.process_init_url, "_blank");
+            } else {
+                loginWindowReference.location.href = data.process_init_url;
+            }
+
+            if (redirectTimer !== null) {
+                clearInterval(redirectTimer);
+            }
+
+            redirectTimer = setInterval(function() {
+                if (redirectExecutionsCount > redirectExecutionsLimit) {
+                    clearInterval(redirectTimer);
+                    hideSpinnerInLoginBtn();
+                    return;
+                }
+
+                checkLoginProcessStatus(processId);
+                redirectExecutionsCount++;
+            }, 1000);
+        });
+    };
+
+    window.addEventListener("message", receiveMessageFromLoginWindow, false);
+
+    window.addEventListener("unload", function() {
+        try {
+            if (loginWindowReference !== null && !loginWindowReference.closed) {
+                loginWindowReference.close();
+            }
+        } catch(e) {
+            console.error("Couldn't close the login window: ", e);
+        }
+    });
+
+    /**
+     * IE11 have a problem with reading postMessages, that's why we have to
+     * hide popupButton and show redirectingButton, so it uses a different method of
+     * communication.
+     */
+    if (isIE11) {
+        $fbPopupButton.addClass(INITIALLY_HIDING_CLASS);
+        $fbRedirectingButton.removeClass(INITIALLY_HIDING_CLASS);
+        $applePopupButton.addClass(INITIALLY_HIDING_CLASS);
+        $appleRedirectingButton.removeClass(INITIALLY_HIDING_CLASS);
+    }
+
+    if ($fbPopupButton.hasClass(INITIALLY_HIDING_CLASS)) {
+        $fbPopupButton.remove();
+        $fbPopupButton = null;
+    } else {
+        $fbPopupButton.on("click", handlePopupLogin);
+    }
+
+    if ($fbRedirectingButton.hasClass(INITIALLY_HIDING_CLASS)) {
+        $fbRedirectingButton.remove();
+        $fbRedirectingButton = null;
+    } else {
+        // REDIRECTING LOGIN - PRESENT MOSTLY IN GALAXY
+        $fbRedirectingButton.on("click", handleRedirectLogin);
+    }
+
+    if ($applePopupButton.hasClass(INITIALLY_HIDING_CLASS)) {
+        $applePopupButton.remove();
+        $applePopupButton = null;
+    } else {
+        $applePopupButton.on("click", handlePopupLogin);
+    }
+
+    if ($appleRedirectingButton.hasClass(INITIALLY_HIDING_CLASS)) {
+        $appleRedirectingButton.remove();
+        $appleRedirectingButton = null;
+    } else {
+        $appleRedirectingButton.on("click", handleRedirectLogin);
+    }
+})(window.jQuery);
+
+(function () {
+  "use strict";
+
+  var formsManager;
+  var router;
+  var Form;
+  var Input;
+  var TwoStepToken;
+  var windowManager;
+  var backEndValidation;
+  var Label;
+  var register_token;
+
+  if (document.querySelector("#register__token")) {
+    register_token = document.querySelector("#register__token").value;
+  } else {
+    register_token = false;
+  }
+
+  backEndValidation = function (field, clbSuccess, clbError) {
+    if (!register_token) {
+      return;
+    }
+
+    window.jQuery.ajax({
+      url: "/validate",
+      data: {
+        token: register_token,
+        type: field.name,
+        s: field.value,
+      },
+      success: function () {
+        clbSuccess(field.value);
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        if (errorThrown === "Conflict") {
+          clbError("exists", field.value);
+        } else if (errorThrown === "Bad Request") {
+          clbError("invalid", field.value);
+        }
+      },
+    });
+  };
+
+  windowManager = (function () {
+    var is_waiting_for_parent = false;
+    var el_layer = document.querySelector("._modal");
+    var new_location;
+    var onClickReplacement;
+    var resizeWindowCallback;
+    var closeLayer;
+    var getOrigin;
+    var changeContent;
+    var initDOM;
+
+    initDOM = function () {
+      var btnCloseModal = el_layer.querySelectorAll(".js-close-modal");
+      var btnChangeContent = el_layer.querySelectorAll(".js-change-content");
+      var el_all_links = document.querySelectorAll(".js-normal-link");
+
+      for (var link = el_all_links.length; link--; ) {
+        el_all_links[link].addEventListener("click", onClickReplacement, false);
+      }
+
+      for (var btnChange = btnChangeContent.length; btnChange--; ) {
+        btnChangeContent[btnChange].addEventListener(
+          "click",
+          changeContent,
+          false
+        );
+      }
+
+      window.addEventListener(
+        "resize",
+        window.ENV.debounce().func(resizeWindowCallback, 300),
+        false
+      );
+      window.addEventListener(
+        "load",
+        function () {
+          windowManager.firstLoad(getOrigin());
+
+          if (!window.ENV.is_in_iframe) {
+            window.modalBoxesManager.openModalBox(
+              el_layer.getAttribute("data-content-type")
+            );
+            formsManager.activateForm(
+              el_layer.getAttribute("data-content-type")
+            );
+          }
+        },
+        false
+      );
+
+      // NOTE: layout should be depraceted in favour of feature enabling
+      // but until that happens, we disable overlaylayer clicking for
+      // Galaxy Client
+      if (!window.featureToggles.disableOverlayClickClose) {
+        // Handle clicks outside login form to close login
+        el_layer.addEventListener(
+          "click",
+          function (e) {
+            // we catch only clicks fired on the overlay
+            // not on its descendants
+            if (e.target !== this) {
+              return;
+            }
+            closeLayer();
+          },
+          false
+        );
+      }
+
+      if (!window.featureToggles.disableEscPressClose) {
+        // Handle ESC key to close login
+        document.body.addEventListener(
+          "keydown",
+          function (e) {
+            var target_name;
+
+            // we catch keydown only if user pressed Escape
+            if (e.which !== 27) {
+              return;
+            }
+
+            target_name = e.target.nodeName.toLowerCase();
+
+            // if escape is pressed in input or textarea element
+            // we ignore it
+            if (target_name === "input" || target_name === "textarea") {
+              // on Esc we step out of focus
+              // from the input
+              e.target.blur();
+              return;
+            }
+
+            closeLayer();
+          },
+          false
+        );
+      }
+
+      for (var btnClose = btnCloseModal.length; btnClose--; ) {
+        btnCloseModal[btnClose].addEventListener("click", closeLayer, false);
+      }
+    };
+
+    getOrigin = function () {
+      if (window.location.origin) {
+        return window.location.origin;
+      }
+
+      return (
+        window.location.protocol +
+        "//" +
+        window.location.hostname +
+        (window.location.port ? window.location.port : "")
+      );
+    };
+
+    /**
+     * replaces default links functionality; starts
+     * information exchange with parent window to
+     * synchronize iframe content reloading
+     */
+    onClickReplacement = function (e) {
+      var contentType = this.getAttribute("data-content-type");
+
+      if (!window.ENV.is_in_iframe) {
+        return;
+      }
+
+      e.preventDefault();
+
+      if (is_waiting_for_parent) {
+        return;
+      }
+
+      is_waiting_for_parent = true;
+      new_location = this.getAttribute("href");
+
+      router.sendMessage({
+        action: "beforeIframeLocationChange",
+        data: { event: "click", contentType: contentType },
+      });
+    };
+
+    resizeWindowCallback = function () {
+      // formsManager.newWindowSize();
+    };
+
+    // sends close message to holder
+    closeLayer = function () {
+      var data = {};
+
+      if (this) {
+        data.contentType = this.getAttribute("data-content-type");
+        data.receiver = "";
+      }
+
+      return router.sendMessage({ action: "close", data: data });
+    };
+
+    changeContent = function () {
+      var contentType = this.getAttribute("data-content-type");
+      formsManager.activateForm(contentType);
+      window.modalBoxesManager.openModalBox(contentType);
+    };
+
+    initDOM();
+
+    return {
+      getDefaultContentType: function () {
+        return el_layer.getAttribute("data-content-type");
+      },
+
+      firstLoad: function (window_origin) {
+        window.modalBoxesManager.newWindowSize();
+        router.sendMessage({
+          action: "firstIframeLoad",
+          data: {
+            origin: window_origin,
+          },
+        });
+      },
+
+      closeLayer: function () {
+        closeLayer();
+      },
+
+      proceedWithLocationChange: function (data) {
+        is_waiting_for_parent = false;
+
+        if (data.event === "click") {
+          window.location = new_location;
+        } else {
+          formsManager.submitForm();
+        }
+      },
+
+      updateInputField: function (data) {
+        var input = document.getElementById(data.id);
+        var tokenIds = [
+            "second_step_authentication_token_letter_1",
+            "second_step_authentication_token_letter_2",
+            "second_step_authentication_token_letter_3",
+            "second_step_authentication_token_letter_4"
+        ];
+        var is2StepVerification = tokenIds.includes(data.id);
+
+        if (is2StepVerification) {
+          for (var i = 0; i < tokenIds.length; i++) {
+            document.getElementById(tokenIds[i]).value = data.value[i];
+          }
+        } else {
+          input.value = data.value;
+        }
+
+        input.dispatchEvent(new Event("update"));
+      },
+    };
+  })();
+
+  window.modalBoxesManager = (function () {
+    var modalBoxesDict = {};
+    var activeStateClass = "is-active";
+    var currentContent;
+    var checkDimensions;
+    var deactivateModalBox;
+    var activateModalBox;
+    var iframeSize;
+    var initManager;
+    var resolveDimensionUpdate;
+    var updateDimensions;
+    var checkContentType;
+
+    initManager = function () {
+      var elModalBoxes = document.querySelectorAll(".js-modal-box");
+      var contentType;
+
+      for (var box = elModalBoxes.length; box--; ) {
+        contentType = elModalBoxes[box].getAttribute("data-content-type");
+        modalBoxesDict[contentType] = elModalBoxes[box];
+      }
+    };
+
+    deactivateModalBox = function (contentType) {
+      window.ENV.removeClass(modalBoxesDict[contentType], activeStateClass);
+    };
+
+    activateModalBox = function (contentType) {
+      window.ENV.addClass(modalBoxesDict[contentType], activeStateClass);
+
+      var event = document.createEvent("Event");
+      event.initEvent("contentChange");
+      event.detail = contentType;
+      window.dispatchEvent(event);
+    };
+
+    checkContentType = function (typeToCheck) {
+      if (modalBoxesDict.hasOwnProperty(typeToCheck)) {
+        return typeToCheck;
+      } else {
+        return windowManager.getDefaultContentType();
+      }
+    };
+
+    checkDimensions = function () {
+      var present_dimensions = {
+        height: modalBoxesDict[currentContent].offsetHeight,
+        width: modalBoxesDict[currentContent].offsetWidth,
+      };
+
+      return {
+        height: present_dimensions.height,
+        width: present_dimensions.width,
+      };
+    };
+
+    resolveDimensionUpdate = (function () {
+      var update_actions = [];
+
+      return {
+        update: function (update_source) {
+          if (
+            update_actions.indexOf(update_source) !== -1 &&
+            update_actions.length === 1
+          ) {
+            return;
+          }
+
+          if (update_actions.indexOf(update_source) === -1) {
+            //                        window.ENV.addCSS( document.body, { width: iframe_size.width} );
+            update_actions.push(update_source);
+          }
+
+          if (update_actions.length === 2) {
+            updateDimensions();
+            update_actions = [];
+          }
+        },
+      };
+    })();
+
+    updateDimensions = function () {
+      var modalBoxSize;
+      var boundaryType;
+      var boundaryInfo = { is_boundary_reached: false };
+
+      modalBoxSize = checkDimensions();
+
+      if (modalBoxSize.width < iframeSize.width) {
+        boundaryType = "highBoundary";
+      }
+
+      if (modalBoxSize.width > iframeSize.width) {
+        boundaryType = "lowBoundary";
+      }
+
+      if (boundaryType) {
+        boundaryInfo = {
+          is_boundary_reached: true,
+          boundary_type: boundaryType,
+        };
+      }
+
+      router.sendMessage({
+        action: "registerContentDimensions",
+        data: {
+          dimensions: modalBoxSize,
+          boundary_info: boundaryInfo,
+        },
+      });
+    };
+
+    initManager();
+
+    return {
+      registerIframeDimensions: function (dimensions) {
+        iframeSize = dimensions;
+        resolveDimensionUpdate.update("size_register");
+      },
+
+      newWindowSize: function () {
+        resolveDimensionUpdate.update("window_resize");
+      },
+
+      updateDimensions: updateDimensions,
+
+      openModalBox: function (newContentType) {
+        if (currentContent === newContentType) {
+          return;
+        }
+
+        if (currentContent) {
+          deactivateModalBox(currentContent);
+        }
+
+        currentContent = checkContentType(newContentType);
+        activateModalBox(currentContent);
+
+        formsManager.activateForm(currentContent);
+
+        router.sendMessage({
+          action: "contentLoaded",
+          data: { contentType: currentContent },
+        });
+      },
+
+      checkDimensions: checkDimensions,
+    };
+  })();
+
+  // for forms DOM manipulation
+  Form = function (el_form) {
+    var el_inputs = el_form.querySelectorAll(
+      'input[ data-input-type = "user" ]'
+    );
+    var el_tokens = el_form.querySelectorAll("input.field__token");
+    var el_submit = el_form.querySelector(".btn--main");
+    var el_submit_slot = el_submit ? el_submit.parentNode : null;
+    var formType = el_form.getAttribute("data-form-type");
+    var is_form_validated = true;
+    var form_inputs = [];
+    var number_of_inputs;
+    var css_cl_spinner = "btn-slot--inactive";
+    var activeInputObject;
+    var formInvalidated;
+    var submitClicked;
+    var interfaceForInput;
+    var formCheckValidationStatus;
+    var formInit;
+    var formDOMInit;
+
+    interfaceForInput = {
+      registerActiveField: function (inputObject) {
+        if (
+          activeInputObject &&
+          activeInputObject.getHTMLElement() === inputObject.getHTMLElement()
+        ) {
+          return;
+        }
+
+        activeInputObject = inputObject;
+
+        router.sendMessage({
+          action: "inputFocused",
+          data: activeInputObject.getElementsDimensions(),
+          spec: activeInputObject.getInputSpecs(),
+        });
+      },
+
+      deregisterActiveField: function () {
+        activeInputObject = null;
+
+        router.sendMessage({
+          action: "inputBlured",
+          data: {},
+        });
+      },
+    };
+
+    formInvalidated = function () {
+      window.ENV.removeClass(el_submit_slot, css_cl_spinner);
+    };
+
+    formInit = function () {
+      for (var i = 0, len = el_inputs.length; i < len; i++) {
+        number_of_inputs = form_inputs.push(
+          new Input(
+            el_inputs[i],
+            interfaceForInput,
+            formInvalidated,
+            formCheckValidationStatus
+          )
+        );
+      }
+
+      new TwoStepToken(el_tokens);
+
+      formDOMInit();
+    };
+
+    formCheckValidationStatus = function () {
+      return is_form_validated;
+    };
+
+    formDOMInit = function () {
+      if (!el_submit) {
+        return;
+      }
+
+      el_submit.addEventListener("click", submitClicked, false);
+      el_form.addEventListener(
+        "submit",
+        function () {
+          el_submit.setAttribute("disabled", "disabled");
+        },
+        false
+      );
+    };
+
+    submitClicked = function (e) {
+      if (e.metaKey || e.shiftKey || e.altKey || e.ctrlKey) {
+        e.preventDefault();
+        return;
+      }
+
+      var is_form_valid = true;
+
+      is_form_validated = true;
+      window.ENV.addClass(el_submit_slot, css_cl_spinner);
+
+      for (var i = number_of_inputs; i--; ) {
+        if (!form_inputs[i].isValid()) {
+          is_form_valid = false;
+        }
+      }
+
+      if (!is_form_valid) {
+        formInvalidated();
+        e.preventDefault();
+        return;
+      }
+
+      router.sendMessage({
+        action: "formSubmission",
+        data: { formType: formType },
+      });
+    };
+
+    formInit();
+
+    return {
+      checkDimensions: function () {
+        var present_dimensions = {
+          height: el_form.offsetHeight,
+          width: el_form.offsetWidth,
+        };
+
+        return {
+          height: present_dimensions.height,
+          width: present_dimensions.width,
+        };
+      },
+
+      submit: function () {
+        window.ENV.addClass(el_submit_slot, css_cl_spinner);
+        el_form.submit();
+      },
+
+      focusOnInput: function () {
+        if (activeInputObject && activeInputObject.getHTMLElement) {
+          activeInputObject.focus();
+          return;
+        }
+
+        if (!number_of_inputs) {
+          return;
+        }
+
+        form_inputs[0].focus();
+      },
+    };
+  };
+
+  // object for handling labels
+  // contains logic that works, when browser doesn't support
+  // placeholder attribute, so that it needs to be simulated
+  Label = function (inputId) {
+    var elInput = document.getElementById(inputId);
+    var elLabel = document.querySelector('label[for="' + inputId + '"');
+    var hideLabel;
+    var showLabel;
+    var checkInput;
+    var labelDOMInit;
+
+    labelDOMInit = function () {
+      if (!elLabel) {
+        return;
+      }
+
+      elInput.addEventListener("keydown", checkInput, false);
+      elInput.addEventListener("change", checkInput, false);
+      elInput.addEventListener("focus", checkInput, false);
+      elInput.addEventListener("blur", checkInput, false);
+    };
+
+    hideLabel = function () {
+      window.ENV.addClass(elLabel, window.ENV.classes.hidden_element);
+    };
+
+    showLabel = function () {
+      window.ENV.removeClass(elLabel, window.ENV.classes.hidden_element);
+    };
+
+    checkInput = function () {
+      if (elInput.value.length > 0) {
+        hideLabel();
+      } else {
+        showLabel();
+      }
+    };
+
+    labelDOMInit();
+    checkInput();
+  };
+
+  TwoStepToken = function (inputs) {
+    // convert to array
+    var array = [];
+    for (var i = 0; i < inputs.length; i++) {
+      array[i] = inputs[i];
+    }
+    inputs = array;
+    inputs.sort(function (a, b) {
+      var an = a.getAttribute("name");
+      var bn = b.getAttribute("name");
+
+      return an > bn ? 1 : an < bn ? -1 : 0;
+    });
+    function setSelectionRange(field, start, end) {
+      var selRange;
+      if (field.createTextRange) {
+        selRange = field.createTextRange();
+        selRange.collapse(true);
+        selRange.moveStart("character", start);
+        selRange.moveEnd("character", end);
+        selRange.select();
+        field.focus();
+      } else if (field.setSelectionRange) {
+        field.focus();
+        field.setSelectionRange(start, end);
+      } else if (typeof field.selectionStart !== "undefined") {
+        field.selectionStart = start;
+        field.selectionEnd = end;
+        field.focus();
+      }
+    }
+
+    function getCaretPosition(oField) {
+      var oSel;
+      var iCaretPos = 0;
+      if (document.selection) {
+        oField.focus();
+        oSel = document.selection.createRange();
+        oSel.moveStart("character", -oField.value.length);
+        iCaretPos = oSel.text.length;
+      } else if (oField.selectionStart || oField.selectionStart == "0") {
+        iCaretPos = oField.selectionStart;
+      }
+      return iCaretPos;
+    }
+
+    function distributeText() {
+      var inputText;
+      var textLength;
+      var text = "";
+      var indexToFocus = -1;
+      var cursorPosition = 0;
+      for (var i = 0; i < inputs.length; i++) {
+        // remove all whitespaces
+        inputText = window.jQuery(inputs[i]).val().replace(/\s/g, "");
+        text += inputText;
+        if (window.jQuery(inputs[i]).is(":focus")) {
+          textLength = inputText.length;
+          if (textLength === 0 && i > 0) {
+            indexToFocus = i - 1;
+            cursorPosition = 1;
+          } else if (textLength > 0) {
+            indexToFocus = i + 1;
+            cursorPosition = 0;
+            if (indexToFocus >= inputs.length) {
+              indexToFocus = inputs.length - 1;
+              cursorPosition = 1;
+            }
+          }
+        }
+      }
+
+      for (var k = 0; k < inputs.length; k++) {
+        window.jQuery(inputs[k]).val(k < text.length ? text[k] : "");
+      }
+
+      if (indexToFocus !== -1) {
+        window.jQuery(inputs[indexToFocus]).focus();
+        setSelectionRange(inputs[indexToFocus], cursorPosition, cursorPosition);
+      }
+    }
+
+    window.jQuery(inputs).on("input", distributeText);
+    window.jQuery(inputs).keydown(function (e) {
+      var caretPosition;
+      // backspace
+      if (e.which === 8) {
+        for (var i = 0; i < inputs.length; i++) {
+          if (window.jQuery(inputs[i]).is(":focus")) {
+            caretPosition = getCaretPosition(inputs[i]);
+            if (caretPosition === 0 && i > 0) {
+              window.jQuery(inputs[i - 1]).val("");
+            } else {
+              window.jQuery(inputs[i]).val("");
+            }
+            distributeText();
+            break;
+          }
+        }
+        e.preventDefault();
+      }
+    });
+
+    // clear inputs on load
+    // to avoid autosubmitting after fixing only one character
+    for (var j = 0; j < inputs.length; j += 1) {
+      inputs[j].value = "";
+    }
+  };
+
+  Input = function (
+    el_input,
+    containingForm,
+    invalidCallback,
+    checkFormStatus
+  ) {
+    var el_client_error = document.getElementById(
+      el_input.getAttribute("data-error")
+    );
+    var el_field = el_input.parentNode;
+    var el_errors = el_field.querySelectorAll(".field__msg");
+    var el_ajax_errors = el_field.querySelectorAll(".js-ajax-error-msg");
+    var ajax_errors = {};
+    var ajax_errors_list = [];
+    var css_classes = {
+      field_error: "field--error",
+      field_correct: "field--correct",
+    };
+    var number_of_errors_msg = el_errors.length;
+    var el_offset_parents = [];
+    var validated_values = {};
+    var is_focused_programaticaly = false;
+    var is_validation_needed = el_client_error ? true : false;
+    var is_ajax_validation_needed = el_ajax_errors.length > 0 ? true : false;
+    var is_valid = null;
+    var validation_type = el_input.getAttribute("data-validation") || "default";
+    var labelObject;
+    var inputInvalidated;
+    var inputEdited;
+    var inputValidated;
+    var inputInvalid;
+    var compareValue;
+    var hideErrors;
+    var inputClicked;
+    var inputInterface;
+    var inputBlured;
+    var inputFocused;
+    var inputDOMInit;
+    var inputLiveValidation;
+    var validationReset;
+    var ajaxValidationError;
+    var ajaxValidationSuccess;
+    var setValidationState;
+    var backendValidationInterface;
+    var backEndValidationDebounced;
+
+    if (is_ajax_validation_needed) {
+      for (var err_i = el_ajax_errors.length; err_i--; ) {
+        ajax_errors[el_ajax_errors[err_i].getAttribute("data-error-type")] =
+          el_ajax_errors[err_i];
+        ajax_errors_list.push(
+          el_ajax_errors[err_i].getAttribute("data-error-type")
+        );
+      }
+
+      backendValidationInterface = window.ENV.debounce();
+      backEndValidationDebounced = backendValidationInterface.func(
+        backEndValidation,
+        300
+      );
+    }
+
+    setValidationState = function (validated_value) {
+      if (is_valid !== null) {
+        return;
+      }
+
+      if (validated_values[validated_value] === "valid") {
+        inputValidated();
+      } else {
+        inputInvalid(validated_values[validated_value]);
+      }
+    };
+
+    ajaxValidationError = function (error_type, validated_value) {
+      validated_values[validated_value] = error_type;
+      setValidationState(validated_value);
+    };
+
+    ajaxValidationSuccess = function (validated_value) {
+      validated_values[validated_value] = "valid";
+      setValidationState(validated_value);
+    };
+
+    hideErrors = function () {
+      for (var i = number_of_errors_msg; i--; ) {
+        window.ENV.addClass(el_errors[i], window.ENV.classes.hidden_element);
+      }
+    };
+
+    inputEdited = function (e) {
+      // when tab is pressed we're changing input
+      // so validation is not needed
+      if (e.which === 9) {
+        return;
+      }
+
+      e.stopPropagation();
+
+      if (!is_validation_needed) {
+        return;
+      }
+
+      validationReset(e);
+
+      if (el_input.value === "") {
+        return;
+      }
+
+      if (el_input.checkValidity() && checkFormStatus()) {
+        inputLiveValidation();
+      }
+    };
+
+    inputValidated = function () {
+      hideErrors();
+      window.ENV.removeClass(el_field, css_classes.field_error);
+      window.ENV.addClass(el_field, css_classes.field_correct);
+      is_valid = true;
+    };
+
+    validationReset = function (e) {
+      var isProgrammableEdit = e ? e.type == "update" : false;
+
+      if (!(e instanceof KeyboardEvent) && !isProgrammableEdit) {
+        return;
+      }
+
+      hideErrors();
+      window.ENV.addClass(el_client_error, window.ENV.classes.hidden_element);
+      window.ENV.removeClass(el_field, css_classes.field_correct);
+      window.ENV.removeClass(el_field, css_classes.field_error);
+      is_valid = null;
+    };
+
+    inputInvalid = function (error_type) {
+      hideErrors();
+
+      if (ajax_errors_list.indexOf(error_type) === -1) {
+        error_type = false;
+      }
+
+      if (error_type) {
+        window.ENV.removeClass(
+          ajax_errors[error_type],
+          window.ENV.classes.hidden_element
+        );
+      } else {
+        window.ENV.removeClass(
+          el_client_error,
+          window.ENV.classes.hidden_element
+        );
+      }
+
+      window.ENV.addClass(el_field, css_classes.field_error);
+      window.ENV.removeClass(el_field, css_classes.field_correct);
+      is_valid = false;
+    };
+
+    inputLiveValidation = function () {
+      var current_value;
+      if (!is_ajax_validation_needed) {
+        return;
+      }
+
+      current_value = el_input.value;
+
+      if (validated_values[current_value]) {
+        setValidationState(current_value);
+        return;
+      }
+
+      backEndValidationDebounced(
+        {
+          name: el_input.name,
+          value: el_input.value,
+        },
+        ajaxValidationSuccess,
+        ajaxValidationError
+      );
+    };
+
+    inputInvalidated = function (e) {
+      e.preventDefault();
+
+      if (is_validation_needed) {
+        inputInvalid();
+        is_valid = false;
+      }
+
+      if (is_ajax_validation_needed) {
+        backendValidationInterface.clear();
+      }
+
+      invalidCallback();
+    };
+
+    inputClicked = function () {
+      containingForm.registerActiveField(inputInterface);
+    };
+
+    inputBlured = function (e) {
+      inputEdited(e);
+      containingForm.deregisterActiveField();
+    };
+
+    inputFocused = function () {
+      if (is_focused_programaticaly) {
+        is_focused_programaticaly = false;
+        return;
+      }
+
+      containingForm.registerActiveField(inputInterface);
+    };
+
+    inputDOMInit = function () {
+      var el_offset_parent = el_input.offsetParent;
+
+      el_input.addEventListener("keydown", validationReset, false);
+      el_input.addEventListener("invalid", inputInvalidated, false);
+      el_input.addEventListener("click", inputClicked, false);
+      el_input.addEventListener("blur", inputBlured, false);
+      el_input.addEventListener("focus", inputFocused, false);
+      el_input.addEventListener("update", inputEdited, false);
+
+      while (
+        el_offset_parent &&
+        !window.ENV.hasClass(el_offset_parent, "_modal__box")
+      ) {
+        el_offset_parents.push(el_offset_parent);
+        el_offset_parent = el_offset_parent.offsetParent;
+      }
+
+      if (!window.ENV.is_supporting.placeholder_attributes) {
+        labelObject = new Label(el_input.id);
+      }
+    };
+
+    compareValue = function () {
+      var id_of_relative_el = el_input.getAttribute("data-rel-element");
+      var is_value_the_same =
+        el_input.value &&
+        el_input.value === document.getElementById(id_of_relative_el).value;
+
+      if (!is_value_the_same) {
+        inputInvalid();
+      }
+
+      return is_value_the_same;
+    };
+
+    inputDOMInit();
+
+    inputInterface = {
+      getHTMLElement: function () {
+        return el_input;
+      },
+
+      getElementsDimensions: function () {
+        var dimensions = {
+          height: el_input.offsetHeight,
+          top: el_input.offsetTop,
+        };
+
+        for (var i = el_offset_parents.length; i--; ) {
+          dimensions.top += el_offset_parents[i].offsetTop;
+        }
+
+        return dimensions;
+      },
+
+      getInputSpecs: function () {
+        var specs = {
+          name: el_input.placeholder,
+          type: el_input.type,
+          id: el_input.id
+        };
+
+        return specs;
+      },
+
+      focus: function () {
+        is_focused_programaticaly = true;
+        el_input.focus();
+      },
+
+      // we check on basic level, if the input has a proper value
+      isValid: function () {
+        switch (validation_type) {
+          case "compare":
+            return compareValue();
+
+          default:
+            if (is_valid !== null) {
+              return is_valid;
+            }
+
+            return el_input.checkValidity();
+        }
+      },
+    };
+
+    return inputInterface;
+  };
+
+  formsManager = (function () {
+    var formsDict = {};
+    var active_form;
+
+    return {
+      focusOnInput: function () {
+        if (!active_form) {
+          return;
+        }
+
+        active_form.focusOnInput();
+      },
+
+      submitForm: function () {
+        active_form.submit();
+      },
+
+      activateForm: function (formType) {
+        if (!formsDict[formType]) {
+          return;
+        }
+
+        active_form = formsDict[formType];
+        active_form.focusOnInput();
+      },
+
+      initForms: function (el_forms) {
+        var formType;
+
+        for (var form = el_forms.length; form--; ) {
+          formType = el_forms[form].getAttribute("data-form-type");
+          formsDict[formType] = new Form(el_forms[form]);
+        }
+      },
+    };
+  })();
+
+  window.gogMessageRouter = router = (function () {
+    var target_origin = "*";
+    var parent_window = window.parent;
+    var dispatcher;
+    var receiver;
+    var sendMessage;
+    var registerOrigin;
+
+    registerOrigin = function (new_origin) {
+      target_origin = new_origin;
+    };
+
+    sendMessage = function (msg) {
+      try {
+        parent_window.postMessage(JSON.stringify(msg), target_origin);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+
+    dispatcher = function (msg) {
+      switch (msg.action) {
+        case "registerOrigin":
+          registerOrigin(msg.data.origin);
+          break;
+
+        case "containerIsReady":
+          formsManager.focusOnInput();
+          break;
+
+        case "viewportResize":
+          window.modalBoxesManager.registerIframeDimensions(msg.data);
+          break;
+
+        case "iframeResize":
+          window.modalBoxesManager.newWindowSize();
+          break;
+
+        case "environmentResize":
+          window.modalBoxesManager.updateDimensions();
+          break;
+
+        case "focusOnInput":
+          formsManager.focusOnInput();
+          break;
+
+        case "loadContent":
+          formsManager.activateForm(msg.data.contentType);
+          window.modalBoxesManager.openModalBox(msg.data.contentType);
+          break;
+
+        case "proceedWithLocationChange":
+          windowManager.proceedWithLocationChange(msg.data);
+          break;
+
+        case "updateInputField":
+          windowManager.updateInputField(msg.data);
+          break;
+
+        default:
+          console.warn("Unknown case", msg);
+      }
+    };
+
+    receiver = function (e) {
+      var msg;
+      if (e.source !== parent_window) {
+        return;
+      }
+
+      try {
+        msg = JSON.parse(e.data);
+      } catch (err) {
+        console.error("Error while parsing event data", err);
+        msg = {};
+      }
+
+      if (msg.action === undefined && msg.data === undefined) {
+        return;
+      }
+
+      dispatcher(msg);
+    };
+
+    window.addEventListener("message", receiver, false);
+
+    return {
+      sendMessage: sendMessage,
+    };
+  })();
+
+  formsManager.initForms(document.querySelectorAll(".form"));
+
+  window.jQuery("#gog_account_go_back").click(function () {
+    router.sendMessage({
+      action: "goBackToAccount",
+    });
+
+    return true;
+  });
+
+  window.jQuery(function () {
+    if (window.jQuery("#gog_account_change_success").length > 0) {
+      router.sendMessage({
+        action: "accountChangeSuccess",
+      });
+    }
+
+    return true;
+  });
+})();
+
+(function() {
+    var $layers;
+    var $closers;
+    var init;
+    var openAgreementFormDescription;
+    var closeAgreementFormDescription;
+    var bindClosing;
+    var unbindClosing;
+    var escapeListener;
+    var VISIBLE_CLASS = "is-visible";
+
+    init = function() {
+        // There are multiple form descriptions - on login, register screens
+        var $descriptionOpeners = window.jQuery(
+            ".js-open-agreement-form-description"
+        );
+        if ($descriptionOpeners === null) {
+            return;
+        }
+        $closers = window.jQuery(".js-close-agreement-form-description-layer");
+        $descriptionOpeners.bind("click", openAgreementFormDescription);
+    };
+
+    openAgreementFormDescription = function(e) {
+        e.preventDefault();
+        if (this.dataset.id) {
+            $layers = window.jQuery(`#${this.dataset.id}`);
+        } else {
+            $layers = window.jQuery(".js-agreement-form-description-layer");
+        }
+        bindClosing();
+        $layers.addClass(VISIBLE_CLASS);
+    };
+
+    closeAgreementFormDescription = function() {
+        unbindClosing();
+        $layers.removeClass(VISIBLE_CLASS);
+    };
+
+    bindClosing = function() {
+        document.addEventListener("keydown", escapeListener);
+        $closers.bind("click", closeAgreementFormDescription);
+    };
+
+    unbindClosing = function() {
+        document.removeEventListener("keydown", escapeListener);
+        $closers.unbind("click", closeAgreementFormDescription);
+    };
+
+    escapeListener = function(e) {
+        if (e.keyCode === 27) {
+            closeAgreementFormDescription();
+        }
+    };
+
+    init();
+})();
+
+(function() {
+  const SELECTOR = ".js-sign-in-with-apple";
+  const MESSAGE = "SignInWithApple";
+
+  const init = () => {
+    // Sign in with apple should work only with mobile application
+    if (window.webkit === undefined) {
+      return;
+    }
+
+    // In the view we have two forms, and because of that two sign in buttons
+    const buttons = document.querySelectorAll(SELECTOR);
+
+    if (buttons.length === 0) {
+      return;
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        window.webkit.messageHandlers.native.postMessage(MESSAGE);
+      });
+    });
+  };
+
+  init();
+})();

@@ -1,0 +1,2653 @@
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15921] DEBUG (cli:204) Launched with command line: /usr/bin/virt-manager
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15921] DEBUG (virtmanager:167) virt-manager version: 4.0.0
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15921] DEBUG (virtmanager:168) virtManager import: /usr/share/virt-manager/virtManager
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (virtmanager:205) PyGObject version: 3.42.1
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (virtmanager:209) GTK version: 3.24.34
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (systray:84) Imported AppIndicator3=<IntrospectionModule 'AppIndicator3' from '/usr/lib64/girepository-1.0/AppIndicator3-0.1.typelib'>
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (systray:90) Using AppIndicator3 for systray
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (systray:476) Showing systray: False
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (inspection:206) python guestfs is not installed
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (engine:111) No stored URIs found.
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (engine:461) processing cli command uri= show_window=manager domain=
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (engine:464) No cli action requested, launching default window
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (manager:185) Showing manager
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (engine:316) window counter incremented to 1
+[Sun, 17 Jul 2022 12:43:40 virt-manager 15924] DEBUG (engine:211) Initial gtkapplication activated
+[Sun, 17 Jul 2022 12:43:41 virt-manager 15924] DEBUG (engine:135) Probed default URI=qemu:///system
+[Sun, 17 Jul 2022 12:43:41 virt-manager 15924] DEBUG (connection:482) conn=qemu:///system changed to state=Connecting
+[Sun, 17 Jul 2022 12:43:41 virt-manager 15924] DEBUG (connection:903) Scheduling background open thread for qemu:///system
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:953) libvirt version=8001000
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:954) daemon version=8001000
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:955) conn version=6002000
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:956) qemu:///system capabilities:
+<capabilities>
+
+  <host>
+    <uuid>56764dd2-60a6-4359-2fbc-f02f74dd51eb</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Skylake-Client-noTSX-IBRS</model>
+      <vendor>Intel</vendor>
+      <microcode version="240"/>
+      <counter name="tsc" frequency="4103999000" scaling="no"/>
+      <topology sockets="1" dies="1" cores="6" threads="2"/>
+      <feature name="ds"/>
+      <feature name="acpi"/>
+      <feature name="ss"/>
+      <feature name="ht"/>
+      <feature name="tm"/>
+      <feature name="pbe"/>
+      <feature name="dtes64"/>
+      <feature name="monitor"/>
+      <feature name="ds_cpl"/>
+      <feature name="vmx"/>
+      <feature name="smx"/>
+      <feature name="est"/>
+      <feature name="tm2"/>
+      <feature name="xtpr"/>
+      <feature name="pdcm"/>
+      <feature name="osxsave"/>
+      <feature name="tsc_adjust"/>
+      <feature name="clflushopt"/>
+      <feature name="intel-pt"/>
+      <feature name="pku"/>
+      <feature name="ospke"/>
+      <feature name="md-clear"/>
+      <feature name="stibp"/>
+      <feature name="arch-capabilities"/>
+      <feature name="ssbd"/>
+      <feature name="xsaves"/>
+      <feature name="pdpe1gb"/>
+      <feature name="invtsc"/>
+      <feature name="rdctl-no"/>
+      <feature name="ibrs-all"/>
+      <feature name="skip-l1dfl-vmentry"/>
+      <feature name="mds-no"/>
+      <pages unit="KiB" size="4"/>
+      <pages unit="KiB" size="2048"/>
+      <pages unit="KiB" size="1048576"/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <iommu support="no"/>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num="1">
+        <cell id="0">
+          <memory unit="KiB">32652724</memory>
+          <pages unit="KiB" size="4">8163181</pages>
+          <pages unit="KiB" size="2048">0</pages>
+          <pages unit="KiB" size="1048576">0</pages>
+          <distances>
+            <sibling id="0" value="10"/>
+          </distances>
+          <cpus num="12">
+            <cpu id="0" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="1" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="2" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="3" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="4" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="5" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+            <cpu id="6" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="7" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="8" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="9" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="10" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="11" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <cache>
+      <bank id="0" level="3" type="both" size="12" unit="MiB" cpus="0-11"/>
+    </cache>
+    <secmodel>
+      <model>selinux</model>
+      <doi>0</doi>
+      <baselabel type="kvm">system_u:system_r:svirt_t:s0</baselabel>
+      <baselabel type="qemu">system_u:system_r:svirt_tcg_t:s0</baselabel>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type="kvm">+107:+107</baselabel>
+      <baselabel type="qemu">+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="i686">
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <pae/>
+      <nonpae/>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="x86_64">
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+</capabilities>
+
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:739) Using domain events
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:778) Using network events
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:797) Using storage pool events
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:822) Using node device events
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:1077) network=default status=Active added
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (storage:156) Attempting to build default pool with target '/var/lib/libvirt/images'
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (storage:380) Creating storage pool 'default' with xml:
+<pool type="dir">
+  <name>default</name>
+  <target>
+    <path>/var/lib/libvirt/images</path>
+  </target>
+</pool>
+
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:676) storage pool lifecycle event: pool=default state=VIR_STORAGE_POOL_EVENT_DEFINED reason=0
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:676) storage pool lifecycle event: pool=default state=VIR_STORAGE_POOL_EVENT_CREATED reason=0
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:676) storage pool lifecycle event: pool=default state=VIR_STORAGE_POOL_EVENT_STARTED reason=0
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:482) conn=qemu:///system changed to state=Active
+[Sun, 17 Jul 2022 12:43:50 virt-manager 15924] DEBUG (connection:1077) pool=default status=Active added
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (xmleditor:12) Using GtkSource 4
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (serialcon:17) Using VTE API 2.91
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (createvm:257) Showing new vm wizard
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (createvm:728) Guest type set to os_type=hvm, arch=x86_64, dom_type=kvm
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=generic>
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (guest:535) Prefer EFI => False
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (engine:316) window counter incremented to 2
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:44:20 virt-manager 15924] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:44:23 virt-manager 15924] DEBUG (createvm:268) Closing new vm wizard
+[Sun, 17 Jul 2022 12:44:23 virt-manager 15924] DEBUG (engine:323) window counter decremented to 1
+[Sun, 17 Jul 2022 12:49:58 virt-manager 15924] DEBUG (preferences:101) Showing preferences
+[Sun, 17 Jul 2022 12:50:01 virt-manager 15924] DEBUG (preferences:96) Closing preferences
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (manager:196) Closing manager
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (engine:323) window counter decremented to 0
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (engine:343) No windows found, requesting app exit
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (connection:838) conn.close() uri=qemu:///system
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (connection:482) conn=qemu:///system changed to state=Disconnected
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (preferences:96) Closing preferences
+[Sun, 17 Jul 2022 12:50:03 virt-manager 15924] DEBUG (engine:369) Exiting app normally.
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17201] DEBUG (cli:204) Launched with command line: /usr/bin/virt-manager
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17201] DEBUG (virtmanager:167) virt-manager version: 4.0.0
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17201] DEBUG (virtmanager:168) virtManager import: /usr/share/virt-manager/virtManager
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (virtmanager:205) PyGObject version: 3.42.1
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (virtmanager:209) GTK version: 3.24.34
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (systray:84) Imported AppIndicator3=<IntrospectionModule 'AppIndicator3' from '/usr/lib64/girepository-1.0/AppIndicator3-0.1.typelib'>
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (systray:90) Using AppIndicator3 for systray
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (systray:476) Showing systray: False
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (inspection:206) python guestfs is not installed
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (engine:113) Loading stored URIs:
+qemu:///system
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (engine:461) processing cli command uri= show_window=manager domain=
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (engine:464) No cli action requested, launching default window
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (manager:185) Showing manager
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (engine:316) window counter incremented to 1
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (engine:211) Initial gtkapplication activated
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (connection:482) conn=qemu:///system changed to state=Connecting
+[Sun, 17 Jul 2022 12:53:25 virt-manager 17205] DEBUG (connection:903) Scheduling background open thread for qemu:///system
+[Sun, 17 Jul 2022 12:53:34 virt-manager 17205] DEBUG (connection:953) libvirt version=8001000
+[Sun, 17 Jul 2022 12:53:34 virt-manager 17205] DEBUG (connection:954) daemon version=8001000
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:955) conn version=6002000
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:956) qemu:///system capabilities:
+<capabilities>
+
+  <host>
+    <uuid>56764dd2-60a6-4359-2fbc-f02f74dd51eb</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Skylake-Client-noTSX-IBRS</model>
+      <vendor>Intel</vendor>
+      <microcode version="240"/>
+      <counter name="tsc" frequency="4103999000" scaling="no"/>
+      <topology sockets="1" dies="1" cores="6" threads="2"/>
+      <feature name="ds"/>
+      <feature name="acpi"/>
+      <feature name="ss"/>
+      <feature name="ht"/>
+      <feature name="tm"/>
+      <feature name="pbe"/>
+      <feature name="dtes64"/>
+      <feature name="monitor"/>
+      <feature name="ds_cpl"/>
+      <feature name="vmx"/>
+      <feature name="smx"/>
+      <feature name="est"/>
+      <feature name="tm2"/>
+      <feature name="xtpr"/>
+      <feature name="pdcm"/>
+      <feature name="osxsave"/>
+      <feature name="tsc_adjust"/>
+      <feature name="clflushopt"/>
+      <feature name="intel-pt"/>
+      <feature name="pku"/>
+      <feature name="ospke"/>
+      <feature name="md-clear"/>
+      <feature name="stibp"/>
+      <feature name="arch-capabilities"/>
+      <feature name="ssbd"/>
+      <feature name="xsaves"/>
+      <feature name="pdpe1gb"/>
+      <feature name="invtsc"/>
+      <feature name="rdctl-no"/>
+      <feature name="ibrs-all"/>
+      <feature name="skip-l1dfl-vmentry"/>
+      <feature name="mds-no"/>
+      <pages unit="KiB" size="4"/>
+      <pages unit="KiB" size="2048"/>
+      <pages unit="KiB" size="1048576"/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <iommu support="no"/>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num="1">
+        <cell id="0">
+          <memory unit="KiB">32652724</memory>
+          <pages unit="KiB" size="4">8163181</pages>
+          <pages unit="KiB" size="2048">0</pages>
+          <pages unit="KiB" size="1048576">0</pages>
+          <distances>
+            <sibling id="0" value="10"/>
+          </distances>
+          <cpus num="12">
+            <cpu id="0" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="1" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="2" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="3" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="4" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="5" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+            <cpu id="6" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="7" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="8" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="9" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="10" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="11" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <cache>
+      <bank id="0" level="3" type="both" size="12" unit="MiB" cpus="0-11"/>
+    </cache>
+    <secmodel>
+      <model>selinux</model>
+      <doi>0</doi>
+      <baselabel type="kvm">system_u:system_r:svirt_t:s0</baselabel>
+      <baselabel type="qemu">system_u:system_r:svirt_tcg_t:s0</baselabel>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type="kvm">+107:+107</baselabel>
+      <baselabel type="qemu">+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="i686">
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <pae/>
+      <nonpae/>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="x86_64">
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+</capabilities>
+
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:739) Using domain events
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:778) Using network events
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:797) Using storage pool events
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:822) Using node device events
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:1077) network=default status=Active added
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:1077) pool=default status=Active added
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:53:35 virt-manager 17205] DEBUG (connection:482) conn=qemu:///system changed to state=Active
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (xmleditor:12) Using GtkSource 4
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (serialcon:17) Using VTE API 2.91
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (createvm:257) Showing new vm wizard
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (createvm:728) Guest type set to os_type=hvm, arch=x86_64, dom_type=kvm
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=generic>
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (guest:535) Prefer EFI => False
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:53:38 virt-manager 17205] DEBUG (engine:316) window counter incremented to 2
+[Sun, 17 Jul 2022 12:53:42 virt-manager 17205] DEBUG (storagebrowse:36) Showing storage browser
+[Sun, 17 Jul 2022 12:53:42 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:53:44 virt-manager 17205] DEBUG (config:639) directory for type=isomedia returning=
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (config:648) saving directory for type=media to /home/tommi/Downloads
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (storagebrowse:156) Browse local chose path=/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (createvm:1756) Starting OS detection thread for cdrom=/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso location=None
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (diskbackend:161) Attempting to build pool=Downloads target=/home/tommi/Downloads
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (storage:380) Creating storage pool 'Downloads' with xml:
+<pool type="dir">
+  <name>Downloads</name>
+  <target>
+    <path>/home/tommi/Downloads</path>
+  </target>
+</pool>
+
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (storagebrowse:49) Closing storage browser
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (connection:676) storage pool lifecycle event: pool=Downloads state=VIR_STORAGE_POOL_EVENT_DEFINED reason=0
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (connection:676) storage pool lifecycle event: pool=Downloads state=VIR_STORAGE_POOL_EVENT_STARTED reason=0
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (connection:1077) pool=Downloads status=Active added
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (installer:544) installer.detect_distro returned=win10
+[Sun, 17 Jul 2022 12:53:46 virt-manager 17205] DEBUG (createvm:1836) Finished UI OS detection.
+[Sun, 17 Jul 2022 12:53:48 virt-manager 17205] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=win10>
+[Sun, 17 Jul 2022 12:53:48 virt-manager 17205] DEBUG (disk:236) DeviceDisk.check_path_search path=/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso
+[Sun, 17 Jul 2022 12:53:48 virt-manager 17205] DEBUG (addstorage:130) No search access for dirs: ['/home/tommi']
+[Sun, 17 Jul 2022 12:53:50 virt-manager 17205] DEBUG (addstorage:143) Attempting to correct permission issues.
+[Sun, 17 Jul 2022 12:53:50 virt-manager 17205] DEBUG (diskbackend:271) Ran command '['setfacl', '--modify', 'user:qemu:x', '/home/tommi']'
+[Sun, 17 Jul 2022 12:53:50 virt-manager 17205] DEBUG (osdict:216) No recommended value found for key='ram', using minimum=2147483648 * 2
+[Sun, 17 Jul 2022 12:53:50 virt-manager 17205] DEBUG (osdict:216) No recommended value found for key='n-cpus', using minimum=1 * 2
+[Sun, 17 Jul 2022 12:53:50 virt-manager 17205] DEBUG (osdict:216) No recommended value found for key='storage', using minimum=21474836480 * 2
+[Sun, 17 Jul 2022 12:53:50 virt-manager 17205] DEBUG (createvm:1611) Recommended resources for os=win10: ram=4294967296 ncpus=2 storage=42949672960
+[Sun, 17 Jul 2022 12:54:03 virt-manager 17205] DEBUG (storagebrowse:36) Showing storage browser
+[Sun, 17 Jul 2022 12:54:05 virt-manager 17205] DEBUG (config:639) directory for type=image returning=
+[Sun, 17 Jul 2022 12:54:37 virt-manager 17205] DEBUG (hoststorage:475) Launching 'Add Pool' wizard
+[Sun, 17 Jul 2022 12:54:37 virt-manager 17205] DEBUG (createpool:53) Showing new pool wizard
+[Sun, 17 Jul 2022 12:54:45 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 12:54:53 virt-manager 17205] DEBUG (storagebrowse:49) Closing storage browser
+[Sun, 17 Jul 2022 12:54:53 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 12:54:58 virt-manager 17205] DEBUG (storagebrowse:36) Showing storage browser
+[Sun, 17 Jul 2022 12:55:00 virt-manager 17205] DEBUG (hoststorage:529) Launching 'Add Volume' wizard for pool 'default'
+[Sun, 17 Jul 2022 12:55:00 virt-manager 17205] DEBUG (createvol:62) Showing new volume wizard for parent_pool=
+<pool type="dir">
+  <name>default</name>
+  <uuid>274230d7-03f4-42f3-b44c-4c859072f0c4</uuid>
+  <capacity unit="bytes">498403901440</capacity>
+  <allocation unit="bytes">46692507648</allocation>
+  <available unit="bytes">451711393792</available>
+  <source>
+  </source>
+  <target>
+    <path>/var/lib/libvirt/images</path>
+    <permissions>
+      <mode>0711</mode>
+      <owner>0</owner>
+      <group>0</group>
+      <label>system_u:object_r:virt_image_t:s0</label>
+    </permissions>
+  </target>
+</pool>
+
+[Sun, 17 Jul 2022 12:55:00 virt-manager 17205] DEBUG (storage:209) refreshing pool=default
+[Sun, 17 Jul 2022 12:55:00 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:55:07 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 12:55:09 virt-manager 17205] DEBUG (storagebrowse:49) Closing storage browser
+[Sun, 17 Jul 2022 12:55:09 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 12:55:09 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (storage:209) refreshing pool=default
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (createvm:1666) Default storage path is: /var/lib/libvirt/images/win10.qcow2
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (storage:209) refreshing pool=default
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (disk:357) Creating volume 'win10.qcow2' on pool 'default'
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (disk:653) disk.set_vol_install: name=win10.qcow2 poolxml=
+<pool type='dir'>
+  <name>default</name>
+  <uuid>274230d7-03f4-42f3-b44c-4c859072f0c4</uuid>
+  <capacity unit='bytes'>498403901440</capacity>
+  <allocation unit='bytes'>46688100352</allocation>
+  <available unit='bytes'>451715801088</available>
+  <source>
+  </source>
+  <target>
+    <path>/var/lib/libvirt/images</path>
+    <permissions>
+      <mode>0711</mode>
+      <owner>0</owner>
+      <group>0</group>
+      <label>system_u:object_r:virt_image_t:s0</label>
+    </permissions>
+  </target>
+</pool>
+
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (addstorage:256) Using default prefs format=qcow2 for path=/var/lib/libvirt/images/win10.qcow2
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (disk:236) DeviceDisk.check_path_search path=/var/lib/libvirt/images/win10.qcow2
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=win10>
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=win10>
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:55:14 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:55:16 virt-manager 17205] DEBUG (createvm:1867) Starting create finish() sequence
+[Sun, 17 Jul 2022 12:55:16 virt-manager 17205] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=win10>
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (guest:535) Prefer EFI => False
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (cpu:282) Using default cpu mode=host-passthrough
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (graphics:157) App is configured with default_graphics=spice
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (graphics:175) Local connection, disabling spice image compression.
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (guest:1094) Using num_pcie_root_ports=14
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (createvm:1884) User requested 'customize', launching dialog
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (domain:1713) <vmmDomainVirtinst name=win10 id=0x7f3ee410d6c0> initialized with XML=
+<domain type="kvm">
+  <name>win10</name>
+  <uuid>e7909542-3f14-4c0c-8a1b-141e2e96a56b</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/10"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory>16384000</memory>
+  <currentMemory>16384000</currentMemory>
+  <vcpu>6</vcpu>
+  <os>
+    <type arch="x86_64" machine="q35">hvm</type>
+    <boot dev="hd"/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv>
+      <relaxed state="on"/>
+      <vapic state="on"/>
+      <spinlocks state="on" retries="8191"/>
+    </hyperv>
+    <vmport state="off"/>
+  </features>
+  <cpu mode="host-passthrough"/>
+  <clock offset="localtime">
+    <timer name="rtc" tickpolicy="catchup"/>
+    <timer name="pit" tickpolicy="delay"/>
+    <timer name="hpet" present="no"/>
+    <timer name="hypervclock" present="yes"/>
+  </clock>
+  <pm>
+    <suspend-to-mem enabled="no"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/var/lib/libvirt/images/win10.qcow2"/>
+      <target dev="sda" bus="sata"/>
+    </disk>
+    <disk type="file" device="cdrom">
+      <driver name="qemu" type="raw"/>
+      <source file="/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso"/>
+      <target dev="sdb" bus="sata"/>
+      <readonly/>
+    </disk>
+    <controller type="usb" model="qemu-xhci" ports="15"/>
+    <controller type="pci" model="pcie-root"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <interface type="network">
+      <source network="default"/>
+      <mac address="52:54:00:1d:11:33"/>
+      <model type="e1000e"/>
+    </interface>
+    <console type="pty"/>
+    <channel type="spicevmc">
+      <target type="virtio" name="com.redhat.spice.0"/>
+    </channel>
+    <input type="tablet" bus="usb"/>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes">
+      <image compression="off"/>
+    </graphics>
+    <sound model="ich9"/>
+    <video>
+      <model type="qxl"/>
+    </video>
+    <redirdev bus="usb" type="spicevmc"/>
+    <redirdev bus="usb" type="spicevmc"/>
+  </devices>
+</domain>
+
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (vmwindow:184) Showing VM details: <vmmDomainVirtinst name=win10 id=0x7f3ee410d6c0>
+[Sun, 17 Jul 2022 12:55:17 virt-manager 17205] DEBUG (engine:316) window counter incremented to 3
+[Sun, 17 Jul 2022 12:55:30 virt-manager 17205] DEBUG (libvirtobject:48) Redefining <vmmDomainVirtinst name=win10 id=0x7f3ee410d6c0> with XML diff:
+--- Original XML
++++ New XML
+@@ -11,6 +11,7 @@
+   <vcpu>6</vcpu>
+   <os>
+     <type arch="x86_64" machine="q35">hvm</type>
++    <loader readonly="yes" secure="yes" type="pflash">/usr/share/edk2/ovmf/OVMF_CODE.secboot.fd</loader>
+     <boot dev="hd"/>
+   </os>
+   <features>
+@@ -22,6 +23,7 @@
+       <spinlocks state="on" retries="8191"/>
+     </hyperv>
+     <vmport state="off"/>
++    <smm state="on"/>
+   </features>
+   <cpu mode="host-passthrough"/>
+   <clock offset="localtime">
+
+[Sun, 17 Jul 2022 12:55:32 virt-manager 17205] DEBUG (domcapabilities:174) Generated CPU XML for security flag baseline:
+<cpu>
+      <model fallback="forbid">Cooperlake</model>
+      <vendor>Intel</vendor>
+      <feature policy="require" name="ss" />
+      <feature policy="require" name="vmx" />
+      <feature policy="require" name="pdcm" />
+      <feature policy="require" name="hypervisor" />
+      <feature policy="require" name="tsc_adjust" />
+      <feature policy="require" name="mpx" />
+      <feature policy="require" name="umip" />
+      <feature policy="require" name="md-clear" />
+      <feature policy="require" name="xsaves" />
+      <feature policy="require" name="invtsc" />
+      <feature policy="require" name="ibpb" />
+      <feature policy="require" name="ibrs" />
+      <feature policy="require" name="amd-stibp" />
+      <feature policy="require" name="amd-ssbd" />
+      <feature policy="disable" name="hle" />
+      <feature policy="disable" name="rtm" />
+      <feature policy="disable" name="avx512f" />
+      <feature policy="disable" name="avx512dq" />
+      <feature policy="disable" name="clwb" />
+      <feature policy="disable" name="avx512cd" />
+      <feature policy="disable" name="avx512bw" />
+      <feature policy="disable" name="avx512vl" />
+      <feature policy="disable" name="avx512vnni" />
+      <feature policy="disable" name="avx512-bf16" />
+      <feature policy="disable" name="taa-no" />
+    <arch>x86_64</arch></cpu>
+[Sun, 17 Jul 2022 12:55:32 virt-manager 17205] DEBUG (domcapabilities:211) Found host-model security features: ['ibpb', 'md-clear', 'spec-ctrl', 'ssbd']
+[Sun, 17 Jul 2022 12:55:32 virt-manager 17205] DEBUG (domcapabilities:174) Generated CPU XML for security flag baseline:
+<cpu>
+      <model fallback="forbid">Cooperlake</model>
+      <vendor>Intel</vendor>
+      <feature policy="require" name="ss" />
+      <feature policy="require" name="vmx" />
+      <feature policy="require" name="pdcm" />
+      <feature policy="require" name="hypervisor" />
+      <feature policy="require" name="tsc_adjust" />
+      <feature policy="require" name="mpx" />
+      <feature policy="require" name="umip" />
+      <feature policy="require" name="md-clear" />
+      <feature policy="require" name="xsaves" />
+      <feature policy="require" name="invtsc" />
+      <feature policy="require" name="ibpb" />
+      <feature policy="require" name="ibrs" />
+      <feature policy="require" name="amd-stibp" />
+      <feature policy="require" name="amd-ssbd" />
+      <feature policy="disable" name="hle" />
+      <feature policy="disable" name="rtm" />
+      <feature policy="disable" name="avx512f" />
+      <feature policy="disable" name="avx512dq" />
+      <feature policy="disable" name="clwb" />
+      <feature policy="disable" name="avx512cd" />
+      <feature policy="disable" name="avx512bw" />
+      <feature policy="disable" name="avx512vl" />
+      <feature policy="disable" name="avx512vnni" />
+      <feature policy="disable" name="avx512-bf16" />
+      <feature policy="disable" name="taa-no" />
+    <arch>x86_64</arch></cpu>
+[Sun, 17 Jul 2022 12:55:32 virt-manager 17205] DEBUG (domcapabilities:211) Found host-model security features: ['ibpb', 'md-clear', 'spec-ctrl', 'ssbd']
+[Sun, 17 Jul 2022 12:55:41 virt-manager 17205] DEBUG (libvirtobject:48) Redefining <vmmDomainVirtinst name=win10 id=0x7f3ee410d6c0> with XML diff:
+--- Original XML
++++ New XML
+@@ -12,7 +12,7 @@
+   <os>
+     <type arch="x86_64" machine="q35">hvm</type>
+     <loader readonly="yes" secure="yes" type="pflash">/usr/share/edk2/ovmf/OVMF_CODE.secboot.fd</loader>
+-    <boot dev="hd"/>
++    <bootmenu enable="yes"/>
+   </os>
+   <features>
+     <acpi/>
+@@ -42,12 +42,14 @@
+       <driver name="qemu" type="qcow2" discard="unmap"/>
+       <source file="/var/lib/libvirt/images/win10.qcow2"/>
+       <target dev="sda" bus="sata"/>
++      <boot order="2"/>
+     </disk>
+     <disk type="file" device="cdrom">
+       <driver name="qemu" type="raw"/>
+       <source file="/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso"/>
+       <target dev="sdb" bus="sata"/>
+       <readonly/>
++      <boot order="1"/>
+     </disk>
+     <controller type="usb" model="qemu-xhci" ports="15"/>
+     <controller type="pci" model="pcie-root"/>
+@@ -69,6 +71,7 @@
+       <source network="default"/>
+       <mac address="52:54:00:1d:11:33"/>
+       <model type="e1000e"/>
++      <boot order="3"/>
+     </interface>
+     <console type="pty"/>
+     <channel type="spicevmc">
+
+[Sun, 17 Jul 2022 12:55:45 virt-manager 17205] DEBUG (createvm:1910) User finished customize dialog, starting install
+[Sun, 17 Jul 2022 12:55:45 virt-manager 17205] DEBUG (createvm:2007) Starting background install process
+[Sun, 17 Jul 2022 12:55:45 virt-manager 17205] DEBUG (storage:661) Creating storage volume 'win10.qcow2' with xml:
+<volume>
+  <name>win10.qcow2</name>
+  <capacity>161061273600</capacity>
+  <allocation>0</allocation>
+  <target>
+    <format type="qcow2"/>
+    <features>
+      <lazy_refcounts/>
+    </features>
+  </target>
+</volume>
+
+[Sun, 17 Jul 2022 12:55:45 virt-manager 17205] DEBUG (storage:699) Using vol create flags=1
+[Sun, 17 Jul 2022 12:55:46 virt-manager 17205] DEBUG (storage:703) Storage volume 'win10.qcow2' install complete.
+[Sun, 17 Jul 2022 12:55:46 virt-manager 17205] DEBUG (installer:587) Generated initial_xml: 
+<domain type="kvm">
+  <name>win10</name>
+  <uuid>e7909542-3f14-4c0c-8a1b-141e2e96a56b</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/10"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory>16384000</memory>
+  <currentMemory>16384000</currentMemory>
+  <vcpu>6</vcpu>
+  <os>
+    <type arch="x86_64" machine="q35">hvm</type>
+    <loader readonly="yes" secure="yes" type="pflash">/usr/share/edk2/ovmf/OVMF_CODE.secboot.fd</loader>
+    <bootmenu enable="yes"/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv>
+      <relaxed state="on"/>
+      <vapic state="on"/>
+      <spinlocks state="on" retries="8191"/>
+    </hyperv>
+    <vmport state="off"/>
+    <smm state="on"/>
+  </features>
+  <cpu mode="host-passthrough"/>
+  <clock offset="localtime">
+    <timer name="rtc" tickpolicy="catchup"/>
+    <timer name="pit" tickpolicy="delay"/>
+    <timer name="hpet" present="no"/>
+    <timer name="hypervclock" present="yes"/>
+  </clock>
+  <pm>
+    <suspend-to-mem enabled="no"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/var/lib/libvirt/images/win10.qcow2"/>
+      <target dev="sda" bus="sata"/>
+      <boot order="2"/>
+    </disk>
+    <disk type="file" device="cdrom">
+      <driver name="qemu" type="raw"/>
+      <source file="/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso"/>
+      <target dev="sdb" bus="sata"/>
+      <readonly/>
+      <boot order="1"/>
+    </disk>
+    <controller type="usb" model="qemu-xhci" ports="15"/>
+    <controller type="pci" model="pcie-root"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <interface type="network">
+      <source network="default"/>
+      <mac address="52:54:00:1d:11:33"/>
+      <model type="e1000e"/>
+      <boot order="3"/>
+    </interface>
+    <console type="pty"/>
+    <channel type="spicevmc">
+      <target type="virtio" name="com.redhat.spice.0"/>
+    </channel>
+    <input type="tablet" bus="usb"/>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes">
+      <image compression="off"/>
+    </graphics>
+    <sound model="ich9"/>
+    <video>
+      <model type="qxl"/>
+    </video>
+    <redirdev bus="usb" type="spicevmc"/>
+    <redirdev bus="usb" type="spicevmc"/>
+  </devices>
+  <on_reboot>destroy</on_reboot>
+</domain>
+
+[Sun, 17 Jul 2022 12:55:46 virt-manager 17205] DEBUG (installer:589) Generated final_xml: 
+<domain type="kvm">
+  <name>win10</name>
+  <uuid>e7909542-3f14-4c0c-8a1b-141e2e96a56b</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/10"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory>16384000</memory>
+  <currentMemory>16384000</currentMemory>
+  <vcpu>6</vcpu>
+  <os>
+    <type arch="x86_64" machine="q35">hvm</type>
+    <loader readonly="yes" secure="yes" type="pflash">/usr/share/edk2/ovmf/OVMF_CODE.secboot.fd</loader>
+    <bootmenu enable="yes"/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv>
+      <relaxed state="on"/>
+      <vapic state="on"/>
+      <spinlocks state="on" retries="8191"/>
+    </hyperv>
+    <vmport state="off"/>
+    <smm state="on"/>
+  </features>
+  <cpu mode="host-passthrough"/>
+  <clock offset="localtime">
+    <timer name="rtc" tickpolicy="catchup"/>
+    <timer name="pit" tickpolicy="delay"/>
+    <timer name="hpet" present="no"/>
+    <timer name="hypervclock" present="yes"/>
+  </clock>
+  <pm>
+    <suspend-to-mem enabled="no"/>
+    <suspend-to-disk enabled="no"/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <disk type="file" device="disk">
+      <driver name="qemu" type="qcow2" discard="unmap"/>
+      <source file="/var/lib/libvirt/images/win10.qcow2"/>
+      <target dev="sda" bus="sata"/>
+      <boot order="2"/>
+    </disk>
+    <disk type="file" device="cdrom">
+      <driver name="qemu" type="raw"/>
+      <source file="/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso"/>
+      <target dev="sdb" bus="sata"/>
+      <readonly/>
+      <boot order="1"/>
+    </disk>
+    <controller type="usb" model="qemu-xhci" ports="15"/>
+    <controller type="pci" model="pcie-root"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <controller type="pci" model="pcie-root-port"/>
+    <interface type="network">
+      <source network="default"/>
+      <mac address="52:54:00:1d:11:33"/>
+      <model type="e1000e"/>
+      <boot order="3"/>
+    </interface>
+    <console type="pty"/>
+    <channel type="spicevmc">
+      <target type="virtio" name="com.redhat.spice.0"/>
+    </channel>
+    <input type="tablet" bus="usb"/>
+    <graphics type="spice" port="-1" tlsPort="-1" autoport="yes">
+      <image compression="off"/>
+    </graphics>
+    <sound model="ich9"/>
+    <video>
+      <model type="qxl"/>
+    </video>
+    <redirdev bus="usb" type="spicevmc"/>
+    <redirdev bus="usb" type="spicevmc"/>
+  </devices>
+</domain>
+
+[Sun, 17 Jul 2022 12:55:46 virt-manager 17205] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet0_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_ADDED
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (installer:642) XML fetched from libvirt object:
+<domain type='kvm' id='1'>
+  <name>win10</name>
+  <uuid>e7909542-3f14-4c0c-8a1b-141e2e96a56b</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/10"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory unit='KiB'>16384000</memory>
+  <currentMemory unit='KiB'>16384000</currentMemory>
+  <vcpu placement='static'>6</vcpu>
+  <resource>
+    <partition>/machine</partition>
+  </resource>
+  <os>
+    <type arch='x86_64' machine='pc-q35-6.2'>hvm</type>
+    <loader readonly='yes' secure='yes' type='pflash'>/usr/share/edk2/ovmf/OVMF_CODE.secboot.fd</loader>
+    <nvram template='/usr/share/edk2/ovmf/OVMF_VARS.secboot.fd'>/var/lib/libvirt/qemu/nvram/win10_VARS.fd</nvram>
+    <bootmenu enable='yes'/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv mode='custom'>
+      <relaxed state='on'/>
+      <vapic state='on'/>
+      <spinlocks state='on' retries='8191'/>
+    </hyperv>
+    <vmport state='off'/>
+    <smm state='on'/>
+  </features>
+  <cpu mode='host-passthrough' check='none' migratable='on'/>
+  <clock offset='localtime'>
+    <timer name='rtc' tickpolicy='catchup'/>
+    <timer name='pit' tickpolicy='delay'/>
+    <timer name='hpet' present='no'/>
+    <timer name='hypervclock' present='yes'/>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>destroy</on_reboot>
+  <on_crash>destroy</on_crash>
+  <pm>
+    <suspend-to-mem enabled='no'/>
+    <suspend-to-disk enabled='no'/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2' discard='unmap'/>
+      <source file='/var/lib/libvirt/images/win10.qcow2' index='2'/>
+      <backingStore/>
+      <target dev='sda' bus='sata'/>
+      <boot order='2'/>
+      <alias name='sata0-0-0'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <disk type='file' device='cdrom'>
+      <driver name='qemu' type='raw'/>
+      <source file='/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso' index='1'/>
+      <backingStore/>
+      <target dev='sdb' bus='sata'/>
+      <readonly/>
+      <boot order='1'/>
+      <alias name='sata0-0-1'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='1'/>
+    </disk>
+    <controller type='usb' index='0' model='qemu-xhci' ports='15'>
+      <alias name='usb'/>
+      <address type='pci' domain='0x0000' bus='0x02' slot='0x00' function='0x0'/>
+    </controller>
+    <controller type='pci' index='0' model='pcie-root'>
+      <alias name='pcie.0'/>
+    </controller>
+    <controller type='pci' index='1' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='1' port='0x10'/>
+      <alias name='pci.1'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0' multifunction='on'/>
+    </controller>
+    <controller type='pci' index='2' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='2' port='0x11'/>
+      <alias name='pci.2'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x1'/>
+    </controller>
+    <controller type='pci' index='3' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='3' port='0x12'/>
+      <alias name='pci.3'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x2'/>
+    </controller>
+    <controller type='pci' index='4' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='4' port='0x13'/>
+      <alias name='pci.4'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x3'/>
+    </controller>
+    <controller type='pci' index='5' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='5' port='0x14'/>
+      <alias name='pci.5'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x4'/>
+    </controller>
+    <controller type='pci' index='6' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='6' port='0x15'/>
+      <alias name='pci.6'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x5'/>
+    </controller>
+    <controller type='pci' index='7' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='7' port='0x16'/>
+      <alias name='pci.7'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x6'/>
+    </controller>
+    <controller type='pci' index='8' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='8' port='0x17'/>
+      <alias name='pci.8'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x7'/>
+    </controller>
+    <controller type='pci' index='9' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='9' port='0x18'/>
+      <alias name='pci.9'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0' multifunction='on'/>
+    </controller>
+    <controller type='pci' index='10' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='10' port='0x19'/>
+      <alias name='pci.10'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x1'/>
+    </controller>
+    <controller type='pci' index='11' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='11' port='0x1a'/>
+      <alias name='pci.11'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x2'/>
+    </controller>
+    <controller type='pci' index='12' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='12' port='0x1b'/>
+      <alias name='pci.12'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x3'/>
+    </controller>
+    <controller type='pci' index='13' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='13' port='0x1c'/>
+      <alias name='pci.13'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x4'/>
+    </controller>
+    <controller type='pci' index='14' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='14' port='0x1d'/>
+      <alias name='pci.14'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x5'/>
+    </controller>
+    <controller type='sata' index='0'>
+      <alias name='ide'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x1f' function='0x2'/>
+    </controller>
+    <controller type='virtio-serial' index='0'>
+      <alias name='virtio-serial0'/>
+      <address type='pci' domain='0x0000' bus='0x03' slot='0x00' function='0x0'/>
+    </controller>
+    <interface type='network'>
+      <mac address='52:54:00:1d:11:33'/>
+      <source network='default' portid='616dc2c5-6abd-44c4-8703-e1f9c5a1ac16' bridge='virbr0'/>
+      <target dev='vnet0'/>
+      <model type='e1000e'/>
+      <boot order='3'/>
+      <alias name='net0'/>
+      <address type='pci' domain='0x0000' bus='0x01' slot='0x00' function='0x0'/>
+    </interface>
+    <serial type='pty'>
+      <source path='/dev/pts/0'/>
+      <target type='isa-serial' port='0'>
+        <model name='isa-serial'/>
+      </target>
+      <alias name='serial0'/>
+    </serial>
+    <console type='pty' tty='/dev/pts/0'>
+      <source path='/dev/pts/0'/>
+      <target type='serial' port='0'/>
+      <alias name='serial0'/>
+    </console>
+    <channel type='spicevmc'>
+      <target type='virtio' name='com.redhat.spice.0' state='disconnected'/>
+      <alias name='channel0'/>
+      <address type='virtio-serial' controller='0' bus='0' port='1'/>
+    </channel>
+    <input type='tablet' bus='usb'>
+      <alias name='input0'/>
+      <address type='usb' bus='0' port='1'/>
+    </input>
+    <input type='mouse' bus='ps2'>
+      <alias name='input1'/>
+    </input>
+    <input type='keyboard' bus='ps2'>
+      <alias name='input2'/>
+    </input>
+    <graphics type='spice' port='5900' autoport='yes' listen='127.0.0.1'>
+      <listen type='address' address='127.0.0.1'/>
+      <image compression='off'/>
+    </graphics>
+    <sound model='ich9'>
+      <alias name='sound0'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x1b' function='0x0'/>
+    </sound>
+    <audio id='1' type='spice'/>
+    <video>
+      <model type='qxl' ram='65536' vram='65536' vgamem='16384' heads='1' primary='yes'/>
+      <alias name='video0'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x01' function='0x0'/>
+    </video>
+    <redirdev bus='usb' type='spicevmc'>
+      <alias name='redir0'/>
+      <address type='usb' bus='0' port='2'/>
+    </redirdev>
+    <redirdev bus='usb' type='spicevmc'>
+      <alias name='redir1'/>
+      <address type='usb' bus='0' port='3'/>
+    </redirdev>
+    <memballoon model='virtio'>
+      <alias name='balloon0'/>
+      <address type='pci' domain='0x0000' bus='0x04' slot='0x00' function='0x0'/>
+    </memballoon>
+  </devices>
+  <seclabel type='dynamic' model='selinux' relabel='yes'>
+    <label>system_u:system_r:svirt_t:s0:c547,c727</label>
+    <imagelabel>system_u:object_r:svirt_image_t:s0:c547,c727</imagelabel>
+  </seclabel>
+  <seclabel type='dynamic' model='dac' relabel='yes'>
+    <label>+107:+107</label>
+    <imagelabel>+107:+107</imagelabel>
+  </seclabel>
+</domain>
+
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (connection:1077) domain=win10 status=Running added
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createvm:2009) Install completed
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (connection:1070) New domain=win10 requested, but it's already tracked.
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createvm:268) Closing new vm wizard
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (engine:323) window counter decremented to 2
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (vmwindow:242) Closing VM details: <vmmDomainVirtinst name=win10 id=0x7f3ee410d6c0>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createvm:1915) User closed customize window, closing wizard
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (engine:323) window counter decremented to 1
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (vmwindow:184) Showing VM details: <vmmDomain name=win10 id=0x7f3ed546e840>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (engine:316) window counter incremented to 2
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f3ee45fd980 (SpiceUsbredirChannel at 0x55e572162990)>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f3ee7678740 (SpiceUsbredirChannel at 0x55e572162ca0)>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f3ee45fe340 (SpiceRecordChannel at 0x55e572162680)>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f3ee45fd900 (SpicePlaybackChannel at 0x55e572162370)>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f3ee767b200 (SpiceDisplayChannel at 0x55e572023440)>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (console:856) Viewer connected cb
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f3ee748a800 (SpiceCursorChannel at 0x55e5754a2a80)>
+[Sun, 17 Jul 2022 12:55:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f3ed4a6b480 (SpiceInputsChannel at 0x55e5754a2d80)>
+[Sun, 17 Jul 2022 12:56:14 virt-manager 17205] DEBUG (vmmenu:267) Rebooting vm 'win10'
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (vmmenu:186) Destroying vm 'win10'
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet0_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (console:592) Viewer object cleaned up
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (console:848) Viewer disconnected cb
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (connection:1051) nodedev=net_vnet0_fe_54_00_1d_11_33 removed
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_HOST
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_DESTROYED
+[Sun, 17 Jul 2022 12:56:21 virt-manager 17205] DEBUG (createvm:2066) User manually shutdown VM, not restarting guest after install.
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (vmmenu:210) Starting vm 'win10'
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet1_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f3ee771ef00 (SpiceUsbredirChannel at 0x55e5721632c0)>
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f3ee771fb40 (SpiceUsbredirChannel at 0x55e5721635d0)>
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f3ee771fcc0 (SpiceRecordChannel at 0x55e5721638e0)>
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f3ee771fd80 (SpicePlaybackChannel at 0x55e572162fb0)>
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f3ee771ff40 (SpiceDisplayChannel at 0x55e57554df80)>
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (console:856) Viewer connected cb
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f3ed4a656c0 (SpiceCursorChannel at 0x55e5754a2780)>
+[Sun, 17 Jul 2022 12:56:23 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f3ed548e800 (SpiceInputsChannel at 0x55e5754a2480)>
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (createvm:257) Showing new vm wizard
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (createvm:728) Guest type set to os_type=hvm, arch=x86_64, dom_type=kvm
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (guest:330) Setting Guest osinfo name <_OsVariant name=generic>
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (guest:535) Prefer EFI => False
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (engine:316) window counter incremented to 3
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:59:29 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 12:59:31 virt-manager 17205] DEBUG (createvm:268) Closing new vm wizard
+[Sun, 17 Jul 2022 12:59:31 virt-manager 17205] DEBUG (engine:323) window counter decremented to 2
+[Sun, 17 Jul 2022 12:59:31 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 12:59:31 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 12:59:33 virt-manager 17205] DEBUG (vmwindow:184) Showing VM details: <vmmDomain name=win10 id=0x7f3ed546e840>
+[Sun, 17 Jul 2022 13:00:28 virt-manager 17205] DEBUG (delete:57) Showing delete wizard
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (delete:334) Removing device: <DeviceDisk disk 139908147565504>
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f3ed546e840> with XML diff:
+--- Original XML
++++ New XML
+@@ -48,14 +48,6 @@
+       <target dev="sda" bus="sata"/>
+       <boot order="2"/>
+       <address type="drive" controller="0" bus="0" target="0" unit="0"/>
+-    </disk>
+-    <disk type="file" device="cdrom">
+-      <driver name="qemu" type="raw"/>
+-      <source file="/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso"/>
+-      <target dev="sdb" bus="sata"/>
+-      <readonly/>
+-      <boot order="1"/>
+-      <address type="drive" controller="0" bus="0" target="0" unit="1"/>
+     </disk>
+     <controller type="usb" index="0" model="qemu-xhci" ports="15">
+       <address type="pci" domain="0x0000" bus="0x02" slot="0x00" function="0x0"/>
+
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (domain:1058) detach_device with xml=
+    <disk type="file" device="cdrom">
+      <driver name="qemu" type="raw"/>
+      <source file="/home/tommi/Downloads/Win10_21H2_EnglishInternational_x64.iso" index="1"/>
+      <backingStore/>
+      <target dev="sdb" bus="sata"/>
+      <readonly/>
+      <boot order="1"/>
+      <alias name="sata0-0-1"/>
+      <address type="drive" controller="0" bus="0" target="0" unit="1"/>
+    </disk>
+
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (delete:348) Device could not be hotUNplugged: Operation not supported: disk device type 'cdrom' cannot be detached
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (error:101) error dialog message:
+summary=Device could not be removed from the running machine
+details=Operation not supported: disk device type 'cdrom' cannot be detached
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/delete.py", line 346, in remove_devobj_internal
+    vm.detach_device(devobj)
+  File "/usr/share/virt-manager/virtManager/object/domain.py", line 1059, in detach_device
+    self._backend.detachDevice(devxml)
+  File "/usr/lib64/python3.10/site-packages/libvirt.py", line 1467, in detachDevice
+    raise libvirtError('virDomainDetachDevice() failed')
+libvirt.libvirtError: Operation not supported: disk device type 'cdrom' cannot be detached
+
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (delete:64) Closing delete wizard
+[Sun, 17 Jul 2022 13:00:29 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Sun, 17 Jul 2022 13:01:39 virt-manager 17205] DEBUG (addhardware:115) Showing addhw
+[Sun, 17 Jul 2022 13:01:39 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 13:01:40 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 13:01:44 virt-manager 17205] DEBUG (storagebrowse:36) Showing storage browser
+[Sun, 17 Jul 2022 13:01:44 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 13:01:48 virt-manager 17205] DEBUG (config:639) directory for type=image returning=
+[Sun, 17 Jul 2022 13:01:52 virt-manager 17205] DEBUG (config:648) saving directory for type=image to /home/tommi/Downloads
+[Sun, 17 Jul 2022 13:01:52 virt-manager 17205] DEBUG (storagebrowse:156) Browse local chose path=/home/tommi/Downloads/virtio-win-0.1.217.iso
+[Sun, 17 Jul 2022 13:01:52 virt-manager 17205] DEBUG (storagebrowse:49) Closing storage browser
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (storage:209) refreshing pool=Downloads
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (disk:236) DeviceDisk.check_path_search path=/home/tommi/Downloads/virtio-win-0.1.217.iso
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (addhardware:1186) Running build_storage() for device=<DeviceDisk disk 139907842923616>
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (addhardware:1188) build_storage() complete
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=Downloads
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (addhardware:1201) Adding device:
+<disk type="file" device="disk">
+  <driver name="qemu" type="raw"/>
+  <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
+  <target dev="sdc" bus="sata"/>
+</disk>
+
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (domain:1047) attach_device with xml=
+<disk type="file" device="disk">
+  <driver name="qemu" type="raw"/>
+  <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
+  <target dev="sdc" bus="sata"/>
+</disk>
+
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (addhardware:1227) Device could not be hotplugged: internal error: unable to execute QEMU command 'device_add': Bus 'ide.2' does not support hotplugging
+[Sun, 17 Jul 2022 13:01:53 virt-manager 17205] DEBUG (error:101) error dialog message:
+summary=Are you sure you want to add this device?
+details=internal error: unable to execute QEMU command 'device_add': Bus 'ide.2' does not support hotplugging
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/addhardware.py", line 1225, in _add_device
+    self.vm.attach_device(dev)
+  File "/usr/share/virt-manager/virtManager/object/domain.py", line 1048, in attach_device
+    self._backend.attachDevice(devxml)
+  File "/usr/lib64/python3.10/site-packages/libvirt.py", line 682, in attachDevice
+    raise libvirtError('virDomainAttachDevice() failed')
+libvirt.libvirtError: internal error: unable to execute QEMU command 'device_add': Bus 'ide.2' does not support hotplugging
+
+[Sun, 17 Jul 2022 13:01:56 virt-manager 17205] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f3ed546e840> with XML diff:
+--- Original XML
++++ New XML
+@@ -174,5 +174,10 @@
+     <memballoon model="virtio">
+       <address type="pci" domain="0x0000" bus="0x04" slot="0x00" function="0x0"/>
+     </memballoon>
++    <disk type="file" device="disk">
++      <driver name="qemu" type="raw"/>
++      <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
++      <target dev="sdc" bus="sata"/>
++    </disk>
+   </devices>
+ </domain>
+
+[Sun, 17 Jul 2022 13:01:56 virt-manager 17205] DEBUG (addhardware:125) Closing addhw
+[Sun, 17 Jul 2022 13:01:56 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Sun, 17 Jul 2022 13:02:26 virt-manager 17205] DEBUG (vmmenu:255) Shutting down vm 'win10'
+[Sun, 17 Jul 2022 13:02:32 virt-manager 17205] DEBUG (vmmenu:186) Destroying vm 'win10'
+[Sun, 17 Jul 2022 13:02:32 virt-manager 17205] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet1_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Sun, 17 Jul 2022 13:02:32 virt-manager 17205] DEBUG (connection:1051) nodedev=net_vnet1_fe_54_00_1d_11_33 removed
+[Sun, 17 Jul 2022 13:02:33 virt-manager 17205] DEBUG (console:592) Viewer object cleaned up
+[Sun, 17 Jul 2022 13:02:33 virt-manager 17205] DEBUG (console:848) Viewer disconnected cb
+[Sun, 17 Jul 2022 13:02:33 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_HOST
+[Sun, 17 Jul 2022 13:02:33 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_DESTROYED
+[Sun, 17 Jul 2022 13:03:46 virt-manager 17205] DEBUG (vmmenu:210) Starting vm 'win10'
+[Sun, 17 Jul 2022 13:03:46 virt-manager 17205] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet2_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Sun, 17 Jul 2022 13:03:46 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Sun, 17 Jul 2022 13:03:46 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f3ed4c79400 (SpiceUsbredirChannel at 0x55e576266300)>
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f3ed4c7a5c0 (SpiceUsbredirChannel at 0x55e576266610)>
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f3ed4c89a40 (SpiceRecordChannel at 0x55e572163f00)>
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f3ed4c89200 (SpicePlaybackChannel at 0x55e572163bf0)>
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f3ed4cb78c0 (SpiceDisplayChannel at 0x55e576a97090)>
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (console:856) Viewer connected cb
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f3ed4cb6080 (SpiceCursorChannel at 0x55e5754a3380)>
+[Sun, 17 Jul 2022 13:03:47 virt-manager 17205] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f3ed4c10080 (SpiceInputsChannel at 0x55e5754a3680)>
+[Sun, 17 Jul 2022 13:10:30 virt-manager 17205] DEBUG (delete:57) Showing delete wizard
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (delete:334) Removing device: <DeviceDisk disk 139908145763456>
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f3ed546e840> with XML diff:
+--- Original XML
++++ New XML
+@@ -48,12 +48,6 @@
+       <target dev="sda" bus="sata"/>
+       <boot order="2"/>
+       <address type="drive" controller="0" bus="0" target="0" unit="0"/>
+-    </disk>
+-    <disk type="file" device="disk">
+-      <driver name="qemu" type="raw"/>
+-      <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
+-      <target dev="sdc" bus="sata"/>
+-      <address type="drive" controller="0" bus="0" target="0" unit="2"/>
+     </disk>
+     <controller type="usb" index="0" model="qemu-xhci" ports="15">
+       <address type="pci" domain="0x0000" bus="0x02" slot="0x00" function="0x0"/>
+
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (domain:1058) detach_device with xml=
+    <disk type="file" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso" index="1"/>
+      <backingStore/>
+      <target dev="sdc" bus="sata"/>
+      <alias name="sata0-0-2"/>
+      <address type="drive" controller="0" bus="0" target="0" unit="2"/>
+    </disk>
+
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (delete:348) Device could not be hotUNplugged: Operation not supported: This type of disk cannot be hot unplugged
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (error:101) error dialog message:
+summary=Device could not be removed from the running machine
+details=Operation not supported: This type of disk cannot be hot unplugged
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/delete.py", line 346, in remove_devobj_internal
+    vm.detach_device(devobj)
+  File "/usr/share/virt-manager/virtManager/object/domain.py", line 1059, in detach_device
+    self._backend.detachDevice(devxml)
+  File "/usr/lib64/python3.10/site-packages/libvirt.py", line 1467, in detachDevice
+    raise libvirtError('virDomainDetachDevice() failed')
+libvirt.libvirtError: Operation not supported: This type of disk cannot be hot unplugged
+
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (delete:64) Closing delete wizard
+[Sun, 17 Jul 2022 13:10:31 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Sun, 17 Jul 2022 13:10:34 virt-manager 17205] DEBUG (addhardware:115) Showing addhw
+[Sun, 17 Jul 2022 13:10:34 virt-manager 17205] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Sun, 17 Jul 2022 13:10:34 virt-manager 17205] DEBUG (connection:691) storage pool refresh event: pool=default
+[Sun, 17 Jul 2022 13:10:36 virt-manager 17205] DEBUG (storagebrowse:36) Showing storage browser
+[Sun, 17 Jul 2022 13:10:38 virt-manager 17205] DEBUG (storagebrowse:127) Chosen volume XML:
+<volume type="file">
+  <name>virtio-win-0.1.217.iso</name>
+  <key>/home/tommi/Downloads/virtio-win-0.1.217.iso</key>
+  <capacity unit="bytes">531632128</capacity>
+  <allocation unit="bytes">531632128</allocation>
+  <physical unit="bytes">531632128</physical>
+  <target>
+    <path>/home/tommi/Downloads/virtio-win-0.1.217.iso</path>
+    <format type="iso"/>
+    <permissions>
+      <mode>0644</mode>
+      <owner>1000</owner>
+      <group>1000</group>
+      <label>unconfined_u:object_r:data_home_t:s0</label>
+    </permissions>
+    <timestamps>
+      <atime>1658052002.027645272</atime>
+      <mtime>1658052001.301662224</mtime>
+      <ctime>1658052001.553656340</ctime>
+      <btime>0</btime>
+    </timestamps>
+  </target>
+</volume>
+
+[Sun, 17 Jul 2022 13:10:38 virt-manager 17205] DEBUG (storagebrowse:49) Closing storage browser
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (disk:236) DeviceDisk.check_path_search path=/home/tommi/Downloads/virtio-win-0.1.217.iso
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (addhardware:1186) Running build_storage() for device=<DeviceDisk disk 139907834151072>
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (addhardware:1188) build_storage() complete
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (addhardware:1201) Adding device:
+<disk type="file" device="disk">
+  <driver name="qemu" type="raw"/>
+  <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
+  <target dev="sdd" bus="sata"/>
+</disk>
+
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (domain:1047) attach_device with xml=
+<disk type="file" device="disk">
+  <driver name="qemu" type="raw"/>
+  <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
+  <target dev="sdd" bus="sata"/>
+</disk>
+
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (addhardware:1227) Device could not be hotplugged: internal error: unable to execute QEMU command 'device_add': Bus 'ide.3' does not support hotplugging
+[Sun, 17 Jul 2022 13:10:42 virt-manager 17205] DEBUG (error:101) error dialog message:
+summary=Are you sure you want to add this device?
+details=internal error: unable to execute QEMU command 'device_add': Bus 'ide.3' does not support hotplugging
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/addhardware.py", line 1225, in _add_device
+    self.vm.attach_device(dev)
+  File "/usr/share/virt-manager/virtManager/object/domain.py", line 1048, in attach_device
+    self._backend.attachDevice(devxml)
+  File "/usr/lib64/python3.10/site-packages/libvirt.py", line 682, in attachDevice
+    raise libvirtError('virDomainAttachDevice() failed')
+libvirt.libvirtError: internal error: unable to execute QEMU command 'device_add': Bus 'ide.3' does not support hotplugging
+
+[Sun, 17 Jul 2022 13:10:44 virt-manager 17205] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f3ed546e840> with XML diff:
+--- Original XML
++++ New XML
+@@ -174,5 +174,10 @@
+     <memballoon model="virtio">
+       <address type="pci" domain="0x0000" bus="0x04" slot="0x00" function="0x0"/>
+     </memballoon>
++    <disk type="file" device="disk">
++      <driver name="qemu" type="raw"/>
++      <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
++      <target dev="sdd" bus="sata"/>
++    </disk>
+   </devices>
+ </domain>
+
+[Sun, 17 Jul 2022 13:10:44 virt-manager 17205] DEBUG (addhardware:125) Closing addhw
+[Sun, 17 Jul 2022 13:10:44 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Sun, 17 Jul 2022 13:13:44 virt-manager 17205] DEBUG (delete:57) Showing delete wizard
+[Sun, 17 Jul 2022 13:13:45 virt-manager 17205] DEBUG (delete:334) Removing device: <DeviceDisk disk 139907838978384>
+[Sun, 17 Jul 2022 13:13:45 virt-manager 17205] DEBUG (domain:525) Device in active config but not inactive config.
+[Sun, 17 Jul 2022 13:13:45 virt-manager 17205] DEBUG (domain:1058) detach_device with xml=
+    <disk type="file" device="disk">
+      <driver name="qemu" type="raw"/>
+      <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso" index="1"/>
+      <backingStore/>
+      <target dev="sdc" bus="sata"/>
+      <alias name="sata0-0-2"/>
+      <address type="drive" controller="0" bus="0" target="0" unit="2"/>
+    </disk>
+
+[Sun, 17 Jul 2022 13:13:45 virt-manager 17205] DEBUG (delete:348) Device could not be hotUNplugged: Operation not supported: This type of disk cannot be hot unplugged
+[Sun, 17 Jul 2022 13:13:45 virt-manager 17205] DEBUG (error:101) error dialog message:
+summary=Device could not be removed from the running machine
+details=Operation not supported: This type of disk cannot be hot unplugged
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/delete.py", line 346, in remove_devobj_internal
+    vm.detach_device(devobj)
+  File "/usr/share/virt-manager/virtManager/object/domain.py", line 1059, in detach_device
+    self._backend.detachDevice(devxml)
+  File "/usr/lib64/python3.10/site-packages/libvirt.py", line 1467, in detachDevice
+    raise libvirtError('virDomainDetachDevice() failed')
+libvirt.libvirtError: Operation not supported: This type of disk cannot be hot unplugged
+
+[Sun, 17 Jul 2022 13:13:45 virt-manager 17205] DEBUG (delete:64) Closing delete wizard
+[Sun, 17 Jul 2022 13:25:04 virt-manager 17205] DEBUG (vmwindow:242) Closing VM details: <vmmDomain name=win10 id=0x7f3ed546e840>
+[Sun, 17 Jul 2022 13:25:04 virt-manager 17205] DEBUG (console:592) Viewer object cleaned up
+[Sun, 17 Jul 2022 13:25:04 virt-manager 17205] DEBUG (engine:323) window counter decremented to 1
+[Sun, 17 Jul 2022 13:25:12 virt-manager 17205] DEBUG (vmmenu:186) Destroying vm 'win10'
+[Sun, 17 Jul 2022 13:25:12 virt-manager 17205] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet2_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Sun, 17 Jul 2022 13:25:12 virt-manager 17205] DEBUG (connection:1051) nodedev=net_vnet2_fe_54_00_1d_11_33 removed
+[Sun, 17 Jul 2022 13:25:12 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_HOST
+[Sun, 17 Jul 2022 13:25:12 virt-manager 17205] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_DESTROYED
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (manager:196) Closing manager
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (engine:323) window counter decremented to 0
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (engine:343) No windows found, requesting app exit
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (connection:838) conn.close() uri=qemu:///system
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (connection:877) LEAK: conn close() returned 1, meaning refs may have leaked.
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (connection:482) conn=qemu:///system changed to state=Disconnected
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (createpool:59) Closing new pool wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (createvol:69) Closing new volume wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (delete:64) Closing delete wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (delete:64) Closing delete wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (delete:64) Closing delete wizard
+[Sun, 17 Jul 2022 13:25:13 virt-manager 17205] DEBUG (engine:369) Exiting app normally.
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55680] DEBUG (cli:204) Launched with command line: /usr/bin/virt-manager
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55680] DEBUG (virtmanager:167) virt-manager version: 4.0.0
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55680] DEBUG (virtmanager:168) virtManager import: /usr/share/virt-manager/virtManager
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (virtmanager:205) PyGObject version: 3.42.1
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (virtmanager:209) GTK version: 3.24.34
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (systray:84) Imported AppIndicator3=<IntrospectionModule 'AppIndicator3' from '/usr/lib64/girepository-1.0/AppIndicator3-0.1.typelib'>
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (systray:90) Using AppIndicator3 for systray
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (systray:476) Showing systray: False
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (inspection:206) python guestfs is not installed
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (engine:113) Loading stored URIs:
+qemu:///system
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (engine:461) processing cli command uri= show_window=manager domain=
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (engine:464) No cli action requested, launching default window
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (manager:185) Showing manager
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (engine:316) window counter incremented to 1
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (engine:211) Initial gtkapplication activated
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (connection:482) conn=qemu:///system changed to state=Connecting
+[Mon, 18 Jul 2022 13:35:07 virt-manager 55684] DEBUG (connection:903) Scheduling background open thread for qemu:///system
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:953) libvirt version=8001000
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:954) daemon version=8001000
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:955) conn version=6002000
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:956) qemu:///system capabilities:
+<capabilities>
+
+  <host>
+    <uuid>56764dd2-60a6-4359-2fbc-f02f74dd51eb</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Skylake-Client-noTSX-IBRS</model>
+      <vendor>Intel</vendor>
+      <microcode version="240"/>
+      <counter name="tsc" frequency="4104037000" scaling="no"/>
+      <topology sockets="1" dies="1" cores="6" threads="2"/>
+      <feature name="ds"/>
+      <feature name="acpi"/>
+      <feature name="ss"/>
+      <feature name="ht"/>
+      <feature name="tm"/>
+      <feature name="pbe"/>
+      <feature name="dtes64"/>
+      <feature name="monitor"/>
+      <feature name="ds_cpl"/>
+      <feature name="vmx"/>
+      <feature name="smx"/>
+      <feature name="est"/>
+      <feature name="tm2"/>
+      <feature name="xtpr"/>
+      <feature name="pdcm"/>
+      <feature name="osxsave"/>
+      <feature name="tsc_adjust"/>
+      <feature name="clflushopt"/>
+      <feature name="intel-pt"/>
+      <feature name="pku"/>
+      <feature name="ospke"/>
+      <feature name="md-clear"/>
+      <feature name="stibp"/>
+      <feature name="arch-capabilities"/>
+      <feature name="ssbd"/>
+      <feature name="xsaves"/>
+      <feature name="pdpe1gb"/>
+      <feature name="invtsc"/>
+      <feature name="rdctl-no"/>
+      <feature name="ibrs-all"/>
+      <feature name="skip-l1dfl-vmentry"/>
+      <feature name="mds-no"/>
+      <pages unit="KiB" size="4"/>
+      <pages unit="KiB" size="2048"/>
+      <pages unit="KiB" size="1048576"/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <iommu support="no"/>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num="1">
+        <cell id="0">
+          <memory unit="KiB">32652724</memory>
+          <pages unit="KiB" size="4">8163181</pages>
+          <pages unit="KiB" size="2048">0</pages>
+          <pages unit="KiB" size="1048576">0</pages>
+          <distances>
+            <sibling id="0" value="10"/>
+          </distances>
+          <cpus num="12">
+            <cpu id="0" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="1" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="2" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="3" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="4" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="5" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+            <cpu id="6" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="7" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="8" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="9" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="10" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="11" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <cache>
+      <bank id="0" level="3" type="both" size="12" unit="MiB" cpus="0-11"/>
+    </cache>
+    <secmodel>
+      <model>selinux</model>
+      <doi>0</doi>
+      <baselabel type="kvm">system_u:system_r:svirt_t:s0</baselabel>
+      <baselabel type="qemu">system_u:system_r:svirt_tcg_t:s0</baselabel>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type="kvm">+107:+107</baselabel>
+      <baselabel type="qemu">+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="i686">
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <pae/>
+      <nonpae/>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="x86_64">
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+</capabilities>
+
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:739) Using domain events
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:778) Using network events
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:797) Using storage pool events
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:822) Using node device events
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:691) storage pool refresh event: pool=Downloads
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:1077) network=default status=Active added
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:1077) domain=win10 status=Shutoff added
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:691) storage pool refresh event: pool=default
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:1077) pool=Downloads status=Active added
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:1077) pool=default status=Active added
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Mon, 18 Jul 2022 13:35:11 virt-manager 55684] DEBUG (connection:482) conn=qemu:///system changed to state=Active
+[Mon, 18 Jul 2022 13:35:20 virt-manager 55684] DEBUG (serialcon:17) Using VTE API 2.91
+[Mon, 18 Jul 2022 13:35:20 virt-manager 55684] DEBUG (xmleditor:12) Using GtkSource 4
+[Mon, 18 Jul 2022 13:35:20 virt-manager 55684] DEBUG (vmwindow:184) Showing VM details: <vmmDomain name=win10 id=0x7f598178a640>
+[Mon, 18 Jul 2022 13:35:20 virt-manager 55684] DEBUG (engine:316) window counter incremented to 2
+[Mon, 18 Jul 2022 13:35:21 virt-manager 55684] DEBUG (vmmenu:210) Starting vm 'win10'
+[Mon, 18 Jul 2022 13:35:21 virt-manager 55684] DEBUG (error:101) error dialog message:
+summary=Error starting domain: Cannot access storage file '/home/tommi/Downloads/virtio-win-0.1.217.iso': No such file or directory
+details=Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/asyncjob.py", line 72, in cb_wrapper
+    callback(asyncjob, *args, **kwargs)
+  File "/usr/share/virt-manager/virtManager/asyncjob.py", line 108, in tmpcb
+    callback(*args, **kwargs)
+  File "/usr/share/virt-manager/virtManager/object/libvirtobject.py", line 57, in newfn
+    ret = fn(self, *args, **kwargs)
+  File "/usr/share/virt-manager/virtManager/object/domain.py", line 1384, in startup
+    self._backend.create()
+  File "/usr/lib64/python3.10/site-packages/libvirt.py", line 1353, in create
+    raise libvirtError('virDomainCreate() failed')
+libvirt.libvirtError: Cannot access storage file '/home/tommi/Downloads/virtio-win-0.1.217.iso': No such file or directory
+
+[Mon, 18 Jul 2022 13:35:27 virt-manager 55684] DEBUG (delete:57) Showing delete wizard
+[Mon, 18 Jul 2022 13:35:31 virt-manager 55684] DEBUG (delete:334) Removing device: <DeviceDisk disk 140022401115584>
+[Mon, 18 Jul 2022 13:35:31 virt-manager 55684] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f598178a640> with XML diff:
+--- Original XML
++++ New XML
+@@ -48,12 +48,6 @@
+       <target dev="sda" bus="sata"/>
+       <boot order="2"/>
+       <address type="drive" controller="0" bus="0" target="0" unit="0"/>
+-    </disk>
+-    <disk type="file" device="disk">
+-      <driver name="qemu" type="raw"/>
+-      <source file="/home/tommi/Downloads/virtio-win-0.1.217.iso"/>
+-      <target dev="sdd" bus="sata"/>
+-      <address type="drive" controller="0" bus="0" target="0" unit="3"/>
+     </disk>
+     <controller type="usb" index="0" model="qemu-xhci" ports="15">
+       <address type="pci" domain="0x0000" bus="0x02" slot="0x00" function="0x0"/>
+
+[Mon, 18 Jul 2022 13:35:31 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Mon, 18 Jul 2022 13:35:31 virt-manager 55684] DEBUG (delete:64) Closing delete wizard
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (vmmenu:210) Starting vm 'win10'
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet0_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f5937ca6180 (SpiceUsbredirChannel at 0x558ed0378600)>
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f5937cc6880 (SpiceUsbredirChannel at 0x558ed0378910)>
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f598181ee80 (SpiceRecordChannel at 0x558ed0378c20)>
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f5937a10540 (SpicePlaybackChannel at 0x558ed03782f0)>
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f5937ca6b80 (SpiceDisplayChannel at 0x558ecd4874e0)>
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (console:856) Viewer connected cb
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f5968092300 (SpiceCursorChannel at 0x558ed088c320)>
+[Mon, 18 Jul 2022 13:35:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f59817508c0 (SpiceInputsChannel at 0x558ed088c620)>
+[Mon, 18 Jul 2022 13:36:07 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_0 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:36:07 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:36:07 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12 removed
+[Mon, 18 Jul 2022 13:36:07 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_0 removed
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_0 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_1 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_2 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_1 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_2 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_0 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_1 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_2 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_0 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_1 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_2 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:13 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_0 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7_1_1 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7_1_0 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:14 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:15 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:15 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:15 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:15 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:36:16 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7_1_0 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:36:16 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7_1_1 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:36:16 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:36:16 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_7_1_0 removed
+[Mon, 18 Jul 2022 13:36:16 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_7 removed
+[Mon, 18 Jul 2022 13:36:16 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_7_1_1 removed
+[Mon, 18 Jul 2022 13:36:26 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:26 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_7_1_0 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:36:26 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_7 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:38:43 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_GUEST
+[Mon, 18 Jul 2022 13:38:43 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet0_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:38:43 virt-manager 55684] DEBUG (connection:1051) nodedev=net_vnet0_fe_54_00_1d_11_33 removed
+[Mon, 18 Jul 2022 13:38:44 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:38:44 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:38:44 virt-manager 55684] DEBUG (console:592) Viewer object cleaned up
+[Mon, 18 Jul 2022 13:38:44 virt-manager 55684] DEBUG (console:848) Viewer disconnected cb
+[Mon, 18 Jul 2022 13:38:44 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_SHUTDOWN
+[Mon, 18 Jul 2022 13:39:47 virt-manager 55684] DEBUG (addhardware:115) Showing addhw
+[Mon, 18 Jul 2022 13:39:47 virt-manager 55684] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Mon, 18 Jul 2022 13:39:47 virt-manager 55684] DEBUG (connection:691) storage pool refresh event: pool=default
+[Mon, 18 Jul 2022 13:40:02 virt-manager 55684] DEBUG (hostdev:20) set_from_nodedev xml=
+<device>
+  <name>usb_1_12</name>
+  <path>/sys/devices/pci0000:00/0000:00:14.0/usb1/1-12</path>
+  <devnode type="dev">/dev/bus/usb/001/046</devnode>
+  <parent>usb_usb1</parent>
+  <driver>
+    <name>usb</name>
+  </driver>
+  <capability type="usb_device">
+    <bus>1</bus>
+    <device>46</device>
+    <product id="0x02ea">Xbox One S Controller</product>
+    <vendor id="0x045e">Microsoft Corp.</vendor>
+  </capability>
+</device>
+
+[Mon, 18 Jul 2022 13:40:02 virt-manager 55684] DEBUG (addhardware:1201) Adding device:
+<hostdev mode="subsystem" type="usb" managed="yes">
+  <source>
+    <vendor id="0x045e"/>
+    <product id="0x02ea"/>
+  </source>
+</hostdev>
+
+[Mon, 18 Jul 2022 13:40:02 virt-manager 55684] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f598178a640> with XML diff:
+--- Original XML
++++ New XML
+@@ -174,5 +174,11 @@
+     <memballoon model="virtio">
+       <address type="pci" domain="0x0000" bus="0x04" slot="0x00" function="0x0"/>
+     </memballoon>
++    <hostdev mode="subsystem" type="usb" managed="yes">
++      <source>
++        <vendor id="0x045e"/>
++        <product id="0x02ea"/>
++      </source>
++    </hostdev>
+   </devices>
+ </domain>
+
+[Mon, 18 Jul 2022 13:40:02 virt-manager 55684] DEBUG (addhardware:125) Closing addhw
+[Mon, 18 Jul 2022 13:40:02 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Mon, 18 Jul 2022 13:40:13 virt-manager 55684] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f598178a640> with XML diff:
+--- Original XML
++++ New XML
+@@ -46,7 +46,7 @@
+       <driver name="qemu" type="qcow2" discard="unmap"/>
+       <source file="/var/lib/libvirt/images/win10.qcow2"/>
+       <target dev="sda" bus="sata"/>
+-      <boot order="2"/>
++      <boot order="1"/>
+       <address type="drive" controller="0" bus="0" target="0" unit="0"/>
+     </disk>
+     <controller type="usb" index="0" model="qemu-xhci" ports="15">
+@@ -133,7 +133,7 @@
+       <mac address="52:54:00:1d:11:33"/>
+       <source network="default"/>
+       <model type="e1000e"/>
+-      <boot order="3"/>
++      <boot order="2"/>
+       <address type="pci" domain="0x0000" bus="0x01" slot="0x00" function="0x0"/>
+     </interface>
+     <serial type="pty">
+@@ -171,6 +171,7 @@
+         <product id="0x02ea"/>
+       </source>
+       <address type="usb" bus="0" port="4"/>
++      <boot order="3"/>
+     </hostdev>
+     <redirdev bus="usb" type="spicevmc">
+       <address type="usb" bus="0" port="2"/>
+
+[Mon, 18 Jul 2022 13:40:13 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Mon, 18 Jul 2022 13:40:15 virt-manager 55684] DEBUG (vmmenu:210) Starting vm 'win10'
+[Mon, 18 Jul 2022 13:40:15 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet1_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f5968110480 (SpiceUsbredirChannel at 0x558ed0378f30)>
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f5935c3a2c0 (SpiceUsbredirChannel at 0x558ed0379240)>
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f5935c224c0 (SpiceRecordChannel at 0x558ed0379550)>
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f5935c225c0 (SpicePlaybackChannel at 0x558ed0379860)>
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f5935c22740 (SpiceDisplayChannel at 0x558ed093a400)>
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (console:856) Viewer connected cb
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f5935c22c40 (SpiceCursorChannel at 0x558ed088cc20)>
+[Mon, 18 Jul 2022 13:40:16 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f5935c22d00 (SpiceInputsChannel at 0x558ed088cf20)>
+[Mon, 18 Jul 2022 13:40:30 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:40:30 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:40:30 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:40:30 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:42:18 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_GUEST
+[Mon, 18 Jul 2022 13:42:18 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet1_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:42:19 virt-manager 55684] DEBUG (connection:1051) nodedev=net_vnet1_fe_54_00_1d_11_33 removed
+[Mon, 18 Jul 2022 13:42:19 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:42:19 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:42:19 virt-manager 55684] DEBUG (console:592) Viewer object cleaned up
+[Mon, 18 Jul 2022 13:42:19 virt-manager 55684] DEBUG (console:848) Viewer disconnected cb
+[Mon, 18 Jul 2022 13:42:19 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_SHUTDOWN
+[Mon, 18 Jul 2022 13:42:28 virt-manager 55684] DEBUG (delete:334) Removing device: <DeviceHostdev hostdev 140021131421552>
+[Mon, 18 Jul 2022 13:42:28 virt-manager 55684] DEBUG (libvirtobject:48) Redefining <vmmDomain name=win10 id=0x7f598178a640> with XML diff:
+--- Original XML
++++ New XML
+@@ -165,14 +165,6 @@
+       <model type="qxl" ram="65536" vram="65536" vgamem="16384" heads="1" primary="yes"/>
+       <address type="pci" domain="0x0000" bus="0x00" slot="0x01" function="0x0"/>
+     </video>
+-    <hostdev mode="subsystem" type="usb" managed="yes">
+-      <source>
+-        <vendor id="0x045e"/>
+-        <product id="0x02ea"/>
+-      </source>
+-      <boot order="3"/>
+-      <address type="usb" bus="0" port="4"/>
+-    </hostdev>
+     <redirdev bus="usb" type="spicevmc">
+       <address type="usb" bus="0" port="2"/>
+     </redirdev>
+
+[Mon, 18 Jul 2022 13:42:28 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_DEFINED reason=VIR_DOMAIN_EVENT_DEFINED_UPDATED
+[Mon, 18 Jul 2022 13:42:32 virt-manager 55684] DEBUG (addhardware:115) Showing addhw
+[Mon, 18 Jul 2022 13:42:32 virt-manager 55684] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Mon, 18 Jul 2022 13:42:32 virt-manager 55684] DEBUG (connection:691) storage pool refresh event: pool=default
+[Mon, 18 Jul 2022 13:43:19 virt-manager 55684] DEBUG (addhardware:125) Closing addhw
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_1 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_2 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_0 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_1 removed
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_2 removed
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12 removed
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_0 removed
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_0 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_2 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_1 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_2 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:44:59 virt-manager 55684] DEBUG (connection:1070) New nodedev=usb_1_12_1_0 requested, but it's already tracked.
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (vmmenu:210) Starting vm 'win10'
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet2_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f5935b16b40 (SpiceUsbredirChannel at 0x558ed0379e80)>
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f5935c8ecc0 (SpiceUsbredirChannel at 0x558ed0e3a390)>
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f5935c8f7c0 (SpiceRecordChannel at 0x558ed0e3a6a0)>
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f5935c8f800 (SpicePlaybackChannel at 0x558ed0379b70)>
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f5935c8f9c0 (SpiceDisplayChannel at 0x558ecd487ed0)>
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (console:856) Viewer connected cb
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f5935b15900 (SpiceCursorChannel at 0x558ed088d220)>
+[Mon, 18 Jul 2022 13:45:33 virt-manager 55684] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f5935c8f540 (SpiceInputsChannel at 0x558ed088d520)>
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:23 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:46:26 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:46:26 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:46:27 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:46:27 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:46:28 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:46:28 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:47:00 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:47:00 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_12
+[Mon, 18 Jul 2022 13:47:05 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:47:05 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:47:05 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:47:05 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_1 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_2 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12_1_0 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=usb_1_12 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_1 removed
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_2 removed
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12 removed
+[Mon, 18 Jul 2022 13:47:10 virt-manager 55684] DEBUG (connection:1051) nodedev=usb_1_12_1_0 removed
+[Mon, 18 Jul 2022 13:52:07 virt-manager 55684] DEBUG (vmwindow:242) Closing VM details: <vmmDomain name=win10 id=0x7f598178a640>
+[Mon, 18 Jul 2022 13:52:07 virt-manager 55684] DEBUG (console:592) Viewer object cleaned up
+[Mon, 18 Jul 2022 13:52:07 virt-manager 55684] DEBUG (engine:323) window counter decremented to 1
+[Mon, 18 Jul 2022 13:52:07 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:52:07 virt-manager 55684] DEBUG (connection:716) node device update event: nodedev=usb_1_1
+[Mon, 18 Jul 2022 13:52:11 virt-manager 55684] DEBUG (vmmenu:186) Destroying vm 'win10'
+[Mon, 18 Jul 2022 13:52:11 virt-manager 55684] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet2_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Mon, 18 Jul 2022 13:52:11 virt-manager 55684] DEBUG (connection:1051) nodedev=net_vnet2_fe_54_00_1d_11_33 removed
+[Mon, 18 Jul 2022 13:52:11 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_HOST
+[Mon, 18 Jul 2022 13:52:11 virt-manager 55684] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_DESTROYED
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (manager:196) Closing manager
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (engine:323) window counter decremented to 0
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (engine:343) No windows found, requesting app exit
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (connection:838) conn.close() uri=qemu:///system
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (connection:482) conn=qemu:///system changed to state=Disconnected
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (delete:64) Closing delete wizard
+[Mon, 18 Jul 2022 13:52:13 virt-manager 55684] DEBUG (engine:369) Exiting app normally.
+[Thu, 21 Jul 2022 09:34:30 virt-manager 100998] DEBUG (cli:204) Launched with command line: /usr/bin/virt-manager
+[Thu, 21 Jul 2022 09:34:30 virt-manager 100998] DEBUG (virtmanager:167) virt-manager version: 4.0.0
+[Thu, 21 Jul 2022 09:34:30 virt-manager 100998] DEBUG (virtmanager:168) virtManager import: /usr/share/virt-manager/virtManager
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (virtmanager:205) PyGObject version: 3.42.1
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (virtmanager:209) GTK version: 3.24.34
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (systray:84) Imported AppIndicator3=<IntrospectionModule 'AppIndicator3' from '/usr/lib64/girepository-1.0/AppIndicator3-0.1.typelib'>
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (systray:90) Using AppIndicator3 for systray
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (systray:476) Showing systray: False
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (inspection:206) python guestfs is not installed
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (engine:113) Loading stored URIs:
+qemu:///system
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (engine:461) processing cli command uri= show_window=manager domain=
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (engine:464) No cli action requested, launching default window
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (manager:185) Showing manager
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (engine:316) window counter incremented to 1
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (engine:211) Initial gtkapplication activated
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (connection:482) conn=qemu:///system changed to state=Connecting
+[Thu, 21 Jul 2022 09:34:30 virt-manager 101000] DEBUG (connection:903) Scheduling background open thread for qemu:///system
+[Thu, 21 Jul 2022 09:34:34 virt-manager 101000] DEBUG (connection:953) libvirt version=8001000
+[Thu, 21 Jul 2022 09:34:34 virt-manager 101000] DEBUG (connection:954) daemon version=8001000
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:955) conn version=6002000
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:956) qemu:///system capabilities:
+<capabilities>
+
+  <host>
+    <uuid>56764dd2-60a6-4359-2fbc-f02f74dd51eb</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Skylake-Client-noTSX-IBRS</model>
+      <vendor>Intel</vendor>
+      <microcode version="240"/>
+      <counter name="tsc" frequency="4103997000" scaling="no"/>
+      <topology sockets="1" dies="1" cores="6" threads="2"/>
+      <feature name="ds"/>
+      <feature name="acpi"/>
+      <feature name="ss"/>
+      <feature name="ht"/>
+      <feature name="tm"/>
+      <feature name="pbe"/>
+      <feature name="dtes64"/>
+      <feature name="monitor"/>
+      <feature name="ds_cpl"/>
+      <feature name="vmx"/>
+      <feature name="smx"/>
+      <feature name="est"/>
+      <feature name="tm2"/>
+      <feature name="xtpr"/>
+      <feature name="pdcm"/>
+      <feature name="osxsave"/>
+      <feature name="tsc_adjust"/>
+      <feature name="clflushopt"/>
+      <feature name="intel-pt"/>
+      <feature name="pku"/>
+      <feature name="ospke"/>
+      <feature name="md-clear"/>
+      <feature name="stibp"/>
+      <feature name="arch-capabilities"/>
+      <feature name="ssbd"/>
+      <feature name="xsaves"/>
+      <feature name="pdpe1gb"/>
+      <feature name="invtsc"/>
+      <feature name="rdctl-no"/>
+      <feature name="ibrs-all"/>
+      <feature name="skip-l1dfl-vmentry"/>
+      <feature name="mds-no"/>
+      <pages unit="KiB" size="4"/>
+      <pages unit="KiB" size="2048"/>
+      <pages unit="KiB" size="1048576"/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <iommu support="no"/>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num="1">
+        <cell id="0">
+          <memory unit="KiB">32652724</memory>
+          <pages unit="KiB" size="4">8163181</pages>
+          <pages unit="KiB" size="2048">0</pages>
+          <pages unit="KiB" size="1048576">0</pages>
+          <distances>
+            <sibling id="0" value="10"/>
+          </distances>
+          <cpus num="12">
+            <cpu id="0" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="1" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="2" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="3" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="4" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="5" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+            <cpu id="6" socket_id="0" die_id="0" core_id="0" siblings="0,6"/>
+            <cpu id="7" socket_id="0" die_id="0" core_id="1" siblings="1,7"/>
+            <cpu id="8" socket_id="0" die_id="0" core_id="2" siblings="2,8"/>
+            <cpu id="9" socket_id="0" die_id="0" core_id="3" siblings="3,9"/>
+            <cpu id="10" socket_id="0" die_id="0" core_id="4" siblings="4,10"/>
+            <cpu id="11" socket_id="0" die_id="0" core_id="5" siblings="5,11"/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <cache>
+      <bank id="0" level="3" type="both" size="12" unit="MiB" cpus="0-11"/>
+    </cache>
+    <secmodel>
+      <model>selinux</model>
+      <doi>0</doi>
+      <baselabel type="kvm">system_u:system_r:svirt_t:s0</baselabel>
+      <baselabel type="qemu">system_u:system_r:svirt_tcg_t:s0</baselabel>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type="kvm">+107:+107</baselabel>
+      <baselabel type="qemu">+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="i686">
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <pae/>
+      <nonpae/>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="x86_64">
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus="255">pc-i440fx-6.2</machine>
+      <machine canonical="pc-i440fx-6.2" maxCpus="255">pc</machine>
+      <machine maxCpus="288">pc-q35-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.0</machine>
+      <machine maxCpus="1">xenpv</machine>
+      <machine maxCpus="288">pc-q35-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-4.2</machine>
+      <machine maxCpus="255">pc-i440fx-5.2</machine>
+      <machine maxCpus="255">pc-i440fx-1.5</machine>
+      <machine maxCpus="255">pc-q35-2.7</machine>
+      <machine maxCpus="255">pc-i440fx-2.2</machine>
+      <machine maxCpus="255">pc-i440fx-2.7</machine>
+      <machine maxCpus="288">pc-q35-6.1</machine>
+      <machine maxCpus="128">xenfv-3.1</machine>
+      <machine canonical="xenfv-3.1" maxCpus="128">xenfv</machine>
+      <machine maxCpus="255">pc-q35-2.4</machine>
+      <machine maxCpus="288">pc-q35-2.10</machine>
+      <machine maxCpus="1">x-remote</machine>
+      <machine maxCpus="288">pc-q35-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.7</machine>
+      <machine maxCpus="288">pc-q35-2.9</machine>
+      <machine maxCpus="255">pc-i440fx-2.11</machine>
+      <machine maxCpus="288">pc-q35-3.1</machine>
+      <machine maxCpus="255">pc-i440fx-6.1</machine>
+      <machine maxCpus="288">pc-q35-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.4</machine>
+      <machine maxCpus="255">pc-i440fx-4.1</machine>
+      <machine maxCpus="255">pc-i440fx-5.1</machine>
+      <machine maxCpus="255">pc-i440fx-2.9</machine>
+      <machine maxCpus="1">isapc</machine>
+      <machine maxCpus="255">pc-i440fx-1.4</machine>
+      <machine maxCpus="255">pc-q35-2.6</machine>
+      <machine maxCpus="255">pc-i440fx-3.1</machine>
+      <machine maxCpus="288">pc-q35-2.12</machine>
+      <machine maxCpus="255">pc-i440fx-2.1</machine>
+      <machine maxCpus="288">pc-q35-6.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.6</machine>
+      <machine maxCpus="288">pc-q35-4.0.1</machine>
+      <machine maxCpus="255">pc-i440fx-1.6</machine>
+      <machine maxCpus="288">pc-q35-5.0</machine>
+      <machine maxCpus="288">pc-q35-2.8</machine>
+      <machine maxCpus="255">pc-i440fx-2.10</machine>
+      <machine maxCpus="288">pc-q35-3.0</machine>
+      <machine maxCpus="255">pc-i440fx-6.0</machine>
+      <machine maxCpus="288">pc-q35-4.0</machine>
+      <machine maxCpus="128">xenfv-4.2</machine>
+      <machine maxCpus="288">microvm</machine>
+      <machine maxCpus="255">pc-i440fx-2.3</machine>
+      <machine maxCpus="255">pc-i440fx-4.0</machine>
+      <machine maxCpus="255">pc-i440fx-5.0</machine>
+      <machine maxCpus="255">pc-i440fx-2.8</machine>
+      <machine maxCpus="288">pc-q35-6.2</machine>
+      <machine canonical="pc-q35-6.2" maxCpus="288">q35</machine>
+      <machine maxCpus="255">pc-q35-2.5</machine>
+      <machine maxCpus="255">pc-i440fx-3.0</machine>
+      <machine maxCpus="288">pc-q35-2.11</machine>
+      <domain type="qemu"/>
+      <domain type="kvm"/>
+    </arch>
+    <features>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="on" toggle="no"/>
+    </features>
+  </guest>
+
+</capabilities>
+
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:739) Using domain events
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:778) Using network events
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:797) Using storage pool events
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:822) Using node device events
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:691) storage pool refresh event: pool=Downloads
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:1077) network=default status=Active added
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:1077) domain=win10 status=Shutoff added
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:691) storage pool refresh event: pool=default
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:1077) pool=Downloads status=Active added
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:1077) pool=default status=Active added
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (storage:139) Found default pool name=default target=/var/lib/libvirt/images
+[Thu, 21 Jul 2022 09:34:35 virt-manager 101000] DEBUG (connection:482) conn=qemu:///system changed to state=Active
+[Thu, 21 Jul 2022 09:34:41 virt-manager 101000] DEBUG (serialcon:17) Using VTE API 2.91
+[Thu, 21 Jul 2022 09:34:41 virt-manager 101000] DEBUG (xmleditor:12) Using GtkSource 4
+[Thu, 21 Jul 2022 09:34:42 virt-manager 101000] DEBUG (vmwindow:184) Showing VM details: <vmmDomain name=win10 id=0x7f2ac6767440>
+[Thu, 21 Jul 2022 09:34:42 virt-manager 101000] DEBUG (engine:316) window counter incremented to 2
+[Thu, 21 Jul 2022 09:34:45 virt-manager 101000] DEBUG (vmmenu:210) Starting vm 'win10'
+[Thu, 21 Jul 2022 09:34:46 virt-manager 101000] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet0_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_CREATED reason=0
+[Thu, 21 Jul 2022 09:34:46 virt-manager 101000] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_RESUMED reason=VIR_DOMAIN_EVENT_RESUMED_UNPAUSED
+[Thu, 21 Jul 2022 09:34:46 virt-manager 101000] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STARTED reason=VIR_DOMAIN_EVENT_STARTED_BOOTED
+[Thu, 21 Jul 2022 09:34:46 virt-manager 101000] DEBUG (console:721) Starting connect process for proto=spice trans= connhost=127.0.0.1 connuser= connport= gaddr=127.0.0.1 gport=5900 gtlsport=None gsocket=None
+[Thu, 21 Jul 2022 09:34:46 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f2aad3abe40 (SpiceUsbredirChannel at 0x55fa1d9ae310)>
+[Thu, 21 Jul 2022 09:34:46 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.UsbredirChannel object at 0x7f2aad032380 (SpiceUsbredirChannel at 0x55fa1d9ae620)>
+[Thu, 21 Jul 2022 09:34:47 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.RecordChannel object at 0x7f2aad02af00 (SpiceRecordChannel at 0x55fa1d9ae930)>
+[Thu, 21 Jul 2022 09:34:47 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.PlaybackChannel object at 0x7f2aad02ba00 (SpicePlaybackChannel at 0x55fa1d9aec40)>
+[Thu, 21 Jul 2022 09:34:47 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.DisplayChannel object at 0x7f2aad02a2c0 (SpiceDisplayChannel at 0x55fa1aa1ce40)>
+[Thu, 21 Jul 2022 09:34:47 virt-manager 101000] DEBUG (console:856) Viewer connected cb
+[Thu, 21 Jul 2022 09:34:47 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.CursorChannel object at 0x7f2acca59d40 (SpiceCursorChannel at 0x55fa1de4c390)>
+[Thu, 21 Jul 2022 09:34:47 virt-manager 101000] DEBUG (viewers:601) Requesting fd for channel: <SpiceClientGLib.InputsChannel object at 0x7f2aad028300 (SpiceInputsChannel at 0x55fa1de4c690)>
+[Thu, 21 Jul 2022 09:48:28 virt-manager 101000] DEBUG (vmwindow:242) Closing VM details: <vmmDomain name=win10 id=0x7f2ac6767440>
+[Thu, 21 Jul 2022 09:48:28 virt-manager 101000] DEBUG (console:592) Viewer object cleaned up
+[Thu, 21 Jul 2022 09:48:28 virt-manager 101000] DEBUG (engine:323) window counter decremented to 1
+[Thu, 21 Jul 2022 09:48:31 virt-manager 101000] DEBUG (vmmenu:186) Destroying vm 'win10'
+[Thu, 21 Jul 2022 09:48:31 virt-manager 101000] DEBUG (connection:706) node device lifecycle event: nodedev=net_vnet0_fe_54_00_1d_11_33 state=VIR_NODE_DEVICE_EVENT_DELETED reason=0
+[Thu, 21 Jul 2022 09:48:31 virt-manager 101000] DEBUG (connection:1051) nodedev=net_vnet0_fe_54_00_1d_11_33 removed
+[Thu, 21 Jul 2022 09:48:32 virt-manager 101000] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_SHUTDOWN reason=VIR_DOMAIN_EVENT_SHUTDOWN_HOST
+[Thu, 21 Jul 2022 09:48:32 virt-manager 101000] DEBUG (connection:631) domain lifecycle event: domain=win10 state=VIR_DOMAIN_EVENT_STOPPED reason=VIR_DOMAIN_EVENT_STOPPED_DESTROYED
+[Thu, 21 Jul 2022 09:48:34 virt-manager 101000] DEBUG (manager:196) Closing manager
+[Thu, 21 Jul 2022 09:48:34 virt-manager 101000] DEBUG (engine:323) window counter decremented to 0
+[Thu, 21 Jul 2022 09:48:34 virt-manager 101000] DEBUG (engine:343) No windows found, requesting app exit
+[Thu, 21 Jul 2022 09:48:34 virt-manager 101000] DEBUG (connection:838) conn.close() uri=qemu:///system
+[Thu, 21 Jul 2022 09:48:34 virt-manager 101000] DEBUG (connection:482) conn=qemu:///system changed to state=Disconnected
+[Thu, 21 Jul 2022 09:48:34 virt-manager 101000] DEBUG (engine:369) Exiting app normally.
